@@ -1,0 +1,1645 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <air:AirPriceRsp xmlns:air="http://www.travelport.com/schema/air_v50_0" xmlns:common_v50_0="http://www.travelport.com/schema/common_v50_0"  TransactionId="E217CB900A0D6A924DC06BFBAF7488EA" ResponseTime="2183">
+            <common_v50_0:ResponseMessage Code="710401" Type="Warning" ProviderCode="1G">
+                <![CDATA[Taxes returned at the FareInfo level are for informational purposes only, and may differ from those returned at the Itinerary/Passenger Type levels.]]>
+            </common_v50_0:ResponseMessage>
+            <air:AirItinerary>
+                <air:AirSegment Key="s3cf/KSqWDKAKd3DNAAAAA==" Group="0" Carrier="SQ" FlightNumber="447" ProviderCode="1G" Origin="DAC" Destination="SIN" DepartureTime="2024-12-18T23:55:00.000+06:00" ArrivalTime="2024-12-19T06:00:00.000+08:00" FlightTime="245" TravelTime="245" Distance="1797" ClassOfService="N" Equipment="787" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <air:CodeshareInfo OperatingCarrier="SQ">SINGAPORE AIRLINES</air:CodeshareInfo>
+                    <air:FlightDetails Key="s3cf/KSqWDKALd3DNAAAAA==" Origin="DAC" Destination="SIN" DepartureTime="2024-12-18T23:55:00.000+06:00" ArrivalTime="2024-12-19T06:00:00.000+08:00" FlightTime="245" TravelTime="245" Distance="1797"/>
+                </air:AirSegment>
+                <air:AirSegment Key="s3cf/KSqWDKAMd3DNAAAAA==" Group="0" Carrier="AC" FlightNumber="20" ProviderCode="1G" Origin="SIN" Destination="YVR" DepartureTime="2024-12-19T10:00:00.000+08:00" ArrivalTime="2024-12-19T08:00:00.000-08:00" FlightTime="840" TravelTime="840" Distance="7963" ClassOfService="L" Equipment="789" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <air:CodeshareInfo OperatingCarrier="AC">Air Canada</air:CodeshareInfo>
+                    <air:FlightDetails Key="s3cf/KSqWDKANd3DNAAAAA==" Origin="SIN" Destination="YVR" DepartureTime="2024-12-19T10:00:00.000+08:00" ArrivalTime="2024-12-19T08:00:00.000-08:00" FlightTime="840" TravelTime="840" Distance="7963"/>
+                </air:AirSegment>
+                <air:AirSegment Key="s3cf/KSqWDKAOd3DNAAAAA==" Group="0" Carrier="AC" FlightNumber="34" ProviderCode="1G" Origin="YVR" Destination="YYZ" DepartureTime="2024-12-19T09:10:00.000-08:00" ArrivalTime="2024-12-19T16:39:00.000-05:00" FlightTime="269" TravelTime="269" Distance="2086" ClassOfService="L" Equipment="77L" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <air:CodeshareInfo OperatingCarrier="AC">Air Canada</air:CodeshareInfo>
+                    <air:FlightDetails Key="s3cf/KSqWDKAPd3DNAAAAA==" Origin="YVR" Destination="YYZ" DepartureTime="2024-12-19T09:10:00.000-08:00" ArrivalTime="2024-12-19T16:39:00.000-05:00" FlightTime="269" TravelTime="269" Distance="2086"/>
+                </air:AirSegment>
+                <air:AirSegment Key="s3cf/KSqWDKAQd3DNAAAAA==" Group="1" Carrier="AC" FlightNumber="129" ProviderCode="1G" Origin="YYZ" Destination="YVR" DepartureTime="2024-12-25T23:00:00.000-05:00" ArrivalTime="2024-12-26T01:11:00.000-08:00" FlightTime="311" TravelTime="311" Distance="2086" ClassOfService="L" Equipment="7M8" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <air:CodeshareInfo OperatingCarrier="AC">Air Canada</air:CodeshareInfo>
+                    <air:FlightDetails Key="s3cf/KSqWDKARd3DNAAAAA==" Origin="YYZ" Destination="YVR" DepartureTime="2024-12-25T23:00:00.000-05:00" ArrivalTime="2024-12-26T01:11:00.000-08:00" FlightTime="311" TravelTime="311" Distance="2086"/>
+                </air:AirSegment>
+                <air:AirSegment Key="s3cf/KSqWDKASd3DNAAAAA==" Group="1" Carrier="AC" FlightNumber="21" ProviderCode="1G" Origin="YVR" Destination="HKG" DepartureTime="2024-12-26T23:50:00.000-08:00" ArrivalTime="2024-12-28T06:25:00.000+08:00" FlightTime="875" TravelTime="875" Distance="6383" ClassOfService="L" Equipment="789" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <air:CodeshareInfo OperatingCarrier="AC">Air Canada</air:CodeshareInfo>
+                    <air:FlightDetails Key="s3cf/KSqWDKATd3DNAAAAA==" Origin="YVR" Destination="HKG" DepartureTime="2024-12-26T23:50:00.000-08:00" ArrivalTime="2024-12-28T06:25:00.000+08:00" FlightTime="875" TravelTime="875" Distance="6383"/>
+                </air:AirSegment>
+                <air:AirSegment Key="s3cf/KSqWDKAUd3DNAAAAA==" Group="1" Carrier="CX" FlightNumber="667" ProviderCode="1G" Origin="HKG" Destination="DAC" DepartureTime="2024-12-28T19:30:00.000+08:00" ArrivalTime="2024-12-28T22:00:00.000+06:00" FlightTime="270" TravelTime="270" Distance="1498" ClassOfService="N" Equipment="333" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <air:CodeshareInfo OperatingCarrier="CX">CATHAY PACIFIC AIRWAYS</air:CodeshareInfo>
+                    <air:FlightDetails Key="s3cf/KSqWDKAVd3DNAAAAA==" Origin="HKG" Destination="DAC" DepartureTime="2024-12-28T19:30:00.000+08:00" ArrivalTime="2024-12-28T22:00:00.000+06:00" FlightTime="270" TravelTime="270" Distance="1498"/>
+                </air:AirSegment>
+            </air:AirItinerary>
+            <air:AirPriceResult>
+                <air:AirPricingSolution Key="s3cf/KSqWDKAWd3DNAAAAA==" TotalPrice="BDT320338" BasePrice="USD1632.00" ApproximateTotalPrice="BDT320338" ApproximateBasePrice="BDT192576" EquivalentBasePrice="BDT192576" Taxes="BDT127762" Fees="BDT0" ApproximateTaxes="BDT127762" QuoteDate="2024-10-31">
+                    <air:AirSegmentRef Key="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                    <air:AirSegmentRef Key="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                    <air:AirSegmentRef Key="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                    <air:AirSegmentRef Key="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                    <air:AirSegmentRef Key="s3cf/KSqWDKASd3DNAAAAA=="/>
+                    <air:AirSegmentRef Key="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                    <air:AirPricingInfo Key="s3cf/KSqWDKAZd3DNAAAAA==" TotalPrice="BDT160169" BasePrice="USD816.00" ApproximateTotalPrice="BDT160169" ApproximateBasePrice="BDT96288" EquivalentBasePrice="BDT96288" ApproximateTaxes="BDT63881" Taxes="BDT63881" LatestTicketingTime="2024-10-31T23:59:00.000+06:00" PricingMethod="Guaranteed" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                        <air:FareInfo Key="s3cf/KSqWDKAod3DNAAAAA==" FareBasis="LHXS82BA" PassengerTypeCode="ADT" Origin="DAC" Destination="YYZ" EffectiveDate="2024-10-31T16:21:00.000+06:00" DepartureDate="2024-12-18" Amount="BDT51979" NegotiatedFare="false" NotValidBefore="2024-12-18" NotValidAfter="2024-12-18" TaxAmount="BDT33653.00">
+                            <common_v50_0:Endorsement Value="NONREF/NOCHNG"/>
+                            <air:FareRuleKey FareInfoRef="s3cf/KSqWDKAod3DNAAAAA==" ProviderCode="1G">6UUVoSldxwhvaWvqWoWcxMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA0BcJv9+CvFsxWa1uaqI55k3aSkvhp2ybZvAo9hFQReMEMkgU1MghevAyGqh8JIaqI5HvpP7tNOWYGDMpWBjxLLPtDYSeWT7n+r/bRGkSYBeVvL0gTWvGVKnsahilB5/WBia1cyyGgjaARyWQ0gabT54y2zs4cI+0xdBMIWWcywWTicpvYbmY4Wr6XufjmxNISAw1hf7WK+Zir5wkVQHOuKXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8DVuO1M4Ar4kPA2bCATsypC5/aFCs7NFVSU0Vf/g3ZFOB8+GzHrFk6LJ0SPmw8h0kiy27d025xxrgoDF6+zzB/wA==</air:FareRuleKey>
+                            <air:Brand Key="s3cf/KSqWDKAod3DNAAAAA==" BrandID="1586540" UpSellBrandID="1586539" Name="BASIC" Carrier="AC" BrandTier="0001">
+                                <air:Title Type="External" LanguageCode="EN">Basic</air:Title>
+                                <air:Title Type="Short" LanguageCode="EN">BA</air:Title>
+                                <air:Text Type="ATPCO" LanguageCode="EN">//05Z/C/PREFERRED SEAT//0BX/N/MAPLE LEAFLOUNGE//0B5/C/ADVANCE SEATSELECTION//0A2/N/EXCHANGEABLE//0A3/N/REFUNDABLE//03P/N/PRIORITY CHECK IN//0CC/C/1STBAGGAGE//0CD/C/2ND BAGGAGE//06A/F/25 PCT AEROPLANMILES//06B/N/50 PCT AEROPLAN MILES//06D/N/100 PCTAEROPLAN MILES//06R/N/125 PCT AEROPLANMILES//06M/N/150 PCT AEROPLANMILES//0AK/F/MEAL//0L5/F/CARRY ONBAGGAGE//0CL/C/WIFI ACCESS</air:Text>
+                                <air:Text Type="MarketingConsumer" LanguageCode="EN">Basic fare includes
+                                - Carry on
+                                - Reissue and refund not allowed
+                                - Advanced seat selection with charge
+
+                                • Please note that if the flight is operated by another airline, then the onboard product or service may be different to that described above. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+                                <air:Text Type="MarketingAgent" LanguageCode="EN">Basic fare includes
+- Carry on
+- Reissue and refund not allowed
+- Advanced seat selection with charge
+
+• Please note that if the flight is operated by another airline, then the onboard product or service may be different to that described above. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+                                <air:Text Type="Strapline" LanguageCode="EN">Basic</air:Text>
+                                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/aircanada/AC_general_medium_205.jpg</air:ImageLocation>
+                                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/aircanada/AC_general_medium_205.jpg</air:ImageLocation>
+                                <air:OptionalServices>
+                                    <air:OptionalService Type="Baggage" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0L5" Key="s3cf/KSqWDKAqd3DNAAAAA==" SecondaryType="CY" Chargeable="Included in the brand" OptionalServicesRuleRef="s3cf/KSqWDKArd3DNAAAAA==" Tag="Hand Luggage" DisplayOrder="23">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Carry on bags</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5233.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5233.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Carry on board x1 bag max 21.5 x 15.5 x 9 inches (55 x 40 x 23 cm) plus x1 additional small item max 17 x 13 x 6 inches (44 x 33 x 16 cm).</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Carry on board x1 bag max 21.5 x 15.5 x 9 inches (55 x 40 x 23 cm) plus x1 additional small item max 17 x 13 x 6 inches (44 x 33 x 16 cm).</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Carry on bags</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Carry bags</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Baggage" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0CC" Key="s3cf/KSqWDKAsd3DNAAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Checked baggage 1x23kg</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5230.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5230.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Check in your bags for extra convenience</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">1x23kg</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">1x23kg</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Checked baggage 1x23kg</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Y,1,23,Bag</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Baggage" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0CD" Key="s3cf/KSqWDKAtd3DNAAAAA==" Chargeable="Available for a charge" OptionalServicesRuleRef="s3cf/KSqWDKAud3DNAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Checked bag second</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5232.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5232.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Checked bag second</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Checked bag second</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Checked bag second</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Checked bag second</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN"></air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06A" Key="s3cf/KSqWDKAvd3DNAAAAA==" SecondaryType="FR" Chargeable="Included in the brand" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>25 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">25 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">25 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">25 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">25 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">25% mi ear</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="05Z" Key="s3cf/KSqWDKAwd3DNAAAAA==" SecondaryType="SE" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Premium seat</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5237.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5237.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Premium seat</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Premium Seats.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Premium seat</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Prem seat</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06D" Key="s3cf/KSqWDKAxd3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>100 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">100 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">100 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">100 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">100 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">100% mi ea</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06E" Key="s3cf/KSqWDKAyd3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>115 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">115 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">115 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">115 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">115 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">115% mi ea</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06R" Key="s3cf/KSqWDKAzd3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>125 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">125 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">125 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">125 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">125 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">125% mi ea</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06M" Key="s3cf/KSqWDKA0d3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>150 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">150 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">150 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">150 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">150 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">150% mi ea</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06B" Key="s3cf/KSqWDKA1d3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>50 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">50 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">50 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">50 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">50 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">50% mi ear</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="RuleOverride" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0A2" Key="s3cf/KSqWDKA2d3DNAAAAA==" SecondaryType="31" Chargeable="Not offered" Tag="Rebooking" DisplayOrder="3">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Reissue override</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5240.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5240.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="RuleBuster"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Amending your reservation</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Reissue override.</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Reissue override.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Reissue override</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Reissues</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="RuleOverride" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0A3" Key="s3cf/KSqWDKA3d3DNAAAAA==" SecondaryType="33" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Refund override</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5238.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5238.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="RuleBuster"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Cancelling your reservation</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Refund override</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Refunds</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0B5" Key="s3cf/KSqWDKA4d3DNAAAAA==" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Advance seat selection</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82167.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82167.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Pre select your preferred seat</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Advance seat selection</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Seating</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="MealOrBeverage" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0AK" Key="s3cf/KSqWDKA5d3DNAAAAA==" SecondaryType="DI" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Dinner</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5246.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5246.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">On board catering</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Dinner served on board.</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Dinner served on board.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Dinner</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Dinner</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="MealOrBeverage" CreateDate="2024-10-31T10:21:05.429+00:00" Key="s3cf/KSqWDKA6d3DNAAAAA==" Chargeable="Not offered" Tag="MEALS" DisplayOrder="6">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>MEALS</common_v50_0:Description>
+                                        </common_v50_0:ServiceInfo>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0CL" Key="s3cf/KSqWDKA7d3DNAAAAA==" SecondaryType="IT" Chargeable="Available for a charge" Tag="WiFi" DisplayOrder="7">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Internet Access</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5236.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5236.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Staying connected whilst in the air</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">WiFi is available on board many Air Canada aircraft. Roll out as at 12 October 2020 is: 
+
+- Boeing 777-300ER 19 out of 19 aircraft.
+- Boeing 777-200LR 6 out of 6 aircraft. 
+- Airbus A330-300 5 out of 17 aircraft. 
+- Boeing 787-9 29 out of 29 aircraft. 
+- Boeing 787-8 7 out of 8 aircraft. 
+- Boeing 767-300 ER 25 out of 25 aircraft. 
+
+(taken from Air Canada website)</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">WiFi is available on board many Air Canada aircraft. Roll out as at 12 October 2020 is: 
+
+- Boeing 777-300ER 19 out of 19 aircraft.
+- Boeing 777-200LR 6 out of 6 aircraft. 
+- Airbus A330-300 5 out of 17 aircraft. 
+- Boeing 787-9 29 out of 29 aircraft. 
+- Boeing 787-8 7 out of 8 aircraft. 
+- Boeing 767-300 ER 25 out of 25 aircraft. 
+
+(taken from Air Canada website)</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Internet Access</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">WiFi</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Lounge" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0BX" Key="s3cf/KSqWDKA8d3DNAAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Prepaid lounge</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5239.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5239.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Somewhere quiet to work or relax</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Prepaid lounge</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Lounge</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="TravelServices" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="03P" Key="s3cf/KSqWDKA9d3DNAAAAA==" SecondaryType="PO" Chargeable="Not offered" Tag="Priority CheckIn" DisplayOrder="14">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Priority check in</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5249.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5249.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Priority check in</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Priority check in</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Prio CHK</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalServiceRules Key="s3cf/KSqWDKArd3DNAAAAA==">
+                                        <common_v50_0:Remarks>Y,1,X,X,CY - W23,H40,L55,CM</common_v50_0:Remarks>
+                                    </air:OptionalServiceRules>
+                                    <air:OptionalServiceRules Key="s3cf/KSqWDKAud3DNAAAAA==">
+                                        <common_v50_0:Remarks>Y,1,KG,23,BAG</common_v50_0:Remarks>
+                                    </air:OptionalServiceRules>
+                                </air:OptionalServices>
+                            </air:Brand>
+                        </air:FareInfo>
+                        <air:FareInfo Key="s3cf/KSqWDKA+d3DNAAAAA==" FareBasis="LHXS82BA" PassengerTypeCode="ADT" Origin="YYZ" Destination="DAC" EffectiveDate="2024-10-31T16:21:00.000+06:00" DepartureDate="2024-12-25" Amount="BDT44309" NegotiatedFare="false" NotValidBefore="2024-12-25" NotValidAfter="2024-12-25" TaxAmount="BDT30228.00">
+                            <common_v50_0:Endorsement Value="NONREF/NOCHNG"/>
+                            <air:FareRuleKey FareInfoRef="s3cf/KSqWDKA+d3DNAAAAA==" ProviderCode="1G">6UUVoSldxwhvaWvqWoWcxMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA0BcJv9+CvFsxWa1uaqI55k3aSkvhp2ybXwoNKEjC8vwCZd2cbqD+2vAyGqh8JIaqI5HvpP7tNOWYGDMpWBjxLJudEqRPr31mOr/bRGkSYBeVvL0gTWvGVKnsahilB5/WBia1cyyGgjaARyWQ0gabT54y2zs4cI+0y7Dz6yMjpk4TicpvYbmY4VUMzjIfpdHpD2sS6gJggRkir5wkVQHOuKXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8DeqNNdtjuxiDA2bCATsypC5/aFCs7NFVSU0Vf/g3ZFOB8+GzHrFk6LJ0SPmw8h0kiy27d025xxrgoDF6+zzB/wA==</air:FareRuleKey>
+                            <air:Brand Key="s3cf/KSqWDKA+d3DNAAAAA==" BrandID="1586540" UpSellBrandID="1586539" Name="BASIC" Carrier="AC" BrandTier="0001">
+                                <air:Title Type="External" LanguageCode="EN">Basic</air:Title>
+                                <air:Title Type="Short" LanguageCode="EN">BA</air:Title>
+                                <air:Text Type="ATPCO" LanguageCode="EN">//05Z/C/PREFERRED SEAT//0BX/N/MAPLE LEAFLOUNGE//0B5/C/ADVANCE SEATSELECTION//0A2/N/EXCHANGEABLE//0A3/N/REFUNDABLE//03P/N/PRIORITY CHECK IN//0CC/C/1STBAGGAGE//0CD/C/2ND BAGGAGE//06A/F/25 PCT AEROPLANMILES//06B/N/50 PCT AEROPLAN MILES//06D/N/100 PCTAEROPLAN MILES//06R/N/125 PCT AEROPLANMILES//06M/N/150 PCT AEROPLANMILES//0AK/F/MEAL//0L5/F/CARRY ONBAGGAGE//0CL/C/WIFI ACCESS</air:Text>
+                                <air:Text Type="MarketingConsumer" LanguageCode="EN">Basic fare includes
+- Carry on
+- Reissue and refund not allowed
+- Advanced seat selection with charge
+
+• Please note that if the flight is operated by another airline, then the onboard product or service may be different to that described above. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+                                <air:Text Type="MarketingAgent" LanguageCode="EN">Basic fare includes
+- Carry on
+- Reissue and refund not allowed
+- Advanced seat selection with charge
+
+• Please note that if the flight is operated by another airline, then the onboard product or service may be different to that described above. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+                                <air:Text Type="Strapline" LanguageCode="EN">Basic</air:Text>
+                                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/aircanada/AC_general_medium_205.jpg</air:ImageLocation>
+                                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/aircanada/AC_general_medium_205.jpg</air:ImageLocation>
+                                <air:OptionalServices>
+                                    <air:OptionalService Type="Baggage" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0L5" Key="s3cf/KSqWDKAAe3DNAAAAA==" SecondaryType="CY" Chargeable="Included in the brand" OptionalServicesRuleRef="s3cf/KSqWDKABe3DNAAAAA==" Tag="Hand Luggage" DisplayOrder="23">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Carry on bags</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5233.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5233.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Carry on board x1 bag max 21.5 x 15.5 x 9 inches (55 x 40 x 23 cm) plus x1 additional small item max 17 x 13 x 6 inches (44 x 33 x 16 cm).</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Carry on board x1 bag max 21.5 x 15.5 x 9 inches (55 x 40 x 23 cm) plus x1 additional small item max 17 x 13 x 6 inches (44 x 33 x 16 cm).</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Carry on bags</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Carry bags</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Baggage" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0CC" Key="s3cf/KSqWDKACe3DNAAAAA==" Chargeable="Available for a charge" Tag="Checked Baggage" DisplayOrder="1">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Checked baggage 1x23kg</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5230.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5230.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Check in your bags for extra convenience</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">1x23kg</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">1x23kg</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Checked baggage 1x23kg</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Y,1,23,Bag</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Baggage" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0CD" Key="s3cf/KSqWDKADe3DNAAAAA==" Chargeable="Available for a charge" OptionalServicesRuleRef="s3cf/KSqWDKAEe3DNAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Checked bag second</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5232.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5232.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Checked bag second</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Checked bag second</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Checked bag second</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Checked bag second</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN"></air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06A" Key="s3cf/KSqWDKAFe3DNAAAAA==" SecondaryType="FR" Chargeable="Included in the brand" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>25 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">25 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">25 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">25 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">25 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">25% mi ear</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="05Z" Key="s3cf/KSqWDKAGe3DNAAAAA==" SecondaryType="SE" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Premium seat</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5237.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5237.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Premium seat</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Premium Seats.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Premium seat</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Prem seat</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06D" Key="s3cf/KSqWDKAHe3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>100 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">100 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">100 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">100 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">100 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">100% mi ea</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06E" Key="s3cf/KSqWDKAIe3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>115 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">115 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">115 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">115 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">115 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">115% mi ea</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06R" Key="s3cf/KSqWDKAJe3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>125 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">125 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">125 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">125 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">125 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">125% mi ea</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06M" Key="s3cf/KSqWDKAKe3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>150 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">150 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">150 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">150 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">150 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">150% mi ea</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06B" Key="s3cf/KSqWDKALe3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>50 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">50 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">50 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">50 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">50 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">50% mi ear</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="RuleOverride" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0A2" Key="s3cf/KSqWDKAMe3DNAAAAA==" SecondaryType="31" Chargeable="Not offered" Tag="Rebooking" DisplayOrder="3">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Reissue override</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5240.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5240.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="RuleBuster"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Amending your reservation</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Reissue override.</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Reissue override.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Reissue override</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Reissues</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="RuleOverride" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0A3" Key="s3cf/KSqWDKANe3DNAAAAA==" SecondaryType="33" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Refund override</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5238.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5238.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="RuleBuster"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Cancelling your reservation</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Refund override</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Refunds</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0B5" Key="s3cf/KSqWDKAOe3DNAAAAA==" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Advance seat selection</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82167.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82167.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Pre select your preferred seat</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Advance seat selection</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Seating</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="MealOrBeverage" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0AK" Key="s3cf/KSqWDKAPe3DNAAAAA==" SecondaryType="DI" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Dinner</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5246.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5246.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">On board catering</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Dinner served on board.</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Dinner served on board.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Dinner</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Dinner</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="MealOrBeverage" CreateDate="2024-10-31T10:21:05.429+00:00" Key="s3cf/KSqWDKAQe3DNAAAAA==" Chargeable="Not offered" Tag="MEALS" DisplayOrder="6">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>MEALS</common_v50_0:Description>
+                                        </common_v50_0:ServiceInfo>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0CL" Key="s3cf/KSqWDKARe3DNAAAAA==" SecondaryType="IT" Chargeable="Available for a charge" Tag="WiFi" DisplayOrder="7">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Internet Access</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5236.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5236.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Staying connected whilst in the air</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">WiFi is available on board many Air Canada aircraft. Roll out as at 12 October 2020 is: 
+
+- Boeing 777-300ER 19 out of 19 aircraft.
+- Boeing 777-200LR 6 out of 6 aircraft. 
+- Airbus A330-300 5 out of 17 aircraft. 
+- Boeing 787-9 29 out of 29 aircraft. 
+- Boeing 787-8 7 out of 8 aircraft. 
+- Boeing 767-300 ER 25 out of 25 aircraft. 
+
+(taken from Air Canada website)</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">WiFi is available on board many Air Canada aircraft. Roll out as at 12 October 2020 is: 
+
+- Boeing 777-300ER 19 out of 19 aircraft.
+- Boeing 777-200LR 6 out of 6 aircraft. 
+- Airbus A330-300 5 out of 17 aircraft. 
+- Boeing 787-9 29 out of 29 aircraft. 
+- Boeing 787-8 7 out of 8 aircraft. 
+- Boeing 767-300 ER 25 out of 25 aircraft. 
+
+(taken from Air Canada website)</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Internet Access</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">WiFi</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Lounge" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0BX" Key="s3cf/KSqWDKASe3DNAAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Prepaid lounge</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5239.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5239.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Somewhere quiet to work or relax</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Prepaid lounge</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Lounge</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="TravelServices" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="03P" Key="s3cf/KSqWDKATe3DNAAAAA==" SecondaryType="PO" Chargeable="Not offered" Tag="Priority CheckIn" DisplayOrder="14">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Priority check in</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5249.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5249.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Priority check in</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Priority check in</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Prio CHK</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalServiceRules Key="s3cf/KSqWDKABe3DNAAAAA==">
+                                        <common_v50_0:Remarks>Y,1,X,X,CY - W23,H40,L55,CM</common_v50_0:Remarks>
+                                    </air:OptionalServiceRules>
+                                    <air:OptionalServiceRules Key="s3cf/KSqWDKAEe3DNAAAAA==">
+                                        <common_v50_0:Remarks>Y,1,KG,23,BAG</common_v50_0:Remarks>
+                                    </air:OptionalServiceRules>
+                                </air:OptionalServices>
+                            </air:Brand>
+                        </air:FareInfo>
+                        <air:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="s3cf/KSqWDKAod3DNAAAAA==" SegmentRef="s3cf/KSqWDKAKd3DNAAAAA==" HostTokenRef="s3cf/KSqWDKAXd3DNAAAAA=="/>
+                        <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="s3cf/KSqWDKAod3DNAAAAA==" SegmentRef="s3cf/KSqWDKAMd3DNAAAAA==" HostTokenRef="s3cf/KSqWDKAXd3DNAAAAA=="/>
+                        <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="s3cf/KSqWDKAod3DNAAAAA==" SegmentRef="s3cf/KSqWDKAOd3DNAAAAA==" HostTokenRef="s3cf/KSqWDKAXd3DNAAAAA=="/>
+                        <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="s3cf/KSqWDKA+d3DNAAAAA==" SegmentRef="s3cf/KSqWDKAQd3DNAAAAA==" HostTokenRef="s3cf/KSqWDKAYd3DNAAAAA=="/>
+                        <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="s3cf/KSqWDKA+d3DNAAAAA==" SegmentRef="s3cf/KSqWDKASd3DNAAAAA==" HostTokenRef="s3cf/KSqWDKAYd3DNAAAAA=="/>
+                        <air:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="s3cf/KSqWDKA+d3DNAAAAA==" SegmentRef="s3cf/KSqWDKAUd3DNAAAAA==" HostTokenRef="s3cf/KSqWDKAYd3DNAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="BDT500" Key="s3cf/KSqWDKAad3DNAAAAA=="/>
+                        <air:TaxInfo Category="OW" Amount="BDT3000" Key="s3cf/KSqWDKAbd3DNAAAAA=="/>
+                        <air:TaxInfo Category="P7" Amount="BDT1180" Key="s3cf/KSqWDKAcd3DNAAAAA=="/>
+                        <air:TaxInfo Category="P8" Amount="BDT1180" Key="s3cf/KSqWDKAdd3DNAAAAA=="/>
+                        <air:TaxInfo Category="UT" Amount="BDT6000" Key="s3cf/KSqWDKAed3DNAAAAA=="/>
+                        <air:TaxInfo Category="L7" Amount="BDT273" Key="s3cf/KSqWDKAfd3DNAAAAA=="/>
+                        <air:TaxInfo Category="SG" Amount="BDT545" Key="s3cf/KSqWDKAgd3DNAAAAA=="/>
+                        <air:TaxInfo Category="CA" Amount="BDT3007" Key="s3cf/KSqWDKAhd3DNAAAAA=="/>
+                        <air:TaxInfo Category="SQ" Amount="BDT3058" Key="s3cf/KSqWDKAid3DNAAAAA=="/>
+                        <air:TaxInfo Category="G3" Amount="BDT2422" Key="s3cf/KSqWDKAjd3DNAAAAA=="/>
+                        <air:TaxInfo Category="I5" Amount="BDT833" Key="s3cf/KSqWDKAkd3DNAAAAA=="/>
+                        <air:TaxInfo Category="E5" Amount="BDT429" Key="s3cf/KSqWDKAld3DNAAAAA=="/>
+                        <air:TaxInfo Category="RC" Amount="BDT398" Key="s3cf/KSqWDKAmd3DNAAAAA=="/>
+                        <air:TaxInfo Category="YQ" Amount="BDT41056" Key="s3cf/KSqWDKAnd3DNAAAAA=="/>
+                        <air:FareCalc>DAC SQ X/SIN AC X/YVR Q65.00 AC YTO 375.50LHXS82BA AC X/YVR AC X/HKG CX DAC 375.50LHXS82BA NUC816.00END ROE1.0</air:FareCalc>
+                        <air:PassengerType Code="ADT"/>
+                        <air:PassengerType Code="ADT"/>
+                        <air:ChangePenalty PenaltyApplies="Anytime">
+                            <air:Percentage>100.00</air:Percentage>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty PenaltyApplies="Anytime">
+                            <air:Percentage>100.00</air:Percentage>
+                        </air:CancelPenalty>
+                        <air:BaggageAllowances>
+                            <air:BaggageAllowanceInfo TravelerType="ADT" Origin="DAC" Destination="YYZ" Carrier="SQ">
+                                <air:URLInfo>
+                                    <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/SQ</air:URL>
+                                </air:URLInfo>
+                                <air:TextInfo>
+                                    <air:Text>2P</air:Text>
+                                    <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                                </air:TextInfo>
+                                <air:BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                            </air:BaggageAllowanceInfo>
+                            <air:BaggageAllowanceInfo TravelerType="ADT" Origin="YYZ" Destination="DAC" Carrier="SQ">
+                                <air:URLInfo>
+                                    <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/SQ</air:URL>
+                                </air:URLInfo>
+                                <air:TextInfo>
+                                    <air:Text>2P</air:Text>
+                                    <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                                </air:TextInfo>
+                                <air:BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                            </air:BaggageAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="DAC" Destination="SIN" Carrier="SQ">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="SIN" Destination="YVR" Carrier="AC">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="SGD0.00" TotalPrice="SGD0.00">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>CARRY ON HAND BAGGAGE</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="YVR" Destination="YYZ" Carrier="AC">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="CAD0.00" TotalPrice="CAD0.00">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>CARRY ON HAND BAGGAGE</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="YYZ" Destination="YVR" Carrier="AC">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="CAD0.00" TotalPrice="CAD0.00">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>CARRY ON HAND BAGGAGE</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="YVR" Destination="HKG" Carrier="AC">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="CAD0.00" TotalPrice="CAD0.00">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>CARRY ON HAND BAGGAGE</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="HKG" Destination="DAC" Carrier="CX">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="HKD0" TotalPrice="HKD0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:EmbargoInfo Origin="DAC" Destination="SIN" Carrier="SQ">
+                                <air:URLInfo>
+                                    <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/SQ</air:URL>
+                                </air:URLInfo>
+                                <air:TextInfo>
+                                    <air:Text>888</air:Text>
+                                </air:TextInfo>
+                            </air:EmbargoInfo>
+                        </air:BaggageAllowances>
+                    </air:AirPricingInfo>
+                    <air:FareNote Key="s3cf/KSqWDKAae3DNAAAAA==">RATE USED IN EQU TOTAL IS BSR 1USD - 118.0BDT</air:FareNote>
+                    <air:FareNote Key="s3cf/KSqWDKAbe3DNAAAAA==">LAST DATE TO PURCHASE TICKET: 31OCT24</air:FareNote>
+                    <air:FareNote Key="s3cf/KSqWDKAce3DNAAAAA==">E-TKT REQUIRED</air:FareNote>
+                    <air:FareNote Key="s3cf/KSqWDKAde3DNAAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+                    <common_v50_0:HostToken Key="s3cf/KSqWDKAXd3DNAAAAA==">GFB10101ADT00  01LHXS82BA                              03000100020003#GFB200010101NADTV3446ACBA00300005995U#GFMCERU446NACBA AC ADTLHXS82BA</common_v50_0:HostToken>
+                    <common_v50_0:HostToken Key="s3cf/KSqWDKAYd3DNAAAAA==">GFB10101ADT00  02LHXS82BA                              03000400050006#GFB200010102NADTV3446ACBA00300005995U#GFMCERU446NACBA AC ADTLHXS82BA</common_v50_0:HostToken>
+                </air:AirPricingSolution>
+                <air:AirPricingSolution Key="s3cf/KSqWDKAee3DNAAAAA==" TotalPrice="BDT343938" BasePrice="USD1832.00" ApproximateTotalPrice="BDT343938" ApproximateBasePrice="BDT216176" EquivalentBasePrice="BDT216176" Taxes="BDT127762" Fees="BDT0" ApproximateTaxes="BDT127762" QuoteDate="2024-10-31">
+                    <air:AirSegmentRef Key="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                    <air:AirSegmentRef Key="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                    <air:AirSegmentRef Key="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                    <air:AirSegmentRef Key="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                    <air:AirSegmentRef Key="s3cf/KSqWDKASd3DNAAAAA=="/>
+                    <air:AirSegmentRef Key="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                    <air:AirPricingInfo Key="s3cf/KSqWDKAhe3DNAAAAA==" TotalPrice="BDT171969" BasePrice="USD916.00" ApproximateTotalPrice="BDT171969" ApproximateBasePrice="BDT108088" EquivalentBasePrice="BDT108088" ApproximateTaxes="BDT63881" Taxes="BDT63881" LatestTicketingTime="2024-10-31T23:59:00.000+06:00" PricingMethod="Guaranteed" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                        <air:FareInfo Key="s3cf/KSqWDKAwe3DNAAAAA==" FareBasis="LHXS82TG" PassengerTypeCode="ADT" Origin="DAC" Destination="YYZ" EffectiveDate="2024-10-31T16:21:00.000+06:00" DepartureDate="2024-12-18" Amount="BDT57879" NegotiatedFare="false" NotValidBefore="2024-12-18" NotValidAfter="2024-12-18" TaxAmount="BDT33650.00">
+                            <air:FareRuleKey FareInfoRef="s3cf/KSqWDKAwe3DNAAAAA==" ProviderCode="1G">6UUVoSldxwhvaWvqWoWcxMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA0BcJv9+CvFsxWa1uaqI55k3aSkvhp2ybTg6wBoWGmSWg5zIvooZcM7AyGqh8JIaqI5HvpP7tNOWsnhtc7Ueh+nPtDYSeWT7n+r/bRGkSYBeVvL0gTWvGVKnsahilB5/WDm5jwa3CjpxIo/v8DivzP5ZIG27wMkmbYB1xjSbRrjKTicpvYbmY4Wr6XufjmxNIRzZpF515kpPir5wkVQHOuKXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8DVuO1M4Ar4kPA2bCATsypC5/aFCs7NFVSU0Vf/g3ZFOBNEAx1iQgX450SPmw8h0kiy27d025xxrgoDF6+zzB/wA==</air:FareRuleKey>
+                            <air:Brand Key="s3cf/KSqWDKAwe3DNAAAAA==" BrandID="1586539" Name="STANDARD" UpSellBrandFound="false" Carrier="AC" BrandTier="0002">
+                                <air:Title Type="External" LanguageCode="EN">Standard</air:Title>
+                                <air:Title Type="Short" LanguageCode="EN">TG</air:Title>
+                                <air:Text Type="ATPCO" LanguageCode="EN">//05Z/C/PREFERRED SEAT//0BX/N/MAPLE LEAFLOUNGE//0B5/C/ADVANCE SEATSELECTION//0A2/C/EXCHANGEABLE//0A3/N/REFUNDABLE//03P/N/PRIORITY CHECK IN//0CC/F/1STBAGGAGE//0CD/C/2ND BAGGAGE//06A/N/25 PCT AEROPLANMILES//06B/F/50 PCT AEROPLAN MILES//06D/N/100 PCTAEROPLAN MILES//06R/N/125 PCT AEROPLANMILES//06M/N/150 PCT AEROPLANMILES//0AK/F/MEAL//0L5/F/CARRY ONBAGGAGE//0CL/C/WIFI ACCESS</air:Text>
+                                <air:Text Type="MarketingConsumer" LanguageCode="EN">Standard fare includes
+- Carry on
+- Miles accrual
+- Reissue with charge and refund not allowed (subject to fare rules)
+- Advanced seat selection with charge 
+
+• Please note that if the flight is operated by another airline, then the onboard product or service may be different to that described above. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+                                <air:Text Type="MarketingAgent" LanguageCode="EN">Standard fare includes
+- Carry on
+- Miles accrual
+- Reissue with charge and refund not allowed (subject to fare rules)
+- Advanced seat selection with charge 
+
+• Please note that if the flight is operated by another airline, then the onboard product or service may be different to that described above. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+                                <air:Text Type="Strapline" LanguageCode="EN">Standard</air:Text>
+                                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/aircanada/AC_general_medium_217.jpg</air:ImageLocation>
+                                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/aircanada/AC_general_medium_217.jpg</air:ImageLocation>
+                                <air:OptionalServices>
+                                    <air:OptionalService Type="Baggage" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0CC" Key="s3cf/KSqWDKAxe3DNAAAAA==" Chargeable="Included in the brand" Tag="Checked Baggage" DisplayOrder="1">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Checked baggage 1x23kg</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5230.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5230.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Check in your bags for extra convenience</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">1x23kg</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">1x23kg</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Checked baggage 1x23kg</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Y,1,23,Bag</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Baggage" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0L5" Key="s3cf/KSqWDKAye3DNAAAAA==" SecondaryType="CY" Chargeable="Included in the brand" OptionalServicesRuleRef="s3cf/KSqWDKAze3DNAAAAA==" Tag="Hand Luggage" DisplayOrder="23">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Carry on bags</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5233.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5233.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Carry on board x1 bag max 21.5 x 15.5 x 9 inches (55 x 40 x 23 cm) plus x1 additional small item max 17 x 13 x 6 inches (44 x 33 x 16 cm).</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Carry on board x1 bag max 21.5 x 15.5 x 9 inches (55 x 40 x 23 cm) plus x1 additional small item max 17 x 13 x 6 inches (44 x 33 x 16 cm).</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Carry on bags</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Carry bags</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Baggage" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0CD" Key="s3cf/KSqWDKA0e3DNAAAAA==" Chargeable="Available for a charge" OptionalServicesRuleRef="s3cf/KSqWDKA1e3DNAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Checked bag second</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5232.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5232.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Checked bag second</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Checked bag second</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Checked bag second</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Checked bag second</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN"></air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06B" Key="s3cf/KSqWDKA2e3DNAAAAA==" SecondaryType="FR" Chargeable="Included in the brand" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>50 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">50 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">50 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">50 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">50 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">50% mi ear</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="05Z" Key="s3cf/KSqWDKA3e3DNAAAAA==" SecondaryType="SE" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Premium seat</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5237.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5237.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Premium seat</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Premium Seats.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Premium seat</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Prem seat</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06D" Key="s3cf/KSqWDKA4e3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>100 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">100 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">100 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">100 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">100 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">100% mi ea</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06E" Key="s3cf/KSqWDKA5e3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>115 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">115 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">115 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">115 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">115 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">115% mi ea</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06R" Key="s3cf/KSqWDKA6e3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>125 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">125 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">125 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">125 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">125 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">125% mi ea</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06M" Key="s3cf/KSqWDKA7e3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>150 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">150 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">150 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">150 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">150 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">150% mi ea</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06A" Key="s3cf/KSqWDKA8e3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>25 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">25 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">25 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">25 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">25 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">25% mi ear</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="RuleOverride" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0A2" Key="s3cf/KSqWDKA9e3DNAAAAA==" SecondaryType="31" Chargeable="Available for a charge" Tag="Rebooking" DisplayOrder="3">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Reissue override</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5240.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5240.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="RuleBuster"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Amending your reservation</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Reissue override.</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Reissue override.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Reissue override</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Reissues</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="RuleOverride" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0A3" Key="s3cf/KSqWDKA+e3DNAAAAA==" SecondaryType="33" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Refund override</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5238.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5238.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="RuleBuster"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Cancelling your reservation</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Refund override</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Refunds</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0B5" Key="s3cf/KSqWDKA/e3DNAAAAA==" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Advance seat selection</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82167.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82167.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Pre select your preferred seat</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Advance seat selection</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Seating</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="MealOrBeverage" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0AK" Key="s3cf/KSqWDKAAf3DNAAAAA==" SecondaryType="DI" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Dinner</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5246.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5246.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">On board catering</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Dinner served on board.</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Dinner served on board.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Dinner</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Dinner</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="MealOrBeverage" CreateDate="2024-10-31T10:21:05.429+00:00" Key="s3cf/KSqWDKABf3DNAAAAA==" Chargeable="Not offered" Tag="MEALS" DisplayOrder="6">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>MEALS</common_v50_0:Description>
+                                        </common_v50_0:ServiceInfo>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0CL" Key="s3cf/KSqWDKACf3DNAAAAA==" SecondaryType="IT" Chargeable="Available for a charge" Tag="WiFi" DisplayOrder="7">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Internet Access</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5236.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5236.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Staying connected whilst in the air</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">WiFi is available on board many Air Canada aircraft. Roll out as at 12 October 2020 is: 
+
+- Boeing 777-300ER 19 out of 19 aircraft.
+- Boeing 777-200LR 6 out of 6 aircraft. 
+- Airbus A330-300 5 out of 17 aircraft. 
+- Boeing 787-9 29 out of 29 aircraft. 
+- Boeing 787-8 7 out of 8 aircraft. 
+- Boeing 767-300 ER 25 out of 25 aircraft. 
+
+(taken from Air Canada website)</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">WiFi is available on board many Air Canada aircraft. Roll out as at 12 October 2020 is: 
+
+- Boeing 777-300ER 19 out of 19 aircraft.
+- Boeing 777-200LR 6 out of 6 aircraft. 
+- Airbus A330-300 5 out of 17 aircraft. 
+- Boeing 787-9 29 out of 29 aircraft. 
+- Boeing 787-8 7 out of 8 aircraft. 
+- Boeing 767-300 ER 25 out of 25 aircraft. 
+
+(taken from Air Canada website)</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Internet Access</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">WiFi</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Lounge" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0BX" Key="s3cf/KSqWDKADf3DNAAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Prepaid lounge</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5239.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5239.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Somewhere quiet to work or relax</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Prepaid lounge</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Lounge</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="TravelServices" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="03P" Key="s3cf/KSqWDKAEf3DNAAAAA==" SecondaryType="PO" Chargeable="Not offered" Tag="Priority CheckIn" DisplayOrder="14">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAKd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAMd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAOd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Priority check in</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5249.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5249.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Priority check in</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Priority check in</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Prio CHK</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalServiceRules Key="s3cf/KSqWDKAze3DNAAAAA==">
+                                        <common_v50_0:Remarks>Y,1,X,X,CY - W23,H40,L55,CM</common_v50_0:Remarks>
+                                    </air:OptionalServiceRules>
+                                    <air:OptionalServiceRules Key="s3cf/KSqWDKA1e3DNAAAAA==">
+                                        <common_v50_0:Remarks>Y,1,KG,23,BAG</common_v50_0:Remarks>
+                                    </air:OptionalServiceRules>
+                                </air:OptionalServices>
+                            </air:Brand>
+                        </air:FareInfo>
+                        <air:FareInfo Key="s3cf/KSqWDKAFf3DNAAAAA==" FareBasis="LHXS82TG" PassengerTypeCode="ADT" Origin="YYZ" Destination="DAC" EffectiveDate="2024-10-31T16:21:00.000+06:00" DepartureDate="2024-12-25" Amount="BDT50209" NegotiatedFare="false" NotValidBefore="2024-12-25" NotValidAfter="2024-12-25" TaxAmount="BDT30231.00">
+                            <air:FareRuleKey FareInfoRef="s3cf/KSqWDKAFf3DNAAAAA==" ProviderCode="1G">6UUVoSldxwhvaWvqWoWcxMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA0BcJv9+CvFsxWa1uaqI55k3aSkvhp2yba1sMfaKOuQYkW0VvqKR4mfAyGqh8JIaqI5HvpP7tNOWsnhtc7Ueh+ludEqRPr31mOr/bRGkSYBeVvL0gTWvGVKnsahilB5/WDm5jwa3CjpxIo/v8DivzP5ZIG27wMkmbTyy/Q52QOiITicpvYbmY4VUMzjIfpdHpLKjcxzAM70Fir5wkVQHOuKXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8DeqNNdtjuxiDA2bCATsypC5/aFCs7NFVSU0Vf/g3ZFOBNEAx1iQgX450SPmw8h0kiy27d025xxrgoDF6+zzB/wA==</air:FareRuleKey>
+                            <air:Brand Key="s3cf/KSqWDKAFf3DNAAAAA==" BrandID="1586539" Name="STANDARD" UpSellBrandFound="false" Carrier="AC" BrandTier="0002">
+                                <air:Title Type="External" LanguageCode="EN">Standard</air:Title>
+                                <air:Title Type="Short" LanguageCode="EN">TG</air:Title>
+                                <air:Text Type="ATPCO" LanguageCode="EN">//05Z/C/PREFERRED SEAT//0BX/N/MAPLE LEAFLOUNGE//0B5/C/ADVANCE SEATSELECTION//0A2/C/EXCHANGEABLE//0A3/N/REFUNDABLE//03P/N/PRIORITY CHECK IN//0CC/F/1STBAGGAGE//0CD/C/2ND BAGGAGE//06A/N/25 PCT AEROPLANMILES//06B/F/50 PCT AEROPLAN MILES//06D/N/100 PCTAEROPLAN MILES//06R/N/125 PCT AEROPLANMILES//06M/N/150 PCT AEROPLANMILES//0AK/F/MEAL//0L5/F/CARRY ONBAGGAGE//0CL/C/WIFI ACCESS</air:Text>
+                                <air:Text Type="MarketingConsumer" LanguageCode="EN">Standard fare includes
+- Carry on
+- Miles accrual
+- Reissue with charge and refund not allowed (subject to fare rules)
+- Advanced seat selection with charge 
+
+• Please note that if the flight is operated by another airline, then the onboard product or service may be different to that described above. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+                                <air:Text Type="MarketingAgent" LanguageCode="EN">Standard fare includes
+- Carry on
+- Miles accrual
+- Reissue with charge and refund not allowed (subject to fare rules)
+- Advanced seat selection with charge 
+
+• Please note that if the flight is operated by another airline, then the onboard product or service may be different to that described above. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+                                <air:Text Type="Strapline" LanguageCode="EN">Standard</air:Text>
+                                <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/aircanada/AC_general_medium_217.jpg</air:ImageLocation>
+                                <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/aircanada/AC_general_medium_217.jpg</air:ImageLocation>
+                                <air:OptionalServices>
+                                    <air:OptionalService Type="Baggage" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0CC" Key="s3cf/KSqWDKAGf3DNAAAAA==" Chargeable="Included in the brand" Tag="Checked Baggage" DisplayOrder="1">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Checked baggage 1x23kg</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5230.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5230.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Check in your bags for extra convenience</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">1x23kg</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">1x23kg</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Checked baggage 1x23kg</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Y,1,23,Bag</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Baggage" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0L5" Key="s3cf/KSqWDKAHf3DNAAAAA==" SecondaryType="CY" Chargeable="Included in the brand" OptionalServicesRuleRef="s3cf/KSqWDKAIf3DNAAAAA==" Tag="Hand Luggage" DisplayOrder="23">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Carry on bags</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5233.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5233.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Taking bags on board</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Carry on board x1 bag max 21.5 x 15.5 x 9 inches (55 x 40 x 23 cm) plus x1 additional small item max 17 x 13 x 6 inches (44 x 33 x 16 cm).</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Carry on board x1 bag max 21.5 x 15.5 x 9 inches (55 x 40 x 23 cm) plus x1 additional small item max 17 x 13 x 6 inches (44 x 33 x 16 cm).</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Carry on bags</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Carry bags</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Baggage" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0CD" Key="s3cf/KSqWDKAJf3DNAAAAA==" Chargeable="Available for a charge" OptionalServicesRuleRef="s3cf/KSqWDKAKf3DNAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Checked bag second</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5232.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5232.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Chargeable Baggage"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Checked bag second</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Checked bag second</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Checked bag second</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Checked bag second</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN"></air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06B" Key="s3cf/KSqWDKALf3DNAAAAA==" SecondaryType="FR" Chargeable="Included in the brand" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>50 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">50 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">50 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">50 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">50 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">50% mi ear</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="05Z" Key="s3cf/KSqWDKAMf3DNAAAAA==" SecondaryType="SE" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Premium seat</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5237.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5237.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Premium seat</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Premium Seats.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Premium seat</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Prem seat</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06D" Key="s3cf/KSqWDKANf3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>100 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">100 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">100 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">100 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">100 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">100% mi ea</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06E" Key="s3cf/KSqWDKAOf3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>115 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">115 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">115 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">115 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">115 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">115% mi ea</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06R" Key="s3cf/KSqWDKAPf3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>125 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">125 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">125 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">125 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">125 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">125% mi ea</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06M" Key="s3cf/KSqWDKAQf3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>150 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">150 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">150 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">150 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">150 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">150% mi ea</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Branded Fares" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="06A" Key="s3cf/KSqWDKARf3DNAAAAA==" SecondaryType="FR" Chargeable="Not offered" Tag="Mileage Accrual" DisplayOrder="8">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>25 percent miles earned</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82168.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:Text Type="Strapline" LanguageCode="EN">25 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">25 percent miles earned</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">25 percent miles earned</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">25 percent miles earned</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">25% mi ear</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="RuleOverride" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0A2" Key="s3cf/KSqWDKASf3DNAAAAA==" SecondaryType="31" Chargeable="Available for a charge" Tag="Rebooking" DisplayOrder="3">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Reissue override</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5240.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5240.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="RuleBuster"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Amending your reservation</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Reissue override.</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Reissue override.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Reissue override</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Reissues</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="RuleOverride" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0A3" Key="s3cf/KSqWDKATf3DNAAAAA==" SecondaryType="33" Chargeable="Not offered" Tag="Refund" DisplayOrder="4">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Refund override</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5238.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5238.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="RuleBuster"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Cancelling your reservation</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Refund override</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Refunds</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="PreReservedSeatAssignment" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0B5" Key="s3cf/KSqWDKAUf3DNAAAAA==" Chargeable="Available for a charge" Tag="Seat Assignment" DisplayOrder="5">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Advance seat selection</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82167.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_82167.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Pre select your preferred seat</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Please note that if the flight is operated by another airline then the options to pre assign seats might be different.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Advance seat selection</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Seating</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="MealOrBeverage" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0AK" Key="s3cf/KSqWDKAVf3DNAAAAA==" SecondaryType="DI" Chargeable="Included in the brand" Tag="Meals and Beverages" DisplayOrder="6">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Dinner</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5246.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5246.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">On board catering</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">Dinner served on board.</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">Dinner served on board.</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Dinner</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Dinner</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="MealOrBeverage" CreateDate="2024-10-31T10:21:05.429+00:00" Key="s3cf/KSqWDKAWf3DNAAAAA==" Chargeable="Not offered" Tag="MEALS" DisplayOrder="6">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>MEALS</common_v50_0:Description>
+                                        </common_v50_0:ServiceInfo>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="InFlightEntertainment" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0CL" Key="s3cf/KSqWDKAXf3DNAAAAA==" SecondaryType="IT" Chargeable="Available for a charge" Tag="WiFi" DisplayOrder="7">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Internet Access</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5236.jpg"/>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5236.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Staying connected whilst in the air</air:Text>
+                                        <air:Text Type="MarketingAgent" LanguageCode="EN">WiFi is available on board many Air Canada aircraft. Roll out as at 12 October 2020 is: 
+
+- Boeing 777-300ER 19 out of 19 aircraft.
+- Boeing 777-200LR 6 out of 6 aircraft. 
+- Airbus A330-300 5 out of 17 aircraft. 
+- Boeing 787-9 29 out of 29 aircraft. 
+- Boeing 787-8 7 out of 8 aircraft. 
+- Boeing 767-300 ER 25 out of 25 aircraft. 
+
+(taken from Air Canada website)</air:Text>
+                                        <air:Text Type="MarketingConsumer" LanguageCode="EN">WiFi is available on board many Air Canada aircraft. Roll out as at 12 October 2020 is: 
+
+- Boeing 777-300ER 19 out of 19 aircraft.
+- Boeing 777-200LR 6 out of 6 aircraft. 
+- Airbus A330-300 5 out of 17 aircraft. 
+- Boeing 787-9 29 out of 29 aircraft. 
+- Boeing 787-8 7 out of 8 aircraft. 
+- Boeing 767-300 ER 25 out of 25 aircraft. 
+
+(taken from Air Canada website)</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Internet Access</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">WiFi</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="Lounge" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="0BX" Key="s3cf/KSqWDKAYf3DNAAAAA==" Chargeable="Not offered" Tag="Lounge Access" DisplayOrder="10">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Prepaid lounge</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5239.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5239.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Somewhere quiet to work or relax</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Prepaid lounge</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Lounge</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalService Type="TravelServices" CreateDate="2024-10-31T10:21:05.429+00:00" ServiceSubCode="03P" Key="s3cf/KSqWDKAZf3DNAAAAA==" SecondaryType="PO" Chargeable="Not offered" Tag="Priority CheckIn" DisplayOrder="14">
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAQd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKASd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceData AirSegmentRef="s3cf/KSqWDKAUd3DNAAAAA=="/>
+                                        <common_v50_0:ServiceInfo>
+                                            <common_v50_0:Description>Priority check in</common_v50_0:Description>
+                                            <common_v50_0:MediaItem caption="Consumer" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5249.jpg"/>
+                                            <common_v50_0:MediaItem caption="Agent" height="60" width="60" url="https://cdn.travelport.com/aircanada/AC_general_medium_5249.jpg"/>
+                                        </common_v50_0:ServiceInfo>
+                                        <air:EMD AssociatedItem="Flight"/>
+                                        <air:Text Type="Strapline" LanguageCode="EN">Priority check in</air:Text>
+                                        <air:Title Type="External" LanguageCode="EN">Priority check in</air:Title>
+                                        <air:Title Type="Short" LanguageCode="EN">Prio CHK</air:Title>
+                                    </air:OptionalService>
+                                    <air:OptionalServiceRules Key="s3cf/KSqWDKAIf3DNAAAAA==">
+                                        <common_v50_0:Remarks>Y,1,X,X,CY - W23,H40,L55,CM</common_v50_0:Remarks>
+                                    </air:OptionalServiceRules>
+                                    <air:OptionalServiceRules Key="s3cf/KSqWDKAKf3DNAAAAA==">
+                                        <common_v50_0:Remarks>Y,1,KG,23,BAG</common_v50_0:Remarks>
+                                    </air:OptionalServiceRules>
+                                </air:OptionalServices>
+                            </air:Brand>
+                        </air:FareInfo>
+                        <air:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="s3cf/KSqWDKAwe3DNAAAAA==" SegmentRef="s3cf/KSqWDKAKd3DNAAAAA==" HostTokenRef="s3cf/KSqWDKAfe3DNAAAAA=="/>
+                        <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="s3cf/KSqWDKAwe3DNAAAAA==" SegmentRef="s3cf/KSqWDKAMd3DNAAAAA==" HostTokenRef="s3cf/KSqWDKAfe3DNAAAAA=="/>
+                        <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="s3cf/KSqWDKAwe3DNAAAAA==" SegmentRef="s3cf/KSqWDKAOd3DNAAAAA==" HostTokenRef="s3cf/KSqWDKAfe3DNAAAAA=="/>
+                        <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="s3cf/KSqWDKAFf3DNAAAAA==" SegmentRef="s3cf/KSqWDKAQd3DNAAAAA==" HostTokenRef="s3cf/KSqWDKAge3DNAAAAA=="/>
+                        <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="s3cf/KSqWDKAFf3DNAAAAA==" SegmentRef="s3cf/KSqWDKASd3DNAAAAA==" HostTokenRef="s3cf/KSqWDKAge3DNAAAAA=="/>
+                        <air:BookingInfo BookingCode="N" CabinClass="Economy" FareInfoRef="s3cf/KSqWDKAFf3DNAAAAA==" SegmentRef="s3cf/KSqWDKAUd3DNAAAAA==" HostTokenRef="s3cf/KSqWDKAge3DNAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="BDT500" Key="s3cf/KSqWDKAie3DNAAAAA=="/>
+                        <air:TaxInfo Category="OW" Amount="BDT3000" Key="s3cf/KSqWDKAje3DNAAAAA=="/>
+                        <air:TaxInfo Category="P7" Amount="BDT1180" Key="s3cf/KSqWDKAke3DNAAAAA=="/>
+                        <air:TaxInfo Category="P8" Amount="BDT1180" Key="s3cf/KSqWDKAle3DNAAAAA=="/>
+                        <air:TaxInfo Category="UT" Amount="BDT6000" Key="s3cf/KSqWDKAme3DNAAAAA=="/>
+                        <air:TaxInfo Category="L7" Amount="BDT273" Key="s3cf/KSqWDKAne3DNAAAAA=="/>
+                        <air:TaxInfo Category="SG" Amount="BDT545" Key="s3cf/KSqWDKAoe3DNAAAAA=="/>
+                        <air:TaxInfo Category="CA" Amount="BDT3007" Key="s3cf/KSqWDKApe3DNAAAAA=="/>
+                        <air:TaxInfo Category="SQ" Amount="BDT3058" Key="s3cf/KSqWDKAqe3DNAAAAA=="/>
+                        <air:TaxInfo Category="G3" Amount="BDT2422" Key="s3cf/KSqWDKAre3DNAAAAA=="/>
+                        <air:TaxInfo Category="I5" Amount="BDT833" Key="s3cf/KSqWDKAse3DNAAAAA=="/>
+                        <air:TaxInfo Category="E5" Amount="BDT429" Key="s3cf/KSqWDKAte3DNAAAAA=="/>
+                        <air:TaxInfo Category="RC" Amount="BDT398" Key="s3cf/KSqWDKAue3DNAAAAA=="/>
+                        <air:TaxInfo Category="YQ" Amount="BDT41056" Key="s3cf/KSqWDKAve3DNAAAAA=="/>
+                        <air:FareCalc>DAC SQ X/SIN AC X/YVR Q65.00 AC YTO 425.50LHXS82TG AC X/YVR AC X/HKG CX DAC 425.50LHXS82TG NUC916.00END ROE1.0</air:FareCalc>
+                        <air:PassengerType Code="ADT"/>
+                        <air:PassengerType Code="ADT"/>
+                        <air:ChangePenalty PenaltyApplies="Anytime">
+                            <air:Amount>BDT5900.0</air:Amount>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty NoShow="true" PenaltyApplies="Anytime">
+                            <air:Percentage>100.00</air:Percentage>
+                        </air:CancelPenalty>
+                        <air:BaggageAllowances>
+                            <air:BaggageAllowanceInfo TravelerType="ADT" Origin="DAC" Destination="YYZ" Carrier="SQ">
+                                <air:URLInfo>
+                                    <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/SQ</air:URL>
+                                </air:URLInfo>
+                                <air:TextInfo>
+                                    <air:Text>2P</air:Text>
+                                    <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                                </air:TextInfo>
+                                <air:BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                            </air:BaggageAllowanceInfo>
+                            <air:BaggageAllowanceInfo TravelerType="ADT" Origin="YYZ" Destination="DAC" Carrier="SQ">
+                                <air:URLInfo>
+                                    <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/SQ</air:URL>
+                                </air:URLInfo>
+                                <air:TextInfo>
+                                    <air:Text>2P</air:Text>
+                                    <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                                </air:TextInfo>
+                                <air:BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                            </air:BaggageAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="DAC" Destination="SIN" Carrier="SQ">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="SIN" Destination="YVR" Carrier="AC">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="SGD0.00" TotalPrice="SGD0.00">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>CARRY ON HAND BAGGAGE</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="YVR" Destination="YYZ" Carrier="AC">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="CAD0.00" TotalPrice="CAD0.00">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>CARRY ON HAND BAGGAGE</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="YYZ" Destination="YVR" Carrier="AC">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="CAD0.00" TotalPrice="CAD0.00">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>CARRY ON HAND BAGGAGE</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="YVR" Destination="HKG" Carrier="AC">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="CAD0.00" TotalPrice="CAD0.00">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>CARRY ON HAND BAGGAGE</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="HKG" Destination="DAC" Carrier="CX">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="HKD0" TotalPrice="HKD0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:EmbargoInfo Origin="DAC" Destination="SIN" Carrier="SQ">
+                                <air:URLInfo>
+                                    <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/SQ</air:URL>
+                                </air:URLInfo>
+                                <air:TextInfo>
+                                    <air:Text>888</air:Text>
+                                </air:TextInfo>
+                            </air:EmbargoInfo>
+                        </air:BaggageAllowances>
+                    </air:AirPricingInfo>
+                    <common_v50_0:HostToken Key="s3cf/KSqWDKAfe3DNAAAAA==">GFB10101ADT00  01LHXS82TG                              03000100020003#GFB200010101NADTV3446TACS00300005995U#GFMCXEX446NTACS AC ADTLHXS82TG</common_v50_0:HostToken>
+                    <common_v50_0:HostToken Key="s3cf/KSqWDKAge3DNAAAAA==">GFB10101ADT00  02LHXS82TG                              03000400050006#GFB200010102NADTV3446TACS00300005995U#GFMCXEX446NTACS AC ADTLHXS82TG</common_v50_0:HostToken>
+                </air:AirPricingSolution>
+            </air:AirPriceResult>
+        </air:AirPriceRsp>
+    </SOAP:Body>
+</SOAP:Envelope>

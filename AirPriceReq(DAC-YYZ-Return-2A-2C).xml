@@ -1,0 +1,22 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <air:AirPriceReq AuthorizedBy="JAN" TargetBranch="P7212436" FareRuleType="DOE" xmlns:air="http://www.travelport.com/schema/air_v50_0">
+         <BillingPointOfSaleInfo OriginApplication="UAPI" xmlns="http://www.travelport.com/schema/common_v50_0"/>
+         <air:AirItinerary>
+            <!-- Outbound Flight Segments -->
+            <air:AirSegment Key="63hf/KTqWDKAwJ76MAAAAA==" Group="0" Carrier="SQ" FlightNumber="447" Origin="DAC" Destination="SIN" DepartureTime="2024-12-18T23:55:00.000+06:00" ArrivalTime="2024-12-19T06:00:00.000+08:00" FlightTime="245" Distance="1797" ETicketability="Yes" Equipment="787" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G"/>
+            <air:AirSegment Key="63hf/KTqWDKAyJ76MAAAAA==" Group="0" Carrier="AC" FlightNumber="20" Origin="SIN" Destination="YVR" DepartureTime="2024-12-19T10:00:00.000+08:00" ArrivalTime="2024-12-19T08:00:00.000-08:00" FlightTime="840" Distance="7963" ETicketability="Yes" Equipment="789" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G"/>
+            <air:AirSegment Key="63hf/KTqWDKA0J76MAAAAA==" Group="0" Carrier="AC" FlightNumber="34" Origin="YVR" Destination="YYZ" DepartureTime="2024-12-19T09:10:00.000-08:00" ArrivalTime="2024-12-19T16:39:00.000-05:00" FlightTime="269" Distance="2086" ETicketability="Yes" Equipment="77L" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G"/>
+            
+            <!-- Return Flight Segments -->
+            <air:AirSegment Key="63hf/KTqWDKA4J76MAAAAA==" Group="1" Carrier="AC" FlightNumber="129" Origin="YYZ" Destination="YVR" DepartureTime="2024-12-25T23:00:00.000-05:00" ArrivalTime="2024-12-26T01:11:00.000-08:00" FlightTime="311" Distance="2086" ETicketability="Yes" Equipment="7M8" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G"/>
+            <air:AirSegment Key="63hf/KTqWDKA6J76MAAAAA==" Group="1" Carrier="AC" FlightNumber="21" Origin="YVR" Destination="HKG" DepartureTime="2024-12-26T23:50:00.000-08:00" ArrivalTime="2024-12-28T06:25:00.000+08:00" FlightTime="875" Distance="6383" ETicketability="Yes" Equipment="789" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G"/>
+            <air:AirSegment Key="63hf/KTqWDKA8J76MAAAAA==" Group="1" Carrier="CX" FlightNumber="667" Origin="HKG" Destination="DAC" DepartureTime="2024-12-28T19:30:00.000+08:00" ArrivalTime="2024-12-28T22:00:00.000+06:00" FlightTime="270" Distance="1498" ETicketability="Yes" Equipment="333" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G"/>
+         </air:AirItinerary>
+         <air:AirPricingModifiers PlatingCarrier="AC"/>
+         <com:SearchPassenger Key="1" Code="ADT" xmlns:com="http://www.travelport.com/schema/common_v50_0"/>
+         <com:SearchPassenger Key="2" Code="ADT" xmlns:com="http://www.travelport.com/schema/common_v50_0"/>
+         <air:AirPricingCommand/>
+      </air:AirPriceReq>
+   </soap:Body>
+</soap:Envelope>

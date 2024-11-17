@@ -1,0 +1,20 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <air:AirPriceReq AuthorizedBy="JAN" TargetBranch="P7212436" FareRuleType="DOE" xmlns:air="http://www.travelport.com/schema/air_v50_0">
+         <BillingPointOfSaleInfo OriginApplication="UAPI" xmlns="http://www.travelport.com/schema/common_v50_0"/>
+         <air:AirItinerary>
+
+            <!-- Outbound Flight Segments -->
+            <air:AirSegment Key="lZ3f/KUqWDKA61A/MAAAAA==" Group="0" Carrier="BG" FlightNumber="435" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T11:45:00.000+06:00" ArrivalTime="2024-12-18T13:00:00.000+06:00" FlightTime="75" Distance="190" ETicketability="Yes" Equipment="DH8" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G"/>
+
+            <!-- Return Flight Segments -->
+            <air:AirSegment Key="lZ3f/KUqWDKA+1A/MAAAAA==" Group="1" Carrier="BG" FlightNumber="436" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T13:25:00.000+06:00" ArrivalTime="2024-12-25T14:30:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="DH8" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G"/>
+        
+         </air:AirItinerary>
+         <air:AirPricingModifiers PlatingCarrier="BG"/>
+         <com:SearchPassenger Key="1" Code="ADT" xmlns:com="http://www.travelport.com/schema/common_v50_0"/>
+         <com:SearchPassenger Key="2" Code="ADT" xmlns:com="http://www.travelport.com/schema/common_v50_0"/>
+         <air:AirPricingCommand/>
+      </air:AirPriceReq>
+   </soap:Body>
+</soap:Envelope>

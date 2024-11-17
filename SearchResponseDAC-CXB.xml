@@ -1,0 +1,871 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <air:LowFareSearchRsp xmlns:air="http://www.travelport.com/schema/air_v48_0"   TransactionId="E1FEFB8E0A0D6A94793ED4DB452EB9B8" ResponseTime="744" DistanceUnits="MI" CurrencyType="INR">
+            <air:FlightDetailsList>
+                <air:FlightDetails Key="lZ3f/KUqWDKA71A/MAAAAA==" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T11:45:00.000+06:00" ArrivalTime="2024-12-18T13:00:00.000+06:00" FlightTime="75" TravelTime="75" Equipment="DH8" OriginTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKA91A/MAAAAA==" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T15:30:00.000+06:00" ArrivalTime="2024-12-18T16:45:00.000+06:00" FlightTime="75" TravelTime="75" Equipment="DH8" OriginTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKA/1A/MAAAAA==" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T13:25:00.000+06:00" ArrivalTime="2024-12-25T14:30:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="DH8" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAB2A/MAAAAA==" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T17:10:00.000+06:00" ArrivalTime="2024-12-25T18:15:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="DH8" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAD2A/MAAAAA==" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T07:45:00.000+06:00" ArrivalTime="2024-12-18T08:50:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="AT7" OriginTerminal="D" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAF2A/MAAAAA==" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T09:15:00.000+06:00" ArrivalTime="2024-12-18T10:20:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="AT7" OriginTerminal="D" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAH2A/MAAAAA==" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T10:55:00.000+06:00" ArrivalTime="2024-12-18T12:00:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="AT7" OriginTerminal="D" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAJ2A/MAAAAA==" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T11:30:00.000+06:00" ArrivalTime="2024-12-18T12:35:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="AT7" OriginTerminal="D" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAL2A/MAAAAA==" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T12:45:00.000+06:00" ArrivalTime="2024-12-18T13:50:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="AT7" OriginTerminal="D" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAN2A/MAAAAA==" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T13:50:00.000+06:00" ArrivalTime="2024-12-18T14:55:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="AT7" OriginTerminal="D" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAP2A/MAAAAA==" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T16:20:00.000+06:00" ArrivalTime="2024-12-18T17:25:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="AT7" OriginTerminal="D" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAR2A/MAAAAA==" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T09:20:00.000+06:00" ArrivalTime="2024-12-25T10:25:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="AT7" OriginTerminal="D" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAT2A/MAAAAA==" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T10:50:00.000+06:00" ArrivalTime="2024-12-25T11:55:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="AT7" OriginTerminal="D" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAV2A/MAAAAA==" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T12:05:00.000+06:00" ArrivalTime="2024-12-25T13:10:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="AT7" OriginTerminal="D" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAX2A/MAAAAA==" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T13:05:00.000+06:00" ArrivalTime="2024-12-25T14:10:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="AT7" OriginTerminal="D" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAZ2A/MAAAAA==" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T14:20:00.000+06:00" ArrivalTime="2024-12-25T15:25:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="AT7" OriginTerminal="D" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAb2A/MAAAAA==" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T15:25:00.000+06:00" ArrivalTime="2024-12-25T16:30:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="AT7" OriginTerminal="D" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAd2A/MAAAAA==" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T17:55:00.000+06:00" ArrivalTime="2024-12-25T19:00:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="AT7" OriginTerminal="D" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAf2A/MAAAAA==" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T14:45:00.000+06:00" ArrivalTime="2024-12-25T15:50:00.000+06:00" FlightTime="65" TravelTime="65" Equipment="DH8" DestinationTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAh2A/MAAAAA==" Origin="DAC" Destination="SPD" DepartureTime="2024-12-18T11:30:00.000+06:00" ArrivalTime="2024-12-18T12:30:00.000+06:00" FlightTime="60" TravelTime="170" GroundTime="25" Distance="171" Equipment="DH8" OnTimePerformance="-1" OriginTerminal="D"/>
+                <air:FlightDetails Key="lZ3f/KUqWDKAi2A/MAAAAA==" Origin="SPD" Destination="CXB" DepartureTime="2024-12-18T12:55:00.000+06:00" ArrivalTime="2024-12-18T14:20:00.000+06:00" FlightTime="85" TravelTime="170" Distance="360" Equipment="DH8" OnTimePerformance="-1"/>
+            </air:FlightDetailsList>
+            <air:AirSegmentList>
+                <air:AirSegment Key="lZ3f/KUqWDKA61A/MAAAAA==" Group="0" Carrier="BG" FlightNumber="435" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T11:45:00.000+06:00" ArrivalTime="2024-12-18T13:00:00.000+06:00" FlightTime="75" Distance="190" ETicketability="Yes" Equipment="DH8" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKA71A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKA81A/MAAAAA==" Group="0" Carrier="BG" FlightNumber="437" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T15:30:00.000+06:00" ArrivalTime="2024-12-18T16:45:00.000+06:00" FlightTime="75" Distance="190" ETicketability="Yes" Equipment="DH8" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKA91A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKA+1A/MAAAAA==" Group="1" Carrier="BG" FlightNumber="436" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T13:25:00.000+06:00" ArrivalTime="2024-12-25T14:30:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="DH8" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKA/1A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAA2A/MAAAAA==" Group="1" Carrier="BG" FlightNumber="438" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T17:10:00.000+06:00" ArrivalTime="2024-12-25T18:15:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="DH8" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAB2A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAC2A/MAAAAA==" Group="0" Carrier="BS" FlightNumber="141" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T07:45:00.000+06:00" ArrivalTime="2024-12-18T08:50:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="AT7" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAD2A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAE2A/MAAAAA==" Group="0" Carrier="BS" FlightNumber="143" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T09:15:00.000+06:00" ArrivalTime="2024-12-18T10:20:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="AT7" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAF2A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAG2A/MAAAAA==" Group="0" Carrier="BS" FlightNumber="145" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T10:55:00.000+06:00" ArrivalTime="2024-12-18T12:00:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="AT7" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAH2A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAI2A/MAAAAA==" Group="0" Carrier="BS" FlightNumber="147" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T11:30:00.000+06:00" ArrivalTime="2024-12-18T12:35:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="AT7" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAJ2A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAK2A/MAAAAA==" Group="0" Carrier="BS" FlightNumber="149" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T12:45:00.000+06:00" ArrivalTime="2024-12-18T13:50:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="AT7" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAL2A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAM2A/MAAAAA==" Group="0" Carrier="BS" FlightNumber="151" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T13:50:00.000+06:00" ArrivalTime="2024-12-18T14:55:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="AT7" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAN2A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAO2A/MAAAAA==" Group="0" Carrier="BS" FlightNumber="157" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T16:20:00.000+06:00" ArrivalTime="2024-12-18T17:25:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="AT7" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAP2A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAQ2A/MAAAAA==" Group="1" Carrier="BS" FlightNumber="142" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T09:20:00.000+06:00" ArrivalTime="2024-12-25T10:25:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="AT7" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAR2A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAS2A/MAAAAA==" Group="1" Carrier="BS" FlightNumber="144" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T10:50:00.000+06:00" ArrivalTime="2024-12-25T11:55:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="AT7" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAT2A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAU2A/MAAAAA==" Group="1" Carrier="BS" FlightNumber="146" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T12:05:00.000+06:00" ArrivalTime="2024-12-25T13:10:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="AT7" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAV2A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAW2A/MAAAAA==" Group="1" Carrier="BS" FlightNumber="148" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T13:05:00.000+06:00" ArrivalTime="2024-12-25T14:10:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="AT7" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAX2A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAY2A/MAAAAA==" Group="1" Carrier="BS" FlightNumber="150" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T14:20:00.000+06:00" ArrivalTime="2024-12-25T15:25:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="AT7" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAZ2A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAa2A/MAAAAA==" Group="1" Carrier="BS" FlightNumber="152" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T15:25:00.000+06:00" ArrivalTime="2024-12-25T16:30:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="AT7" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAb2A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAc2A/MAAAAA==" Group="1" Carrier="BS" FlightNumber="158" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T17:55:00.000+06:00" ArrivalTime="2024-12-25T19:00:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="AT7" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAd2A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAe2A/MAAAAA==" Group="1" Carrier="BG" FlightNumber="592" Origin="CXB" Destination="DAC" DepartureTime="2024-12-25T14:45:00.000+06:00" ArrivalTime="2024-12-25T15:50:00.000+06:00" FlightTime="65" Distance="190" ETicketability="Yes" Equipment="DH8" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAf2A/MAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="lZ3f/KUqWDKAg2A/MAAAAA==" Group="0" Carrier="BG" FlightNumber="591" Origin="DAC" Destination="CXB" DepartureTime="2024-12-18T11:30:00.000+06:00" ArrivalTime="2024-12-18T14:20:00.000+06:00" FlightTime="170" Distance="190" ETicketability="Yes" Equipment="DH8" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" NumberOfStops="1" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAh2A/MAAAAA=="/>
+                    <air:FlightDetailsRef Key="lZ3f/KUqWDKAi2A/MAAAAA=="/>
+                </air:AirSegment>
+            </air:AirSegmentList>
+            <air:FareInfoList>
+                <air:FareInfo Key="lZ3f/KUqWDKAj2A/MAAAAA==" FareBasis="TDACFR" PassengerTypeCode="ADT" Origin="DAC" Destination="CXB" EffectiveDate="2024-10-31T15:55:00.000+06:00" DepartureDate="2024-12-18" Amount="INR3775" NegotiatedFare="false" PrivateFare="AirlinePrivateFare" PseudoCityCode="LT7">
+                    <air:BaggageAllowance>
+                        <air:MaxWeight Value="20" Unit="Kilograms"/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="lZ3f/KUqWDKAj2A/MAAAAA==" ProviderCode="1G">gws-eJxNT0kOwyAMfEw0d7Ml4UYI6SKlVKpQ2+TQ/z+jNrRVjRgM9oyHEIImbRUZFf6jAzZeiPu6npGhwGC1Md45YC2D3ElJiwC3IU+p3I1X4yNdL0SOiLT2/scSEr8pdPGImEpV4D0/I5zRloUyS5HxPUqa5sMN1ZpWIxdyLTaUiURLP1s+kPpkW0kCW0Xmy7Cq24bixX8iCeCbLCdOxXezPArjU6IBbPMNeyk+Kw==</air:FareRuleKey>
+                    <air:Brand Key="lZ3f/KUqWDKAN7A/MAAAAA==" BrandID="1380804" BrandTier="0001"/>
+                </air:FareInfo>
+                <air:FareInfo Key="lZ3f/KUqWDKAC3A/MAAAAA==" FareBasis="TDACFR" PassengerTypeCode="ADT" Origin="CXB" Destination="DAC" EffectiveDate="2024-10-31T15:55:00.000+06:00" DepartureDate="2024-12-25" Amount="INR3770" NegotiatedFare="false" PrivateFare="AirlinePrivateFare" PseudoCityCode="LT7">
+                    <air:BaggageAllowance>
+                        <air:MaxWeight Value="20" Unit="Kilograms"/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="lZ3f/KUqWDKAC3A/MAAAAA==" ProviderCode="1G">gws-eJxNT10PwiAM/DHLvZcC23hjG/MjmZgYos4H///PsGXTWMIBvbZ3xBiZ2BmyJv5HA6yyML6W5YwMhoBja4P3wFI6fZPREgUpQx5Sudtg+ke6Xog8ETGH8OvSJskZNOMRYyp1guw0TPCWnWhkGUU2tCiSPNxQrTF7IXIlN1RFormdnBxIbXKVWrPEjtNzVLE6dxPFW/5EGsD3Mp/kqr43y7127BR1EJsfeFg+Ng==</air:FareRuleKey>
+                    <air:Brand Key="lZ3f/KUqWDKAP7A/MAAAAA==" BrandID="1380804" BrandTier="0001"/>
+                </air:FareInfo>
+                <air:FareInfo Key="lZ3f/KUqWDKAT3A/MAAAAA==" FareBasis="TDACFR" PassengerTypeCode="CNN" Origin="DAC" Destination="CXB" EffectiveDate="2024-10-31T15:55:00.000+06:00" DepartureDate="2024-12-18" Amount="INR2830" NegotiatedFare="false" PrivateFare="AirlinePrivateFare" PseudoCityCode="LT7">
+                    <air:FareTicketDesignator Value="CH25"/>
+                    <air:BaggageAllowance>
+                        <air:MaxWeight Value="20" Unit="Kilograms"/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="lZ3f/KUqWDKAT3A/MAAAAA==" ProviderCode="1G">gws-eJxNT8sOAiEM/JjN3MtzlxsC6yNZMTEbdT34/59hC2osYVqYttPGGDVpq8io+G8DsPFBei7LCRUKDFYbE5wDlnWUNylJ0QychpprvZmgpnu5nIkcEWkdgmLvgzXjr1yqhcSQDkhlba345keCCcGwWOWeZILHWnZ5f0WbUauJidrIjiJNNPts2aH4Yjslhq0h14tY69tF8eLlSAz4BvORQ1mgzz7xn/tQNILHfAOvS0Ad</air:FareRuleKey>
+                    <air:Brand Key="lZ3f/KUqWDKAR7A/MAAAAA==" BrandID="1380804" BrandTier="0001"/>
+                </air:FareInfo>
+                <air:FareInfo Key="lZ3f/KUqWDKAw3A/MAAAAA==" FareBasis="TDACFR" PassengerTypeCode="CNN" Origin="CXB" Destination="DAC" EffectiveDate="2024-10-31T15:55:00.000+06:00" DepartureDate="2024-12-25" Amount="INR2830" NegotiatedFare="false" PrivateFare="AirlinePrivateFare" PseudoCityCode="LT7">
+                    <air:FareTicketDesignator Value="CH25"/>
+                    <air:BaggageAllowance>
+                        <air:MaxWeight Value="20" Unit="Kilograms"/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="lZ3f/KUqWDKAw3A/MAAAAA==" ProviderCode="1G">gws-eJxNT9sOwiAM/ZjlvJcW2HjDwbwkExOzqPPB//8MC1NjCaelpz0tMUYmtobExH/rgFUPxuc8n1DAULAsEpwD5qWvbzK1hBW0DCWVcpNghnu+nIkcETGHYNT7YKX/tdfuSqIbDxjz0qT05l2ChCCqWFSTJHgsmtxf0XZkdkqURm5YRxNNPll1yD7bRq1F7YPpMdZhTXcbipd+jqoB32A6alg/sO0+aM59KOqha74BrINAKA==</air:FareRuleKey>
+                    <air:Brand Key="lZ3f/KUqWDKAT7A/MAAAAA==" BrandID="1380804" BrandTier="0001"/>
+                </air:FareInfo>
+                <air:FareInfo Key="lZ3f/KUqWDKA/3A/MAAAAA==" FareBasis="TDOM6M" PassengerTypeCode="ADT" Origin="DAC" Destination="CXB" EffectiveDate="2024-10-31T15:55:00.000+06:00" DepartureDate="2024-12-18" Amount="INR3915" NegotiatedFare="false" NotValidBefore="2024-12-18" NotValidAfter="2024-12-18">
+                    <air:BaggageAllowance>
+                        <air:MaxWeight Value="20" Unit="Kilograms"/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="lZ3f/KUqWDKA/3A/MAAAAA==" ProviderCode="1G">gws-eJxNjr0OwyAMhB8muv3skp+RgBN1CR3K0Cx9/8eoIa1US/YdfGA7xqjUILxJ/I8B7yE9kawCBfTMr4Rx1ADxwwmKbqj2OKYDvYPK4qB0eKm0Z8yagwt27nqhFjh7tTU7Y+/rKmhz0az/wM9sd7dltZqMSi5+p1/EGb7mB/OXKog=</air:FareRuleKey>
+                    <air:Brand Key="lZ3f/KUqWDKAV7A/MAAAAA==" BrandID="1218978" BrandTier="0002"/>
+                </air:FareInfo>
+                <air:FareInfo Key="lZ3f/KUqWDKAI4A/MAAAAA==" FareBasis="TDOM6M" PassengerTypeCode="ADT" Origin="CXB" Destination="DAC" EffectiveDate="2024-10-31T15:55:00.000+06:00" DepartureDate="2024-12-25" Amount="INR3915" NegotiatedFare="false" NotValidBefore="2024-12-25" NotValidAfter="2024-12-25">
+                    <air:BaggageAllowance>
+                        <air:MaxWeight Value="20" Unit="Kilograms"/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="lZ3f/KUqWDKAI4A/MAAAAA==" ProviderCode="1G">gws-eJxNjrEOwyAMRD8muv1woe1IgERdQocyNEv//zN6kFSqJfsOHtiOMRrNO15c/I8Jnym9kEoDKqgsc0YI5mE67KCzBa08t+uG0cEsCNQBD3X9GbNlL8HK1Qbaq+Ks+Z3EOPpKHfpcdKsf+JnlIVvn0lKhkXfd2Yl4g9b8Au/PKpI=</air:FareRuleKey>
+                    <air:Brand Key="lZ3f/KUqWDKAX7A/MAAAAA==" BrandID="1218978" BrandTier="0002"/>
+                </air:FareInfo>
+                <air:FareInfo Key="lZ3f/KUqWDKAl4A/MAAAAA==" FareBasis="TDOM6M" PassengerTypeCode="CNN" Origin="DAC" Destination="CXB" EffectiveDate="2024-10-31T15:55:00.000+06:00" DepartureDate="2024-12-18" Amount="INR2935" NegotiatedFare="false" NotValidBefore="2024-12-18" NotValidAfter="2024-12-18">
+                    <air:FareTicketDesignator Value="CH25"/>
+                    <air:BaggageAllowance>
+                        <air:MaxWeight Value="20" Unit="Kilograms"/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="lZ3f/KUqWDKAl4A/MAAAAA==" ProviderCode="1G">gws-eJxNjrEOwzAIRD8muv0gVpvRtZ2oS+jQDM3S//+MYqxKQYI79DAm56zUJJwlX2PCdypvlHYABnrWT0GSNEO8OUHRFUd77bcdsUFlcWABh2ofY9WaXLBx04F64IzaHtUZY6+rov+Lbv0F/mZ9urVqVhqVXGJyIN7hZ/4A8YMqiA==</air:FareRuleKey>
+                    <air:Brand Key="lZ3f/KUqWDKAZ7A/MAAAAA==" BrandID="1218978" BrandTier="0002"/>
+                </air:FareInfo>
+                <air:FareInfo Key="lZ3f/KUqWDKAu4A/MAAAAA==" FareBasis="TDOM6M" PassengerTypeCode="CNN" Origin="CXB" Destination="DAC" EffectiveDate="2024-10-31T15:55:00.000+06:00" DepartureDate="2024-12-25" Amount="INR2935" NegotiatedFare="false" NotValidBefore="2024-12-25" NotValidAfter="2024-12-25">
+                    <air:FareTicketDesignator Value="CH25"/>
+                    <air:BaggageAllowance>
+                        <air:MaxWeight Value="20" Unit="Kilograms"/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="lZ3f/KUqWDKAu4A/MAAAAA==" ProviderCode="1G">gws-eJxNjrEOwjAMRD+muv1yDS1jSNKKpWagA134/8/ASUHCkn1nPcdxSklUDBxD+o8B7yE/kesOGOhZbwUxxBHy5gCDFuz1sU0b+gbp4sA6PFVtjEUlumDlqo4O8/jW8srO2Pe6Cu1fNOsv8DPL3a0Vs1wp8tonT8QZfuYH7bsqkg==</air:FareRuleKey>
+                    <air:Brand Key="lZ3f/KUqWDKAb7A/MAAAAA==" BrandID="1218978" BrandTier="0002"/>
+                </air:FareInfo>
+                <air:FareInfo Key="lZ3f/KUqWDKAs2A/MAAAAA==" FareBasis="OSPDFR" PassengerTypeCode="ADT" Origin="CXB" Destination="DAC" EffectiveDate="2024-10-31T15:55:00.000+06:00" DepartureDate="2024-12-25" Amount="INR4445" NegotiatedFare="false" PrivateFare="AirlinePrivateFare" PseudoCityCode="LT7">
+                    <air:BaggageAllowance>
+                        <air:MaxWeight Value="20" Unit="Kilograms"/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="lZ3f/KUqWDKAs2A/MAAAAA==" ProviderCode="1G">gws-eJxNT8sSwiAM/Bhn7+HZcqOU+pip1NGOWg/+/2eY0OoYhgWySXaJMWrSVpFR8T92wMIL6TWOJxRoMFhtTHAOGOdG3qSkRIDLULo8301Q7SNPZyJNHCaEX5c0cUphlw5Iea4TeOeuh9eNY43Co7jHY7pd8v6Kak1rx0Sp5IqiSDT43vKB7LOt1FI4NuyfScTq3FUUb/6TeCLgexmOfBXfq+WWc26jqAHb/ACH3z5Y</air:FareRuleKey>
+                    <air:Brand Key="lZ3f/KUqWDKAd7A/MAAAAA==" BrandID="1380804" BrandTier="0001"/>
+                </air:FareInfo>
+                <air:FareInfo Key="lZ3f/KUqWDKAc3A/MAAAAA==" FareBasis="OSPDFR" PassengerTypeCode="CNN" Origin="CXB" Destination="DAC" EffectiveDate="2024-10-31T15:55:00.000+06:00" DepartureDate="2024-12-25" Amount="INR3335" NegotiatedFare="false" PrivateFare="AirlinePrivateFare" PseudoCityCode="LT7">
+                    <air:FareTicketDesignator Value="CH25"/>
+                    <air:BaggageAllowance>
+                        <air:MaxWeight Value="20" Unit="Kilograms"/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="lZ3f/KUqWDKAc3A/MAAAAA==" ProviderCode="1G">gws-eJxNT8sSwiAM/Bhn7yFQWm614GumUkcdtR78/89woeoYhk3IJpvQ972KOiPW9P+2AmYeDM9xPCBDQXBqbWgaYLy25S2mlCiBZcgx55sNprun6SiiQrMhGDofnG1/7aWbScVq2GFI1yrFm9YRrhVPxUxNNntMl1PanlF3VG1I5EouWEaLbHx0dEg+uUrNmfbB+BjKsKq7DMWLnyvLCfANNnuG5QPL7h1zzYeSFlzzDbEcQDA=</air:FareRuleKey>
+                    <air:Brand Key="lZ3f/KUqWDKAf7A/MAAAAA==" BrandID="1380804" BrandTier="0001"/>
+                </air:FareInfo>
+                <air:FareInfo Key="lZ3f/KUqWDKA12A/MAAAAA==" FareBasis="OSPDFR" PassengerTypeCode="ADT" Origin="DAC" Destination="CXB" EffectiveDate="2024-10-31T15:55:00.000+06:00" DepartureDate="2024-12-18" Amount="INR4445" NegotiatedFare="false" PrivateFare="AirlinePrivateFare" PseudoCityCode="LT7">
+                    <air:BaggageAllowance>
+                        <air:MaxWeight Value="20" Unit="Kilograms"/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="lZ3f/KUqWDKA12A/MAAAAA==" ProviderCode="1G">gws-eJxNT8sSwiAM/JjO3sOz5UZb6mOmUkc7aj34/59hAuoYhgWyyWaJMWrSVpFR8T8aYOOF4TnPR2QoMFhtTHAOmNdW3qSkRIDLkPu03kxQ3T0tJyJNHCaEX5c0cUqhGfYY0loUeI+PAV63joUyS3GPx3I9p90FxZpWHRO5kBVlItHkR8sHkk+2UhLYCqZ+lGFFtw7Fi/8kngj4XqYDX8V3tdxxzn0oasE234qwPk0=</air:FareRuleKey>
+                    <air:Brand Key="lZ3f/KUqWDKAh7A/MAAAAA==" BrandID="1380804" BrandTier="0001"/>
+                </air:FareInfo>
+                <air:FareInfo Key="lZ3f/KUqWDKAL5A/MAAAAA==" FareBasis="TDACFR" PassengerTypeCode="ADT" Origin="CXB" Destination="DAC" EffectiveDate="2024-10-31T15:55:00.000+06:00" DepartureDate="2024-12-25" Amount="INR3775" NegotiatedFare="false" PrivateFare="AirlinePrivateFare" PseudoCityCode="LT7">
+                    <air:BaggageAllowance>
+                        <air:MaxWeight Value="20" Unit="Kilograms"/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="lZ3f/KUqWDKAL5A/MAAAAA==" ProviderCode="1G">gws-eJxNT10PwiAM/DHLvZcC23hjG/MjmZgYos4H///PsGXTWMIBvbZ3xBiZ2BmyJv5HA6yyML6W5YwMhoBja4P3wFI6fZPREgUpQx5Sudtg+ke6Xog8ETGH8OvSJskZNOMRYyp1guw0TPCWnWhkGUU2tCiSPNxQrTF7IXIlN1RFormdnBxIbXKVWrPEjtNzVLE6dxPFW/5EGsD3Mp/kqr43y7127BR1EJsfeFg+Ng==</air:FareRuleKey>
+                    <air:Brand Key="lZ3f/KUqWDKAj7A/MAAAAA==" BrandID="1380804" BrandTier="0001"/>
+                </air:FareInfo>
+                <air:FareInfo Key="lZ3f/KUqWDKAl3A/MAAAAA==" FareBasis="OSPDFR" PassengerTypeCode="CNN" Origin="DAC" Destination="CXB" EffectiveDate="2024-10-31T15:55:00.000+06:00" DepartureDate="2024-12-18" Amount="INR3335" NegotiatedFare="false" PrivateFare="AirlinePrivateFare" PseudoCityCode="LT7">
+                    <air:FareTicketDesignator Value="CH25"/>
+                    <air:BaggageAllowance>
+                        <air:MaxWeight Value="20" Unit="Kilograms"/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="lZ3f/KUqWDKAl3A/MAAAAA==" ProviderCode="1G">gws-eJxNT8sOwiAQ/Jhm7sujUG61UB9JpUaNWg/+/2c4UDUuYXbZ1wx932vRVolR/b81wMKD4TlNB2QoEKw2JrQtMF19eYsqLZrANuSY880E1d3TfBTRQjMhKDoXrPG/8TLNpEYz7DCka13FGx8DrBdPssydHHaYL6e0PaNq1KpjIdfiioVaZHTR0iG5ZNdSMSwV0yYWsrp3JcWLnyviBPgG455h+cCqvWOu/ZQ4R5lvtLZAJw==</air:FareRuleKey>
+                    <air:Brand Key="lZ3f/KUqWDKAl7A/MAAAAA==" BrandID="1380804" BrandTier="0001"/>
+                </air:FareInfo>
+            </air:FareInfoList>
+            <air:RouteList>
+                <air:Route Key="lZ3f/KUqWDKAa5A/MAAAAA==">
+                    <air:Leg Key="lZ3f/KUqWDKA42A/MAAAAA==" Group="0" Origin="DAC" Destination="CXB"/>
+                    <air:Leg Key="lZ3f/KUqWDKA72A/MAAAAA==" Group="1" Origin="CXB" Destination="DAC"/>
+                </air:Route>
+            </air:RouteList>
+            <air:AirPricePointList>
+                <air:AirPricePoint Key="lZ3f/KUqWDKAb5A/MAAAAA==" TotalPrice="INR31670" BasePrice="BDT37268" ApproximateTotalPrice="INR31670" ApproximateBasePrice="INR26410" EquivalentBasePrice="INR26410" Taxes="INR5260" ApproximateTaxes="INR5260" CompleteItinerary="true">
+                    <air:AirPricingInfo Key="lZ3f/KUqWDKAD3A/MAAAAA==" TotalPrice="INR8931" BasePrice="BDT10648" ApproximateTotalPrice="INR8931" ApproximateBasePrice="INR7545" EquivalentBasePrice="INR7545" Taxes="INR1386" LatestTicketingTime="2024-11-01T23:59:00.000+06:00" PricingMethod="GuaranteedUsingAirlinePrivateFare" Refundable="true" ETicketability="Yes" PlatingCarrier="BG" ProviderCode="1G" Cat35Indicator="false">
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAj2A/MAAAAA=="/>
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAC3A/MAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="INR36" Key="lZ3f/KUqWDKAE3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="OW" Amount="INR710" Key="lZ3f/KUqWDKAF3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P7" Amount="INR142" Key="lZ3f/KUqWDKAG3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P8" Amount="INR100" Key="lZ3f/KUqWDKAH3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="UT" Amount="INR284" Key="lZ3f/KUqWDKAI3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="E5" Amount="INR42" Key="lZ3f/KUqWDKAJ3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="YQ" Amount="INR72" Key="lZ3f/KUqWDKAK3A/MAAAAAAA"/>
+                        <air:FareCalc>DAC BG CXB 5324TDACFR BG DAC 5324TDACFR BDT10648END</air:FareCalc>
+                        <air:PassengerType Code="ADT"/>
+                        <air:PassengerType Code="ADT"/>
+                        <air:ChangePenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:CancelPenalty>
+                        <air:FlightOptionsList>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA42A/MAAAAA==" Destination="CXB" Origin="DAC">
+                                <air:Option Key="lZ3f/KUqWDKAL3A/MAAAAA==" TravelTime="P0DT1H15M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAj2A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA61A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAN3A/MAAAAA==" TravelTime="P0DT1H15M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAj2A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA81A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA72A/MAAAAA==" Destination="DAC" Origin="CXB">
+                                <air:Option Key="lZ3f/KUqWDKAP3A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAC3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA+1A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAR3A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="8" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAC3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAA2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                        </air:FlightOptionsList>
+                    </air:AirPricingInfo>
+                    <air:AirPricingInfo Key="lZ3f/KUqWDKAc5A/MAAAAA==" TotalPrice="INR6904" BasePrice="BDT7986" ApproximateTotalPrice="INR6904" ApproximateBasePrice="INR5660" EquivalentBasePrice="INR5660" Taxes="INR1244" LatestTicketingTime="2024-11-01T23:59:00.000+06:00" PricingMethod="GuaranteedUsingAirlinePrivateFare" Refundable="true" ETicketability="Yes" PlatingCarrier="BG" ProviderCode="1G" Cat35Indicator="false">
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAT3A/MAAAAA=="/>
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAw3A/MAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="INR36" Key="lZ3f/KUqWDKAd5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="OW" Amount="INR710" Key="lZ3f/KUqWDKAe5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P7" Amount="INR142" Key="lZ3f/KUqWDKAf5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P8" Amount="INR100" Key="lZ3f/KUqWDKAg5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="UT" Amount="INR142" Key="lZ3f/KUqWDKAh5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="E5" Amount="INR42" Key="lZ3f/KUqWDKAi5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="YQ" Amount="INR72" Key="lZ3f/KUqWDKAj5A/MAAAAAAA"/>
+                        <air:FareCalc>DAC BG CXB 3993TDACFR/CH25 BG DAC 3993TDACFR/CH25 BDT7986END</air:FareCalc>
+                        <air:PassengerType Code="CNN" Age="10"/>
+                        <air:ChangePenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:CancelPenalty>
+                        <air:FlightOptionsList>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA42A/MAAAAA==" Destination="CXB" Origin="DAC">
+                                <air:Option Key="lZ3f/KUqWDKAk5A/MAAAAA==" TravelTime="P0DT1H15M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAT3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA61A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAm5A/MAAAAA==" TravelTime="P0DT1H15M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAT3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA81A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA72A/MAAAAA==" Destination="DAC" Origin="CXB">
+                                <air:Option Key="lZ3f/KUqWDKAo5A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAw3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA+1A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAq5A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="8" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAw3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAA2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                        </air:FlightOptionsList>
+                    </air:AirPricingInfo>
+                    <air:AirPricingInfo Key="lZ3f/KUqWDKAs5A/MAAAAA==" TotalPrice="INR6904" BasePrice="BDT7986" ApproximateTotalPrice="INR6904" ApproximateBasePrice="INR5660" EquivalentBasePrice="INR5660" Taxes="INR1244" LatestTicketingTime="2024-11-01T23:59:00.000+06:00" PricingMethod="GuaranteedUsingAirlinePrivateFare" Refundable="true" ETicketability="Yes" PlatingCarrier="BG" ProviderCode="1G" Cat35Indicator="false">
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAT3A/MAAAAA=="/>
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAw3A/MAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="INR36" Key="lZ3f/KUqWDKAt5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="OW" Amount="INR710" Key="lZ3f/KUqWDKAu5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P7" Amount="INR142" Key="lZ3f/KUqWDKAv5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P8" Amount="INR100" Key="lZ3f/KUqWDKAw5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="UT" Amount="INR142" Key="lZ3f/KUqWDKAx5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="E5" Amount="INR42" Key="lZ3f/KUqWDKAy5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="YQ" Amount="INR72" Key="lZ3f/KUqWDKAz5A/MAAAAAAA"/>
+                        <air:FareCalc>DAC BG CXB 3993TDACFR/CH25 BG DAC 3993TDACFR/CH25 BDT7986END</air:FareCalc>
+                        <air:PassengerType Code="CNN" Age="8"/>
+                        <air:ChangePenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:CancelPenalty>
+                        <air:FlightOptionsList>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA42A/MAAAAA==" Destination="CXB" Origin="DAC">
+                                <air:Option Key="lZ3f/KUqWDKA05A/MAAAAA==" TravelTime="P0DT1H15M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAT3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA61A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKA25A/MAAAAA==" TravelTime="P0DT1H15M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAT3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA81A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA72A/MAAAAA==" Destination="DAC" Origin="CXB">
+                                <air:Option Key="lZ3f/KUqWDKA45A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAw3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA+1A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKA65A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="8" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAw3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAA2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                        </air:FlightOptionsList>
+                    </air:AirPricingInfo>
+                </air:AirPricePoint>
+                <air:AirPricePoint Key="lZ3f/KUqWDKA85A/MAAAAA==" TotalPrice="INR32660" BasePrice="BDT38668" ApproximateTotalPrice="INR32660" ApproximateBasePrice="INR27400" EquivalentBasePrice="INR27400" Taxes="INR5260" ApproximateTaxes="INR5260" CompleteItinerary="true">
+                    <air:AirPricingInfo Key="lZ3f/KUqWDKAA4A/MAAAAA==" TotalPrice="INR9216" BasePrice="BDT11048" ApproximateTotalPrice="INR9216" ApproximateBasePrice="INR7830" EquivalentBasePrice="INR7830" Taxes="INR1386" LatestTicketingTime="2024-11-02T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="BS" ProviderCode="1G" Cat35Indicator="false">
+                        <air:FareInfoRef Key="lZ3f/KUqWDKA/3A/MAAAAA=="/>
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAI4A/MAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="INR36" Key="lZ3f/KUqWDKAB4A/MAAAAAAA"/>
+                        <air:TaxInfo Category="OW" Amount="INR710" Key="lZ3f/KUqWDKAC4A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P7" Amount="INR142" Key="lZ3f/KUqWDKAD4A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P8" Amount="INR100" Key="lZ3f/KUqWDKAE4A/MAAAAAAA"/>
+                        <air:TaxInfo Category="UT" Amount="INR284" Key="lZ3f/KUqWDKAF4A/MAAAAAAA"/>
+                        <air:TaxInfo Category="E5" Amount="INR42" Key="lZ3f/KUqWDKAG4A/MAAAAAAA"/>
+                        <air:TaxInfo Category="YQ" Amount="INR72" Key="lZ3f/KUqWDKAH4A/MAAAAAAA"/>
+                        <air:FareCalc>DAC BS CXB 5524TDOM6M BS DAC 5524TDOM6M BDT11048END</air:FareCalc>
+                        <air:PassengerType Code="ADT"/>
+                        <air:PassengerType Code="ADT"/>
+                        <air:ChangePenalty PenaltyApplies="Anytime">
+                            <air:Amount>INR1416.0</air:Amount>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty PenaltyApplies="Anytime">
+                            <air:Amount>INR1416.0</air:Amount>
+                        </air:CancelPenalty>
+                        <air:FlightOptionsList>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA42A/MAAAAA==" Destination="CXB" Origin="DAC">
+                                <air:Option Key="lZ3f/KUqWDKAJ4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKA/3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAC2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAL4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKA/3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAE2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAN4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKA/3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAG2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAP4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKA/3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAI2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAR4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKA/3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAK2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAT4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKA/3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAM2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAV4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKA/3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAO2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA72A/MAAAAA==" Destination="DAC" Origin="CXB">
+                                <air:Option Key="lZ3f/KUqWDKAX4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAI4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAQ2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAZ4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAI4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAS2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAb4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAI4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAU2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAd4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAI4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAW2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAf4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAI4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAY2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAh4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAI4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAa2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAj4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAI4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAc2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                        </air:FlightOptionsList>
+                    </air:AirPricingInfo>
+                    <air:AirPricingInfo Key="lZ3f/KUqWDKA95A/MAAAAA==" TotalPrice="INR7114" BasePrice="BDT8286" ApproximateTotalPrice="INR7114" ApproximateBasePrice="INR5870" EquivalentBasePrice="INR5870" Taxes="INR1244" LatestTicketingTime="2024-11-02T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="BS" ProviderCode="1G" Cat35Indicator="false">
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAl4A/MAAAAA=="/>
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAu4A/MAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="INR36" Key="lZ3f/KUqWDKA-5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="OW" Amount="INR710" Key="lZ3f/KUqWDKA/5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P7" Amount="INR142" Key="lZ3f/KUqWDKAA6A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P8" Amount="INR100" Key="lZ3f/KUqWDKAB6A/MAAAAAAA"/>
+                        <air:TaxInfo Category="UT" Amount="INR142" Key="lZ3f/KUqWDKAC6A/MAAAAAAA"/>
+                        <air:TaxInfo Category="E5" Amount="INR42" Key="lZ3f/KUqWDKAD6A/MAAAAAAA"/>
+                        <air:TaxInfo Category="YQ" Amount="INR72" Key="lZ3f/KUqWDKAE6A/MAAAAAAA"/>
+                        <air:FareCalc>DAC BS CXB 4143TDOM6M/CH25 BS DAC 4143TDOM6M/CH25 BDT8286END</air:FareCalc>
+                        <air:PassengerType Code="CNN" Age="10"/>
+                        <air:ChangePenalty PenaltyApplies="Anytime">
+                            <air:Amount>INR1416.0</air:Amount>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty PenaltyApplies="Anytime">
+                            <air:Amount>INR1416.0</air:Amount>
+                        </air:CancelPenalty>
+                        <air:FlightOptionsList>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA42A/MAAAAA==" Destination="CXB" Origin="DAC">
+                                <air:Option Key="lZ3f/KUqWDKAF6A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAC2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAH6A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAE2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAJ6A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAG2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAL6A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAI2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAN6A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAK2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAP6A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAM2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAR6A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAO2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA72A/MAAAAA==" Destination="DAC" Origin="CXB">
+                                <air:Option Key="lZ3f/KUqWDKAT6A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAu4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAQ2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAV6A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAu4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAS2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAX6A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAu4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAU2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAZ6A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAu4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAW2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAb6A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAu4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAY2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAd6A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAu4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAa2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAf6A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAu4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAc2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                        </air:FlightOptionsList>
+                    </air:AirPricingInfo>
+                    <air:AirPricingInfo Key="lZ3f/KUqWDKAm4A/MAAAAA==" TotalPrice="INR7114" BasePrice="BDT8286" ApproximateTotalPrice="INR7114" ApproximateBasePrice="INR5870" EquivalentBasePrice="INR5870" Taxes="INR1244" LatestTicketingTime="2024-11-02T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="BS" ProviderCode="1G" Cat35Indicator="false">
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAl4A/MAAAAA=="/>
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAu4A/MAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="INR36" Key="lZ3f/KUqWDKAn4A/MAAAAAAA"/>
+                        <air:TaxInfo Category="OW" Amount="INR710" Key="lZ3f/KUqWDKAo4A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P7" Amount="INR142" Key="lZ3f/KUqWDKAp4A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P8" Amount="INR100" Key="lZ3f/KUqWDKAq4A/MAAAAAAA"/>
+                        <air:TaxInfo Category="UT" Amount="INR142" Key="lZ3f/KUqWDKAr4A/MAAAAAAA"/>
+                        <air:TaxInfo Category="E5" Amount="INR42" Key="lZ3f/KUqWDKAs4A/MAAAAAAA"/>
+                        <air:TaxInfo Category="YQ" Amount="INR72" Key="lZ3f/KUqWDKAt4A/MAAAAAAA"/>
+                        <air:FareCalc>DAC BS CXB 4143TDOM6M/CH25 BS DAC 4143TDOM6M/CH25 BDT8286END</air:FareCalc>
+                        <air:PassengerType Code="CNN" Age="8"/>
+                        <air:ChangePenalty PenaltyApplies="Anytime">
+                            <air:Amount>INR1416.0</air:Amount>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty PenaltyApplies="Anytime">
+                            <air:Amount>INR1416.0</air:Amount>
+                        </air:CancelPenalty>
+                        <air:FlightOptionsList>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA42A/MAAAAA==" Destination="CXB" Origin="DAC">
+                                <air:Option Key="lZ3f/KUqWDKAv4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAC2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAx4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAE2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAz4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAG2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKA14A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAI2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKA34A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAK2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKA54A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAM2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKA74A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAO2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA72A/MAAAAA==" Destination="DAC" Origin="CXB">
+                                <air:Option Key="lZ3f/KUqWDKA94A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAu4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAQ2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKA/4A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAu4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAS2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAB5A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAu4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAU2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAD5A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAu4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAW2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAF5A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAu4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAY2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAH5A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAu4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAa2A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAJ5A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAu4A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAc2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                        </air:FlightOptionsList>
+                    </air:AirPricingInfo>
+                </air:AirPricePoint>
+                <air:AirPricePoint Key="lZ3f/KUqWDKAh6A/MAAAAA==" TotalPrice="INR34030" BasePrice="BDT40596" ApproximateTotalPrice="INR34030" ApproximateBasePrice="INR28770" EquivalentBasePrice="INR28770" Taxes="INR5260" ApproximateTaxes="INR5260" CompleteItinerary="true">
+                    <air:AirPricingInfo Key="lZ3f/KUqWDKAk2A/MAAAAA==" TotalPrice="INR9606" BasePrice="BDT11599" ApproximateTotalPrice="INR9606" ApproximateBasePrice="INR8220" EquivalentBasePrice="INR8220" Taxes="INR1386" LatestTicketingTime="2024-11-01T23:59:00.000+06:00" PricingMethod="GuaranteedUsingAirlinePrivateFare" Refundable="true" ETicketability="Yes" PlatingCarrier="BG" ProviderCode="1G" Cat35Indicator="false">
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAj2A/MAAAAA=="/>
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAs2A/MAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="INR36" Key="lZ3f/KUqWDKAl2A/MAAAAAAA"/>
+                        <air:TaxInfo Category="OW" Amount="INR710" Key="lZ3f/KUqWDKAm2A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P7" Amount="INR142" Key="lZ3f/KUqWDKAn2A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P8" Amount="INR100" Key="lZ3f/KUqWDKAo2A/MAAAAAAA"/>
+                        <air:TaxInfo Category="UT" Amount="INR284" Key="lZ3f/KUqWDKAp2A/MAAAAAAA"/>
+                        <air:TaxInfo Category="E5" Amount="INR42" Key="lZ3f/KUqWDKAq2A/MAAAAAAA"/>
+                        <air:TaxInfo Category="YQ" Amount="INR72" Key="lZ3f/KUqWDKAr2A/MAAAAAAA"/>
+                        <air:FareCalc>DAC BG CXB 5324TDACFR BG DAC 6275OSPDFR BDT11599END</air:FareCalc>
+                        <air:PassengerType Code="ADT"/>
+                        <air:PassengerType Code="ADT"/>
+                        <air:ChangePenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:CancelPenalty>
+                        <air:FlightOptionsList>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA42A/MAAAAA==" Destination="CXB" Origin="DAC">
+                                <air:Option Key="lZ3f/KUqWDKA82A/MAAAAA==" TravelTime="P0DT1H15M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAj2A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA61A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKA+2A/MAAAAA==" TravelTime="P0DT1H15M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAj2A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA81A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA72A/MAAAAA==" Destination="DAC" Origin="CXB">
+                                <air:Option Key="lZ3f/KUqWDKAA3A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="O" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAs2A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAe2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                        </air:FlightOptionsList>
+                    </air:AirPricingInfo>
+                    <air:AirPricingInfo Key="lZ3f/KUqWDKAi6A/MAAAAA==" TotalPrice="INR7409" BasePrice="BDT8699" ApproximateTotalPrice="INR7409" ApproximateBasePrice="INR6165" EquivalentBasePrice="INR6165" Taxes="INR1244" LatestTicketingTime="2024-11-01T23:59:00.000+06:00" PricingMethod="GuaranteedUsingAirlinePrivateFare" Refundable="true" ETicketability="Yes" PlatingCarrier="BG" ProviderCode="1G" Cat35Indicator="false">
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAT3A/MAAAAA=="/>
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAc3A/MAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="INR36" Key="lZ3f/KUqWDKAj6A/MAAAAAAA"/>
+                        <air:TaxInfo Category="OW" Amount="INR710" Key="lZ3f/KUqWDKAk6A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P7" Amount="INR142" Key="lZ3f/KUqWDKAl6A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P8" Amount="INR100" Key="lZ3f/KUqWDKAm6A/MAAAAAAA"/>
+                        <air:TaxInfo Category="UT" Amount="INR142" Key="lZ3f/KUqWDKAn6A/MAAAAAAA"/>
+                        <air:TaxInfo Category="E5" Amount="INR42" Key="lZ3f/KUqWDKAo6A/MAAAAAAA"/>
+                        <air:TaxInfo Category="YQ" Amount="INR72" Key="lZ3f/KUqWDKAp6A/MAAAAAAA"/>
+                        <air:FareCalc>DAC BG CXB 3993TDACFR/CH25 BG DAC 4706OSPDFR/CH25 BDT8699END</air:FareCalc>
+                        <air:PassengerType Code="CNN" Age="10"/>
+                        <air:ChangePenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:CancelPenalty>
+                        <air:FlightOptionsList>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA42A/MAAAAA==" Destination="CXB" Origin="DAC">
+                                <air:Option Key="lZ3f/KUqWDKAq6A/MAAAAA==" TravelTime="P0DT1H15M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAT3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA61A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAs6A/MAAAAA==" TravelTime="P0DT1H15M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAT3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA81A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA72A/MAAAAA==" Destination="DAC" Origin="CXB">
+                                <air:Option Key="lZ3f/KUqWDKAu6A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="O" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAc3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAe2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                        </air:FlightOptionsList>
+                    </air:AirPricingInfo>
+                    <air:AirPricingInfo Key="lZ3f/KUqWDKAU3A/MAAAAA==" TotalPrice="INR7409" BasePrice="BDT8699" ApproximateTotalPrice="INR7409" ApproximateBasePrice="INR6165" EquivalentBasePrice="INR6165" Taxes="INR1244" LatestTicketingTime="2024-11-01T23:59:00.000+06:00" PricingMethod="GuaranteedUsingAirlinePrivateFare" Refundable="true" ETicketability="Yes" PlatingCarrier="BG" ProviderCode="1G" Cat35Indicator="false">
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAT3A/MAAAAA=="/>
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAc3A/MAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="INR36" Key="lZ3f/KUqWDKAV3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="OW" Amount="INR710" Key="lZ3f/KUqWDKAW3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P7" Amount="INR142" Key="lZ3f/KUqWDKAX3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P8" Amount="INR100" Key="lZ3f/KUqWDKAY3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="UT" Amount="INR142" Key="lZ3f/KUqWDKAZ3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="E5" Amount="INR42" Key="lZ3f/KUqWDKAa3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="YQ" Amount="INR72" Key="lZ3f/KUqWDKAb3A/MAAAAAAA"/>
+                        <air:FareCalc>DAC BG CXB 3993TDACFR/CH25 BG DAC 4706OSPDFR/CH25 BDT8699END</air:FareCalc>
+                        <air:PassengerType Code="CNN" Age="8"/>
+                        <air:ChangePenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:CancelPenalty>
+                        <air:FlightOptionsList>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA42A/MAAAAA==" Destination="CXB" Origin="DAC">
+                                <air:Option Key="lZ3f/KUqWDKAq3A/MAAAAA==" TravelTime="P0DT1H15M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAT3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA61A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAs3A/MAAAAA==" TravelTime="P0DT1H15M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAT3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA81A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA72A/MAAAAA==" Destination="DAC" Origin="CXB">
+                                <air:Option Key="lZ3f/KUqWDKAu3A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="O" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAc3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAe2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                        </air:FlightOptionsList>
+                    </air:AirPricingInfo>
+                </air:AirPricePoint>
+                <air:AirPricePoint Key="lZ3f/KUqWDKAw6A/MAAAAA==" TotalPrice="INR34030" BasePrice="BDT40598" ApproximateTotalPrice="INR34030" ApproximateBasePrice="INR28770" EquivalentBasePrice="INR28770" Taxes="INR5260" ApproximateTaxes="INR5260" CompleteItinerary="true">
+                    <air:AirPricingInfo Key="lZ3f/KUqWDKAM5A/MAAAAA==" TotalPrice="INR9606" BasePrice="BDT11599" ApproximateTotalPrice="INR9606" ApproximateBasePrice="INR8220" EquivalentBasePrice="INR8220" Taxes="INR1386" LatestTicketingTime="2024-11-01T23:59:00.000+06:00" PricingMethod="GuaranteedUsingAirlinePrivateFare" Refundable="true" ETicketability="Yes" PlatingCarrier="BG" ProviderCode="1G" Cat35Indicator="false">
+                        <air:FareInfoRef Key="lZ3f/KUqWDKA12A/MAAAAA=="/>
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAL5A/MAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="INR36" Key="lZ3f/KUqWDKAN5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="OW" Amount="INR710" Key="lZ3f/KUqWDKAO5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P7" Amount="INR142" Key="lZ3f/KUqWDKAP5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P8" Amount="INR100" Key="lZ3f/KUqWDKAQ5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="UT" Amount="INR284" Key="lZ3f/KUqWDKAR5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="E5" Amount="INR42" Key="lZ3f/KUqWDKAS5A/MAAAAAAA"/>
+                        <air:TaxInfo Category="YQ" Amount="INR72" Key="lZ3f/KUqWDKAT5A/MAAAAAAA"/>
+                        <air:FareCalc>DAC BG CXB 6275OSPDFR BG DAC 5324TDACFR BDT11599END</air:FareCalc>
+                        <air:PassengerType Code="ADT"/>
+                        <air:PassengerType Code="ADT"/>
+                        <air:ChangePenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:CancelPenalty>
+                        <air:FlightOptionsList>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA42A/MAAAAA==" Destination="CXB" Origin="DAC">
+                                <air:Option Key="lZ3f/KUqWDKAU5A/MAAAAA==" TravelTime="P0DT2H50M0S">
+                                    <air:BookingInfo BookingCode="O" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKA12A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAg2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA72A/MAAAAA==" Destination="DAC" Origin="CXB">
+                                <air:Option Key="lZ3f/KUqWDKAW5A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAL5A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA+1A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKAY5A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="8" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAL5A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAA2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                        </air:FlightOptionsList>
+                    </air:AirPricingInfo>
+                    <air:AirPricingInfo Key="lZ3f/KUqWDKAx6A/MAAAAA==" TotalPrice="INR7409" BasePrice="BDT8700" ApproximateTotalPrice="INR7409" ApproximateBasePrice="INR6165" EquivalentBasePrice="INR6165" Taxes="INR1244" LatestTicketingTime="2024-11-01T23:59:00.000+06:00" PricingMethod="GuaranteedUsingAirlinePrivateFare" Refundable="true" ETicketability="Yes" PlatingCarrier="BG" ProviderCode="1G" Cat35Indicator="false">
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAl3A/MAAAAA=="/>
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAw3A/MAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="INR36" Key="lZ3f/KUqWDKAy6A/MAAAAAAA"/>
+                        <air:TaxInfo Category="OW" Amount="INR710" Key="lZ3f/KUqWDKAz6A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P7" Amount="INR142" Key="lZ3f/KUqWDKA06A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P8" Amount="INR100" Key="lZ3f/KUqWDKA16A/MAAAAAAA"/>
+                        <air:TaxInfo Category="UT" Amount="INR142" Key="lZ3f/KUqWDKA26A/MAAAAAAA"/>
+                        <air:TaxInfo Category="E5" Amount="INR42" Key="lZ3f/KUqWDKA36A/MAAAAAAA"/>
+                        <air:TaxInfo Category="YQ" Amount="INR72" Key="lZ3f/KUqWDKA46A/MAAAAAAA"/>
+                        <air:FareCalc>DAC BG CXB 4707OSPDFR/CH25 BG DAC 3993TDACFR/CH25 BDT8700END</air:FareCalc>
+                        <air:PassengerType Code="CNN" Age="10"/>
+                        <air:ChangePenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:CancelPenalty>
+                        <air:FlightOptionsList>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA42A/MAAAAA==" Destination="CXB" Origin="DAC">
+                                <air:Option Key="lZ3f/KUqWDKA56A/MAAAAA==" TravelTime="P0DT2H50M0S">
+                                    <air:BookingInfo BookingCode="O" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAg2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA72A/MAAAAA==" Destination="DAC" Origin="CXB">
+                                <air:Option Key="lZ3f/KUqWDKA76A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAw3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA+1A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKA96A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="8" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAw3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAA2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                        </air:FlightOptionsList>
+                    </air:AirPricingInfo>
+                    <air:AirPricingInfo Key="lZ3f/KUqWDKAx3A/MAAAAA==" TotalPrice="INR7409" BasePrice="BDT8700" ApproximateTotalPrice="INR7409" ApproximateBasePrice="INR6165" EquivalentBasePrice="INR6165" Taxes="INR1244" LatestTicketingTime="2024-11-01T23:59:00.000+06:00" PricingMethod="GuaranteedUsingAirlinePrivateFare" Refundable="true" ETicketability="Yes" PlatingCarrier="BG" ProviderCode="1G" Cat35Indicator="false">
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAl3A/MAAAAA=="/>
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAw3A/MAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="INR36" Key="lZ3f/KUqWDKAy3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="OW" Amount="INR710" Key="lZ3f/KUqWDKAz3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P7" Amount="INR142" Key="lZ3f/KUqWDKA03A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P8" Amount="INR100" Key="lZ3f/KUqWDKA13A/MAAAAAAA"/>
+                        <air:TaxInfo Category="UT" Amount="INR142" Key="lZ3f/KUqWDKA23A/MAAAAAAA"/>
+                        <air:TaxInfo Category="E5" Amount="INR42" Key="lZ3f/KUqWDKA33A/MAAAAAAA"/>
+                        <air:TaxInfo Category="YQ" Amount="INR72" Key="lZ3f/KUqWDKA43A/MAAAAAAA"/>
+                        <air:FareCalc>DAC BG CXB 4707OSPDFR/CH25 BG DAC 3993TDACFR/CH25 BDT8700END</air:FareCalc>
+                        <air:PassengerType Code="CNN" Age="8"/>
+                        <air:ChangePenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:CancelPenalty>
+                        <air:FlightOptionsList>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA42A/MAAAAA==" Destination="CXB" Origin="DAC">
+                                <air:Option Key="lZ3f/KUqWDKA53A/MAAAAA==" TravelTime="P0DT2H50M0S">
+                                    <air:BookingInfo BookingCode="O" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAg2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA72A/MAAAAA==" Destination="DAC" Origin="CXB">
+                                <air:Option Key="lZ3f/KUqWDKA73A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAw3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKA+1A/MAAAAA=="/>
+                                </air:Option>
+                                <air:Option Key="lZ3f/KUqWDKA93A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="T" BookingCount="8" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAw3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAA2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                        </air:FlightOptionsList>
+                    </air:AirPricingInfo>
+                </air:AirPricePoint>
+                <air:AirPricePoint Key="lZ3f/KUqWDKA/6A/MAAAAA==" TotalPrice="INR36380" BasePrice="BDT43926" ApproximateTotalPrice="INR36380" ApproximateBasePrice="INR31120" EquivalentBasePrice="INR31120" Taxes="INR5260" ApproximateTaxes="INR5260" CompleteItinerary="true">
+                    <air:AirPricingInfo Key="lZ3f/KUqWDKAt2A/MAAAAA==" TotalPrice="INR10276" BasePrice="BDT12550" ApproximateTotalPrice="INR10276" ApproximateBasePrice="INR8890" EquivalentBasePrice="INR8890" Taxes="INR1386" LatestTicketingTime="2024-11-01T23:59:00.000+06:00" PricingMethod="GuaranteedUsingAirlinePrivateFare" Refundable="true" ETicketability="Yes" PlatingCarrier="BG" ProviderCode="1G" Cat35Indicator="false">
+                        <air:FareInfoRef Key="lZ3f/KUqWDKA12A/MAAAAA=="/>
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAs2A/MAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="INR36" Key="lZ3f/KUqWDKAu2A/MAAAAAAA"/>
+                        <air:TaxInfo Category="OW" Amount="INR710" Key="lZ3f/KUqWDKAv2A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P7" Amount="INR142" Key="lZ3f/KUqWDKAw2A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P8" Amount="INR100" Key="lZ3f/KUqWDKAx2A/MAAAAAAA"/>
+                        <air:TaxInfo Category="UT" Amount="INR284" Key="lZ3f/KUqWDKAy2A/MAAAAAAA"/>
+                        <air:TaxInfo Category="E5" Amount="INR42" Key="lZ3f/KUqWDKAz2A/MAAAAAAA"/>
+                        <air:TaxInfo Category="YQ" Amount="INR72" Key="lZ3f/KUqWDKA02A/MAAAAAAA"/>
+                        <air:FareCalc>DAC BG CXB 6275OSPDFR BG DAC 6275OSPDFR BDT12550END</air:FareCalc>
+                        <air:PassengerType Code="ADT"/>
+                        <air:PassengerType Code="ADT"/>
+                        <air:ChangePenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:CancelPenalty>
+                        <air:FlightOptionsList>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA42A/MAAAAA==" Destination="CXB" Origin="DAC">
+                                <air:Option Key="lZ3f/KUqWDKA22A/MAAAAA==" TravelTime="P0DT2H50M0S">
+                                    <air:BookingInfo BookingCode="O" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKA12A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAg2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA72A/MAAAAA==" Destination="DAC" Origin="CXB">
+                                <air:Option Key="lZ3f/KUqWDKA52A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="O" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAs2A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAe2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                        </air:FlightOptionsList>
+                    </air:AirPricingInfo>
+                    <air:AirPricingInfo Key="lZ3f/KUqWDKAA7A/MAAAAA==" TotalPrice="INR7914" BasePrice="BDT9413" ApproximateTotalPrice="INR7914" ApproximateBasePrice="INR6670" EquivalentBasePrice="INR6670" Taxes="INR1244" LatestTicketingTime="2024-11-01T23:59:00.000+06:00" PricingMethod="GuaranteedUsingAirlinePrivateFare" Refundable="true" ETicketability="Yes" PlatingCarrier="BG" ProviderCode="1G" Cat35Indicator="false">
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAl3A/MAAAAA=="/>
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAc3A/MAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="INR36" Key="lZ3f/KUqWDKAB7A/MAAAAAAA"/>
+                        <air:TaxInfo Category="OW" Amount="INR710" Key="lZ3f/KUqWDKAC7A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P7" Amount="INR142" Key="lZ3f/KUqWDKAD7A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P8" Amount="INR100" Key="lZ3f/KUqWDKAE7A/MAAAAAAA"/>
+                        <air:TaxInfo Category="UT" Amount="INR142" Key="lZ3f/KUqWDKAF7A/MAAAAAAA"/>
+                        <air:TaxInfo Category="E5" Amount="INR42" Key="lZ3f/KUqWDKAG7A/MAAAAAAA"/>
+                        <air:TaxInfo Category="YQ" Amount="INR72" Key="lZ3f/KUqWDKAH7A/MAAAAAAA"/>
+                        <air:FareCalc>DAC BG CXB 4707OSPDFR/CH25 BG DAC 4706OSPDFR/CH25 BDT9413END</air:FareCalc>
+                        <air:PassengerType Code="CNN" Age="10"/>
+                        <air:ChangePenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:CancelPenalty>
+                        <air:FlightOptionsList>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA42A/MAAAAA==" Destination="CXB" Origin="DAC">
+                                <air:Option Key="lZ3f/KUqWDKAI7A/MAAAAA==" TravelTime="P0DT2H50M0S">
+                                    <air:BookingInfo BookingCode="O" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAg2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA72A/MAAAAA==" Destination="DAC" Origin="CXB">
+                                <air:Option Key="lZ3f/KUqWDKAK7A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="O" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAc3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAe2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                        </air:FlightOptionsList>
+                    </air:AirPricingInfo>
+                    <air:AirPricingInfo Key="lZ3f/KUqWDKAd3A/MAAAAA==" TotalPrice="INR7914" BasePrice="BDT9413" ApproximateTotalPrice="INR7914" ApproximateBasePrice="INR6670" EquivalentBasePrice="INR6670" Taxes="INR1244" LatestTicketingTime="2024-11-01T23:59:00.000+06:00" PricingMethod="GuaranteedUsingAirlinePrivateFare" Refundable="true" ETicketability="Yes" PlatingCarrier="BG" ProviderCode="1G" Cat35Indicator="false">
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAl3A/MAAAAA=="/>
+                        <air:FareInfoRef Key="lZ3f/KUqWDKAc3A/MAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="INR36" Key="lZ3f/KUqWDKAe3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="OW" Amount="INR710" Key="lZ3f/KUqWDKAf3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P7" Amount="INR142" Key="lZ3f/KUqWDKAg3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="P8" Amount="INR100" Key="lZ3f/KUqWDKAh3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="UT" Amount="INR142" Key="lZ3f/KUqWDKAi3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="E5" Amount="INR42" Key="lZ3f/KUqWDKAj3A/MAAAAAAA"/>
+                        <air:TaxInfo Category="YQ" Amount="INR72" Key="lZ3f/KUqWDKAk3A/MAAAAAAA"/>
+                        <air:FareCalc>DAC BG CXB 4707OSPDFR/CH25 BG DAC 4706OSPDFR/CH25 BDT9413END</air:FareCalc>
+                        <air:PassengerType Code="CNN" Age="8"/>
+                        <air:ChangePenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty>
+                            <air:Percentage>0.00</air:Percentage>
+                        </air:CancelPenalty>
+                        <air:FlightOptionsList>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA42A/MAAAAA==" Destination="CXB" Origin="DAC">
+                                <air:Option Key="lZ3f/KUqWDKAm3A/MAAAAA==" TravelTime="P0DT2H50M0S">
+                                    <air:BookingInfo BookingCode="O" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAl3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAg2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                            <air:FlightOption LegRef="lZ3f/KUqWDKA72A/MAAAAA==" Destination="DAC" Origin="CXB">
+                                <air:Option Key="lZ3f/KUqWDKAo3A/MAAAAA==" TravelTime="P0DT1H5M0S">
+                                    <air:BookingInfo BookingCode="O" BookingCount="9" CabinClass="Economy" FareInfoRef="lZ3f/KUqWDKAc3A/MAAAAA==" SegmentRef="lZ3f/KUqWDKAe2A/MAAAAA=="/>
+                                </air:Option>
+                            </air:FlightOption>
+                        </air:FlightOptionsList>
+                    </air:AirPricingInfo>
+                </air:AirPricePoint>
+            </air:AirPricePointList>
+            <air:BrandList>
+                <air:Brand Key="lZ3f/KUqWDKAn7A/MAAAAA==" BrandID="1218978" Name="ECONOMY SAVER" BrandedDetailsAvailable="true" Carrier="BS">
+                    <air:Title Type="External" LanguageCode="EN">Economy Saver</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">ESAVER</air:Title>
+                    <air:Text Type="Upsell" LanguageCode="EN">Get the most competitive fares in the market including -</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">- Free Carry on baggage 1x7Kg within (35x22x15 cm).
+- Free Check-in baggage 1x20Kg within (100x60x40 cm).
+- Complementary Light Snacks.
+- Earn 50% Frequent Flyer Mileage.</air:Text>
+                    <air:Text Type="Strapline" LanguageCode="EN">Economy Saver</air:Text>
+                    <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/usbanglaairlines/BS_general_small_382289.png</air:ImageLocation>
+                    <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/usbanglaairlines/BS_general_small_382286.png</air:ImageLocation>
+                </air:Brand>
+                <air:Brand Key="lZ3f/KUqWDKAp7A/MAAAAA==" BrandID="1380804" Name="Economy Class" BrandedDetailsAvailable="true" Carrier="BG">
+                    <air:Title Type="External" LanguageCode="EN">Economy Class</air:Title>
+                    <air:Title Type="Short" LanguageCode="EN">Economy Cl</air:Title>
+                    <air:Text Type="Upsell" LanguageCode="EN">Upgrade to Business Class can earn more Loyalty Mileage</air:Text>
+                    <air:Text Type="MarketingAgent" LanguageCode="EN">Benefits:
+- free hand baggage
+- free checked baggage 
+- Changes fee applicable
+- Cancel/Refund with charges
+- Earn Loyalty Mileage</air:Text>
+                    <air:Text Type="Strapline" LanguageCode="EN">Economy Class</air:Text>
+                    <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/bimanbangladeshairlines/BG_general_medium_4867.jpg</air:ImageLocation>
+                    <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/bimanbangladeshairlines/BG_general_medium_4867.jpg</air:ImageLocation>
+                </air:Brand>
+            </air:BrandList>
+        </air:LowFareSearchRsp>
+    </SOAP:Body>
+</SOAP:Envelope>

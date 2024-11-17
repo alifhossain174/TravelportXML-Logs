@@ -1,0 +1,2 @@
+Search: https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+Air Price Req: https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
