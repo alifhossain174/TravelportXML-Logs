@@ -5,6 +5,7 @@
                 <![CDATA[Taxes returned at the FareInfo level are for informational purposes only, and may differ from those returned at the Itinerary/Passenger Type levels.]]>
             </common_v52_0:ResponseMessage>
             <air:AirItinerary>
+
                 <air:AirSegment Key="nJ4ZwMSqWDKAxJx7BAAAAA==" Group="0" Carrier="KU" FlightNumber="284" ProviderCode="1G" Origin="DAC" Destination="KWI" DepartureTime="2024-12-18T02:45:00.000+06:00" ArrivalTime="2024-12-18T06:15:00.000+03:00" FlightTime="390" TravelTime="390" Distance="2635" ClassOfService="L" Equipment="77W" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
                     <air:CodeshareInfo OperatingCarrier="KU">KUWAIT AIRWAYS</air:CodeshareInfo>
                     <air:AirAvailInfo ProviderCode="1G"/>
@@ -18,6 +19,7 @@
                     </air:FlightDetails>
                     <air:Connection/>
                 </air:AirSegment>
+
                 <air:AirSegment Key="nJ4ZwMSqWDKAzJx7BAAAAA==" Group="0" Carrier="KU" FlightNumber="117" ProviderCode="1G" Origin="KWI" Destination="JFK" DepartureTime="2024-12-18T09:00:00.000+03:00" ArrivalTime="2024-12-18T14:20:00.000-05:00" FlightTime="800" TravelTime="800" Distance="6339" ClassOfService="L" Equipment="77W" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
                     <air:CodeshareInfo OperatingCarrier="KU">KUWAIT AIRWAYS</air:CodeshareInfo>
                     <air:AirAvailInfo ProviderCode="1G"/>
@@ -30,6 +32,7 @@
                         <air:InFlightServices>ADDITIONAL PASSENGER DATA REQUIRED</air:InFlightServices>
                     </air:FlightDetails>
                 </air:AirSegment>
+
                 <air:AirSegment Key="nJ4ZwMSqWDKA1Jx7BAAAAA==" Group="1" Carrier="KU" FlightNumber="118" ProviderCode="1G" Origin="JFK" Destination="KWI" DepartureTime="2024-12-22T17:00:00.000-05:00" ArrivalTime="2024-12-23T13:00:00.000+03:00" FlightTime="720" TravelTime="720" Distance="6339" ClassOfService="T" Equipment="77W" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
                     <air:CodeshareInfo OperatingCarrier="KU">KUWAIT AIRWAYS</air:CodeshareInfo>
                     <air:AirAvailInfo ProviderCode="1G"/>
@@ -42,6 +45,7 @@
                     </air:FlightDetails>
                     <air:Connection/>
                 </air:AirSegment>
+
                 <air:AirSegment Key="nJ4ZwMSqWDKA3Jx7BAAAAA==" Group="1" Carrier="KU" FlightNumber="283" ProviderCode="1G" Origin="KWI" Destination="DAC" DepartureTime="2024-12-23T17:00:00.000+03:00" ArrivalTime="2024-12-24T01:00:00.000+06:00" FlightTime="300" TravelTime="300" Distance="2635" ClassOfService="T" Equipment="77W" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
                     <air:CodeshareInfo OperatingCarrier="KU">KUWAIT AIRWAYS</air:CodeshareInfo>
                     <air:AirAvailInfo ProviderCode="1G"/>
@@ -53,7 +57,9 @@
                         <air:InFlightServices>ADDITIONAL PASSENGER DATA REQUIRED</air:InFlightServices>
                     </air:FlightDetails>
                 </air:AirSegment>
+
             </air:AirItinerary>
+
             <air:AirPriceResult>
                 <air:AirPricingSolution Key="nJ4ZwMSqWDKA5Jx7BAAAAA==" TotalPrice="BDT216439" BasePrice="USD1278.00" ApproximateTotalPrice="BDT216439" ApproximateBasePrice="BDT153335" EquivalentBasePrice="BDT153335" Taxes="BDT63104" Fees="BDT0" ApproximateTaxes="BDT63104" QuoteDate="2024-11-18">
                     <air:AirSegmentRef Key="nJ4ZwMSqWDKAxJx7BAAAAA=="/>
@@ -477,60 +483,60 @@
                 <air:FareRule FareInfoRef="nJ4ZwMSqWDKARKx7BAAAAA==" RuleNumber="BD01" Source="ATPCO" TariffNumber="001">
                     <air:FareRuleLong Category="0" Type="RULE">
                         <![CDATA[RULE - 001/BD01
-UNLESS OTHERWISE SPECIFIED
-KUWAIT AIRWAYS NFP FARES
-APPLICATION
-AREA
-THESE FARES APPLY
-BETWEEN AREA 3 AND AREA 1.
-CLASS OF SERVICE
-THESE FARES APPLY FOR FIRST/BUSINESS/ECONOMY CLASS
-SERVICE.
-TYPES OF TRANSPORTATION
-THIS RULE GOVERNS ONE-WAY AND ROUND-TRIP FARES.
-FARES GOVERNED BY THIS RULE CAN BE USED TO CREATE
-ONE-WAY/ROUND-TRIP/OPEN-JAW JOURNEYS.
-FULL AND SEQUENTIAL USE OF FLIGHT COUPONS-
-THE TICKET /OR ELECTRONIC TICKET/ IS NOT VALID IF
-THE FIRST COUPON HAS NOT BEEN USED AND WILL NOT
-BE HONORED IF ALL THE COUPONS ARE NOT USED IN THE
-SEQUENCE PROVIDED IN THE TICKET /OR ELECTRONIC
-TICKET/.
---------------------------------------------------
-PAX WILL BE DOWNGRADED TO NEXT LOWER CABIN IF NO
-FIRST CLASS IS OFFERED ON ANY OF THE LEG NO
-REFUND APPLICABLE FOR THE DOWNGRADE OF CABIN
-CAPACITY LIMITATIONS
-THE CARRIER SHALL LIMIT THE NUMBER OF PASSENGERS CARRIED
-ON ANY ONE FLIGHT AT FARES GOVERNED BY THIS RULE AND SUCH
-FARES WILL NOT NECESSARILY BE AVAILABLE ON ALL FLIGHTS.
-THE NUMBER OF SEATS WHICH THE CARRIER SHALL MAKE
-AVAILABLE ON A GIVEN FLIGHT WILL BE DETERMINED BY THE
-CARRIERS BEST JUDGMENT
-OTHER CONDITIONS
-ALL FARES ARE SUBJECT TO CHANGE OR WITHDRAWAL
-WITHOUT NOTICE.
-FARES ARE ONLY GUARANTEED IF AUTO-PRICED AND
-TICKETED IN GDS ON THE SAME DAY.
------------------------------------------------
-PASSENGER EXPENSES NOT PERMITTED.
---------------------------------------
-IF TRANSIT TIME AT KUWAIT AIRPORT EXCEEDS
-08HOURS STPC/HOTAC WILL BE ON PASSENGER COST.
----------------------------------------------
-JOURNEY BETWEEN DAC AND CGP/ZYL WILL BE PERFORMED
-ON KU-BUS SERVICE ONLY.
--------------------------------------------------
-PAX WILL BE DOWNGRADED TO NEXT LOWER CABIN IF
-NO FIRST CLASS IS OFFERED ON ANY OF THE LEG NO
-REFUND APPLICABLE FOR THE DOWNGRADE OF CABIN
---------------------------------------------------
-WHEN ITINERARY RESULTS IN A HIGHER FARE THE FARE
-DIFF WILL BE COLLECTED PLUS CHANGE FEE AND IF NEW
-ITINERARY RESULTS IN LOWER FARE THE CHANGE FEE
-WILL APPLY AND NO REFUND WILL BE MADE.
-ABOVE CHARGES APPLICABLE ONLY IF TKT IS REISSUED
-BEFORE DEPARTURE OF FLT]]>
+                        UNLESS OTHERWISE SPECIFIED
+                        KUWAIT AIRWAYS NFP FARES
+                        APPLICATION
+                        AREA
+                        THESE FARES APPLY
+                        BETWEEN AREA 3 AND AREA 1.
+                        CLASS OF SERVICE
+                        THESE FARES APPLY FOR FIRST/BUSINESS/ECONOMY CLASS
+                        SERVICE.
+                        TYPES OF TRANSPORTATION
+                        THIS RULE GOVERNS ONE-WAY AND ROUND-TRIP FARES.
+                        FARES GOVERNED BY THIS RULE CAN BE USED TO CREATE
+                        ONE-WAY/ROUND-TRIP/OPEN-JAW JOURNEYS.
+                        FULL AND SEQUENTIAL USE OF FLIGHT COUPONS-
+                        THE TICKET /OR ELECTRONIC TICKET/ IS NOT VALID IF
+                        THE FIRST COUPON HAS NOT BEEN USED AND WILL NOT
+                        BE HONORED IF ALL THE COUPONS ARE NOT USED IN THE
+                        SEQUENCE PROVIDED IN THE TICKET /OR ELECTRONIC
+                        TICKET/.
+                        --------------------------------------------------
+                        PAX WILL BE DOWNGRADED TO NEXT LOWER CABIN IF NO
+                        FIRST CLASS IS OFFERED ON ANY OF THE LEG NO
+                        REFUND APPLICABLE FOR THE DOWNGRADE OF CABIN
+                        CAPACITY LIMITATIONS
+                        THE CARRIER SHALL LIMIT THE NUMBER OF PASSENGERS CARRIED
+                        ON ANY ONE FLIGHT AT FARES GOVERNED BY THIS RULE AND SUCH
+                        FARES WILL NOT NECESSARILY BE AVAILABLE ON ALL FLIGHTS.
+                        THE NUMBER OF SEATS WHICH THE CARRIER SHALL MAKE
+                        AVAILABLE ON A GIVEN FLIGHT WILL BE DETERMINED BY THE
+                        CARRIERS BEST JUDGMENT
+                        OTHER CONDITIONS
+                        ALL FARES ARE SUBJECT TO CHANGE OR WITHDRAWAL
+                        WITHOUT NOTICE.
+                        FARES ARE ONLY GUARANTEED IF AUTO-PRICED AND
+                        TICKETED IN GDS ON THE SAME DAY.
+                        -----------------------------------------------
+                        PASSENGER EXPENSES NOT PERMITTED.
+                        --------------------------------------
+                        IF TRANSIT TIME AT KUWAIT AIRPORT EXCEEDS
+                        08HOURS STPC/HOTAC WILL BE ON PASSENGER COST.
+                        ---------------------------------------------
+                        JOURNEY BETWEEN DAC AND CGP/ZYL WILL BE PERFORMED
+                        ON KU-BUS SERVICE ONLY.
+                        -------------------------------------------------
+                        PAX WILL BE DOWNGRADED TO NEXT LOWER CABIN IF
+                        NO FIRST CLASS IS OFFERED ON ANY OF THE LEG NO
+                        REFUND APPLICABLE FOR THE DOWNGRADE OF CABIN
+                        --------------------------------------------------
+                        WHEN ITINERARY RESULTS IN A HIGHER FARE THE FARE
+                        DIFF WILL BE COLLECTED PLUS CHANGE FEE AND IF NEW
+                        ITINERARY RESULTS IN LOWER FARE THE CHANGE FEE
+                        WILL APPLY AND NO REFUND WILL BE MADE.
+                        ABOVE CHARGES APPLICABLE ONLY IF TKT IS REISSUED
+                        BEFORE DEPARTURE OF FLT]]>
                     </air:FareRuleLong>
                     <air:FareRuleLong Category="4" Type="RULE">
                         <![CDATA[BETWEEN DAC AND NYC
