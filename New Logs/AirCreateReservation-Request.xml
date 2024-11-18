@@ -97,7 +97,7 @@
                         Key="nJ4ZwMSqWDKA4Jx7BAAAAA==" />
                 </AirSegment>
 
-                <AirPricingInfo Key="nJ4ZwMSqWDKAAKx7BAAAAA==" TotalPrice="BDT105182" BasePrice="USD654.00" ApproximateTotalPrice="BDT105182" ApproximateBasePrice="BDT78467" EquivalentBasePrice="BDT78467" ApproximateTaxes="BDT26715" Taxes="BDT26715" LatestTicketingTime="2024-12-18T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                <AirPricingInfo Key="nJ4ZwMSqWDKAAKx7BAAAAA==" PlatingCarrier="KU" TotalPrice="BDT105182" BasePrice="USD654.00" ApproximateTotalPrice="BDT105182" ApproximateBasePrice="BDT78467" EquivalentBasePrice="BDT78467" ApproximateTaxes="BDT26715" Taxes="BDT26715" LatestTicketingTime="2024-12-18T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
                     <FareInfo Key="nJ4ZwMSqWDKARKx7BAAAAA==" FareBasis="LRTBD1" PassengerTypeCode="ADT" Origin="DAC" Destination="JFK" EffectiveDate="2024-11-18T12:08:00.000+06:00" DepartureDate="2024-12-18" Amount="BDT43444" NegotiatedFare="false" TourCode="DACT22" NotValidBefore="2024-12-18" NotValidAfter="2024-12-18" TaxAmount="BDT19800.00">
                         <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON KU ONLY/"/>
                         <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="NON END"/>
@@ -237,7 +237,7 @@
                         </CarryOnAllowanceInfo>
                     </BaggageAllowances>
                 </AirPricingInfo>
-                <AirPricingInfo Key="nJ4ZwMSqWDKAHLx7BAAAAA==" TotalPrice="BDT83945" BasePrice="USD502.00" ApproximateTotalPrice="BDT83945" ApproximateBasePrice="BDT60230" EquivalentBasePrice="BDT60230" ApproximateTaxes="BDT23715" Taxes="BDT23715" LatestTicketingTime="2024-12-18T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                <AirPricingInfo Key="nJ4ZwMSqWDKAHLx7BAAAAA==" PlatingCarrier="KU" TotalPrice="BDT83945" BasePrice="USD502.00" ApproximateTotalPrice="BDT83945" ApproximateBasePrice="BDT60230" EquivalentBasePrice="BDT60230" ApproximateTaxes="BDT23715" Taxes="BDT23715" LatestTicketingTime="2024-12-18T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
                     <FareInfo Key="nJ4ZwMSqWDKAYLx7BAAAAA==" FareBasis="LRTBD1" PassengerTypeCode="CNN" Origin="DAC" Destination="JFK" EffectiveDate="2024-11-18T12:08:00.000+06:00" DepartureDate="2024-12-18" Amount="BDT33951" NegotiatedFare="false" TourCode="DACT22" NotValidBefore="2024-12-18" NotValidAfter="2024-12-18" TaxAmount="BDT16805.00">
                         <FareTicketDesignator Value="CH25"/>
                         <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON KU ONLY/"/>
@@ -379,7 +379,7 @@
                         </CarryOnAllowanceInfo>
                     </BaggageAllowances>
                 </AirPricingInfo>
-                <AirPricingInfo Key="nJ4ZwMSqWDKAOMx7BAAAAA==" TotalPrice="BDT27312" BasePrice="USD122.00" ApproximateTotalPrice="BDT27312" ApproximateBasePrice="BDT14638" EquivalentBasePrice="BDT14638" ApproximateTaxes="BDT12674" Taxes="BDT12674" LatestTicketingTime="2024-12-18T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                <AirPricingInfo Key="nJ4ZwMSqWDKAOMx7BAAAAA==" PlatingCarrier="KU" TotalPrice="BDT27312" BasePrice="USD122.00" ApproximateTotalPrice="BDT27312" ApproximateBasePrice="BDT14638" EquivalentBasePrice="BDT14638" ApproximateTaxes="BDT12674" Taxes="BDT12674" LatestTicketingTime="2024-12-18T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
                     <FareInfo Key="nJ4ZwMSqWDKAaMx7BAAAAA==" FareBasis="LRTBD1" PassengerTypeCode="INF" Origin="DAC" Destination="JFK" EffectiveDate="2024-11-18T12:08:00.000+06:00" DepartureDate="2024-12-18" Amount="BDT7595" NegotiatedFare="false" TourCode="DACT22" NotValidBefore="2024-12-18" NotValidAfter="2024-12-18" TaxAmount="BDT8284.00">
                         <FareTicketDesignator Value="IN80"/>
                         <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON KU ONLY/"/>
@@ -495,8 +495,7 @@
                 <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="nJ4ZwMSqWDKA/Jx7BAAAAA==">GFB10303INF00  02TRTBD1         IN80                   0200030004#GFB200030302NINFV3001BD01005000079910047131649#GFMCXEX001NBD01DKU INFTRTBD1</HostToken>
 
             </AirPricingSolution>
-
-            <ActionStatus xmlns="http://www.travelport.com/schema/common_v52_0" Type="TAU" TicketDate="2024-12-25T23:59:00.000+06:00" ProviderCode="1G" />
+            <ActionStatus xmlns="http://www.travelport.com/schema/common_v52_0" Type="TAU" TicketDate="2024-12-15T23:59:00.000+06:00" ProviderCode="1G" />
         
         </AirCreateReservationReq>
     </s:Body>
