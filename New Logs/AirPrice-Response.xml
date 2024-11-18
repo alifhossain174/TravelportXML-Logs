@@ -1,0 +1,3366 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <air:AirPriceRsp xmlns:air="http://www.travelport.com/schema/air_v52_0" xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0"  TraceId="c8f38268010611bc23e5-01969005035" TransactionId="3DE347DB0A0D6A9202000F47925CD591" ResponseTime="1527">
+            <common_v52_0:ResponseMessage Code="710401" Type="Warning" ProviderCode="1G">
+                <![CDATA[Taxes returned at the FareInfo level are for informational purposes only, and may differ from those returned at the Itinerary/Passenger Type levels.]]>
+            </common_v52_0:ResponseMessage>
+            <air:AirItinerary>
+                <air:AirSegment Key="nJ4ZwMSqWDKAxJx7BAAAAA==" Group="0" Carrier="KU" FlightNumber="284" ProviderCode="1G" Origin="DAC" Destination="KWI" DepartureTime="2024-12-18T02:45:00.000+06:00" ArrivalTime="2024-12-18T06:15:00.000+03:00" FlightTime="390" TravelTime="390" Distance="2635" ClassOfService="L" Equipment="77W" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <air:CodeshareInfo OperatingCarrier="KU">KUWAIT AIRWAYS</air:CodeshareInfo>
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetails Key="nJ4ZwMSqWDKAyJx7BAAAAA==" Origin="DAC" Destination="KWI" DepartureTime="2024-12-18T02:45:00.000+06:00" ArrivalTime="2024-12-18T06:15:00.000+03:00" FlightTime="390" TravelTime="390" Equipment="77W" OriginTerminal="2" DestinationTerminal="4" AutomatedCheckin="false">
+                        <air:Meals>Breakfast</air:Meals>
+                        <air:Meals>Meal</air:Meals>
+                        <air:InFlightServices>Duty Free Sales</air:InFlightServices>
+                        <air:InFlightServices>Non-smoking</air:InFlightServices>
+                        <air:InFlightServices>Wi-Fi</air:InFlightServices>
+                        <air:InFlightServices>ADDITIONAL PASSENGER DATA REQUIRED</air:InFlightServices>
+                    </air:FlightDetails>
+                    <air:Connection/>
+                </air:AirSegment>
+                <air:AirSegment Key="nJ4ZwMSqWDKAzJx7BAAAAA==" Group="0" Carrier="KU" FlightNumber="117" ProviderCode="1G" Origin="KWI" Destination="JFK" DepartureTime="2024-12-18T09:00:00.000+03:00" ArrivalTime="2024-12-18T14:20:00.000-05:00" FlightTime="800" TravelTime="800" Distance="6339" ClassOfService="L" Equipment="77W" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <air:CodeshareInfo OperatingCarrier="KU">KUWAIT AIRWAYS</air:CodeshareInfo>
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetails Key="nJ4ZwMSqWDKA0Jx7BAAAAA==" Origin="KWI" Destination="JFK" DepartureTime="2024-12-18T09:00:00.000+03:00" ArrivalTime="2024-12-18T14:20:00.000-05:00" FlightTime="800" TravelTime="800" Equipment="77W" OriginTerminal="4" DestinationTerminal="7" AutomatedCheckin="false">
+                        <air:Meals>Breakfast</air:Meals>
+                        <air:Meals>Meal</air:Meals>
+                        <air:InFlightServices>Duty Free Sales</air:InFlightServices>
+                        <air:InFlightServices>Non-smoking</air:InFlightServices>
+                        <air:InFlightServices>Wi-Fi</air:InFlightServices>
+                        <air:InFlightServices>ADDITIONAL PASSENGER DATA REQUIRED</air:InFlightServices>
+                    </air:FlightDetails>
+                </air:AirSegment>
+                <air:AirSegment Key="nJ4ZwMSqWDKA1Jx7BAAAAA==" Group="1" Carrier="KU" FlightNumber="118" ProviderCode="1G" Origin="JFK" Destination="KWI" DepartureTime="2024-12-22T17:00:00.000-05:00" ArrivalTime="2024-12-23T13:00:00.000+03:00" FlightTime="720" TravelTime="720" Distance="6339" ClassOfService="T" Equipment="77W" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <air:CodeshareInfo OperatingCarrier="KU">KUWAIT AIRWAYS</air:CodeshareInfo>
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetails Key="nJ4ZwMSqWDKA2Jx7BAAAAA==" Origin="JFK" Destination="KWI" DepartureTime="2024-12-22T17:00:00.000-05:00" ArrivalTime="2024-12-23T13:00:00.000+03:00" FlightTime="720" TravelTime="720" Equipment="77W" OriginTerminal="7" DestinationTerminal="4" AutomatedCheckin="false">
+                        <air:Meals>Meal</air:Meals>
+                        <air:InFlightServices>Duty Free Sales</air:InFlightServices>
+                        <air:InFlightServices>Non-smoking</air:InFlightServices>
+                        <air:InFlightServices>Wi-Fi</air:InFlightServices>
+                        <air:InFlightServices>ADDITIONAL PASSENGER DATA REQUIRED</air:InFlightServices>
+                    </air:FlightDetails>
+                    <air:Connection/>
+                </air:AirSegment>
+                <air:AirSegment Key="nJ4ZwMSqWDKA3Jx7BAAAAA==" Group="1" Carrier="KU" FlightNumber="283" ProviderCode="1G" Origin="KWI" Destination="DAC" DepartureTime="2024-12-23T17:00:00.000+03:00" ArrivalTime="2024-12-24T01:00:00.000+06:00" FlightTime="300" TravelTime="300" Distance="2635" ClassOfService="T" Equipment="77W" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <air:CodeshareInfo OperatingCarrier="KU">KUWAIT AIRWAYS</air:CodeshareInfo>
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetails Key="nJ4ZwMSqWDKA4Jx7BAAAAA==" Origin="KWI" Destination="DAC" DepartureTime="2024-12-23T17:00:00.000+03:00" ArrivalTime="2024-12-24T01:00:00.000+06:00" FlightTime="300" TravelTime="300" Equipment="77W" OriginTerminal="4" DestinationTerminal="2" AutomatedCheckin="false">
+                        <air:Meals>Meal</air:Meals>
+                        <air:InFlightServices>Duty Free Sales</air:InFlightServices>
+                        <air:InFlightServices>Non-smoking</air:InFlightServices>
+                        <air:InFlightServices>Wi-Fi</air:InFlightServices>
+                        <air:InFlightServices>ADDITIONAL PASSENGER DATA REQUIRED</air:InFlightServices>
+                    </air:FlightDetails>
+                </air:AirSegment>
+            </air:AirItinerary>
+            <air:AirPriceResult>
+                <air:AirPricingSolution Key="nJ4ZwMSqWDKA5Jx7BAAAAA==" TotalPrice="BDT216439" BasePrice="USD1278.00" ApproximateTotalPrice="BDT216439" ApproximateBasePrice="BDT153335" EquivalentBasePrice="BDT153335" Taxes="BDT63104" Fees="BDT0" ApproximateTaxes="BDT63104" QuoteDate="2024-11-18">
+                    <air:AirSegmentRef Key="nJ4ZwMSqWDKAxJx7BAAAAA=="/>
+                    <air:AirSegmentRef Key="nJ4ZwMSqWDKAzJx7BAAAAA=="/>
+                    <air:AirSegmentRef Key="nJ4ZwMSqWDKA1Jx7BAAAAA=="/>
+                    <air:AirSegmentRef Key="nJ4ZwMSqWDKA3Jx7BAAAAA=="/>
+                    <air:AirPricingInfo Key="nJ4ZwMSqWDKAAKx7BAAAAA==" TotalPrice="BDT105182" BasePrice="USD654.00" ApproximateTotalPrice="BDT105182" ApproximateBasePrice="BDT78467" EquivalentBasePrice="BDT78467" ApproximateTaxes="BDT26715" Taxes="BDT26715" LatestTicketingTime="2024-12-18T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                        <air:FareInfo Key="nJ4ZwMSqWDKARKx7BAAAAA==" FareBasis="LRTBD1" PassengerTypeCode="ADT" Origin="DAC" Destination="JFK" EffectiveDate="2024-11-18T12:08:00.000+06:00" DepartureDate="2024-12-18" Amount="BDT43444" NegotiatedFare="false" TourCode="DACT22" NotValidBefore="2024-12-18" NotValidAfter="2024-12-18" TaxAmount="BDT19800.00">
+                            <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
+                            <common_v52_0:Endorsement Value="NON END"/>
+                            <air:FareRuleKey FareInfoRef="nJ4ZwMSqWDKARKx7BAAAAA==" ProviderCode="1G">6UUVoSldxwiJHY+3EwpFPMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA/1o7RJJQL0ZxWa1uaqI55k3aSkvhp2ybbasuQRXKmbK9xCocCLJPFbAyGqh8JIaqFFsjyBRuYCPWASdz5F+ImHQ0/JSlbZyfYX+hNfHEXoxUV3b2b+cmv9gFHVWNccKgROr5JaKLxm5BY5hoVUuDw6dw/Am9T/DRIMN1QPqv5KjwDJZXjGKbuIoENBXp3ZIethzqS2wx7Rgy5YV9dV3U4CXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzzD4Wdjal2fHna1H5QsLdGaNi6zOfbTtQPFaO1aw82YXLrIvrO4Jg+HJ56Dnec57ey1v21tBX94dvtw1s7GDgc=</air:FareRuleKey>
+                            <air:Brand Key="nJ4ZwMSqWDKARKx7BAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                        </air:FareInfo>
+                        <air:FareInfo Key="nJ4ZwMSqWDKAqKx7BAAAAA==" FareBasis="TRTBD1" PassengerTypeCode="ADT" Origin="JFK" Destination="DAC" EffectiveDate="2024-11-18T12:08:00.000+06:00" DepartureDate="2024-12-22" Amount="BDT35023" NegotiatedFare="false" TourCode="DACT22" NotValidBefore="2024-12-22" NotValidAfter="2024-12-22" TaxAmount="BDT6915.00">
+                            <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
+                            <common_v52_0:Endorsement Value="NON END"/>
+                            <air:FareRuleKey FareInfoRef="nJ4ZwMSqWDKAqKx7BAAAAA==" ProviderCode="1G">6UUVoSldxwiJHY+3EwpFPMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA/1o7RJJQL0ZxWa1uaqI55k3aSkvhp2ybSbwz6fyDLOYSYkkHRqhNdDAyGqh8JIaqAbYUG7X/iq/WASdz5F+ImHfT/s5wH3Zf4X+hNfHEXoxUV3b2b+cmv9gFHVWNccKgROr5JaKLxm5BY5hoVUuDw6dw/Am9T/DRJqQR/cHoRjBE6tJHDNVWR5LBiis2xvBdH1MTMZhpwJuy5YV9dV3U4CXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzzD4Wdjal2fHna1H5QsLdGaNi6zOfbTtQPFaO1aw82YXLrIvrO4Jg+HJ56Dnec57ey1v21tBX94dvtw1s7GDgc=</air:FareRuleKey>
+                            <air:Brand Key="nJ4ZwMSqWDKAqKx7BAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                        </air:FareInfo>
+                        <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="nJ4ZwMSqWDKARKx7BAAAAA==" SegmentRef="nJ4ZwMSqWDKAxJx7BAAAAA==" HostTokenRef="nJ4ZwMSqWDKA6Jx7BAAAAA=="/>
+                        <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="nJ4ZwMSqWDKARKx7BAAAAA==" SegmentRef="nJ4ZwMSqWDKAzJx7BAAAAA==" HostTokenRef="nJ4ZwMSqWDKA6Jx7BAAAAA=="/>
+                        <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="nJ4ZwMSqWDKAqKx7BAAAAA==" SegmentRef="nJ4ZwMSqWDKA1Jx7BAAAAA==" HostTokenRef="nJ4ZwMSqWDKA7Jx7BAAAAA=="/>
+                        <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="nJ4ZwMSqWDKAqKx7BAAAAA==" SegmentRef="nJ4ZwMSqWDKA3Jx7BAAAAA==" HostTokenRef="nJ4ZwMSqWDKA7Jx7BAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="BDT500" Key="nJ4ZwMSqWDKABKx7BAAAAA=="/>
+                        <air:TaxInfo Category="OW" Amount="BDT3000" Key="nJ4ZwMSqWDKACKx7BAAAAA=="/>
+                        <air:TaxInfo Category="P7" Amount="BDT1200" Key="nJ4ZwMSqWDKADKx7BAAAAA=="/>
+                        <air:TaxInfo Category="P8" Amount="BDT1200" Key="nJ4ZwMSqWDKAEKx7BAAAAA=="/>
+                        <air:TaxInfo Category="UT" Amount="BDT6000" Key="nJ4ZwMSqWDKAFKx7BAAAAA=="/>
+                        <air:TaxInfo Category="GZ" Amount="BDT786" Key="nJ4ZwMSqWDKAGKx7BAAAAA=="/>
+                        <air:TaxInfo Category="L2" Amount="BDT786" Key="nJ4ZwMSqWDKAHKx7BAAAAA=="/>
+                        <air:TaxInfo Category="N4" Amount="BDT3926" Key="nJ4ZwMSqWDKAIKx7BAAAAA=="/>
+                        <air:TaxInfo Category="YX" Amount="BDT192" Key="nJ4ZwMSqWDKAJKx7BAAAAA=="/>
+                        <air:TaxInfo Category="AY" Amount="BDT672" Key="nJ4ZwMSqWDKAKKx7BAAAAA=="/>
+                        <air:TaxInfo Category="US" Amount="BDT5328" Key="nJ4ZwMSqWDKALKx7BAAAAA=="/>
+                        <air:TaxInfo Category="XA" Amount="BDT446" Key="nJ4ZwMSqWDKAMKx7BAAAAA=="/>
+                        <air:TaxInfo Category="XF" Amount="BDT540" Key="nJ4ZwMSqWDKANKx7BAAAAA==">
+                            <common_v52_0:TaxDetail Amount="USD5.00" OriginAirport="JFK"/>
+                        </air:TaxInfo>
+                        <air:TaxInfo Category="XY" Amount="BDT840" Key="nJ4ZwMSqWDKAOKx7BAAAAA=="/>
+                        <air:TaxInfo Category="YC" Amount="BDT864" Key="nJ4ZwMSqWDKAPKx7BAAAAA=="/>
+                        <air:TaxInfo Category="E5" Amount="BDT435" Key="nJ4ZwMSqWDKAQKx7BAAAAA=="/>
+                        <air:FareCalc>DAC KU X/KWI KU NYC 316.50LRTBD1 KU X/KWI KU DAC 292.00TRTBD1 Q DACDAC45.59NUC654.09END ROE1.0</air:FareCalc>
+                        <air:PassengerType Code="ADT"/>
+                        <air:ChangePenalty PenaltyApplies="Anytime">
+                            <air:Amount>BDT5999.0</air:Amount>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty PenaltyApplies="Anytime">
+                            <air:Amount>BDT8998.0</air:Amount>
+                        </air:CancelPenalty>
+                        <air:BaggageAllowances>
+                            <air:BaggageAllowanceInfo TravelerType="ADT" Origin="DAC" Destination="JFK" Carrier="KU">
+                                <air:URLInfo>
+                                    <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/KU</air:URL>
+                                </air:URLInfo>
+                                <air:TextInfo>
+                                    <air:Text>2P</air:Text>
+                                    <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                                </air:TextInfo>
+                                <air:BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                            </air:BaggageAllowanceInfo>
+                            <air:BaggageAllowanceInfo TravelerType="ADT" Origin="JFK" Destination="DAC" Carrier="KU">
+                                <air:URLInfo>
+                                    <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/KU</air:URL>
+                                </air:URLInfo>
+                                <air:TextInfo>
+                                    <air:Text>2P</air:Text>
+                                    <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                                </air:TextInfo>
+                                <air:BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                            </air:BaggageAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="DAC" Destination="KWI" Carrier="KU">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="KWI" Destination="JFK" Carrier="KU">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="KWD0.000" TotalPrice="KWD0.000">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="JFK" Destination="KWI" Carrier="KU">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" ApproximateBasePrice="BDT0" TotalPrice="USD0.00" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="KWI" Destination="DAC" Carrier="KU">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="KWD0.000" TotalPrice="KWD0.000">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                        </air:BaggageAllowances>
+                    </air:AirPricingInfo>
+                    <air:AirPricingInfo Key="nJ4ZwMSqWDKAHLx7BAAAAA==" TotalPrice="BDT83945" BasePrice="USD502.00" ApproximateTotalPrice="BDT83945" ApproximateBasePrice="BDT60230" EquivalentBasePrice="BDT60230" ApproximateTaxes="BDT23715" Taxes="BDT23715" LatestTicketingTime="2024-12-18T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                        <air:FareInfo Key="nJ4ZwMSqWDKAYLx7BAAAAA==" FareBasis="LRTBD1" PassengerTypeCode="CNN" Origin="DAC" Destination="JFK" EffectiveDate="2024-11-18T12:08:00.000+06:00" DepartureDate="2024-12-18" Amount="BDT33951" NegotiatedFare="false" TourCode="DACT22" NotValidBefore="2024-12-18" NotValidAfter="2024-12-18" TaxAmount="BDT16805.00">
+                            <air:FareTicketDesignator Value="CH25"/>
+                            <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
+                            <common_v52_0:Endorsement Value="NON END"/>
+                            <air:FareRuleKey FareInfoRef="nJ4ZwMSqWDKAYLx7BAAAAA==" ProviderCode="1G">6UUVoSldxwiJHY+3EwpFPMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA/1o7RJJQL0ZxWa1uaqI55k3aSkvhp2ybfvkwnK8za3xE2xqu4MjFwTAyGqh8JIaqFFsjyBRuYCPWASdz5F+ImHQ0/JSlbZyfYX+hNfHEXoxUV3b2b+cmv9Q2mtH+H2NzxOr5JaKLxm5BY5hoVUuDw6dw/Am9T/DRIMN1QPqv5KjwDJZXjGKbuL87p5xZBLL+WuMrluo9VzEy5YV9dV3U4CXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzzD4Wdjal2fHna1H5QsLdGaNi6zOfbTtQPFaO1aw82YsnJlcQStVMeHJ56Dnec57ey1v21tBX94dvtw1s7GDgc=</air:FareRuleKey>
+                            <air:Brand Key="nJ4ZwMSqWDKAYLx7BAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                        </air:FareInfo>
+                        <air:FareInfo Key="nJ4ZwMSqWDKAxLx7BAAAAA==" FareBasis="TRTBD1" PassengerTypeCode="CNN" Origin="JFK" Destination="DAC" EffectiveDate="2024-11-18T12:08:00.000+06:00" DepartureDate="2024-12-22" Amount="BDT26279" NegotiatedFare="false" TourCode="DACT22" NotValidBefore="2024-12-22" NotValidAfter="2024-12-22" TaxAmount="BDT6910.00">
+                            <air:FareTicketDesignator Value="CH25"/>
+                            <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
+                            <common_v52_0:Endorsement Value="NON END"/>
+                            <air:FareRuleKey FareInfoRef="nJ4ZwMSqWDKAxLx7BAAAAA==" ProviderCode="1G">6UUVoSldxwiJHY+3EwpFPMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA/1o7RJJQL0ZxWa1uaqI55k3aSkvhp2ybSbwz6fyDLOY+WdlbrMMHaTAyGqh8JIaqAbYUG7X/iq/WASdz5F+ImHfT/s5wH3Zf4X+hNfHEXoxUV3b2b+cmv9Q2mtH+H2NzxOr5JaKLxm5BY5hoVUuDw6dw/Am9T/DRJqQR/cHoRjBE6tJHDNVWR5WusnKPyEecuOqcmwu5ta9y5YV9dV3U4CXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzzD4Wdjal2fHna1H5QsLdGaNi6zOfbTtQPFaO1aw82YsnJlcQStVMeHJ56Dnec57ey1v21tBX94dvtw1s7GDgc=</air:FareRuleKey>
+                            <air:Brand Key="nJ4ZwMSqWDKAxLx7BAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                        </air:FareInfo>
+                        <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="nJ4ZwMSqWDKAYLx7BAAAAA==" SegmentRef="nJ4ZwMSqWDKAxJx7BAAAAA==" HostTokenRef="nJ4ZwMSqWDKA8Jx7BAAAAA=="/>
+                        <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="nJ4ZwMSqWDKAYLx7BAAAAA==" SegmentRef="nJ4ZwMSqWDKAzJx7BAAAAA==" HostTokenRef="nJ4ZwMSqWDKA8Jx7BAAAAA=="/>
+                        <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="nJ4ZwMSqWDKAxLx7BAAAAA==" SegmentRef="nJ4ZwMSqWDKA1Jx7BAAAAA==" HostTokenRef="nJ4ZwMSqWDKA9Jx7BAAAAA=="/>
+                        <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="nJ4ZwMSqWDKAxLx7BAAAAA==" SegmentRef="nJ4ZwMSqWDKA3Jx7BAAAAA==" HostTokenRef="nJ4ZwMSqWDKA9Jx7BAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="BDT500" Key="nJ4ZwMSqWDKAILx7BAAAAA=="/>
+                        <air:TaxInfo Category="OW" Amount="BDT3000" Key="nJ4ZwMSqWDKAJLx7BAAAAA=="/>
+                        <air:TaxInfo Category="P7" Amount="BDT1200" Key="nJ4ZwMSqWDKAKLx7BAAAAA=="/>
+                        <air:TaxInfo Category="P8" Amount="BDT1200" Key="nJ4ZwMSqWDKALLx7BAAAAA=="/>
+                        <air:TaxInfo Category="UT" Amount="BDT3000" Key="nJ4ZwMSqWDKAMLx7BAAAAA=="/>
+                        <air:TaxInfo Category="GZ" Amount="BDT786" Key="nJ4ZwMSqWDKANLx7BAAAAA=="/>
+                        <air:TaxInfo Category="L2" Amount="BDT786" Key="nJ4ZwMSqWDKAOLx7BAAAAA=="/>
+                        <air:TaxInfo Category="N4" Amount="BDT3926" Key="nJ4ZwMSqWDKAPLx7BAAAAA=="/>
+                        <air:TaxInfo Category="YX" Amount="BDT192" Key="nJ4ZwMSqWDKAQLx7BAAAAA=="/>
+                        <air:TaxInfo Category="AY" Amount="BDT672" Key="nJ4ZwMSqWDKARLx7BAAAAA=="/>
+                        <air:TaxInfo Category="US" Amount="BDT5328" Key="nJ4ZwMSqWDKASLx7BAAAAA=="/>
+                        <air:TaxInfo Category="XA" Amount="BDT446" Key="nJ4ZwMSqWDKATLx7BAAAAA=="/>
+                        <air:TaxInfo Category="XF" Amount="BDT540" Key="nJ4ZwMSqWDKAULx7BAAAAA==">
+                            <common_v52_0:TaxDetail Amount="USD5.00" OriginAirport="JFK"/>
+                        </air:TaxInfo>
+                        <air:TaxInfo Category="XY" Amount="BDT840" Key="nJ4ZwMSqWDKAVLx7BAAAAA=="/>
+                        <air:TaxInfo Category="YC" Amount="BDT864" Key="nJ4ZwMSqWDKAWLx7BAAAAA=="/>
+                        <air:TaxInfo Category="E5" Amount="BDT435" Key="nJ4ZwMSqWDKAXLx7BAAAAA=="/>
+                        <air:FareCalc>DAC KU X/KWI KU NYC 237.37LRTBD1/CH25 KU X/KWI KU DAC 219.00TRTBD1/CH25 Q DACDAC45.59NUC501.96END ROE1.0</air:FareCalc>
+                        <air:PassengerType Code="CNN" Age="8"/>
+                        <air:ChangePenalty PenaltyApplies="Anytime">
+                            <air:Amount>BDT5999.0</air:Amount>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty PenaltyApplies="Anytime">
+                            <air:Amount>BDT8998.0</air:Amount>
+                        </air:CancelPenalty>
+                        <air:BaggageAllowances>
+                            <air:BaggageAllowanceInfo TravelerType="CNN" Origin="DAC" Destination="JFK" Carrier="KU">
+                                <air:URLInfo>
+                                    <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/KU</air:URL>
+                                </air:URLInfo>
+                                <air:TextInfo>
+                                    <air:Text>2P</air:Text>
+                                    <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                                </air:TextInfo>
+                                <air:BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                            </air:BaggageAllowanceInfo>
+                            <air:BaggageAllowanceInfo TravelerType="CNN" Origin="JFK" Destination="DAC" Carrier="KU">
+                                <air:URLInfo>
+                                    <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/KU</air:URL>
+                                </air:URLInfo>
+                                <air:TextInfo>
+                                    <air:Text>2P</air:Text>
+                                    <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                                </air:TextInfo>
+                                <air:BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                                <air:BagDetails ApplicableBags="2ndChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO50LB/23KG AND UPTO62LI/158LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                            </air:BaggageAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="DAC" Destination="KWI" Carrier="KU">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="KWI" Destination="JFK" Carrier="KU">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="KWD0.000" TotalPrice="KWD0.000">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="JFK" Destination="KWI" Carrier="KU">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" ApproximateBasePrice="BDT0" TotalPrice="USD0.00" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="KWI" Destination="DAC" Carrier="KU">
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                </air:TextInfo>
+                                <air:CarryOnDetails ApplicableCarryOnBags="1" BasePrice="KWD0.000" TotalPrice="KWD0.000">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO15LB/7KG AND UPTO45LI/115LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:CarryOnDetails>
+                            </air:CarryOnAllowanceInfo>
+                        </air:BaggageAllowances>
+                    </air:AirPricingInfo>
+                    <air:AirPricingInfo Key="nJ4ZwMSqWDKAOMx7BAAAAA==" TotalPrice="BDT27312" BasePrice="USD122.00" ApproximateTotalPrice="BDT27312" ApproximateBasePrice="BDT14638" EquivalentBasePrice="BDT14638" ApproximateTaxes="BDT12674" Taxes="BDT12674" LatestTicketingTime="2024-12-18T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                        <air:FareInfo Key="nJ4ZwMSqWDKAaMx7BAAAAA==" FareBasis="LRTBD1" PassengerTypeCode="INF" Origin="DAC" Destination="JFK" EffectiveDate="2024-11-18T12:08:00.000+06:00" DepartureDate="2024-12-18" Amount="BDT7595" NegotiatedFare="false" TourCode="DACT22" NotValidBefore="2024-12-18" NotValidAfter="2024-12-18" TaxAmount="BDT8284.00">
+                            <air:FareTicketDesignator Value="IN80"/>
+                            <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
+                            <common_v52_0:Endorsement Value="NON END"/>
+                            <air:FareRuleKey FareInfoRef="nJ4ZwMSqWDKAaMx7BAAAAA==" ProviderCode="1G">6UUVoSldxwiJHY+3EwpFPMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA/1o7RJJQL0ZxWa1uaqI55k3aSkvhp2ybaKCdkttlV0EjA6MsGNvMT1N3J3NyYpz6WxRKgJ0m09LMXlh0umSptQKvCdX1n7XrDvQIlbeGa6Ahf6E18cRejE2Ayhb4FCHbQRtxztxyH0gT6ojaYrqaFZW8vSBNa8ZUmwC02UUzMsnk2xPpIYnasJNF/3YLcM3G//KLK0d9qiXv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHzQapDbCAMr/TUGWlPDKj6urdgWu8VjiUwnJ09zjNj3vj9quNarLrxiQeyNzMAqiYtwXtO9a1rEPSELG6l/ruz8=</air:FareRuleKey>
+                            <air:Brand Key="nJ4ZwMSqWDKAaMx7BAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                        </air:FareInfo>
+                        <air:FareInfo Key="nJ4ZwMSqWDKAzMx7BAAAAA==" FareBasis="TRTBD1" PassengerTypeCode="INF" Origin="JFK" Destination="DAC" EffectiveDate="2024-11-18T12:08:00.000+06:00" DepartureDate="2024-12-22" Amount="BDT7043" NegotiatedFare="false" TourCode="DACT22" NotValidBefore="2024-12-22" NotValidAfter="2024-12-22" TaxAmount="BDT4390.00">
+                            <air:FareTicketDesignator Value="IN80"/>
+                            <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
+                            <common_v52_0:Endorsement Value="NON END"/>
+                            <air:FareRuleKey FareInfoRef="nJ4ZwMSqWDKAzMx7BAAAAA==" ProviderCode="1G">6UUVoSldxwiJHY+3EwpFPMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA/1o7RJJQL0ZxWa1uaqI55k3aSkvhp2ybeDmr1vJ+tPrEXEAafZI6WBN3J3NyYpz6cgmhM6/VrY6MXlh0umSptSgMgKAhRLEXzvQIlbeGa6Ahf6E18cRejE2Ayhb4FCHbQRtxztxyH0gT6ojaYrqaFZW8vSBNa8ZUmnWyFpl55B96OTJeR5qFVX9Q1/eu6+V00MwhxGBlXupv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHzQapDbCAMr/TUGWlPDKj6urdgWu8VjiUwnJ09zjNj3vj9quNarLrxiQeyNzMAqiYtwXtO9a1rEPSELG6l/ruz8=</air:FareRuleKey>
+                            <air:Brand Key="nJ4ZwMSqWDKAzMx7BAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                        </air:FareInfo>
+                        <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="nJ4ZwMSqWDKAaMx7BAAAAA==" SegmentRef="nJ4ZwMSqWDKAxJx7BAAAAA==" HostTokenRef="nJ4ZwMSqWDKA+Jx7BAAAAA=="/>
+                        <air:BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="nJ4ZwMSqWDKAaMx7BAAAAA==" SegmentRef="nJ4ZwMSqWDKAzJx7BAAAAA==" HostTokenRef="nJ4ZwMSqWDKA+Jx7BAAAAA=="/>
+                        <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="nJ4ZwMSqWDKAzMx7BAAAAA==" SegmentRef="nJ4ZwMSqWDKA1Jx7BAAAAA==" HostTokenRef="nJ4ZwMSqWDKA/Jx7BAAAAA=="/>
+                        <air:BookingInfo BookingCode="T" CabinClass="Economy" FareInfoRef="nJ4ZwMSqWDKAzMx7BAAAAA==" SegmentRef="nJ4ZwMSqWDKA3Jx7BAAAAA==" HostTokenRef="nJ4ZwMSqWDKA/Jx7BAAAAA=="/>
+                        <air:TaxInfo Category="P7" Amount="BDT1200" Key="nJ4ZwMSqWDKAPMx7BAAAAA=="/>
+                        <air:TaxInfo Category="P8" Amount="BDT1200" Key="nJ4ZwMSqWDKAQMx7BAAAAA=="/>
+                        <air:TaxInfo Category="GZ" Amount="BDT786" Key="nJ4ZwMSqWDKARMx7BAAAAA=="/>
+                        <air:TaxInfo Category="L2" Amount="BDT786" Key="nJ4ZwMSqWDKASMx7BAAAAA=="/>
+                        <air:TaxInfo Category="YX" Amount="BDT192" Key="nJ4ZwMSqWDKATMx7BAAAAA=="/>
+                        <air:TaxInfo Category="AY" Amount="BDT672" Key="nJ4ZwMSqWDKAUMx7BAAAAA=="/>
+                        <air:TaxInfo Category="US" Amount="BDT5328" Key="nJ4ZwMSqWDKAVMx7BAAAAA=="/>
+                        <air:TaxInfo Category="XA" Amount="BDT446" Key="nJ4ZwMSqWDKAWMx7BAAAAA=="/>
+                        <air:TaxInfo Category="XY" Amount="BDT840" Key="nJ4ZwMSqWDKAXMx7BAAAAA=="/>
+                        <air:TaxInfo Category="YC" Amount="BDT864" Key="nJ4ZwMSqWDKAYMx7BAAAAA=="/>
+                        <air:TaxInfo Category="E5" Amount="BDT360" Key="nJ4ZwMSqWDKAZMx7BAAAAA=="/>
+                        <air:FareCalc>DAC KU X/KWI KU NYC 63.30LRTBD1/IN80 KU X/KWI KU DAC 58.40TRTBD1/IN80 NUC121.70END ROE1.0</air:FareCalc>
+                        <air:PassengerType Code="INF" Age="1"/>
+                        <air:ChangePenalty PenaltyApplies="Anytime">
+                            <air:Amount>BDT5999.0</air:Amount>
+                        </air:ChangePenalty>
+                        <air:CancelPenalty PenaltyApplies="Anytime">
+                            <air:Amount>BDT8998.0</air:Amount>
+                        </air:CancelPenalty>
+                        <air:BaggageAllowances>
+                            <air:BaggageAllowanceInfo TravelerType="INF" Origin="DAC" Destination="JFK" Carrier="KU">
+                                <air:URLInfo>
+                                    <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/KU</air:URL>
+                                </air:URLInfo>
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                    <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                                </air:TextInfo>
+                                <air:BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO22LB/10KG AND UPTO45LI/115LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                                <air:BagDetails ApplicableBags="2ndChecked">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>BAGGAGE CHARGES DATA NOT AVAILABLE</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                            </air:BaggageAllowanceInfo>
+                            <air:BaggageAllowanceInfo TravelerType="INF" Origin="JFK" Destination="DAC" Carrier="KU">
+                                <air:URLInfo>
+                                    <air:URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/KU</air:URL>
+                                </air:URLInfo>
+                                <air:TextInfo>
+                                    <air:Text>1P</air:Text>
+                                    <air:Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</air:Text>
+                                </air:TextInfo>
+                                <air:BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>UPTO22LB/10KG AND UPTO45LI/115LCM</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                                <air:BagDetails ApplicableBags="2ndChecked">
+                                    <air:BaggageRestriction>
+                                        <air:TextInfo>
+                                            <air:Text>BAGGAGE CHARGES DATA NOT AVAILABLE</air:Text>
+                                        </air:TextInfo>
+                                    </air:BaggageRestriction>
+                                </air:BagDetails>
+                            </air:BaggageAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="DAC" Destination="KWI" Carrier="KU">
+                                <air:TextInfo>
+                                    <air:Text>0P</air:Text>
+                                </air:TextInfo>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="KWI" Destination="JFK" Carrier="KU">
+                                <air:TextInfo>
+                                    <air:Text>0P</air:Text>
+                                </air:TextInfo>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="JFK" Destination="KWI" Carrier="KU">
+                                <air:TextInfo>
+                                    <air:Text>0P</air:Text>
+                                </air:TextInfo>
+                            </air:CarryOnAllowanceInfo>
+                            <air:CarryOnAllowanceInfo Origin="KWI" Destination="DAC" Carrier="KU">
+                                <air:TextInfo>
+                                    <air:Text>0P</air:Text>
+                                </air:TextInfo>
+                            </air:CarryOnAllowanceInfo>
+                        </air:BaggageAllowances>
+                    </air:AirPricingInfo>
+                    <air:FareNote Key="nJ4ZwMSqWDKAQNx7BAAAAA==">RATE USED IN EQU TOTAL IS BSR 1USD - 119.98BDT</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKARNx7BAAAAA==">TOUR CODE: DACT22</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKASNx7BAAAAA==">LAST DATE TO PURCHASE TICKET: 18DEC24</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKATNx7BAAAAA==">FARE HAS A PLATING CARRIER RESTRICTION</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKAUNx7BAAAAA==">E-TKT REQUIRED</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKAVNx7BAAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKAWNx7BAAAAA==">RATE USED IN EQU TOTAL IS BSR 1USD - 119.98BDT</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKAXNx7BAAAAA==">TOUR CODE: DACT22</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKAYNx7BAAAAA==">LAST DATE TO PURCHASE TICKET: 18DEC24</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKAZNx7BAAAAA==">FARE HAS A PLATING CARRIER RESTRICTION</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKAaNx7BAAAAA==">E-TKT REQUIRED</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKAbNx7BAAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKAcNx7BAAAAA==">RATE USED IN EQU TOTAL IS BSR 1USD - 119.98BDT</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKAdNx7BAAAAA==">TOUR CODE: DACT22</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKAeNx7BAAAAA==">LAST DATE TO PURCHASE TICKET: 18DEC24</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKAfNx7BAAAAA==">FARE HAS A PLATING CARRIER RESTRICTION</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKAgNx7BAAAAA==">E-TKT REQUIRED</air:FareNote>
+                    <air:FareNote Key="nJ4ZwMSqWDKAhNx7BAAAAA==">TICKETING FEES MAY APPLY</air:FareNote>
+                    <common_v52_0:HostToken Key="nJ4ZwMSqWDKA6Jx7BAAAAA==">GFB10101ADT00  01LRTBD1                                0200010002#GFB200010101NADTV3001BD01005000079949#GFMCXEX001NBD01 KU ADTLRTBD1</common_v52_0:HostToken>
+                    <common_v52_0:HostToken Key="nJ4ZwMSqWDKA7Jx7BAAAAA==">GFB10101ADT00  02TRTBD1                                0200030004#GFB200010102NADTV3001BD01005000079949#GFMCXEX001NBD01 KU ADTTRTBD1</common_v52_0:HostToken>
+                    <common_v52_0:HostToken Key="nJ4ZwMSqWDKA8Jx7BAAAAA==">GFB10202CNN00  01LRTBD1         CH25                   0200010002#GFB200020201NCNNV3001BD01005000079910002120049#GFMCXEX001NBD01DKU CNNLRTBD1</common_v52_0:HostToken>
+                    <common_v52_0:HostToken Key="nJ4ZwMSqWDKA9Jx7BAAAAA==">GFB10202CNN00  02TRTBD1         CH25                   0200030004#GFB200020202NCNNV3001BD01005000079910002120049#GFMCXEX001NBD01DKU CNNTRTBD1</common_v52_0:HostToken>
+                    <common_v52_0:HostToken Key="nJ4ZwMSqWDKA+Jx7BAAAAA==">GFB10303INF00  01LRTBD1         IN80                   0200010002#GFB200030301NINFV3001BD01005000079910047131649#GFMCXEX001NBD01DKU INFLRTBD1</common_v52_0:HostToken>
+                    <common_v52_0:HostToken Key="nJ4ZwMSqWDKA/Jx7BAAAAA==">GFB10303INF00  02TRTBD1         IN80                   0200030004#GFB200030302NINFV3001BD01005000079910047131649#GFMCXEX001NBD01DKU INFTRTBD1</common_v52_0:HostToken>
+                </air:AirPricingSolution>
+                <air:FareRule FareInfoRef="nJ4ZwMSqWDKARKx7BAAAAA==" RuleNumber="BD01" Source="ATPCO" TariffNumber="001">
+                    <air:FareRuleLong Category="0" Type="RULE">
+                        <![CDATA[RULE - 001/BD01
+UNLESS OTHERWISE SPECIFIED
+KUWAIT AIRWAYS NFP FARES
+APPLICATION
+AREA
+THESE FARES APPLY
+BETWEEN AREA 3 AND AREA 1.
+CLASS OF SERVICE
+THESE FARES APPLY FOR FIRST/BUSINESS/ECONOMY CLASS
+SERVICE.
+TYPES OF TRANSPORTATION
+THIS RULE GOVERNS ONE-WAY AND ROUND-TRIP FARES.
+FARES GOVERNED BY THIS RULE CAN BE USED TO CREATE
+ONE-WAY/ROUND-TRIP/OPEN-JAW JOURNEYS.
+FULL AND SEQUENTIAL USE OF FLIGHT COUPONS-
+THE TICKET /OR ELECTRONIC TICKET/ IS NOT VALID IF
+THE FIRST COUPON HAS NOT BEEN USED AND WILL NOT
+BE HONORED IF ALL THE COUPONS ARE NOT USED IN THE
+SEQUENCE PROVIDED IN THE TICKET /OR ELECTRONIC
+TICKET/.
+--------------------------------------------------
+PAX WILL BE DOWNGRADED TO NEXT LOWER CABIN IF NO
+FIRST CLASS IS OFFERED ON ANY OF THE LEG NO
+REFUND APPLICABLE FOR THE DOWNGRADE OF CABIN
+CAPACITY LIMITATIONS
+THE CARRIER SHALL LIMIT THE NUMBER OF PASSENGERS CARRIED
+ON ANY ONE FLIGHT AT FARES GOVERNED BY THIS RULE AND SUCH
+FARES WILL NOT NECESSARILY BE AVAILABLE ON ALL FLIGHTS.
+THE NUMBER OF SEATS WHICH THE CARRIER SHALL MAKE
+AVAILABLE ON A GIVEN FLIGHT WILL BE DETERMINED BY THE
+CARRIERS BEST JUDGMENT
+OTHER CONDITIONS
+ALL FARES ARE SUBJECT TO CHANGE OR WITHDRAWAL
+WITHOUT NOTICE.
+FARES ARE ONLY GUARANTEED IF AUTO-PRICED AND
+TICKETED IN GDS ON THE SAME DAY.
+-----------------------------------------------
+PASSENGER EXPENSES NOT PERMITTED.
+--------------------------------------
+IF TRANSIT TIME AT KUWAIT AIRPORT EXCEEDS
+08HOURS STPC/HOTAC WILL BE ON PASSENGER COST.
+---------------------------------------------
+JOURNEY BETWEEN DAC AND CGP/ZYL WILL BE PERFORMED
+ON KU-BUS SERVICE ONLY.
+-------------------------------------------------
+PAX WILL BE DOWNGRADED TO NEXT LOWER CABIN IF
+NO FIRST CLASS IS OFFERED ON ANY OF THE LEG NO
+REFUND APPLICABLE FOR THE DOWNGRADE OF CABIN
+--------------------------------------------------
+WHEN ITINERARY RESULTS IN A HIGHER FARE THE FARE
+DIFF WILL BE COLLECTED PLUS CHANGE FEE AND IF NEW
+ITINERARY RESULTS IN LOWER FARE THE CHANGE FEE
+WILL APPLY AND NO REFUND WILL BE MADE.
+ABOVE CHARGES APPLICABLE ONLY IF TKT IS REISSUED
+BEFORE DEPARTURE OF FLT]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="4" Type="RULE">
+                        <![CDATA[BETWEEN DAC AND NYC
+OUTBOUND -
+THE FARE COMPONENT MUST BE ON
+ONE OR MORE OF THE FOLLOWING
+KU FLIGHT 284
+KU FLIGHT 117.
+INBOUND -
+THE FARE COMPONENT MUST BE ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="5" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+RESERVATIONS ARE REQUIRED FOR ALL SECTORS.
+NOTE -
+TICKET MUST BE ISSUED WITH CONFIRMED RESERVATION
+FOR THE ENTIRE JOURNEY.
+-------------------------------------------------
+KU RESERVES THE RIGHT TO CANCEL ANY PNR WHERE
+ITINERARY DO NOT COMPLY WITH THE RESERVATION
+BOOKING CODE / RBD/
+--------------------------------------------------
+IF A TICKET IS USED OUT OF SEQUENCE KU RESERVES
+THE RIGHT TO CANCEL ANY PNR OR INVALIDATE THE
+REMAINING FLIGHT COUPONS.
+-------------------------------------------------
+IF A PASSENGER FAILS TO TRAVEL ON A SECTOR BOOKED
+KU RESERVES THE RIGHT TO CANCEL THE REMAINING KU
+SECTOR .
+--------------------------------------------------
+ANY VIOLATION OF MARRIED SEGMENT WOULD INCUR A
+DEBIT.
+-------------------------------------------------
+TAX /SERVICE CHARGES/GOVT .LEVIES TO BE PAID AS
+APPLICABLE AT THE TIME OF TKT ISSUANCE.
+--------------------------------------------------]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="7" Type="RULE">
+                        <![CDATA[FOR ROUND TRIP FARES
+TRAVEL FROM LAST STOPOVER MUST COMMENCE NO LATER THAN 12
+MONTHS AFTER DEPARTURE FROM FARE ORIGIN.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="8" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+2 STOPOVERS PERMITTED ON THE PRICING UNIT - 1 IN EACH
+DIRECTION IN KWI AT USD 160.00 EACH.
+APPLIES PER ADULT AND CHILD.
+NO STOPOVER OCCURS IF PASSENGER TAKES NEXT AVAILABLE
+FLIGHT WITHIN 8 HOURS HOWEVER A STOPOVER MAY NOT
+EXCEED 24 HOURS.
+NO STOPOVERS PERMITTED.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="9" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+UNLIMITED TRANSFERS PERMITTED ON THE PRICING UNIT
+FARE BREAK AND EMBEDDED SURFACE SECTORS NOT PERMITTED ON
+THE FARE COMPONENT.
+NOTE -
+IF TRANSIT TIME EXCEEDS MORE THAN 8HOURS AND LESS
+24HOURS A CHARGE OF USD125 WILL BE APPLICABLE.
+--------------------------------------------------]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="10" Type="RULE">
+                        <![CDATA[FOR L- TYPE FARES
+END-ON-END NOT PERMITTED. SIDE TRIPS PERMITTED.
+APPLICABLE ADD-ON CONSTRUCTION IS ADDRESSED IN
+MISCELLANEOUS PROVISIONS - CATEGORY 23.
+OPEN JAWS/ROUND TRIPS/CIRCLE TRIPS
+FARES MAY BE COMBINED ON A HALF ROUND TRIP BASIS
+-TO FORM SINGLE OR DOUBLE OPEN JAWS WHICH CONSISTS OF NO
+MORE THAN 2 INTERNATIONAL FARE COMPONENTS AND THE OPEN
+SEGMENT AT ORIGIN MUST BE IN ONE COUNTRY. THE OPEN
+SEGMENT AT DESTINATION HAS NO RESTRICTIONS.
+MILEAGE OF THE OPEN SEGMENT MUST BE EQUAL/LESS THAN
+MILEAGE OF THE LONGEST FLOWN FARE COMPONENT.
+-TO FORM ROUND TRIPS
+-TO FORM CIRCLE TRIPS
+A MAXIMUM OF TWO INTERNATIONAL FARE COMPONENTS
+PERMITTED.
+PROVIDED -
+COMBINATIONS ARE WITH ANY V-/T-/L-/H-/B-/M- TYPE FARES
+FOR CARRIER KU IN ANY RULE IN THIS TARIFF.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="11" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TRAVEL IS NOT PERMITTED 01JUN THROUGH 30SEP.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="12" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+A SURCHARGE APPLIES.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+BETWEEN NYC AND AREA 3 FOR ROUND TRIP FARES
+IF INFANT UNDER 02 WITHOUT A SEAT.
+THERE IS NO CHARGE FOR TRAVEL PER TICKET.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+ORIGINATING NYC -
+A SURCHARGE OF USD 66.00 PER TICKET WILL BE ADDED TO THE
+APPLICABLE FARE FOR TRAVEL.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+ORIGINATING AREA 3 -
+A SURCHARGE OF KWD 14.000 PER TICKET WILL BE ADDED TO
+THE APPLICABLE FARE FOR TRAVEL.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="14" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+VALID FOR TRAVEL COMMENCING ON/BEFORE 15JAN 25.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="15" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TICKETS MUST BE ISSUED ON/BEFORE 15JAN 25.
+UNLESS OTHERWISE SPECIFIED
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN SUDAN/
+VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC OF/EGYPT/
+NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/CUBA/PAKISTAN
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.
+IF THE FARE COMPONENT IS ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU
+TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE SOLD
+IN ALBANIA/AMERICAN SAMOA/ANDORRA/ANTIGUA/BARBUDA/
+ARGENTINA/ARMENIA/ARUBA/AUSTRALIA/AUSTRIA/AZERBAIJAN/
+BAHAMAS/BARBADOS/BELARUS/BELGIUM/BENIN/BERMUDA/BHUTAN/
+BOLIVIA/BONAIRE, SAINT EUSTATIUS, SABA/BOTSWANA/BRAZIL/
+BULGARIA/BURKINA FASO/CAMBODIA/CAPE VERDE/CAYMAN
+ISLANDS/CHILE/COLOMBIA/COOK ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN COSTA RICA/CROATIA/CURACAO/CYPRUS/CZECH
+REPUBLIC/COTE D'IVOIRE/DENMARK/DOMINICA/DOMINICAN
+REPUBLIC/ECUADOR/EL SALVADOR/ESTONIA/FAROE ISLANDS/
+FINLAND/FRENCH GUIANA/FRENCH POLYNESIA/GIBRALTAR/
+GREECE/GREENLAND/GRENADA/GUADELOUPE/GUAM/GUATEMALA/
+GUYANA/HAITI/HONDURAS/HONG KONG, SAR, CHINA/
+HONDURAS/ICELAND
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN INDONESIA/IRELAND/JAMAICA/JAPAN/KAZAKHSTAN/
+KENYA/ESWATINI/KIRIBATI/MONACO/KYRGYZSTAN/LATVIA/
+LESOTHO/LIECHTENSTEIN/LITHUANIA/LUXEMBOURG/MACAU
+SAR/NORTH MACEDONIA, REPUBLIC OF/MADAGASCAR/MALAWI/
+MALAYSIA/MALDIVES/MALI/MALTA/MARSHALL ISLANDS/
+MARTINIQUE/MAURITIUS/MAYOTTE/MEXICO/MICRONESIA/
+CAROLINE ISLANDS/MOLDOVA,REPUBLIC OF
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN MONGOLIA/MONTENEGRO/MONTSERRAT/MOROCCO/
+MYANMAR/NAMIBIA/NEPAL/NETHERLANDS/NEW CALEDONIA/NEW
+ZEALAND/NICARAGUA/MARIANA ISLANDS/NORWAY/OCCUPIED
+PALESTINIAN TERRITORY/PANAMA/PAPUA NEW GUINEA/PERU/
+POLAND/PORTUGAL/PALAU/REUNION/ROMANIA/SAMOA/SAN
+MARINO/SERBIA/SEYCHELLES/SINGAPORE/SINT MAARTEN/
+SLOVAKIA
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN SLOVENIA/SOLOMON ISLANDS/SOUTH AFRICA/
+KOREA, REPUBLIC OF/SPAIN AND CANARY ISLANDS/SAINT
+KITTS AND NEVIS/SAINT LUCIA/ST. PIERRE/MIQUELON/
+SAINT VINCENT/GRENADINES/SURINAME/SWEDEN/TAIWAN,
+PROVINCE OF/TAJIKISTAN/TOGO/TRINIDAD/TOBAGO/
+TUNISIA/TURKS/CAICOS ISLANDS/UKRAINE/URUGUAY/
+UZBEKISTAN/VATICAN CITY/VIETNAM/BRITISH VIRGIN
+ISLANDS/WALLIS/FUTUNA ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN ANTIGUA/BARBUDA/BURKINA FASO/BERMUDA/BRUNEI
+DARUSSALAM/BOLIVIA/BRAZIL/BAHAMAS/BHUTAN/CHILE/
+COLOMBIA/COSTA RICA/DOMINICA/DOMINICAN REPUBLIC/
+ECUADOR/GABON/GUATEMALA/HONDURAS/HAITI/JAMAICA/
+CAYMAN ISLANDS/MARSHALL ISLANDS/MONGOLIA/MEXICO/
+NICARAGUA/PANAMA/PERU/PARAGUAY
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN SURINAME/EL SALVADOR/TURKS/CAICOS ISLANDS/
+TAJIKISTAN/TURKMENISTAN/TUNISIA/TRINIDAD/TOBAGO/
+UKRAINE/URUGUAY/UZBEKISTAN/BRITISH VIRGIN ISLANDS/
+YEMEN, REPUBLIC OF/ZAMBIA/KYRGYZSTAN
+IF THE FARE COMPONENT IS ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU
+TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE SOLD
+IN ALBANIA/AMERICAN SAMOA/ANDORRA/ANTIGUA/BARBUDA/
+ARGENTINA/ARMENIA/ARUBA/AUSTRALIA/AUSTRIA/AZERBAIJAN/
+BAHAMAS/BARBADOS/BELARUS/BELGIUM/BENIN/BERMUDA/BHUTAN/
+BOLIVIA/BONAIRE, SAINT EUSTATIUS, SABA/BOTSWANA/BRAZIL/
+BULGARIA/BURKINA FASO/CAMBODIA/CAPE VERDE/CAYMAN
+ISLANDS/CHILE/COLOMBIA/COOK ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN COSTA RICA/CROATIA/CURACAO/CYPRUS/CZECH
+REPUBLIC/COTE D'IVOIRE/DENMARK/DOMINICA/DOMINICAN
+REPUBLIC/ECUADOR/EL SALVADOR/ESTONIA/FAROE ISLANDS/
+FINLAND/FRENCH GUIANA/FRENCH POLYNESIA/GIBRALTAR/
+GREECE/GREENLAND/GRENADA/GUADELOUPE/GUAM/GUATEMALA/
+GUYANA/HAITI/HONDURAS/HONG KONG, SAR, CHINA/
+HONDURAS/ICELAND
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN INDONESIA/IRELAND/JAMAICA/JAPAN/KAZAKHSTAN/
+KENYA/ESWATINI/KIRIBATI/MONACO/KYRGYZSTAN/LATVIA/
+LESOTHO/LIECHTENSTEIN/LITHUANIA/LUXEMBOURG/MACAU
+SAR/NORTH MACEDONIA, REPUBLIC OF/MADAGASCAR/MALAWI/
+MALAYSIA/MALDIVES/MALI/MALTA/MARSHALL ISLANDS/
+MARTINIQUE/MAURITIUS/MAYOTTE/MEXICO/MICRONESIA/
+CAROLINE ISLANDS/MOLDOVA,REPUBLIC OF
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN MONGOLIA/MONTENEGRO/MONTSERRAT/MOROCCO/
+MYANMAR/NAMIBIA/NEPAL/NETHERLANDS/NEW CALEDONIA/NEW
+ZEALAND/NICARAGUA/MARIANA ISLANDS/NORWAY/OCCUPIED
+PALESTINIAN TERRITORY/PANAMA/PAPUA NEW GUINEA/PERU/
+POLAND/PORTUGAL/PALAU/REUNION/ROMANIA/SAMOA/SAN
+MARINO/SERBIA/SEYCHELLES/SINGAPORE/SINT MAARTEN/
+SLOVAKIA
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN SLOVENIA/SOLOMON ISLANDS/SOUTH AFRICA/
+KOREA, REPUBLIC OF/SPAIN AND CANARY ISLANDS/SAINT
+KITTS AND NEVIS/SAINT LUCIA/ST. PIERRE/MIQUELON/
+SAINT VINCENT/GRENADINES/SURINAME/SWEDEN/TAIWAN,
+PROVINCE OF/TAJIKISTAN/TOGO/TRINIDAD/TOBAGO/
+TUNISIA/TURKS/CAICOS ISLANDS/UKRAINE/URUGUAY/
+UZBEKISTAN/VATICAN CITY/VIETNAM/BRITISH VIRGIN
+ISLANDS/WALLIS/FUTUNA ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN ANTIGUA/BARBUDA/BURKINA FASO/BERMUDA/BRUNEI
+DARUSSALAM/BOLIVIA/BRAZIL/BAHAMAS/BHUTAN/CHILE/
+COLOMBIA/COSTA RICA/DOMINICA/DOMINICAN REPUBLIC/
+ECUADOR/GABON/GUATEMALA/HONDURAS/HAITI/JAMAICA/
+CAYMAN ISLANDS/MARSHALL ISLANDS/MONGOLIA/MEXICO/
+NICARAGUA/PANAMA/PERU/PARAGUAY
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN SURINAME/EL SALVADOR/TURKS/CAICOS ISLANDS/
+TAJIKISTAN/TURKMENISTAN/TUNISIA/TRINIDAD/TOBAGO/
+UKRAINE/URUGUAY/UZBEKISTAN/BRITISH VIRGIN ISLANDS/
+YEMEN, REPUBLIC OF/ZAMBIA/KYRGYZSTAN
+BETWEEN BANGLADESH AND AREA 1
+ORIGINATING BANGLADESH -
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN
+SUDAN/VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC
+OF/NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/CUBA
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.
+ORIGINATING AREA 1 -
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN
+SUDAN/VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC
+OF/EGYPT/NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/
+CUBA/BANGLADESH
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="16" Type="RULE">
+                        <![CDATA[FOR L- TYPE FARES
+CHANGES
+ANY TIME
+CHARGE USD 35.00.
+NOTE -
+PER TRANSACTION AND TICKET TO BE ISSUED.
+------------------------------------------------
+CHANGE FEE DOES NOT APPLY TO INFANT NOT
+OCCUPYING A SEAT.
+----------------------------------------
+CHARGE USD 35.00 FOR NO-SHOW.
+NOTE -
+NO-SHOW CHARGES TO BE COLLECTED PLUS REFUND FEES
+INCASE OF REFUND AFTER NO-SHOW.
+INFANTS ARE EXEMPTED FROM DATED CHANGE PENALTY -
+NO-SHOW AND REFUND...
+----------------------------
+IF PAX IS NO-SHOW PENALTY OF CHANGING DATE AND
+NO-SHOW BOTH TO BE APPLIED.
+--------------------------------
+REFUND FEE WAIVED INCASE OF DEATH OF PASSENGER OR
+IMMEDIATE FAMILY MEMBER AND THE OFFICIAL
+DOCUMENTS ARE REQUIRED.
+--------------------------------------------------
+TO AVOID NO-SHOW CHARGES TICKET MUST BE
+REISSUED/REFUNDED BEFORE SCHEDULED FLIGHT
+DEPARTURE IN TICKET
+--------------------------------------------------
+CANCELLATIONS
+BEFORE DEPARTURE
+CHARGE USD 55.00 FOR REFUND.
+NOTE -
+UNUTILISED TICKETS
+-------------------------------------------------
+CANCELLATION FEE DOES NOT APPLY TO INFANT NOT
+OCCUPYING A SEAT.
+AFTER DEPARTURE
+CHARGE USD 75.00 FOR REFUND.
+NOTE -
+PARTLY UNUSED TICKETS -
+REFUND PERMITTED DEDUCT OW FARE ON THE SAME RBD
+IF ONE WAY FARE IS NOT AVAILABLE METIONED ON THE
+TICKET THEN DEDUCT NEXT AVAILABLE OW FARE FOR
+WHICH THE JOURNEY HAS BEEN PERFORMED.
+--------------------------------------------------
+CHARGE USD 55.00 FOR NO-SHOW.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="17" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THE HIGHER INTERMEDIATE POINT RULE DOES NOT APPLY FOR
+STOPOVERS.
+AND - THE HIGHER INTERMEDIATE POINT RULE DOES NOT APPLY
+FOR CONNECTIONS.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="18" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THE ORIGINAL AND THE REISSUED TICKET MUST BE ANNOTATED -
+VALID ON KU ONLY/ - AND - NON END - IN THE ENDORSEMENT
+BOX.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="19" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+ACCOMPANIED CHILD 2-11 - CHARGE 75 PERCENT OF THE FARE.
+TICKET DESIGNATOR - CH AND PERCENT OF DISCOUNT
+OR - INFANT UNDER 2 WITHOUT A SEAT - CHARGE 20 PERCENT OF
+THE FARE.
+TICKET DESIGNATOR - IN AND PERCENT OF DISCOUNT.
+NOTE -
+NOTE
+WHEN INFANT REACHES 2 YEARS OF AGE ON/BEFORE
+DEPARTURE FROM POINT OF TURNAROUND
+A SEAT MUST BE BOOKED ON THE RETURN LEG AND THE
+APPLICABLE CHILD FARE CHARGED ON HALF ROUNDTRIP
+BASIS WITH OUTBOUND INFANT FARE.
+---------------------------------------------
+OR - INFANT UNDER 2 WITH A SEAT - CHARGE 75 PERCENT OF THE
+FARE.
+TICKET DESIGNATOR - CH AND PERCENT OF DISCOUNT
+OR - UNACCOMPANIED CHILD 6-11 - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="20" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TOUR CONDUCTOR - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="21" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+AGENT - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="22" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+NOTE -
+NO OTHER DISCOUNTS PERMITTED.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="23" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THIS FARE MUST NOT BE USED AS THE HIGH OR THE LOW FARE
+WHEN CALCULATING A DIFFERENTIAL. THIS FARE MUST NOT BE
+USED AS THE THROUGH FARE WHEN PRICING A FARE COMPONENT
+WITH A DIFFERENTIAL.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="27" Type="RULE">
+                        <![CDATA[BETWEEN DAC AND AREA 1
+FARES APPLY IN CONJUNCTION WITH TOUR NUMBER DACT22.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="31" Type="RULE">
+                        <![CDATA[DO A CATEGORY 31 SPECIFIC TEXT ENTRY TO VIEW CONTENTS
+ALSO REFERENCE 16 PENALTIES - FOR ADDITIONAL CHANGE INFORMATION]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="33" Type="RULE">
+                        <![CDATA[FOR L- TYPE FARES
+REFUND MUST BE REQUESTED BEFORE DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED BEFORE ORIGINALLY SCHEDULED
+FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 55.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+NEW FARE FOR FULLY FLOWN FARE COMPONENTS MUST BE HIGHER
+THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED BEFORE DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED ANYTIME AFTER ORIGINALLY
+SCHEDULED FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 110.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+NEW FARE FOR FULLY FLOWN FARE COMPONENTS MUST BE HIGHER
+THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED AFTER DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED BEFORE ORIGINALLY SCHEDULED
+FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 75.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+REPRICE FLOWN PORTION USING FARES IN EFFECT ON TICKET
+ISSUANCE DATE. FOR FULLY FLOWN FARE COMPONENTS FARE BREAK
+POINTS MAY NOT BE CHANGED. FOR PARTIALLY FLOWN FARE
+COMPONENTS ONLY DESTINATION FARE BREAK POINTS MAY BE
+CHANGED. REPRICE USING NORMAL/SPECIAL ONE WAY/ROUND TRIP
+FARES/ANY RULE/FARE CLASS/RBD. PUBLIC FARES ARE USED IF
+TICKETED FARE IS IN PUBLIC TARIFF. QUALIFIED PRIVATE
+FARES OR PUBLIC FARES ARE USED IF TICKETED FARE IS IN
+PRIVATE TARIFF. NEW FARE FOR FULLY FLOWN FARE COMPONENTS
+MUST BE HIGHER THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED AFTER DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED ANYTIME AFTER ORIGINALLY
+SCHEDULED FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 130.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+REPRICE FLOWN PORTION USING FARES IN EFFECT ON TICKET
+ISSUANCE DATE. FOR FULLY FLOWN FARE COMPONENTS FARE BREAK
+POINTS MAY NOT BE CHANGED. FOR PARTIALLY FLOWN FARE
+COMPONENTS ONLY DESTINATION FARE BREAK POINTS MAY BE
+CHANGED. REPRICE USING NORMAL/SPECIAL ONE WAY/ROUND TRIP
+FARES/ANY RULE/FARE CLASS/RBD. PUBLIC FARES ARE USED IF
+TICKETED FARE IS IN PUBLIC TARIFF. QUALIFIED PRIVATE
+FARES OR PUBLIC FARES ARE USED IF TICKETED FARE IS IN
+PRIVATE TARIFF. NEW FARE FOR FULLY FLOWN FARE COMPONENTS
+MUST BE HIGHER THAN TICKETED FARE.]]>
+                    </air:FareRuleLong>
+                </air:FareRule>
+                <air:FareRule FareInfoRef="nJ4ZwMSqWDKAxLx7BAAAAA==" RuleNumber="BD01" Source="ATPCO" TariffNumber="001">
+                    <air:FareRuleLong Category="0" Type="RULE">
+                        <![CDATA[RULE - 001/BD01
+UNLESS OTHERWISE SPECIFIED
+KUWAIT AIRWAYS NFP FARES
+APPLICATION
+AREA
+THESE FARES APPLY
+BETWEEN AREA 3 AND AREA 1.
+CLASS OF SERVICE
+THESE FARES APPLY FOR FIRST/BUSINESS/ECONOMY CLASS
+SERVICE.
+TYPES OF TRANSPORTATION
+THIS RULE GOVERNS ONE-WAY AND ROUND-TRIP FARES.
+FARES GOVERNED BY THIS RULE CAN BE USED TO CREATE
+ONE-WAY/ROUND-TRIP/OPEN-JAW JOURNEYS.
+FULL AND SEQUENTIAL USE OF FLIGHT COUPONS-
+THE TICKET /OR ELECTRONIC TICKET/ IS NOT VALID IF
+THE FIRST COUPON HAS NOT BEEN USED AND WILL NOT
+BE HONORED IF ALL THE COUPONS ARE NOT USED IN THE
+SEQUENCE PROVIDED IN THE TICKET /OR ELECTRONIC
+TICKET/.
+--------------------------------------------------
+PAX WILL BE DOWNGRADED TO NEXT LOWER CABIN IF NO
+FIRST CLASS IS OFFERED ON ANY OF THE LEG NO
+REFUND APPLICABLE FOR THE DOWNGRADE OF CABIN
+CAPACITY LIMITATIONS
+THE CARRIER SHALL LIMIT THE NUMBER OF PASSENGERS CARRIED
+ON ANY ONE FLIGHT AT FARES GOVERNED BY THIS RULE AND SUCH
+FARES WILL NOT NECESSARILY BE AVAILABLE ON ALL FLIGHTS.
+THE NUMBER OF SEATS WHICH THE CARRIER SHALL MAKE
+AVAILABLE ON A GIVEN FLIGHT WILL BE DETERMINED BY THE
+CARRIERS BEST JUDGMENT
+OTHER CONDITIONS
+ALL FARES ARE SUBJECT TO CHANGE OR WITHDRAWAL
+WITHOUT NOTICE.
+FARES ARE ONLY GUARANTEED IF AUTO-PRICED AND
+TICKETED IN GDS ON THE SAME DAY.
+-----------------------------------------------
+PASSENGER EXPENSES NOT PERMITTED.
+--------------------------------------
+IF TRANSIT TIME AT KUWAIT AIRPORT EXCEEDS
+08HOURS STPC/HOTAC WILL BE ON PASSENGER COST.
+---------------------------------------------
+JOURNEY BETWEEN DAC AND CGP/ZYL WILL BE PERFORMED
+ON KU-BUS SERVICE ONLY.
+-------------------------------------------------
+PAX WILL BE DOWNGRADED TO NEXT LOWER CABIN IF
+NO FIRST CLASS IS OFFERED ON ANY OF THE LEG NO
+REFUND APPLICABLE FOR THE DOWNGRADE OF CABIN
+--------------------------------------------------
+WHEN ITINERARY RESULTS IN A HIGHER FARE THE FARE
+DIFF WILL BE COLLECTED PLUS CHANGE FEE AND IF NEW
+ITINERARY RESULTS IN LOWER FARE THE CHANGE FEE
+WILL APPLY AND NO REFUND WILL BE MADE.
+ABOVE CHARGES APPLICABLE ONLY IF TKT IS REISSUED
+BEFORE DEPARTURE OF FLT]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="4" Type="RULE">
+                        <![CDATA[BETWEEN DAC AND NYC
+OUTBOUND -
+THE FARE COMPONENT MUST BE ON
+ONE OR MORE OF THE FOLLOWING
+KU FLIGHT 284
+KU FLIGHT 117.
+INBOUND -
+THE FARE COMPONENT MUST BE ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="5" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+RESERVATIONS ARE REQUIRED FOR ALL SECTORS.
+NOTE -
+TICKET MUST BE ISSUED WITH CONFIRMED RESERVATION
+FOR THE ENTIRE JOURNEY.
+-------------------------------------------------
+KU RESERVES THE RIGHT TO CANCEL ANY PNR WHERE
+ITINERARY DO NOT COMPLY WITH THE RESERVATION
+BOOKING CODE / RBD/
+--------------------------------------------------
+IF A TICKET IS USED OUT OF SEQUENCE KU RESERVES
+THE RIGHT TO CANCEL ANY PNR OR INVALIDATE THE
+REMAINING FLIGHT COUPONS.
+-------------------------------------------------
+IF A PASSENGER FAILS TO TRAVEL ON A SECTOR BOOKED
+KU RESERVES THE RIGHT TO CANCEL THE REMAINING KU
+SECTOR .
+--------------------------------------------------
+ANY VIOLATION OF MARRIED SEGMENT WOULD INCUR A
+DEBIT.
+-------------------------------------------------
+TAX /SERVICE CHARGES/GOVT .LEVIES TO BE PAID AS
+APPLICABLE AT THE TIME OF TKT ISSUANCE.
+--------------------------------------------------]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="7" Type="RULE">
+                        <![CDATA[FOR ROUND TRIP FARES
+TRAVEL FROM LAST STOPOVER MUST COMMENCE NO LATER THAN 12
+MONTHS AFTER DEPARTURE FROM FARE ORIGIN.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="8" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+2 STOPOVERS PERMITTED ON THE PRICING UNIT - 1 IN EACH
+DIRECTION IN KWI AT USD 160.00 EACH.
+APPLIES PER ADULT AND CHILD.
+NO STOPOVER OCCURS IF PASSENGER TAKES NEXT AVAILABLE
+FLIGHT WITHIN 8 HOURS HOWEVER A STOPOVER MAY NOT
+EXCEED 24 HOURS.
+NO STOPOVERS PERMITTED.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="9" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+UNLIMITED TRANSFERS PERMITTED ON THE PRICING UNIT
+FARE BREAK AND EMBEDDED SURFACE SECTORS NOT PERMITTED ON
+THE FARE COMPONENT.
+NOTE -
+IF TRANSIT TIME EXCEEDS MORE THAN 8HOURS AND LESS
+24HOURS A CHARGE OF USD125 WILL BE APPLICABLE.
+--------------------------------------------------]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="10" Type="RULE">
+                        <![CDATA[FOR T- TYPE FARES
+END-ON-END NOT PERMITTED. SIDE TRIPS PERMITTED.
+APPLICABLE ADD-ON CONSTRUCTION IS ADDRESSED IN
+MISCELLANEOUS PROVISIONS - CATEGORY 23.
+OPEN JAWS/ROUND TRIPS/CIRCLE TRIPS
+FARES MAY BE COMBINED ON A HALF ROUND TRIP BASIS
+-TO FORM SINGLE OR DOUBLE OPEN JAWS WHICH CONSISTS OF NO
+MORE THAN 2 INTERNATIONAL FARE COMPONENTS AND THE OPEN
+SEGMENT AT ORIGIN MUST BE IN ONE COUNTRY. THE OPEN
+SEGMENT AT DESTINATION HAS NO RESTRICTIONS.
+MILEAGE OF THE OPEN SEGMENT MUST BE EQUAL/LESS THAN
+MILEAGE OF THE LONGEST FLOWN FARE COMPONENT.
+-TO FORM ROUND TRIPS
+-TO FORM CIRCLE TRIPS
+A MAXIMUM OF TWO INTERNATIONAL FARE COMPONENTS
+PERMITTED.
+PROVIDED -
+COMBINATIONS ARE WITH ANY V-/T-/L-/H-/B-/M- TYPE FARES
+FOR CARRIER KU IN ANY RULE IN THIS TARIFF.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="11" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TRAVEL IS NOT PERMITTED 01JUN THROUGH 30SEP.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="12" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+A SURCHARGE APPLIES.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+BETWEEN NYC AND AREA 3 FOR ROUND TRIP FARES
+IF INFANT UNDER 02 WITHOUT A SEAT.
+THERE IS NO CHARGE FOR TRAVEL PER TICKET.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+ORIGINATING NYC -
+A SURCHARGE OF USD 66.00 PER TICKET WILL BE ADDED TO THE
+APPLICABLE FARE FOR TRAVEL.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+ORIGINATING AREA 3 -
+A SURCHARGE OF KWD 14.000 PER TICKET WILL BE ADDED TO
+THE APPLICABLE FARE FOR TRAVEL.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="14" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+VALID FOR TRAVEL COMMENCING ON/BEFORE 15JAN 25.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="15" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TICKETS MUST BE ISSUED ON/BEFORE 15JAN 25.
+UNLESS OTHERWISE SPECIFIED
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN SUDAN/
+VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC OF/EGYPT/
+NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/CUBA/PAKISTAN
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.
+IF THE FARE COMPONENT IS ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU
+TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE SOLD
+IN ALBANIA/AMERICAN SAMOA/ANDORRA/ANTIGUA/BARBUDA/
+ARGENTINA/ARMENIA/ARUBA/AUSTRALIA/AUSTRIA/AZERBAIJAN/
+BAHAMAS/BARBADOS/BELARUS/BELGIUM/BENIN/BERMUDA/BHUTAN/
+BOLIVIA/BONAIRE, SAINT EUSTATIUS, SABA/BOTSWANA/BRAZIL/
+BULGARIA/BURKINA FASO/CAMBODIA/CAPE VERDE/CAYMAN
+ISLANDS/CHILE/COLOMBIA/COOK ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN COSTA RICA/CROATIA/CURACAO/CYPRUS/CZECH
+REPUBLIC/COTE D'IVOIRE/DENMARK/DOMINICA/DOMINICAN
+REPUBLIC/ECUADOR/EL SALVADOR/ESTONIA/FAROE ISLANDS/
+FINLAND/FRENCH GUIANA/FRENCH POLYNESIA/GIBRALTAR/
+GREECE/GREENLAND/GRENADA/GUADELOUPE/GUAM/GUATEMALA/
+GUYANA/HAITI/HONDURAS/HONG KONG, SAR, CHINA/
+HONDURAS/ICELAND
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN INDONESIA/IRELAND/JAMAICA/JAPAN/KAZAKHSTAN/
+KENYA/ESWATINI/KIRIBATI/MONACO/KYRGYZSTAN/LATVIA/
+LESOTHO/LIECHTENSTEIN/LITHUANIA/LUXEMBOURG/MACAU
+SAR/NORTH MACEDONIA, REPUBLIC OF/MADAGASCAR/MALAWI/
+MALAYSIA/MALDIVES/MALI/MALTA/MARSHALL ISLANDS/
+MARTINIQUE/MAURITIUS/MAYOTTE/MEXICO/MICRONESIA/
+CAROLINE ISLANDS/MOLDOVA,REPUBLIC OF
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN MONGOLIA/MONTENEGRO/MONTSERRAT/MOROCCO/
+MYANMAR/NAMIBIA/NEPAL/NETHERLANDS/NEW CALEDONIA/NEW
+ZEALAND/NICARAGUA/MARIANA ISLANDS/NORWAY/OCCUPIED
+PALESTINIAN TERRITORY/PANAMA/PAPUA NEW GUINEA/PERU/
+POLAND/PORTUGAL/PALAU/REUNION/ROMANIA/SAMOA/SAN
+MARINO/SERBIA/SEYCHELLES/SINGAPORE/SINT MAARTEN/
+SLOVAKIA
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN SLOVENIA/SOLOMON ISLANDS/SOUTH AFRICA/
+KOREA, REPUBLIC OF/SPAIN AND CANARY ISLANDS/SAINT
+KITTS AND NEVIS/SAINT LUCIA/ST. PIERRE/MIQUELON/
+SAINT VINCENT/GRENADINES/SURINAME/SWEDEN/TAIWAN,
+PROVINCE OF/TAJIKISTAN/TOGO/TRINIDAD/TOBAGO/
+TUNISIA/TURKS/CAICOS ISLANDS/UKRAINE/URUGUAY/
+UZBEKISTAN/VATICAN CITY/VIETNAM/BRITISH VIRGIN
+ISLANDS/WALLIS/FUTUNA ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN ANTIGUA/BARBUDA/BURKINA FASO/BERMUDA/BRUNEI
+DARUSSALAM/BOLIVIA/BRAZIL/BAHAMAS/BHUTAN/CHILE/
+COLOMBIA/COSTA RICA/DOMINICA/DOMINICAN REPUBLIC/
+ECUADOR/GABON/GUATEMALA/HONDURAS/HAITI/JAMAICA/
+CAYMAN ISLANDS/MARSHALL ISLANDS/MONGOLIA/MEXICO/
+NICARAGUA/PANAMA/PERU/PARAGUAY
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN SURINAME/EL SALVADOR/TURKS/CAICOS ISLANDS/
+TAJIKISTAN/TURKMENISTAN/TUNISIA/TRINIDAD/TOBAGO/
+UKRAINE/URUGUAY/UZBEKISTAN/BRITISH VIRGIN ISLANDS/
+YEMEN, REPUBLIC OF/ZAMBIA/KYRGYZSTAN
+IF THE FARE COMPONENT IS ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU
+TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE SOLD
+IN ALBANIA/AMERICAN SAMOA/ANDORRA/ANTIGUA/BARBUDA/
+ARGENTINA/ARMENIA/ARUBA/AUSTRALIA/AUSTRIA/AZERBAIJAN/
+BAHAMAS/BARBADOS/BELARUS/BELGIUM/BENIN/BERMUDA/BHUTAN/
+BOLIVIA/BONAIRE, SAINT EUSTATIUS, SABA/BOTSWANA/BRAZIL/
+BULGARIA/BURKINA FASO/CAMBODIA/CAPE VERDE/CAYMAN
+ISLANDS/CHILE/COLOMBIA/COOK ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN COSTA RICA/CROATIA/CURACAO/CYPRUS/CZECH
+REPUBLIC/COTE D'IVOIRE/DENMARK/DOMINICA/DOMINICAN
+REPUBLIC/ECUADOR/EL SALVADOR/ESTONIA/FAROE ISLANDS/
+FINLAND/FRENCH GUIANA/FRENCH POLYNESIA/GIBRALTAR/
+GREECE/GREENLAND/GRENADA/GUADELOUPE/GUAM/GUATEMALA/
+GUYANA/HAITI/HONDURAS/HONG KONG, SAR, CHINA/
+HONDURAS/ICELAND
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN INDONESIA/IRELAND/JAMAICA/JAPAN/KAZAKHSTAN/
+KENYA/ESWATINI/KIRIBATI/MONACO/KYRGYZSTAN/LATVIA/
+LESOTHO/LIECHTENSTEIN/LITHUANIA/LUXEMBOURG/MACAU
+SAR/NORTH MACEDONIA, REPUBLIC OF/MADAGASCAR/MALAWI/
+MALAYSIA/MALDIVES/MALI/MALTA/MARSHALL ISLANDS/
+MARTINIQUE/MAURITIUS/MAYOTTE/MEXICO/MICRONESIA/
+CAROLINE ISLANDS/MOLDOVA,REPUBLIC OF
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN MONGOLIA/MONTENEGRO/MONTSERRAT/MOROCCO/
+MYANMAR/NAMIBIA/NEPAL/NETHERLANDS/NEW CALEDONIA/NEW
+ZEALAND/NICARAGUA/MARIANA ISLANDS/NORWAY/OCCUPIED
+PALESTINIAN TERRITORY/PANAMA/PAPUA NEW GUINEA/PERU/
+POLAND/PORTUGAL/PALAU/REUNION/ROMANIA/SAMOA/SAN
+MARINO/SERBIA/SEYCHELLES/SINGAPORE/SINT MAARTEN/
+SLOVAKIA
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN SLOVENIA/SOLOMON ISLANDS/SOUTH AFRICA/
+KOREA, REPUBLIC OF/SPAIN AND CANARY ISLANDS/SAINT
+KITTS AND NEVIS/SAINT LUCIA/ST. PIERRE/MIQUELON/
+SAINT VINCENT/GRENADINES/SURINAME/SWEDEN/TAIWAN,
+PROVINCE OF/TAJIKISTAN/TOGO/TRINIDAD/TOBAGO/
+TUNISIA/TURKS/CAICOS ISLANDS/UKRAINE/URUGUAY/
+UZBEKISTAN/VATICAN CITY/VIETNAM/BRITISH VIRGIN
+ISLANDS/WALLIS/FUTUNA ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN ANTIGUA/BARBUDA/BURKINA FASO/BERMUDA/BRUNEI
+DARUSSALAM/BOLIVIA/BRAZIL/BAHAMAS/BHUTAN/CHILE/
+COLOMBIA/COSTA RICA/DOMINICA/DOMINICAN REPUBLIC/
+ECUADOR/GABON/GUATEMALA/HONDURAS/HAITI/JAMAICA/
+CAYMAN ISLANDS/MARSHALL ISLANDS/MONGOLIA/MEXICO/
+NICARAGUA/PANAMA/PERU/PARAGUAY
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN SURINAME/EL SALVADOR/TURKS/CAICOS ISLANDS/
+TAJIKISTAN/TURKMENISTAN/TUNISIA/TRINIDAD/TOBAGO/
+UKRAINE/URUGUAY/UZBEKISTAN/BRITISH VIRGIN ISLANDS/
+YEMEN, REPUBLIC OF/ZAMBIA/KYRGYZSTAN
+BETWEEN BANGLADESH AND AREA 1
+ORIGINATING BANGLADESH -
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN
+SUDAN/VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC
+OF/NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/CUBA
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.
+ORIGINATING AREA 1 -
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN
+SUDAN/VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC
+OF/EGYPT/NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/
+CUBA/BANGLADESH
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="16" Type="RULE">
+                        <![CDATA[FOR T- TYPE FARES
+CHANGES
+ANY TIME
+CHARGE USD 50.00.
+NOTE -
+PER TRANSACTION AND TICKET TO BE ISSUED.
+------------------------------------------------
+CHANGE FEE DOES NOT APPLY TO INFANT NOT
+OCCUPYING A SEAT.
+----------------------------------------
+CHARGE USD 50.00 FOR NO-SHOW.
+NOTE -
+NO-SHOW CHARGES TO BE COLLECTED PLUS REFUND FEES
+INCASE OF REFUND AFTER NO-SHOW.
+INFANTS ARE EXEMPTED FROM DATED CHANGE PENALTY -
+NO-SHOW AND REFUND...
+----------------------------
+IF PAX IS NO-SHOW PENALTY OF CHANGING DATE AND
+NO-SHOW BOTH TO BE APPLIED.
+--------------------------------
+REFUND FEE WAIVED INCASE OF DEATH OF PASSENGER OR
+IMMEDIATE FAMILY MEMBER AND THE OFFICIAL
+DOCUMENTS ARE REQUIRED.
+--------------------------------------------------
+TO AVOID NO-SHOW CHARGES TICKET MUST BE
+REISSUED/REFUNDED BEFORE SCHEDULED FLIGHT
+DEPARTURE IN TICKET
+--------------------------------------------------
+CANCELLATIONS
+BEFORE DEPARTURE
+CHARGE USD 75.00 FOR REFUND.
+NOTE -
+UNUTILISED TICKETS
+-------------------------------------------------
+CANCELLATION FEE DOES NOT APPLY TO INFANT NOT
+OCCUPYING A SEAT.
+AFTER DEPARTURE
+CHARGE USD 100.00 FOR REFUND.
+NOTE -
+PARTLY UNUSED TICKETS -
+REFUND PERMITTED DEDUCT OW FARE ON THE SAME RBD
+IF ONE WAY FARE IS NOT AVAILABLE METIONED ON THE
+TICKET THEN DEDUCT NEXT AVAILABLE OW FARE FOR
+WHICH THE JOURNEY HAS BEEN PERFORMED.
+--------------------------------------------------
+CHARGE USD 75.00 FOR NO-SHOW.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="17" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THE HIGHER INTERMEDIATE POINT RULE DOES NOT APPLY FOR
+STOPOVERS.
+AND - THE HIGHER INTERMEDIATE POINT RULE DOES NOT APPLY
+FOR CONNECTIONS.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="18" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THE ORIGINAL AND THE REISSUED TICKET MUST BE ANNOTATED -
+VALID ON KU ONLY/ - AND - NON END - IN THE ENDORSEMENT
+BOX.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="19" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+ACCOMPANIED CHILD 2-11 - CHARGE 75 PERCENT OF THE FARE.
+TICKET DESIGNATOR - CH AND PERCENT OF DISCOUNT
+OR - INFANT UNDER 2 WITHOUT A SEAT - CHARGE 20 PERCENT OF
+THE FARE.
+TICKET DESIGNATOR - IN AND PERCENT OF DISCOUNT.
+NOTE -
+NOTE
+WHEN INFANT REACHES 2 YEARS OF AGE ON/BEFORE
+DEPARTURE FROM POINT OF TURNAROUND
+A SEAT MUST BE BOOKED ON THE RETURN LEG AND THE
+APPLICABLE CHILD FARE CHARGED ON HALF ROUNDTRIP
+BASIS WITH OUTBOUND INFANT FARE.
+---------------------------------------------
+OR - INFANT UNDER 2 WITH A SEAT - CHARGE 75 PERCENT OF THE
+FARE.
+TICKET DESIGNATOR - CH AND PERCENT OF DISCOUNT
+OR - UNACCOMPANIED CHILD 6-11 - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="20" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TOUR CONDUCTOR - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="21" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+AGENT - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="22" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+NOTE -
+NO OTHER DISCOUNTS PERMITTED.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="23" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THIS FARE MUST NOT BE USED AS THE HIGH OR THE LOW FARE
+WHEN CALCULATING A DIFFERENTIAL. THIS FARE MUST NOT BE
+USED AS THE THROUGH FARE WHEN PRICING A FARE COMPONENT
+WITH A DIFFERENTIAL.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="27" Type="RULE">
+                        <![CDATA[BETWEEN DAC AND AREA 1
+FARES APPLY IN CONJUNCTION WITH TOUR NUMBER DACT22.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="31" Type="RULE">
+                        <![CDATA[DO A CATEGORY 31 SPECIFIC TEXT ENTRY TO VIEW CONTENTS
+ALSO REFERENCE 16 PENALTIES - FOR ADDITIONAL CHANGE INFORMATION]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="33" Type="RULE">
+                        <![CDATA[FOR T- TYPE FARES
+REFUND MUST BE REQUESTED BEFORE DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED BEFORE ORIGINALLY SCHEDULED
+FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 75.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+NEW FARE FOR FULLY FLOWN FARE COMPONENTS MUST BE HIGHER
+THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED BEFORE DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED ANYTIME AFTER ORIGINALLY
+SCHEDULED FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 150.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+NEW FARE FOR FULLY FLOWN FARE COMPONENTS MUST BE HIGHER
+THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED AFTER DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED BEFORE ORIGINALLY SCHEDULED
+FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 100.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+REPRICE FLOWN PORTION USING FARES IN EFFECT ON TICKET
+ISSUANCE DATE. FOR FULLY FLOWN FARE COMPONENTS FARE BREAK
+POINTS MAY NOT BE CHANGED. FOR PARTIALLY FLOWN FARE
+COMPONENTS ONLY DESTINATION FARE BREAK POINTS MAY BE
+CHANGED. REPRICE USING NORMAL/SPECIAL ONE WAY/ROUND TRIP
+FARES/ANY RULE/FARE CLASS/RBD. PUBLIC FARES ARE USED IF
+TICKETED FARE IS IN PUBLIC TARIFF. QUALIFIED PRIVATE
+FARES OR PUBLIC FARES ARE USED IF TICKETED FARE IS IN
+PRIVATE TARIFF. NEW FARE FOR FULLY FLOWN FARE COMPONENTS
+MUST BE HIGHER THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED AFTER DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED ANYTIME AFTER ORIGINALLY
+SCHEDULED FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 175.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+REPRICE FLOWN PORTION USING FARES IN EFFECT ON TICKET
+ISSUANCE DATE. FOR FULLY FLOWN FARE COMPONENTS FARE BREAK
+POINTS MAY NOT BE CHANGED. FOR PARTIALLY FLOWN FARE
+COMPONENTS ONLY DESTINATION FARE BREAK POINTS MAY BE
+CHANGED. REPRICE USING NORMAL/SPECIAL ONE WAY/ROUND TRIP
+FARES/ANY RULE/FARE CLASS/RBD. PUBLIC FARES ARE USED IF
+TICKETED FARE IS IN PUBLIC TARIFF. QUALIFIED PRIVATE
+FARES OR PUBLIC FARES ARE USED IF TICKETED FARE IS IN
+PRIVATE TARIFF. NEW FARE FOR FULLY FLOWN FARE COMPONENTS
+MUST BE HIGHER THAN TICKETED FARE.]]>
+                    </air:FareRuleLong>
+                </air:FareRule>
+                <air:FareRule FareInfoRef="nJ4ZwMSqWDKAaMx7BAAAAA==" RuleNumber="BD01" Source="ATPCO" TariffNumber="001">
+                    <air:FareRuleLong Category="0" Type="RULE">
+                        <![CDATA[RULE - 001/BD01
+UNLESS OTHERWISE SPECIFIED
+KUWAIT AIRWAYS NFP FARES
+APPLICATION
+AREA
+THESE FARES APPLY
+BETWEEN AREA 3 AND AREA 1.
+CLASS OF SERVICE
+THESE FARES APPLY FOR FIRST/BUSINESS/ECONOMY CLASS
+SERVICE.
+TYPES OF TRANSPORTATION
+THIS RULE GOVERNS ONE-WAY AND ROUND-TRIP FARES.
+FARES GOVERNED BY THIS RULE CAN BE USED TO CREATE
+ONE-WAY/ROUND-TRIP/OPEN-JAW JOURNEYS.
+FULL AND SEQUENTIAL USE OF FLIGHT COUPONS-
+THE TICKET /OR ELECTRONIC TICKET/ IS NOT VALID IF
+THE FIRST COUPON HAS NOT BEEN USED AND WILL NOT
+BE HONORED IF ALL THE COUPONS ARE NOT USED IN THE
+SEQUENCE PROVIDED IN THE TICKET /OR ELECTRONIC
+TICKET/.
+--------------------------------------------------
+PAX WILL BE DOWNGRADED TO NEXT LOWER CABIN IF NO
+FIRST CLASS IS OFFERED ON ANY OF THE LEG NO
+REFUND APPLICABLE FOR THE DOWNGRADE OF CABIN
+CAPACITY LIMITATIONS
+THE CARRIER SHALL LIMIT THE NUMBER OF PASSENGERS CARRIED
+ON ANY ONE FLIGHT AT FARES GOVERNED BY THIS RULE AND SUCH
+FARES WILL NOT NECESSARILY BE AVAILABLE ON ALL FLIGHTS.
+THE NUMBER OF SEATS WHICH THE CARRIER SHALL MAKE
+AVAILABLE ON A GIVEN FLIGHT WILL BE DETERMINED BY THE
+CARRIERS BEST JUDGMENT
+OTHER CONDITIONS
+ALL FARES ARE SUBJECT TO CHANGE OR WITHDRAWAL
+WITHOUT NOTICE.
+FARES ARE ONLY GUARANTEED IF AUTO-PRICED AND
+TICKETED IN GDS ON THE SAME DAY.
+-----------------------------------------------
+PASSENGER EXPENSES NOT PERMITTED.
+--------------------------------------
+IF TRANSIT TIME AT KUWAIT AIRPORT EXCEEDS
+08HOURS STPC/HOTAC WILL BE ON PASSENGER COST.
+---------------------------------------------
+JOURNEY BETWEEN DAC AND CGP/ZYL WILL BE PERFORMED
+ON KU-BUS SERVICE ONLY.
+-------------------------------------------------
+PAX WILL BE DOWNGRADED TO NEXT LOWER CABIN IF
+NO FIRST CLASS IS OFFERED ON ANY OF THE LEG NO
+REFUND APPLICABLE FOR THE DOWNGRADE OF CABIN
+--------------------------------------------------
+WHEN ITINERARY RESULTS IN A HIGHER FARE THE FARE
+DIFF WILL BE COLLECTED PLUS CHANGE FEE AND IF NEW
+ITINERARY RESULTS IN LOWER FARE THE CHANGE FEE
+WILL APPLY AND NO REFUND WILL BE MADE.
+ABOVE CHARGES APPLICABLE ONLY IF TKT IS REISSUED
+BEFORE DEPARTURE OF FLT]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="4" Type="RULE">
+                        <![CDATA[BETWEEN DAC AND NYC
+OUTBOUND -
+THE FARE COMPONENT MUST BE ON
+ONE OR MORE OF THE FOLLOWING
+KU FLIGHT 284
+KU FLIGHT 117.
+INBOUND -
+THE FARE COMPONENT MUST BE ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="5" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+RESERVATIONS ARE REQUIRED FOR ALL SECTORS.
+NOTE -
+TICKET MUST BE ISSUED WITH CONFIRMED RESERVATION
+FOR THE ENTIRE JOURNEY.
+-------------------------------------------------
+KU RESERVES THE RIGHT TO CANCEL ANY PNR WHERE
+ITINERARY DO NOT COMPLY WITH THE RESERVATION
+BOOKING CODE / RBD/
+--------------------------------------------------
+IF A TICKET IS USED OUT OF SEQUENCE KU RESERVES
+THE RIGHT TO CANCEL ANY PNR OR INVALIDATE THE
+REMAINING FLIGHT COUPONS.
+-------------------------------------------------
+IF A PASSENGER FAILS TO TRAVEL ON A SECTOR BOOKED
+KU RESERVES THE RIGHT TO CANCEL THE REMAINING KU
+SECTOR .
+--------------------------------------------------
+ANY VIOLATION OF MARRIED SEGMENT WOULD INCUR A
+DEBIT.
+-------------------------------------------------
+TAX /SERVICE CHARGES/GOVT .LEVIES TO BE PAID AS
+APPLICABLE AT THE TIME OF TKT ISSUANCE.
+--------------------------------------------------]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="7" Type="RULE">
+                        <![CDATA[FOR ROUND TRIP FARES
+TRAVEL FROM LAST STOPOVER MUST COMMENCE NO LATER THAN 12
+MONTHS AFTER DEPARTURE FROM FARE ORIGIN.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="8" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+2 STOPOVERS PERMITTED ON THE PRICING UNIT - 1 IN EACH
+DIRECTION IN KWI AT USD 160.00 EACH.
+APPLIES PER ADULT AND CHILD.
+NO STOPOVER OCCURS IF PASSENGER TAKES NEXT AVAILABLE
+FLIGHT WITHIN 8 HOURS HOWEVER A STOPOVER MAY NOT
+EXCEED 24 HOURS.
+NO STOPOVERS PERMITTED.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="9" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+UNLIMITED TRANSFERS PERMITTED ON THE PRICING UNIT
+FARE BREAK AND EMBEDDED SURFACE SECTORS NOT PERMITTED ON
+THE FARE COMPONENT.
+NOTE -
+IF TRANSIT TIME EXCEEDS MORE THAN 8HOURS AND LESS
+24HOURS A CHARGE OF USD125 WILL BE APPLICABLE.
+--------------------------------------------------]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="10" Type="RULE">
+                        <![CDATA[FOR L- TYPE FARES
+END-ON-END NOT PERMITTED. SIDE TRIPS PERMITTED.
+APPLICABLE ADD-ON CONSTRUCTION IS ADDRESSED IN
+MISCELLANEOUS PROVISIONS - CATEGORY 23.
+OPEN JAWS/ROUND TRIPS/CIRCLE TRIPS
+FARES MAY BE COMBINED ON A HALF ROUND TRIP BASIS
+-TO FORM SINGLE OR DOUBLE OPEN JAWS WHICH CONSISTS OF NO
+MORE THAN 2 INTERNATIONAL FARE COMPONENTS AND THE OPEN
+SEGMENT AT ORIGIN MUST BE IN ONE COUNTRY. THE OPEN
+SEGMENT AT DESTINATION HAS NO RESTRICTIONS.
+MILEAGE OF THE OPEN SEGMENT MUST BE EQUAL/LESS THAN
+MILEAGE OF THE LONGEST FLOWN FARE COMPONENT.
+-TO FORM ROUND TRIPS
+-TO FORM CIRCLE TRIPS
+A MAXIMUM OF TWO INTERNATIONAL FARE COMPONENTS
+PERMITTED.
+PROVIDED -
+COMBINATIONS ARE WITH ANY V-/T-/L-/H-/B-/M- TYPE FARES
+FOR CARRIER KU IN ANY RULE IN THIS TARIFF.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="11" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TRAVEL IS NOT PERMITTED 01JUN THROUGH 30SEP.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="12" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+A SURCHARGE APPLIES.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+BETWEEN NYC AND AREA 3 FOR ROUND TRIP FARES
+IF INFANT UNDER 02 WITHOUT A SEAT.
+THERE IS NO CHARGE FOR TRAVEL PER TICKET.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+ORIGINATING NYC -
+A SURCHARGE OF USD 66.00 PER TICKET WILL BE ADDED TO THE
+APPLICABLE FARE FOR TRAVEL.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+ORIGINATING AREA 3 -
+A SURCHARGE OF KWD 14.000 PER TICKET WILL BE ADDED TO
+THE APPLICABLE FARE FOR TRAVEL.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="14" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+VALID FOR TRAVEL COMMENCING ON/BEFORE 15JAN 25.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="15" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TICKETS MUST BE ISSUED ON/BEFORE 15JAN 25.
+UNLESS OTHERWISE SPECIFIED
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN SUDAN/
+VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC OF/EGYPT/
+NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/CUBA/PAKISTAN
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.
+IF THE FARE COMPONENT IS ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU
+TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE SOLD
+IN ALBANIA/AMERICAN SAMOA/ANDORRA/ANTIGUA/BARBUDA/
+ARGENTINA/ARMENIA/ARUBA/AUSTRALIA/AUSTRIA/AZERBAIJAN/
+BAHAMAS/BARBADOS/BELARUS/BELGIUM/BENIN/BERMUDA/BHUTAN/
+BOLIVIA/BONAIRE, SAINT EUSTATIUS, SABA/BOTSWANA/BRAZIL/
+BULGARIA/BURKINA FASO/CAMBODIA/CAPE VERDE/CAYMAN
+ISLANDS/CHILE/COLOMBIA/COOK ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN COSTA RICA/CROATIA/CURACAO/CYPRUS/CZECH
+REPUBLIC/COTE D'IVOIRE/DENMARK/DOMINICA/DOMINICAN
+REPUBLIC/ECUADOR/EL SALVADOR/ESTONIA/FAROE ISLANDS/
+FINLAND/FRENCH GUIANA/FRENCH POLYNESIA/GIBRALTAR/
+GREECE/GREENLAND/GRENADA/GUADELOUPE/GUAM/GUATEMALA/
+GUYANA/HAITI/HONDURAS/HONG KONG, SAR, CHINA/
+HONDURAS/ICELAND
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN INDONESIA/IRELAND/JAMAICA/JAPAN/KAZAKHSTAN/
+KENYA/ESWATINI/KIRIBATI/MONACO/KYRGYZSTAN/LATVIA/
+LESOTHO/LIECHTENSTEIN/LITHUANIA/LUXEMBOURG/MACAU
+SAR/NORTH MACEDONIA, REPUBLIC OF/MADAGASCAR/MALAWI/
+MALAYSIA/MALDIVES/MALI/MALTA/MARSHALL ISLANDS/
+MARTINIQUE/MAURITIUS/MAYOTTE/MEXICO/MICRONESIA/
+CAROLINE ISLANDS/MOLDOVA,REPUBLIC OF
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN MONGOLIA/MONTENEGRO/MONTSERRAT/MOROCCO/
+MYANMAR/NAMIBIA/NEPAL/NETHERLANDS/NEW CALEDONIA/NEW
+ZEALAND/NICARAGUA/MARIANA ISLANDS/NORWAY/OCCUPIED
+PALESTINIAN TERRITORY/PANAMA/PAPUA NEW GUINEA/PERU/
+POLAND/PORTUGAL/PALAU/REUNION/ROMANIA/SAMOA/SAN
+MARINO/SERBIA/SEYCHELLES/SINGAPORE/SINT MAARTEN/
+SLOVAKIA
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN SLOVENIA/SOLOMON ISLANDS/SOUTH AFRICA/
+KOREA, REPUBLIC OF/SPAIN AND CANARY ISLANDS/SAINT
+KITTS AND NEVIS/SAINT LUCIA/ST. PIERRE/MIQUELON/
+SAINT VINCENT/GRENADINES/SURINAME/SWEDEN/TAIWAN,
+PROVINCE OF/TAJIKISTAN/TOGO/TRINIDAD/TOBAGO/
+TUNISIA/TURKS/CAICOS ISLANDS/UKRAINE/URUGUAY/
+UZBEKISTAN/VATICAN CITY/VIETNAM/BRITISH VIRGIN
+ISLANDS/WALLIS/FUTUNA ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN ANTIGUA/BARBUDA/BURKINA FASO/BERMUDA/BRUNEI
+DARUSSALAM/BOLIVIA/BRAZIL/BAHAMAS/BHUTAN/CHILE/
+COLOMBIA/COSTA RICA/DOMINICA/DOMINICAN REPUBLIC/
+ECUADOR/GABON/GUATEMALA/HONDURAS/HAITI/JAMAICA/
+CAYMAN ISLANDS/MARSHALL ISLANDS/MONGOLIA/MEXICO/
+NICARAGUA/PANAMA/PERU/PARAGUAY
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN SURINAME/EL SALVADOR/TURKS/CAICOS ISLANDS/
+TAJIKISTAN/TURKMENISTAN/TUNISIA/TRINIDAD/TOBAGO/
+UKRAINE/URUGUAY/UZBEKISTAN/BRITISH VIRGIN ISLANDS/
+YEMEN, REPUBLIC OF/ZAMBIA/KYRGYZSTAN
+IF THE FARE COMPONENT IS ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU
+TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE SOLD
+IN ALBANIA/AMERICAN SAMOA/ANDORRA/ANTIGUA/BARBUDA/
+ARGENTINA/ARMENIA/ARUBA/AUSTRALIA/AUSTRIA/AZERBAIJAN/
+BAHAMAS/BARBADOS/BELARUS/BELGIUM/BENIN/BERMUDA/BHUTAN/
+BOLIVIA/BONAIRE, SAINT EUSTATIUS, SABA/BOTSWANA/BRAZIL/
+BULGARIA/BURKINA FASO/CAMBODIA/CAPE VERDE/CAYMAN
+ISLANDS/CHILE/COLOMBIA/COOK ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN COSTA RICA/CROATIA/CURACAO/CYPRUS/CZECH
+REPUBLIC/COTE D'IVOIRE/DENMARK/DOMINICA/DOMINICAN
+REPUBLIC/ECUADOR/EL SALVADOR/ESTONIA/FAROE ISLANDS/
+FINLAND/FRENCH GUIANA/FRENCH POLYNESIA/GIBRALTAR/
+GREECE/GREENLAND/GRENADA/GUADELOUPE/GUAM/GUATEMALA/
+GUYANA/HAITI/HONDURAS/HONG KONG, SAR, CHINA/
+HONDURAS/ICELAND
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN INDONESIA/IRELAND/JAMAICA/JAPAN/KAZAKHSTAN/
+KENYA/ESWATINI/KIRIBATI/MONACO/KYRGYZSTAN/LATVIA/
+LESOTHO/LIECHTENSTEIN/LITHUANIA/LUXEMBOURG/MACAU
+SAR/NORTH MACEDONIA, REPUBLIC OF/MADAGASCAR/MALAWI/
+MALAYSIA/MALDIVES/MALI/MALTA/MARSHALL ISLANDS/
+MARTINIQUE/MAURITIUS/MAYOTTE/MEXICO/MICRONESIA/
+CAROLINE ISLANDS/MOLDOVA,REPUBLIC OF
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN MONGOLIA/MONTENEGRO/MONTSERRAT/MOROCCO/
+MYANMAR/NAMIBIA/NEPAL/NETHERLANDS/NEW CALEDONIA/NEW
+ZEALAND/NICARAGUA/MARIANA ISLANDS/NORWAY/OCCUPIED
+PALESTINIAN TERRITORY/PANAMA/PAPUA NEW GUINEA/PERU/
+POLAND/PORTUGAL/PALAU/REUNION/ROMANIA/SAMOA/SAN
+MARINO/SERBIA/SEYCHELLES/SINGAPORE/SINT MAARTEN/
+SLOVAKIA
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN SLOVENIA/SOLOMON ISLANDS/SOUTH AFRICA/
+KOREA, REPUBLIC OF/SPAIN AND CANARY ISLANDS/SAINT
+KITTS AND NEVIS/SAINT LUCIA/ST. PIERRE/MIQUELON/
+SAINT VINCENT/GRENADINES/SURINAME/SWEDEN/TAIWAN,
+PROVINCE OF/TAJIKISTAN/TOGO/TRINIDAD/TOBAGO/
+TUNISIA/TURKS/CAICOS ISLANDS/UKRAINE/URUGUAY/
+UZBEKISTAN/VATICAN CITY/VIETNAM/BRITISH VIRGIN
+ISLANDS/WALLIS/FUTUNA ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN ANTIGUA/BARBUDA/BURKINA FASO/BERMUDA/BRUNEI
+DARUSSALAM/BOLIVIA/BRAZIL/BAHAMAS/BHUTAN/CHILE/
+COLOMBIA/COSTA RICA/DOMINICA/DOMINICAN REPUBLIC/
+ECUADOR/GABON/GUATEMALA/HONDURAS/HAITI/JAMAICA/
+CAYMAN ISLANDS/MARSHALL ISLANDS/MONGOLIA/MEXICO/
+NICARAGUA/PANAMA/PERU/PARAGUAY
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN SURINAME/EL SALVADOR/TURKS/CAICOS ISLANDS/
+TAJIKISTAN/TURKMENISTAN/TUNISIA/TRINIDAD/TOBAGO/
+UKRAINE/URUGUAY/UZBEKISTAN/BRITISH VIRGIN ISLANDS/
+YEMEN, REPUBLIC OF/ZAMBIA/KYRGYZSTAN
+BETWEEN BANGLADESH AND AREA 1
+ORIGINATING BANGLADESH -
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN
+SUDAN/VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC
+OF/NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/CUBA
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.
+ORIGINATING AREA 1 -
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN
+SUDAN/VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC
+OF/EGYPT/NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/
+CUBA/BANGLADESH
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="16" Type="RULE">
+                        <![CDATA[FOR L- TYPE FARES
+CHANGES
+ANY TIME
+CHARGE USD 35.00.
+NOTE -
+PER TRANSACTION AND TICKET TO BE ISSUED.
+------------------------------------------------
+CHANGE FEE DOES NOT APPLY TO INFANT NOT
+OCCUPYING A SEAT.
+----------------------------------------
+CHARGE USD 35.00 FOR NO-SHOW.
+NOTE -
+NO-SHOW CHARGES TO BE COLLECTED PLUS REFUND FEES
+INCASE OF REFUND AFTER NO-SHOW.
+INFANTS ARE EXEMPTED FROM DATED CHANGE PENALTY -
+NO-SHOW AND REFUND...
+----------------------------
+IF PAX IS NO-SHOW PENALTY OF CHANGING DATE AND
+NO-SHOW BOTH TO BE APPLIED.
+--------------------------------
+REFUND FEE WAIVED INCASE OF DEATH OF PASSENGER OR
+IMMEDIATE FAMILY MEMBER AND THE OFFICIAL
+DOCUMENTS ARE REQUIRED.
+--------------------------------------------------
+TO AVOID NO-SHOW CHARGES TICKET MUST BE
+REISSUED/REFUNDED BEFORE SCHEDULED FLIGHT
+DEPARTURE IN TICKET
+--------------------------------------------------
+CANCELLATIONS
+BEFORE DEPARTURE
+CHARGE USD 55.00 FOR REFUND.
+NOTE -
+UNUTILISED TICKETS
+-------------------------------------------------
+CANCELLATION FEE DOES NOT APPLY TO INFANT NOT
+OCCUPYING A SEAT.
+AFTER DEPARTURE
+CHARGE USD 75.00 FOR REFUND.
+NOTE -
+PARTLY UNUSED TICKETS -
+REFUND PERMITTED DEDUCT OW FARE ON THE SAME RBD
+IF ONE WAY FARE IS NOT AVAILABLE METIONED ON THE
+TICKET THEN DEDUCT NEXT AVAILABLE OW FARE FOR
+WHICH THE JOURNEY HAS BEEN PERFORMED.
+--------------------------------------------------
+CHARGE USD 55.00 FOR NO-SHOW.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="17" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THE HIGHER INTERMEDIATE POINT RULE DOES NOT APPLY FOR
+STOPOVERS.
+AND - THE HIGHER INTERMEDIATE POINT RULE DOES NOT APPLY
+FOR CONNECTIONS.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="18" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THE ORIGINAL AND THE REISSUED TICKET MUST BE ANNOTATED -
+VALID ON KU ONLY/ - AND - NON END - IN THE ENDORSEMENT
+BOX.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="19" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+ACCOMPANIED CHILD 2-11 - CHARGE 75 PERCENT OF THE FARE.
+TICKET DESIGNATOR - CH AND PERCENT OF DISCOUNT
+OR - INFANT UNDER 2 WITHOUT A SEAT - CHARGE 20 PERCENT OF
+THE FARE.
+TICKET DESIGNATOR - IN AND PERCENT OF DISCOUNT.
+NOTE -
+NOTE
+WHEN INFANT REACHES 2 YEARS OF AGE ON/BEFORE
+DEPARTURE FROM POINT OF TURNAROUND
+A SEAT MUST BE BOOKED ON THE RETURN LEG AND THE
+APPLICABLE CHILD FARE CHARGED ON HALF ROUNDTRIP
+BASIS WITH OUTBOUND INFANT FARE.
+---------------------------------------------
+OR - INFANT UNDER 2 WITH A SEAT - CHARGE 75 PERCENT OF THE
+FARE.
+TICKET DESIGNATOR - CH AND PERCENT OF DISCOUNT
+OR - UNACCOMPANIED CHILD 6-11 - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="20" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TOUR CONDUCTOR - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="21" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+AGENT - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="22" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+NOTE -
+NO OTHER DISCOUNTS PERMITTED.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="23" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THIS FARE MUST NOT BE USED AS THE HIGH OR THE LOW FARE
+WHEN CALCULATING A DIFFERENTIAL. THIS FARE MUST NOT BE
+USED AS THE THROUGH FARE WHEN PRICING A FARE COMPONENT
+WITH A DIFFERENTIAL.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="27" Type="RULE">
+                        <![CDATA[BETWEEN DAC AND AREA 1
+FARES APPLY IN CONJUNCTION WITH TOUR NUMBER DACT22.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="31" Type="RULE">
+                        <![CDATA[DO A CATEGORY 31 SPECIFIC TEXT ENTRY TO VIEW CONTENTS
+ALSO REFERENCE 16 PENALTIES - FOR ADDITIONAL CHANGE INFORMATION]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="33" Type="RULE">
+                        <![CDATA[FOR L- TYPE FARES
+REFUND MUST BE REQUESTED BEFORE DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED BEFORE ORIGINALLY SCHEDULED
+FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 55.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+NEW FARE FOR FULLY FLOWN FARE COMPONENTS MUST BE HIGHER
+THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED BEFORE DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED ANYTIME AFTER ORIGINALLY
+SCHEDULED FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 110.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+NEW FARE FOR FULLY FLOWN FARE COMPONENTS MUST BE HIGHER
+THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED AFTER DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED BEFORE ORIGINALLY SCHEDULED
+FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 75.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+REPRICE FLOWN PORTION USING FARES IN EFFECT ON TICKET
+ISSUANCE DATE. FOR FULLY FLOWN FARE COMPONENTS FARE BREAK
+POINTS MAY NOT BE CHANGED. FOR PARTIALLY FLOWN FARE
+COMPONENTS ONLY DESTINATION FARE BREAK POINTS MAY BE
+CHANGED. REPRICE USING NORMAL/SPECIAL ONE WAY/ROUND TRIP
+FARES/ANY RULE/FARE CLASS/RBD. PUBLIC FARES ARE USED IF
+TICKETED FARE IS IN PUBLIC TARIFF. QUALIFIED PRIVATE
+FARES OR PUBLIC FARES ARE USED IF TICKETED FARE IS IN
+PRIVATE TARIFF. NEW FARE FOR FULLY FLOWN FARE COMPONENTS
+MUST BE HIGHER THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED AFTER DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED ANYTIME AFTER ORIGINALLY
+SCHEDULED FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 130.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+REPRICE FLOWN PORTION USING FARES IN EFFECT ON TICKET
+ISSUANCE DATE. FOR FULLY FLOWN FARE COMPONENTS FARE BREAK
+POINTS MAY NOT BE CHANGED. FOR PARTIALLY FLOWN FARE
+COMPONENTS ONLY DESTINATION FARE BREAK POINTS MAY BE
+CHANGED. REPRICE USING NORMAL/SPECIAL ONE WAY/ROUND TRIP
+FARES/ANY RULE/FARE CLASS/RBD. PUBLIC FARES ARE USED IF
+TICKETED FARE IS IN PUBLIC TARIFF. QUALIFIED PRIVATE
+FARES OR PUBLIC FARES ARE USED IF TICKETED FARE IS IN
+PRIVATE TARIFF. NEW FARE FOR FULLY FLOWN FARE COMPONENTS
+MUST BE HIGHER THAN TICKETED FARE.]]>
+                    </air:FareRuleLong>
+                </air:FareRule>
+                <air:FareRule FareInfoRef="nJ4ZwMSqWDKAqKx7BAAAAA==" RuleNumber="BD01" Source="ATPCO" TariffNumber="001">
+                    <air:FareRuleLong Category="0" Type="RULE">
+                        <![CDATA[RULE - 001/BD01
+UNLESS OTHERWISE SPECIFIED
+KUWAIT AIRWAYS NFP FARES
+APPLICATION
+AREA
+THESE FARES APPLY
+BETWEEN AREA 3 AND AREA 1.
+CLASS OF SERVICE
+THESE FARES APPLY FOR FIRST/BUSINESS/ECONOMY CLASS
+SERVICE.
+TYPES OF TRANSPORTATION
+THIS RULE GOVERNS ONE-WAY AND ROUND-TRIP FARES.
+FARES GOVERNED BY THIS RULE CAN BE USED TO CREATE
+ONE-WAY/ROUND-TRIP/OPEN-JAW JOURNEYS.
+FULL AND SEQUENTIAL USE OF FLIGHT COUPONS-
+THE TICKET /OR ELECTRONIC TICKET/ IS NOT VALID IF
+THE FIRST COUPON HAS NOT BEEN USED AND WILL NOT
+BE HONORED IF ALL THE COUPONS ARE NOT USED IN THE
+SEQUENCE PROVIDED IN THE TICKET /OR ELECTRONIC
+TICKET/.
+--------------------------------------------------
+PAX WILL BE DOWNGRADED TO NEXT LOWER CABIN IF NO
+FIRST CLASS IS OFFERED ON ANY OF THE LEG NO
+REFUND APPLICABLE FOR THE DOWNGRADE OF CABIN
+CAPACITY LIMITATIONS
+THE CARRIER SHALL LIMIT THE NUMBER OF PASSENGERS CARRIED
+ON ANY ONE FLIGHT AT FARES GOVERNED BY THIS RULE AND SUCH
+FARES WILL NOT NECESSARILY BE AVAILABLE ON ALL FLIGHTS.
+THE NUMBER OF SEATS WHICH THE CARRIER SHALL MAKE
+AVAILABLE ON A GIVEN FLIGHT WILL BE DETERMINED BY THE
+CARRIERS BEST JUDGMENT
+OTHER CONDITIONS
+ALL FARES ARE SUBJECT TO CHANGE OR WITHDRAWAL
+WITHOUT NOTICE.
+FARES ARE ONLY GUARANTEED IF AUTO-PRICED AND
+TICKETED IN GDS ON THE SAME DAY.
+-----------------------------------------------
+PASSENGER EXPENSES NOT PERMITTED.
+--------------------------------------
+IF TRANSIT TIME AT KUWAIT AIRPORT EXCEEDS
+08HOURS STPC/HOTAC WILL BE ON PASSENGER COST.
+---------------------------------------------
+JOURNEY BETWEEN DAC AND CGP/ZYL WILL BE PERFORMED
+ON KU-BUS SERVICE ONLY.
+-------------------------------------------------
+PAX WILL BE DOWNGRADED TO NEXT LOWER CABIN IF
+NO FIRST CLASS IS OFFERED ON ANY OF THE LEG NO
+REFUND APPLICABLE FOR THE DOWNGRADE OF CABIN
+--------------------------------------------------
+WHEN ITINERARY RESULTS IN A HIGHER FARE THE FARE
+DIFF WILL BE COLLECTED PLUS CHANGE FEE AND IF NEW
+ITINERARY RESULTS IN LOWER FARE THE CHANGE FEE
+WILL APPLY AND NO REFUND WILL BE MADE.
+ABOVE CHARGES APPLICABLE ONLY IF TKT IS REISSUED
+BEFORE DEPARTURE OF FLT]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="4" Type="RULE">
+                        <![CDATA[BETWEEN DAC AND NYC
+OUTBOUND -
+THE FARE COMPONENT MUST BE ON
+ONE OR MORE OF THE FOLLOWING
+KU FLIGHT 284
+KU FLIGHT 117.
+INBOUND -
+THE FARE COMPONENT MUST BE ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="5" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+RESERVATIONS ARE REQUIRED FOR ALL SECTORS.
+NOTE -
+TICKET MUST BE ISSUED WITH CONFIRMED RESERVATION
+FOR THE ENTIRE JOURNEY.
+-------------------------------------------------
+KU RESERVES THE RIGHT TO CANCEL ANY PNR WHERE
+ITINERARY DO NOT COMPLY WITH THE RESERVATION
+BOOKING CODE / RBD/
+--------------------------------------------------
+IF A TICKET IS USED OUT OF SEQUENCE KU RESERVES
+THE RIGHT TO CANCEL ANY PNR OR INVALIDATE THE
+REMAINING FLIGHT COUPONS.
+-------------------------------------------------
+IF A PASSENGER FAILS TO TRAVEL ON A SECTOR BOOKED
+KU RESERVES THE RIGHT TO CANCEL THE REMAINING KU
+SECTOR .
+--------------------------------------------------
+ANY VIOLATION OF MARRIED SEGMENT WOULD INCUR A
+DEBIT.
+-------------------------------------------------
+TAX /SERVICE CHARGES/GOVT .LEVIES TO BE PAID AS
+APPLICABLE AT THE TIME OF TKT ISSUANCE.
+--------------------------------------------------]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="7" Type="RULE">
+                        <![CDATA[FOR ROUND TRIP FARES
+TRAVEL FROM LAST STOPOVER MUST COMMENCE NO LATER THAN 12
+MONTHS AFTER DEPARTURE FROM FARE ORIGIN.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="8" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+2 STOPOVERS PERMITTED ON THE PRICING UNIT - 1 IN EACH
+DIRECTION IN KWI AT USD 160.00 EACH.
+APPLIES PER ADULT AND CHILD.
+NO STOPOVER OCCURS IF PASSENGER TAKES NEXT AVAILABLE
+FLIGHT WITHIN 8 HOURS HOWEVER A STOPOVER MAY NOT
+EXCEED 24 HOURS.
+NO STOPOVERS PERMITTED.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="9" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+UNLIMITED TRANSFERS PERMITTED ON THE PRICING UNIT
+FARE BREAK AND EMBEDDED SURFACE SECTORS NOT PERMITTED ON
+THE FARE COMPONENT.
+NOTE -
+IF TRANSIT TIME EXCEEDS MORE THAN 8HOURS AND LESS
+24HOURS A CHARGE OF USD125 WILL BE APPLICABLE.
+--------------------------------------------------]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="10" Type="RULE">
+                        <![CDATA[FOR T- TYPE FARES
+END-ON-END NOT PERMITTED. SIDE TRIPS PERMITTED.
+APPLICABLE ADD-ON CONSTRUCTION IS ADDRESSED IN
+MISCELLANEOUS PROVISIONS - CATEGORY 23.
+OPEN JAWS/ROUND TRIPS/CIRCLE TRIPS
+FARES MAY BE COMBINED ON A HALF ROUND TRIP BASIS
+-TO FORM SINGLE OR DOUBLE OPEN JAWS WHICH CONSISTS OF NO
+MORE THAN 2 INTERNATIONAL FARE COMPONENTS AND THE OPEN
+SEGMENT AT ORIGIN MUST BE IN ONE COUNTRY. THE OPEN
+SEGMENT AT DESTINATION HAS NO RESTRICTIONS.
+MILEAGE OF THE OPEN SEGMENT MUST BE EQUAL/LESS THAN
+MILEAGE OF THE LONGEST FLOWN FARE COMPONENT.
+-TO FORM ROUND TRIPS
+-TO FORM CIRCLE TRIPS
+A MAXIMUM OF TWO INTERNATIONAL FARE COMPONENTS
+PERMITTED.
+PROVIDED -
+COMBINATIONS ARE WITH ANY V-/T-/L-/H-/B-/M- TYPE FARES
+FOR CARRIER KU IN ANY RULE IN THIS TARIFF.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="11" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TRAVEL IS NOT PERMITTED 01JUN THROUGH 30SEP.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="12" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+A SURCHARGE APPLIES.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+BETWEEN NYC AND AREA 3 FOR ROUND TRIP FARES
+IF INFANT UNDER 02 WITHOUT A SEAT.
+THERE IS NO CHARGE FOR TRAVEL PER TICKET.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+ORIGINATING NYC -
+A SURCHARGE OF USD 66.00 PER TICKET WILL BE ADDED TO THE
+APPLICABLE FARE FOR TRAVEL.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+ORIGINATING AREA 3 -
+A SURCHARGE OF KWD 14.000 PER TICKET WILL BE ADDED TO
+THE APPLICABLE FARE FOR TRAVEL.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="14" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+VALID FOR TRAVEL COMMENCING ON/BEFORE 15JAN 25.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="15" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TICKETS MUST BE ISSUED ON/BEFORE 15JAN 25.
+UNLESS OTHERWISE SPECIFIED
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN SUDAN/
+VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC OF/EGYPT/
+NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/CUBA/PAKISTAN
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.
+IF THE FARE COMPONENT IS ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU
+TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE SOLD
+IN ALBANIA/AMERICAN SAMOA/ANDORRA/ANTIGUA/BARBUDA/
+ARGENTINA/ARMENIA/ARUBA/AUSTRALIA/AUSTRIA/AZERBAIJAN/
+BAHAMAS/BARBADOS/BELARUS/BELGIUM/BENIN/BERMUDA/BHUTAN/
+BOLIVIA/BONAIRE, SAINT EUSTATIUS, SABA/BOTSWANA/BRAZIL/
+BULGARIA/BURKINA FASO/CAMBODIA/CAPE VERDE/CAYMAN
+ISLANDS/CHILE/COLOMBIA/COOK ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN COSTA RICA/CROATIA/CURACAO/CYPRUS/CZECH
+REPUBLIC/COTE D'IVOIRE/DENMARK/DOMINICA/DOMINICAN
+REPUBLIC/ECUADOR/EL SALVADOR/ESTONIA/FAROE ISLANDS/
+FINLAND/FRENCH GUIANA/FRENCH POLYNESIA/GIBRALTAR/
+GREECE/GREENLAND/GRENADA/GUADELOUPE/GUAM/GUATEMALA/
+GUYANA/HAITI/HONDURAS/HONG KONG, SAR, CHINA/
+HONDURAS/ICELAND
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN INDONESIA/IRELAND/JAMAICA/JAPAN/KAZAKHSTAN/
+KENYA/ESWATINI/KIRIBATI/MONACO/KYRGYZSTAN/LATVIA/
+LESOTHO/LIECHTENSTEIN/LITHUANIA/LUXEMBOURG/MACAU
+SAR/NORTH MACEDONIA, REPUBLIC OF/MADAGASCAR/MALAWI/
+MALAYSIA/MALDIVES/MALI/MALTA/MARSHALL ISLANDS/
+MARTINIQUE/MAURITIUS/MAYOTTE/MEXICO/MICRONESIA/
+CAROLINE ISLANDS/MOLDOVA,REPUBLIC OF
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN MONGOLIA/MONTENEGRO/MONTSERRAT/MOROCCO/
+MYANMAR/NAMIBIA/NEPAL/NETHERLANDS/NEW CALEDONIA/NEW
+ZEALAND/NICARAGUA/MARIANA ISLANDS/NORWAY/OCCUPIED
+PALESTINIAN TERRITORY/PANAMA/PAPUA NEW GUINEA/PERU/
+POLAND/PORTUGAL/PALAU/REUNION/ROMANIA/SAMOA/SAN
+MARINO/SERBIA/SEYCHELLES/SINGAPORE/SINT MAARTEN/
+SLOVAKIA
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN SLOVENIA/SOLOMON ISLANDS/SOUTH AFRICA/
+KOREA, REPUBLIC OF/SPAIN AND CANARY ISLANDS/SAINT
+KITTS AND NEVIS/SAINT LUCIA/ST. PIERRE/MIQUELON/
+SAINT VINCENT/GRENADINES/SURINAME/SWEDEN/TAIWAN,
+PROVINCE OF/TAJIKISTAN/TOGO/TRINIDAD/TOBAGO/
+TUNISIA/TURKS/CAICOS ISLANDS/UKRAINE/URUGUAY/
+UZBEKISTAN/VATICAN CITY/VIETNAM/BRITISH VIRGIN
+ISLANDS/WALLIS/FUTUNA ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN ANTIGUA/BARBUDA/BURKINA FASO/BERMUDA/BRUNEI
+DARUSSALAM/BOLIVIA/BRAZIL/BAHAMAS/BHUTAN/CHILE/
+COLOMBIA/COSTA RICA/DOMINICA/DOMINICAN REPUBLIC/
+ECUADOR/GABON/GUATEMALA/HONDURAS/HAITI/JAMAICA/
+CAYMAN ISLANDS/MARSHALL ISLANDS/MONGOLIA/MEXICO/
+NICARAGUA/PANAMA/PERU/PARAGUAY
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN SURINAME/EL SALVADOR/TURKS/CAICOS ISLANDS/
+TAJIKISTAN/TURKMENISTAN/TUNISIA/TRINIDAD/TOBAGO/
+UKRAINE/URUGUAY/UZBEKISTAN/BRITISH VIRGIN ISLANDS/
+YEMEN, REPUBLIC OF/ZAMBIA/KYRGYZSTAN
+IF THE FARE COMPONENT IS ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU
+TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE SOLD
+IN ALBANIA/AMERICAN SAMOA/ANDORRA/ANTIGUA/BARBUDA/
+ARGENTINA/ARMENIA/ARUBA/AUSTRALIA/AUSTRIA/AZERBAIJAN/
+BAHAMAS/BARBADOS/BELARUS/BELGIUM/BENIN/BERMUDA/BHUTAN/
+BOLIVIA/BONAIRE, SAINT EUSTATIUS, SABA/BOTSWANA/BRAZIL/
+BULGARIA/BURKINA FASO/CAMBODIA/CAPE VERDE/CAYMAN
+ISLANDS/CHILE/COLOMBIA/COOK ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN COSTA RICA/CROATIA/CURACAO/CYPRUS/CZECH
+REPUBLIC/COTE D'IVOIRE/DENMARK/DOMINICA/DOMINICAN
+REPUBLIC/ECUADOR/EL SALVADOR/ESTONIA/FAROE ISLANDS/
+FINLAND/FRENCH GUIANA/FRENCH POLYNESIA/GIBRALTAR/
+GREECE/GREENLAND/GRENADA/GUADELOUPE/GUAM/GUATEMALA/
+GUYANA/HAITI/HONDURAS/HONG KONG, SAR, CHINA/
+HONDURAS/ICELAND
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN INDONESIA/IRELAND/JAMAICA/JAPAN/KAZAKHSTAN/
+KENYA/ESWATINI/KIRIBATI/MONACO/KYRGYZSTAN/LATVIA/
+LESOTHO/LIECHTENSTEIN/LITHUANIA/LUXEMBOURG/MACAU
+SAR/NORTH MACEDONIA, REPUBLIC OF/MADAGASCAR/MALAWI/
+MALAYSIA/MALDIVES/MALI/MALTA/MARSHALL ISLANDS/
+MARTINIQUE/MAURITIUS/MAYOTTE/MEXICO/MICRONESIA/
+CAROLINE ISLANDS/MOLDOVA,REPUBLIC OF
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN MONGOLIA/MONTENEGRO/MONTSERRAT/MOROCCO/
+MYANMAR/NAMIBIA/NEPAL/NETHERLANDS/NEW CALEDONIA/NEW
+ZEALAND/NICARAGUA/MARIANA ISLANDS/NORWAY/OCCUPIED
+PALESTINIAN TERRITORY/PANAMA/PAPUA NEW GUINEA/PERU/
+POLAND/PORTUGAL/PALAU/REUNION/ROMANIA/SAMOA/SAN
+MARINO/SERBIA/SEYCHELLES/SINGAPORE/SINT MAARTEN/
+SLOVAKIA
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN SLOVENIA/SOLOMON ISLANDS/SOUTH AFRICA/
+KOREA, REPUBLIC OF/SPAIN AND CANARY ISLANDS/SAINT
+KITTS AND NEVIS/SAINT LUCIA/ST. PIERRE/MIQUELON/
+SAINT VINCENT/GRENADINES/SURINAME/SWEDEN/TAIWAN,
+PROVINCE OF/TAJIKISTAN/TOGO/TRINIDAD/TOBAGO/
+TUNISIA/TURKS/CAICOS ISLANDS/UKRAINE/URUGUAY/
+UZBEKISTAN/VATICAN CITY/VIETNAM/BRITISH VIRGIN
+ISLANDS/WALLIS/FUTUNA ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN ANTIGUA/BARBUDA/BURKINA FASO/BERMUDA/BRUNEI
+DARUSSALAM/BOLIVIA/BRAZIL/BAHAMAS/BHUTAN/CHILE/
+COLOMBIA/COSTA RICA/DOMINICA/DOMINICAN REPUBLIC/
+ECUADOR/GABON/GUATEMALA/HONDURAS/HAITI/JAMAICA/
+CAYMAN ISLANDS/MARSHALL ISLANDS/MONGOLIA/MEXICO/
+NICARAGUA/PANAMA/PERU/PARAGUAY
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN SURINAME/EL SALVADOR/TURKS/CAICOS ISLANDS/
+TAJIKISTAN/TURKMENISTAN/TUNISIA/TRINIDAD/TOBAGO/
+UKRAINE/URUGUAY/UZBEKISTAN/BRITISH VIRGIN ISLANDS/
+YEMEN, REPUBLIC OF/ZAMBIA/KYRGYZSTAN
+BETWEEN BANGLADESH AND AREA 1
+ORIGINATING BANGLADESH -
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN
+SUDAN/VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC
+OF/NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/CUBA
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.
+ORIGINATING AREA 1 -
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN
+SUDAN/VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC
+OF/EGYPT/NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/
+CUBA/BANGLADESH
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="16" Type="RULE">
+                        <![CDATA[FOR T- TYPE FARES
+CHANGES
+ANY TIME
+CHARGE USD 50.00.
+NOTE -
+PER TRANSACTION AND TICKET TO BE ISSUED.
+------------------------------------------------
+CHANGE FEE DOES NOT APPLY TO INFANT NOT
+OCCUPYING A SEAT.
+----------------------------------------
+CHARGE USD 50.00 FOR NO-SHOW.
+NOTE -
+NO-SHOW CHARGES TO BE COLLECTED PLUS REFUND FEES
+INCASE OF REFUND AFTER NO-SHOW.
+INFANTS ARE EXEMPTED FROM DATED CHANGE PENALTY -
+NO-SHOW AND REFUND...
+----------------------------
+IF PAX IS NO-SHOW PENALTY OF CHANGING DATE AND
+NO-SHOW BOTH TO BE APPLIED.
+--------------------------------
+REFUND FEE WAIVED INCASE OF DEATH OF PASSENGER OR
+IMMEDIATE FAMILY MEMBER AND THE OFFICIAL
+DOCUMENTS ARE REQUIRED.
+--------------------------------------------------
+TO AVOID NO-SHOW CHARGES TICKET MUST BE
+REISSUED/REFUNDED BEFORE SCHEDULED FLIGHT
+DEPARTURE IN TICKET
+--------------------------------------------------
+CANCELLATIONS
+BEFORE DEPARTURE
+CHARGE USD 75.00 FOR REFUND.
+NOTE -
+UNUTILISED TICKETS
+-------------------------------------------------
+CANCELLATION FEE DOES NOT APPLY TO INFANT NOT
+OCCUPYING A SEAT.
+AFTER DEPARTURE
+CHARGE USD 100.00 FOR REFUND.
+NOTE -
+PARTLY UNUSED TICKETS -
+REFUND PERMITTED DEDUCT OW FARE ON THE SAME RBD
+IF ONE WAY FARE IS NOT AVAILABLE METIONED ON THE
+TICKET THEN DEDUCT NEXT AVAILABLE OW FARE FOR
+WHICH THE JOURNEY HAS BEEN PERFORMED.
+--------------------------------------------------
+CHARGE USD 75.00 FOR NO-SHOW.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="17" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THE HIGHER INTERMEDIATE POINT RULE DOES NOT APPLY FOR
+STOPOVERS.
+AND - THE HIGHER INTERMEDIATE POINT RULE DOES NOT APPLY
+FOR CONNECTIONS.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="18" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THE ORIGINAL AND THE REISSUED TICKET MUST BE ANNOTATED -
+VALID ON KU ONLY/ - AND - NON END - IN THE ENDORSEMENT
+BOX.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="19" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+ACCOMPANIED CHILD 2-11 - CHARGE 75 PERCENT OF THE FARE.
+TICKET DESIGNATOR - CH AND PERCENT OF DISCOUNT
+OR - INFANT UNDER 2 WITHOUT A SEAT - CHARGE 20 PERCENT OF
+THE FARE.
+TICKET DESIGNATOR - IN AND PERCENT OF DISCOUNT.
+NOTE -
+NOTE
+WHEN INFANT REACHES 2 YEARS OF AGE ON/BEFORE
+DEPARTURE FROM POINT OF TURNAROUND
+A SEAT MUST BE BOOKED ON THE RETURN LEG AND THE
+APPLICABLE CHILD FARE CHARGED ON HALF ROUNDTRIP
+BASIS WITH OUTBOUND INFANT FARE.
+---------------------------------------------
+OR - INFANT UNDER 2 WITH A SEAT - CHARGE 75 PERCENT OF THE
+FARE.
+TICKET DESIGNATOR - CH AND PERCENT OF DISCOUNT
+OR - UNACCOMPANIED CHILD 6-11 - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="20" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TOUR CONDUCTOR - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="21" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+AGENT - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="22" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+NOTE -
+NO OTHER DISCOUNTS PERMITTED.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="23" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THIS FARE MUST NOT BE USED AS THE HIGH OR THE LOW FARE
+WHEN CALCULATING A DIFFERENTIAL. THIS FARE MUST NOT BE
+USED AS THE THROUGH FARE WHEN PRICING A FARE COMPONENT
+WITH A DIFFERENTIAL.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="27" Type="RULE">
+                        <![CDATA[BETWEEN DAC AND AREA 1
+FARES APPLY IN CONJUNCTION WITH TOUR NUMBER DACT22.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="31" Type="RULE">
+                        <![CDATA[DO A CATEGORY 31 SPECIFIC TEXT ENTRY TO VIEW CONTENTS
+ALSO REFERENCE 16 PENALTIES - FOR ADDITIONAL CHANGE INFORMATION]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="33" Type="RULE">
+                        <![CDATA[FOR T- TYPE FARES
+REFUND MUST BE REQUESTED BEFORE DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED BEFORE ORIGINALLY SCHEDULED
+FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 75.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+NEW FARE FOR FULLY FLOWN FARE COMPONENTS MUST BE HIGHER
+THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED BEFORE DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED ANYTIME AFTER ORIGINALLY
+SCHEDULED FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 150.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+NEW FARE FOR FULLY FLOWN FARE COMPONENTS MUST BE HIGHER
+THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED AFTER DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED BEFORE ORIGINALLY SCHEDULED
+FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 100.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+REPRICE FLOWN PORTION USING FARES IN EFFECT ON TICKET
+ISSUANCE DATE. FOR FULLY FLOWN FARE COMPONENTS FARE BREAK
+POINTS MAY NOT BE CHANGED. FOR PARTIALLY FLOWN FARE
+COMPONENTS ONLY DESTINATION FARE BREAK POINTS MAY BE
+CHANGED. REPRICE USING NORMAL/SPECIAL ONE WAY/ROUND TRIP
+FARES/ANY RULE/FARE CLASS/RBD. PUBLIC FARES ARE USED IF
+TICKETED FARE IS IN PUBLIC TARIFF. QUALIFIED PRIVATE
+FARES OR PUBLIC FARES ARE USED IF TICKETED FARE IS IN
+PRIVATE TARIFF. NEW FARE FOR FULLY FLOWN FARE COMPONENTS
+MUST BE HIGHER THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED AFTER DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED ANYTIME AFTER ORIGINALLY
+SCHEDULED FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 175.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+REPRICE FLOWN PORTION USING FARES IN EFFECT ON TICKET
+ISSUANCE DATE. FOR FULLY FLOWN FARE COMPONENTS FARE BREAK
+POINTS MAY NOT BE CHANGED. FOR PARTIALLY FLOWN FARE
+COMPONENTS ONLY DESTINATION FARE BREAK POINTS MAY BE
+CHANGED. REPRICE USING NORMAL/SPECIAL ONE WAY/ROUND TRIP
+FARES/ANY RULE/FARE CLASS/RBD. PUBLIC FARES ARE USED IF
+TICKETED FARE IS IN PUBLIC TARIFF. QUALIFIED PRIVATE
+FARES OR PUBLIC FARES ARE USED IF TICKETED FARE IS IN
+PRIVATE TARIFF. NEW FARE FOR FULLY FLOWN FARE COMPONENTS
+MUST BE HIGHER THAN TICKETED FARE.]]>
+                    </air:FareRuleLong>
+                </air:FareRule>
+                <air:FareRule FareInfoRef="nJ4ZwMSqWDKAYLx7BAAAAA==" RuleNumber="BD01" Source="ATPCO" TariffNumber="001">
+                    <air:FareRuleLong Category="0" Type="RULE">
+                        <![CDATA[RULE - 001/BD01
+UNLESS OTHERWISE SPECIFIED
+KUWAIT AIRWAYS NFP FARES
+APPLICATION
+AREA
+THESE FARES APPLY
+BETWEEN AREA 3 AND AREA 1.
+CLASS OF SERVICE
+THESE FARES APPLY FOR FIRST/BUSINESS/ECONOMY CLASS
+SERVICE.
+TYPES OF TRANSPORTATION
+THIS RULE GOVERNS ONE-WAY AND ROUND-TRIP FARES.
+FARES GOVERNED BY THIS RULE CAN BE USED TO CREATE
+ONE-WAY/ROUND-TRIP/OPEN-JAW JOURNEYS.
+FULL AND SEQUENTIAL USE OF FLIGHT COUPONS-
+THE TICKET /OR ELECTRONIC TICKET/ IS NOT VALID IF
+THE FIRST COUPON HAS NOT BEEN USED AND WILL NOT
+BE HONORED IF ALL THE COUPONS ARE NOT USED IN THE
+SEQUENCE PROVIDED IN THE TICKET /OR ELECTRONIC
+TICKET/.
+--------------------------------------------------
+PAX WILL BE DOWNGRADED TO NEXT LOWER CABIN IF NO
+FIRST CLASS IS OFFERED ON ANY OF THE LEG NO
+REFUND APPLICABLE FOR THE DOWNGRADE OF CABIN
+CAPACITY LIMITATIONS
+THE CARRIER SHALL LIMIT THE NUMBER OF PASSENGERS CARRIED
+ON ANY ONE FLIGHT AT FARES GOVERNED BY THIS RULE AND SUCH
+FARES WILL NOT NECESSARILY BE AVAILABLE ON ALL FLIGHTS.
+THE NUMBER OF SEATS WHICH THE CARRIER SHALL MAKE
+AVAILABLE ON A GIVEN FLIGHT WILL BE DETERMINED BY THE
+CARRIERS BEST JUDGMENT
+OTHER CONDITIONS
+ALL FARES ARE SUBJECT TO CHANGE OR WITHDRAWAL
+WITHOUT NOTICE.
+FARES ARE ONLY GUARANTEED IF AUTO-PRICED AND
+TICKETED IN GDS ON THE SAME DAY.
+-----------------------------------------------
+PASSENGER EXPENSES NOT PERMITTED.
+--------------------------------------
+IF TRANSIT TIME AT KUWAIT AIRPORT EXCEEDS
+08HOURS STPC/HOTAC WILL BE ON PASSENGER COST.
+---------------------------------------------
+JOURNEY BETWEEN DAC AND CGP/ZYL WILL BE PERFORMED
+ON KU-BUS SERVICE ONLY.
+-------------------------------------------------
+PAX WILL BE DOWNGRADED TO NEXT LOWER CABIN IF
+NO FIRST CLASS IS OFFERED ON ANY OF THE LEG NO
+REFUND APPLICABLE FOR THE DOWNGRADE OF CABIN
+--------------------------------------------------
+WHEN ITINERARY RESULTS IN A HIGHER FARE THE FARE
+DIFF WILL BE COLLECTED PLUS CHANGE FEE AND IF NEW
+ITINERARY RESULTS IN LOWER FARE THE CHANGE FEE
+WILL APPLY AND NO REFUND WILL BE MADE.
+ABOVE CHARGES APPLICABLE ONLY IF TKT IS REISSUED
+BEFORE DEPARTURE OF FLT]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="4" Type="RULE">
+                        <![CDATA[BETWEEN DAC AND NYC
+OUTBOUND -
+THE FARE COMPONENT MUST BE ON
+ONE OR MORE OF THE FOLLOWING
+KU FLIGHT 284
+KU FLIGHT 117.
+INBOUND -
+THE FARE COMPONENT MUST BE ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="5" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+RESERVATIONS ARE REQUIRED FOR ALL SECTORS.
+NOTE -
+TICKET MUST BE ISSUED WITH CONFIRMED RESERVATION
+FOR THE ENTIRE JOURNEY.
+-------------------------------------------------
+KU RESERVES THE RIGHT TO CANCEL ANY PNR WHERE
+ITINERARY DO NOT COMPLY WITH THE RESERVATION
+BOOKING CODE / RBD/
+--------------------------------------------------
+IF A TICKET IS USED OUT OF SEQUENCE KU RESERVES
+THE RIGHT TO CANCEL ANY PNR OR INVALIDATE THE
+REMAINING FLIGHT COUPONS.
+-------------------------------------------------
+IF A PASSENGER FAILS TO TRAVEL ON A SECTOR BOOKED
+KU RESERVES THE RIGHT TO CANCEL THE REMAINING KU
+SECTOR .
+--------------------------------------------------
+ANY VIOLATION OF MARRIED SEGMENT WOULD INCUR A
+DEBIT.
+-------------------------------------------------
+TAX /SERVICE CHARGES/GOVT .LEVIES TO BE PAID AS
+APPLICABLE AT THE TIME OF TKT ISSUANCE.
+--------------------------------------------------]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="7" Type="RULE">
+                        <![CDATA[FOR ROUND TRIP FARES
+TRAVEL FROM LAST STOPOVER MUST COMMENCE NO LATER THAN 12
+MONTHS AFTER DEPARTURE FROM FARE ORIGIN.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="8" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+2 STOPOVERS PERMITTED ON THE PRICING UNIT - 1 IN EACH
+DIRECTION IN KWI AT USD 160.00 EACH.
+APPLIES PER ADULT AND CHILD.
+NO STOPOVER OCCURS IF PASSENGER TAKES NEXT AVAILABLE
+FLIGHT WITHIN 8 HOURS HOWEVER A STOPOVER MAY NOT
+EXCEED 24 HOURS.
+NO STOPOVERS PERMITTED.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="9" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+UNLIMITED TRANSFERS PERMITTED ON THE PRICING UNIT
+FARE BREAK AND EMBEDDED SURFACE SECTORS NOT PERMITTED ON
+THE FARE COMPONENT.
+NOTE -
+IF TRANSIT TIME EXCEEDS MORE THAN 8HOURS AND LESS
+24HOURS A CHARGE OF USD125 WILL BE APPLICABLE.
+--------------------------------------------------]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="10" Type="RULE">
+                        <![CDATA[FOR L- TYPE FARES
+END-ON-END NOT PERMITTED. SIDE TRIPS PERMITTED.
+APPLICABLE ADD-ON CONSTRUCTION IS ADDRESSED IN
+MISCELLANEOUS PROVISIONS - CATEGORY 23.
+OPEN JAWS/ROUND TRIPS/CIRCLE TRIPS
+FARES MAY BE COMBINED ON A HALF ROUND TRIP BASIS
+-TO FORM SINGLE OR DOUBLE OPEN JAWS WHICH CONSISTS OF NO
+MORE THAN 2 INTERNATIONAL FARE COMPONENTS AND THE OPEN
+SEGMENT AT ORIGIN MUST BE IN ONE COUNTRY. THE OPEN
+SEGMENT AT DESTINATION HAS NO RESTRICTIONS.
+MILEAGE OF THE OPEN SEGMENT MUST BE EQUAL/LESS THAN
+MILEAGE OF THE LONGEST FLOWN FARE COMPONENT.
+-TO FORM ROUND TRIPS
+-TO FORM CIRCLE TRIPS
+A MAXIMUM OF TWO INTERNATIONAL FARE COMPONENTS
+PERMITTED.
+PROVIDED -
+COMBINATIONS ARE WITH ANY V-/T-/L-/H-/B-/M- TYPE FARES
+FOR CARRIER KU IN ANY RULE IN THIS TARIFF.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="11" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TRAVEL IS NOT PERMITTED 01JUN THROUGH 30SEP.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="12" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+A SURCHARGE APPLIES.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+BETWEEN NYC AND AREA 3 FOR ROUND TRIP FARES
+IF INFANT UNDER 02 WITHOUT A SEAT.
+THERE IS NO CHARGE FOR TRAVEL PER TICKET.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+ORIGINATING NYC -
+A SURCHARGE OF USD 66.00 PER TICKET WILL BE ADDED TO THE
+APPLICABLE FARE FOR TRAVEL.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+ORIGINATING AREA 3 -
+A SURCHARGE OF KWD 14.000 PER TICKET WILL BE ADDED TO
+THE APPLICABLE FARE FOR TRAVEL.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="14" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+VALID FOR TRAVEL COMMENCING ON/BEFORE 15JAN 25.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="15" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TICKETS MUST BE ISSUED ON/BEFORE 15JAN 25.
+UNLESS OTHERWISE SPECIFIED
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN SUDAN/
+VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC OF/EGYPT/
+NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/CUBA/PAKISTAN
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.
+IF THE FARE COMPONENT IS ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU
+TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE SOLD
+IN ALBANIA/AMERICAN SAMOA/ANDORRA/ANTIGUA/BARBUDA/
+ARGENTINA/ARMENIA/ARUBA/AUSTRALIA/AUSTRIA/AZERBAIJAN/
+BAHAMAS/BARBADOS/BELARUS/BELGIUM/BENIN/BERMUDA/BHUTAN/
+BOLIVIA/BONAIRE, SAINT EUSTATIUS, SABA/BOTSWANA/BRAZIL/
+BULGARIA/BURKINA FASO/CAMBODIA/CAPE VERDE/CAYMAN
+ISLANDS/CHILE/COLOMBIA/COOK ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN COSTA RICA/CROATIA/CURACAO/CYPRUS/CZECH
+REPUBLIC/COTE D'IVOIRE/DENMARK/DOMINICA/DOMINICAN
+REPUBLIC/ECUADOR/EL SALVADOR/ESTONIA/FAROE ISLANDS/
+FINLAND/FRENCH GUIANA/FRENCH POLYNESIA/GIBRALTAR/
+GREECE/GREENLAND/GRENADA/GUADELOUPE/GUAM/GUATEMALA/
+GUYANA/HAITI/HONDURAS/HONG KONG, SAR, CHINA/
+HONDURAS/ICELAND
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN INDONESIA/IRELAND/JAMAICA/JAPAN/KAZAKHSTAN/
+KENYA/ESWATINI/KIRIBATI/MONACO/KYRGYZSTAN/LATVIA/
+LESOTHO/LIECHTENSTEIN/LITHUANIA/LUXEMBOURG/MACAU
+SAR/NORTH MACEDONIA, REPUBLIC OF/MADAGASCAR/MALAWI/
+MALAYSIA/MALDIVES/MALI/MALTA/MARSHALL ISLANDS/
+MARTINIQUE/MAURITIUS/MAYOTTE/MEXICO/MICRONESIA/
+CAROLINE ISLANDS/MOLDOVA,REPUBLIC OF
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN MONGOLIA/MONTENEGRO/MONTSERRAT/MOROCCO/
+MYANMAR/NAMIBIA/NEPAL/NETHERLANDS/NEW CALEDONIA/NEW
+ZEALAND/NICARAGUA/MARIANA ISLANDS/NORWAY/OCCUPIED
+PALESTINIAN TERRITORY/PANAMA/PAPUA NEW GUINEA/PERU/
+POLAND/PORTUGAL/PALAU/REUNION/ROMANIA/SAMOA/SAN
+MARINO/SERBIA/SEYCHELLES/SINGAPORE/SINT MAARTEN/
+SLOVAKIA
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN SLOVENIA/SOLOMON ISLANDS/SOUTH AFRICA/
+KOREA, REPUBLIC OF/SPAIN AND CANARY ISLANDS/SAINT
+KITTS AND NEVIS/SAINT LUCIA/ST. PIERRE/MIQUELON/
+SAINT VINCENT/GRENADINES/SURINAME/SWEDEN/TAIWAN,
+PROVINCE OF/TAJIKISTAN/TOGO/TRINIDAD/TOBAGO/
+TUNISIA/TURKS/CAICOS ISLANDS/UKRAINE/URUGUAY/
+UZBEKISTAN/VATICAN CITY/VIETNAM/BRITISH VIRGIN
+ISLANDS/WALLIS/FUTUNA ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN ANTIGUA/BARBUDA/BURKINA FASO/BERMUDA/BRUNEI
+DARUSSALAM/BOLIVIA/BRAZIL/BAHAMAS/BHUTAN/CHILE/
+COLOMBIA/COSTA RICA/DOMINICA/DOMINICAN REPUBLIC/
+ECUADOR/GABON/GUATEMALA/HONDURAS/HAITI/JAMAICA/
+CAYMAN ISLANDS/MARSHALL ISLANDS/MONGOLIA/MEXICO/
+NICARAGUA/PANAMA/PERU/PARAGUAY
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN SURINAME/EL SALVADOR/TURKS/CAICOS ISLANDS/
+TAJIKISTAN/TURKMENISTAN/TUNISIA/TRINIDAD/TOBAGO/
+UKRAINE/URUGUAY/UZBEKISTAN/BRITISH VIRGIN ISLANDS/
+YEMEN, REPUBLIC OF/ZAMBIA/KYRGYZSTAN
+IF THE FARE COMPONENT IS ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU
+TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE SOLD
+IN ALBANIA/AMERICAN SAMOA/ANDORRA/ANTIGUA/BARBUDA/
+ARGENTINA/ARMENIA/ARUBA/AUSTRALIA/AUSTRIA/AZERBAIJAN/
+BAHAMAS/BARBADOS/BELARUS/BELGIUM/BENIN/BERMUDA/BHUTAN/
+BOLIVIA/BONAIRE, SAINT EUSTATIUS, SABA/BOTSWANA/BRAZIL/
+BULGARIA/BURKINA FASO/CAMBODIA/CAPE VERDE/CAYMAN
+ISLANDS/CHILE/COLOMBIA/COOK ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN COSTA RICA/CROATIA/CURACAO/CYPRUS/CZECH
+REPUBLIC/COTE D'IVOIRE/DENMARK/DOMINICA/DOMINICAN
+REPUBLIC/ECUADOR/EL SALVADOR/ESTONIA/FAROE ISLANDS/
+FINLAND/FRENCH GUIANA/FRENCH POLYNESIA/GIBRALTAR/
+GREECE/GREENLAND/GRENADA/GUADELOUPE/GUAM/GUATEMALA/
+GUYANA/HAITI/HONDURAS/HONG KONG, SAR, CHINA/
+HONDURAS/ICELAND
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN INDONESIA/IRELAND/JAMAICA/JAPAN/KAZAKHSTAN/
+KENYA/ESWATINI/KIRIBATI/MONACO/KYRGYZSTAN/LATVIA/
+LESOTHO/LIECHTENSTEIN/LITHUANIA/LUXEMBOURG/MACAU
+SAR/NORTH MACEDONIA, REPUBLIC OF/MADAGASCAR/MALAWI/
+MALAYSIA/MALDIVES/MALI/MALTA/MARSHALL ISLANDS/
+MARTINIQUE/MAURITIUS/MAYOTTE/MEXICO/MICRONESIA/
+CAROLINE ISLANDS/MOLDOVA,REPUBLIC OF
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN MONGOLIA/MONTENEGRO/MONTSERRAT/MOROCCO/
+MYANMAR/NAMIBIA/NEPAL/NETHERLANDS/NEW CALEDONIA/NEW
+ZEALAND/NICARAGUA/MARIANA ISLANDS/NORWAY/OCCUPIED
+PALESTINIAN TERRITORY/PANAMA/PAPUA NEW GUINEA/PERU/
+POLAND/PORTUGAL/PALAU/REUNION/ROMANIA/SAMOA/SAN
+MARINO/SERBIA/SEYCHELLES/SINGAPORE/SINT MAARTEN/
+SLOVAKIA
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN SLOVENIA/SOLOMON ISLANDS/SOUTH AFRICA/
+KOREA, REPUBLIC OF/SPAIN AND CANARY ISLANDS/SAINT
+KITTS AND NEVIS/SAINT LUCIA/ST. PIERRE/MIQUELON/
+SAINT VINCENT/GRENADINES/SURINAME/SWEDEN/TAIWAN,
+PROVINCE OF/TAJIKISTAN/TOGO/TRINIDAD/TOBAGO/
+TUNISIA/TURKS/CAICOS ISLANDS/UKRAINE/URUGUAY/
+UZBEKISTAN/VATICAN CITY/VIETNAM/BRITISH VIRGIN
+ISLANDS/WALLIS/FUTUNA ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN ANTIGUA/BARBUDA/BURKINA FASO/BERMUDA/BRUNEI
+DARUSSALAM/BOLIVIA/BRAZIL/BAHAMAS/BHUTAN/CHILE/
+COLOMBIA/COSTA RICA/DOMINICA/DOMINICAN REPUBLIC/
+ECUADOR/GABON/GUATEMALA/HONDURAS/HAITI/JAMAICA/
+CAYMAN ISLANDS/MARSHALL ISLANDS/MONGOLIA/MEXICO/
+NICARAGUA/PANAMA/PERU/PARAGUAY
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN SURINAME/EL SALVADOR/TURKS/CAICOS ISLANDS/
+TAJIKISTAN/TURKMENISTAN/TUNISIA/TRINIDAD/TOBAGO/
+UKRAINE/URUGUAY/UZBEKISTAN/BRITISH VIRGIN ISLANDS/
+YEMEN, REPUBLIC OF/ZAMBIA/KYRGYZSTAN
+BETWEEN BANGLADESH AND AREA 1
+ORIGINATING BANGLADESH -
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN
+SUDAN/VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC
+OF/NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/CUBA
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.
+ORIGINATING AREA 1 -
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN
+SUDAN/VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC
+OF/EGYPT/NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/
+CUBA/BANGLADESH
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="16" Type="RULE">
+                        <![CDATA[FOR L- TYPE FARES
+CHANGES
+ANY TIME
+CHARGE USD 35.00.
+NOTE -
+PER TRANSACTION AND TICKET TO BE ISSUED.
+------------------------------------------------
+CHANGE FEE DOES NOT APPLY TO INFANT NOT
+OCCUPYING A SEAT.
+----------------------------------------
+CHARGE USD 35.00 FOR NO-SHOW.
+NOTE -
+NO-SHOW CHARGES TO BE COLLECTED PLUS REFUND FEES
+INCASE OF REFUND AFTER NO-SHOW.
+INFANTS ARE EXEMPTED FROM DATED CHANGE PENALTY -
+NO-SHOW AND REFUND...
+----------------------------
+IF PAX IS NO-SHOW PENALTY OF CHANGING DATE AND
+NO-SHOW BOTH TO BE APPLIED.
+--------------------------------
+REFUND FEE WAIVED INCASE OF DEATH OF PASSENGER OR
+IMMEDIATE FAMILY MEMBER AND THE OFFICIAL
+DOCUMENTS ARE REQUIRED.
+--------------------------------------------------
+TO AVOID NO-SHOW CHARGES TICKET MUST BE
+REISSUED/REFUNDED BEFORE SCHEDULED FLIGHT
+DEPARTURE IN TICKET
+--------------------------------------------------
+CANCELLATIONS
+BEFORE DEPARTURE
+CHARGE USD 55.00 FOR REFUND.
+NOTE -
+UNUTILISED TICKETS
+-------------------------------------------------
+CANCELLATION FEE DOES NOT APPLY TO INFANT NOT
+OCCUPYING A SEAT.
+AFTER DEPARTURE
+CHARGE USD 75.00 FOR REFUND.
+NOTE -
+PARTLY UNUSED TICKETS -
+REFUND PERMITTED DEDUCT OW FARE ON THE SAME RBD
+IF ONE WAY FARE IS NOT AVAILABLE METIONED ON THE
+TICKET THEN DEDUCT NEXT AVAILABLE OW FARE FOR
+WHICH THE JOURNEY HAS BEEN PERFORMED.
+--------------------------------------------------
+CHARGE USD 55.00 FOR NO-SHOW.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="17" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THE HIGHER INTERMEDIATE POINT RULE DOES NOT APPLY FOR
+STOPOVERS.
+AND - THE HIGHER INTERMEDIATE POINT RULE DOES NOT APPLY
+FOR CONNECTIONS.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="18" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THE ORIGINAL AND THE REISSUED TICKET MUST BE ANNOTATED -
+VALID ON KU ONLY/ - AND - NON END - IN THE ENDORSEMENT
+BOX.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="19" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+ACCOMPANIED CHILD 2-11 - CHARGE 75 PERCENT OF THE FARE.
+TICKET DESIGNATOR - CH AND PERCENT OF DISCOUNT
+OR - INFANT UNDER 2 WITHOUT A SEAT - CHARGE 20 PERCENT OF
+THE FARE.
+TICKET DESIGNATOR - IN AND PERCENT OF DISCOUNT.
+NOTE -
+NOTE
+WHEN INFANT REACHES 2 YEARS OF AGE ON/BEFORE
+DEPARTURE FROM POINT OF TURNAROUND
+A SEAT MUST BE BOOKED ON THE RETURN LEG AND THE
+APPLICABLE CHILD FARE CHARGED ON HALF ROUNDTRIP
+BASIS WITH OUTBOUND INFANT FARE.
+---------------------------------------------
+OR - INFANT UNDER 2 WITH A SEAT - CHARGE 75 PERCENT OF THE
+FARE.
+TICKET DESIGNATOR - CH AND PERCENT OF DISCOUNT
+OR - UNACCOMPANIED CHILD 6-11 - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="20" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TOUR CONDUCTOR - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="21" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+AGENT - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="22" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+NOTE -
+NO OTHER DISCOUNTS PERMITTED.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="23" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THIS FARE MUST NOT BE USED AS THE HIGH OR THE LOW FARE
+WHEN CALCULATING A DIFFERENTIAL. THIS FARE MUST NOT BE
+USED AS THE THROUGH FARE WHEN PRICING A FARE COMPONENT
+WITH A DIFFERENTIAL.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="27" Type="RULE">
+                        <![CDATA[BETWEEN DAC AND AREA 1
+FARES APPLY IN CONJUNCTION WITH TOUR NUMBER DACT22.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="31" Type="RULE">
+                        <![CDATA[DO A CATEGORY 31 SPECIFIC TEXT ENTRY TO VIEW CONTENTS
+ALSO REFERENCE 16 PENALTIES - FOR ADDITIONAL CHANGE INFORMATION]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="33" Type="RULE">
+                        <![CDATA[FOR L- TYPE FARES
+REFUND MUST BE REQUESTED BEFORE DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED BEFORE ORIGINALLY SCHEDULED
+FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 55.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+NEW FARE FOR FULLY FLOWN FARE COMPONENTS MUST BE HIGHER
+THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED BEFORE DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED ANYTIME AFTER ORIGINALLY
+SCHEDULED FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 110.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+NEW FARE FOR FULLY FLOWN FARE COMPONENTS MUST BE HIGHER
+THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED AFTER DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED BEFORE ORIGINALLY SCHEDULED
+FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 75.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+REPRICE FLOWN PORTION USING FARES IN EFFECT ON TICKET
+ISSUANCE DATE. FOR FULLY FLOWN FARE COMPONENTS FARE BREAK
+POINTS MAY NOT BE CHANGED. FOR PARTIALLY FLOWN FARE
+COMPONENTS ONLY DESTINATION FARE BREAK POINTS MAY BE
+CHANGED. REPRICE USING NORMAL/SPECIAL ONE WAY/ROUND TRIP
+FARES/ANY RULE/FARE CLASS/RBD. PUBLIC FARES ARE USED IF
+TICKETED FARE IS IN PUBLIC TARIFF. QUALIFIED PRIVATE
+FARES OR PUBLIC FARES ARE USED IF TICKETED FARE IS IN
+PRIVATE TARIFF. NEW FARE FOR FULLY FLOWN FARE COMPONENTS
+MUST BE HIGHER THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED AFTER DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED ANYTIME AFTER ORIGINALLY
+SCHEDULED FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 130.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+REPRICE FLOWN PORTION USING FARES IN EFFECT ON TICKET
+ISSUANCE DATE. FOR FULLY FLOWN FARE COMPONENTS FARE BREAK
+POINTS MAY NOT BE CHANGED. FOR PARTIALLY FLOWN FARE
+COMPONENTS ONLY DESTINATION FARE BREAK POINTS MAY BE
+CHANGED. REPRICE USING NORMAL/SPECIAL ONE WAY/ROUND TRIP
+FARES/ANY RULE/FARE CLASS/RBD. PUBLIC FARES ARE USED IF
+TICKETED FARE IS IN PUBLIC TARIFF. QUALIFIED PRIVATE
+FARES OR PUBLIC FARES ARE USED IF TICKETED FARE IS IN
+PRIVATE TARIFF. NEW FARE FOR FULLY FLOWN FARE COMPONENTS
+MUST BE HIGHER THAN TICKETED FARE.]]>
+                    </air:FareRuleLong>
+                </air:FareRule>
+                <air:FareRule FareInfoRef="nJ4ZwMSqWDKAzMx7BAAAAA==" RuleNumber="BD01" Source="ATPCO" TariffNumber="001">
+                    <air:FareRuleLong Category="0" Type="RULE">
+                        <![CDATA[RULE - 001/BD01
+UNLESS OTHERWISE SPECIFIED
+KUWAIT AIRWAYS NFP FARES
+APPLICATION
+AREA
+THESE FARES APPLY
+BETWEEN AREA 3 AND AREA 1.
+CLASS OF SERVICE
+THESE FARES APPLY FOR FIRST/BUSINESS/ECONOMY CLASS
+SERVICE.
+TYPES OF TRANSPORTATION
+THIS RULE GOVERNS ONE-WAY AND ROUND-TRIP FARES.
+FARES GOVERNED BY THIS RULE CAN BE USED TO CREATE
+ONE-WAY/ROUND-TRIP/OPEN-JAW JOURNEYS.
+FULL AND SEQUENTIAL USE OF FLIGHT COUPONS-
+THE TICKET /OR ELECTRONIC TICKET/ IS NOT VALID IF
+THE FIRST COUPON HAS NOT BEEN USED AND WILL NOT
+BE HONORED IF ALL THE COUPONS ARE NOT USED IN THE
+SEQUENCE PROVIDED IN THE TICKET /OR ELECTRONIC
+TICKET/.
+--------------------------------------------------
+PAX WILL BE DOWNGRADED TO NEXT LOWER CABIN IF NO
+FIRST CLASS IS OFFERED ON ANY OF THE LEG NO
+REFUND APPLICABLE FOR THE DOWNGRADE OF CABIN
+CAPACITY LIMITATIONS
+THE CARRIER SHALL LIMIT THE NUMBER OF PASSENGERS CARRIED
+ON ANY ONE FLIGHT AT FARES GOVERNED BY THIS RULE AND SUCH
+FARES WILL NOT NECESSARILY BE AVAILABLE ON ALL FLIGHTS.
+THE NUMBER OF SEATS WHICH THE CARRIER SHALL MAKE
+AVAILABLE ON A GIVEN FLIGHT WILL BE DETERMINED BY THE
+CARRIERS BEST JUDGMENT
+OTHER CONDITIONS
+ALL FARES ARE SUBJECT TO CHANGE OR WITHDRAWAL
+WITHOUT NOTICE.
+FARES ARE ONLY GUARANTEED IF AUTO-PRICED AND
+TICKETED IN GDS ON THE SAME DAY.
+-----------------------------------------------
+PASSENGER EXPENSES NOT PERMITTED.
+--------------------------------------
+IF TRANSIT TIME AT KUWAIT AIRPORT EXCEEDS
+08HOURS STPC/HOTAC WILL BE ON PASSENGER COST.
+---------------------------------------------
+JOURNEY BETWEEN DAC AND CGP/ZYL WILL BE PERFORMED
+ON KU-BUS SERVICE ONLY.
+-------------------------------------------------
+PAX WILL BE DOWNGRADED TO NEXT LOWER CABIN IF
+NO FIRST CLASS IS OFFERED ON ANY OF THE LEG NO
+REFUND APPLICABLE FOR THE DOWNGRADE OF CABIN
+--------------------------------------------------
+WHEN ITINERARY RESULTS IN A HIGHER FARE THE FARE
+DIFF WILL BE COLLECTED PLUS CHANGE FEE AND IF NEW
+ITINERARY RESULTS IN LOWER FARE THE CHANGE FEE
+WILL APPLY AND NO REFUND WILL BE MADE.
+ABOVE CHARGES APPLICABLE ONLY IF TKT IS REISSUED
+BEFORE DEPARTURE OF FLT]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="4" Type="RULE">
+                        <![CDATA[BETWEEN DAC AND NYC
+OUTBOUND -
+THE FARE COMPONENT MUST BE ON
+ONE OR MORE OF THE FOLLOWING
+KU FLIGHT 284
+KU FLIGHT 117.
+INBOUND -
+THE FARE COMPONENT MUST BE ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="5" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+RESERVATIONS ARE REQUIRED FOR ALL SECTORS.
+NOTE -
+TICKET MUST BE ISSUED WITH CONFIRMED RESERVATION
+FOR THE ENTIRE JOURNEY.
+-------------------------------------------------
+KU RESERVES THE RIGHT TO CANCEL ANY PNR WHERE
+ITINERARY DO NOT COMPLY WITH THE RESERVATION
+BOOKING CODE / RBD/
+--------------------------------------------------
+IF A TICKET IS USED OUT OF SEQUENCE KU RESERVES
+THE RIGHT TO CANCEL ANY PNR OR INVALIDATE THE
+REMAINING FLIGHT COUPONS.
+-------------------------------------------------
+IF A PASSENGER FAILS TO TRAVEL ON A SECTOR BOOKED
+KU RESERVES THE RIGHT TO CANCEL THE REMAINING KU
+SECTOR .
+--------------------------------------------------
+ANY VIOLATION OF MARRIED SEGMENT WOULD INCUR A
+DEBIT.
+-------------------------------------------------
+TAX /SERVICE CHARGES/GOVT .LEVIES TO BE PAID AS
+APPLICABLE AT THE TIME OF TKT ISSUANCE.
+--------------------------------------------------]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="7" Type="RULE">
+                        <![CDATA[FOR ROUND TRIP FARES
+TRAVEL FROM LAST STOPOVER MUST COMMENCE NO LATER THAN 12
+MONTHS AFTER DEPARTURE FROM FARE ORIGIN.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="8" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+2 STOPOVERS PERMITTED ON THE PRICING UNIT - 1 IN EACH
+DIRECTION IN KWI AT USD 160.00 EACH.
+APPLIES PER ADULT AND CHILD.
+NO STOPOVER OCCURS IF PASSENGER TAKES NEXT AVAILABLE
+FLIGHT WITHIN 8 HOURS HOWEVER A STOPOVER MAY NOT
+EXCEED 24 HOURS.
+NO STOPOVERS PERMITTED.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="9" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+UNLIMITED TRANSFERS PERMITTED ON THE PRICING UNIT
+FARE BREAK AND EMBEDDED SURFACE SECTORS NOT PERMITTED ON
+THE FARE COMPONENT.
+NOTE -
+IF TRANSIT TIME EXCEEDS MORE THAN 8HOURS AND LESS
+24HOURS A CHARGE OF USD125 WILL BE APPLICABLE.
+--------------------------------------------------]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="10" Type="RULE">
+                        <![CDATA[FOR T- TYPE FARES
+END-ON-END NOT PERMITTED. SIDE TRIPS PERMITTED.
+APPLICABLE ADD-ON CONSTRUCTION IS ADDRESSED IN
+MISCELLANEOUS PROVISIONS - CATEGORY 23.
+OPEN JAWS/ROUND TRIPS/CIRCLE TRIPS
+FARES MAY BE COMBINED ON A HALF ROUND TRIP BASIS
+-TO FORM SINGLE OR DOUBLE OPEN JAWS WHICH CONSISTS OF NO
+MORE THAN 2 INTERNATIONAL FARE COMPONENTS AND THE OPEN
+SEGMENT AT ORIGIN MUST BE IN ONE COUNTRY. THE OPEN
+SEGMENT AT DESTINATION HAS NO RESTRICTIONS.
+MILEAGE OF THE OPEN SEGMENT MUST BE EQUAL/LESS THAN
+MILEAGE OF THE LONGEST FLOWN FARE COMPONENT.
+-TO FORM ROUND TRIPS
+-TO FORM CIRCLE TRIPS
+A MAXIMUM OF TWO INTERNATIONAL FARE COMPONENTS
+PERMITTED.
+PROVIDED -
+COMBINATIONS ARE WITH ANY V-/T-/L-/H-/B-/M- TYPE FARES
+FOR CARRIER KU IN ANY RULE IN THIS TARIFF.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="11" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TRAVEL IS NOT PERMITTED 01JUN THROUGH 30SEP.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="12" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+A SURCHARGE APPLIES.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+BETWEEN NYC AND AREA 3 FOR ROUND TRIP FARES
+IF INFANT UNDER 02 WITHOUT A SEAT.
+THERE IS NO CHARGE FOR TRAVEL PER TICKET.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+ORIGINATING NYC -
+A SURCHARGE OF USD 66.00 PER TICKET WILL BE ADDED TO THE
+APPLICABLE FARE FOR TRAVEL.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.
+ORIGINATING AREA 3 -
+A SURCHARGE OF KWD 14.000 PER TICKET WILL BE ADDED TO
+THE APPLICABLE FARE FOR TRAVEL.
+NOTE -
+ALL SURCHARGE WILL ACCRUE TO KU ONLY.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="14" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+VALID FOR TRAVEL COMMENCING ON/BEFORE 15JAN 25.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="15" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TICKETS MUST BE ISSUED ON/BEFORE 15JAN 25.
+UNLESS OTHERWISE SPECIFIED
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN SUDAN/
+VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC OF/EGYPT/
+NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/CUBA/PAKISTAN
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.
+IF THE FARE COMPONENT IS ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU
+TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE SOLD
+IN ALBANIA/AMERICAN SAMOA/ANDORRA/ANTIGUA/BARBUDA/
+ARGENTINA/ARMENIA/ARUBA/AUSTRALIA/AUSTRIA/AZERBAIJAN/
+BAHAMAS/BARBADOS/BELARUS/BELGIUM/BENIN/BERMUDA/BHUTAN/
+BOLIVIA/BONAIRE, SAINT EUSTATIUS, SABA/BOTSWANA/BRAZIL/
+BULGARIA/BURKINA FASO/CAMBODIA/CAPE VERDE/CAYMAN
+ISLANDS/CHILE/COLOMBIA/COOK ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN COSTA RICA/CROATIA/CURACAO/CYPRUS/CZECH
+REPUBLIC/COTE D'IVOIRE/DENMARK/DOMINICA/DOMINICAN
+REPUBLIC/ECUADOR/EL SALVADOR/ESTONIA/FAROE ISLANDS/
+FINLAND/FRENCH GUIANA/FRENCH POLYNESIA/GIBRALTAR/
+GREECE/GREENLAND/GRENADA/GUADELOUPE/GUAM/GUATEMALA/
+GUYANA/HAITI/HONDURAS/HONG KONG, SAR, CHINA/
+HONDURAS/ICELAND
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN INDONESIA/IRELAND/JAMAICA/JAPAN/KAZAKHSTAN/
+KENYA/ESWATINI/KIRIBATI/MONACO/KYRGYZSTAN/LATVIA/
+LESOTHO/LIECHTENSTEIN/LITHUANIA/LUXEMBOURG/MACAU
+SAR/NORTH MACEDONIA, REPUBLIC OF/MADAGASCAR/MALAWI/
+MALAYSIA/MALDIVES/MALI/MALTA/MARSHALL ISLANDS/
+MARTINIQUE/MAURITIUS/MAYOTTE/MEXICO/MICRONESIA/
+CAROLINE ISLANDS/MOLDOVA,REPUBLIC OF
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN MONGOLIA/MONTENEGRO/MONTSERRAT/MOROCCO/
+MYANMAR/NAMIBIA/NEPAL/NETHERLANDS/NEW CALEDONIA/NEW
+ZEALAND/NICARAGUA/MARIANA ISLANDS/NORWAY/OCCUPIED
+PALESTINIAN TERRITORY/PANAMA/PAPUA NEW GUINEA/PERU/
+POLAND/PORTUGAL/PALAU/REUNION/ROMANIA/SAMOA/SAN
+MARINO/SERBIA/SEYCHELLES/SINGAPORE/SINT MAARTEN/
+SLOVAKIA
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN SLOVENIA/SOLOMON ISLANDS/SOUTH AFRICA/
+KOREA, REPUBLIC OF/SPAIN AND CANARY ISLANDS/SAINT
+KITTS AND NEVIS/SAINT LUCIA/ST. PIERRE/MIQUELON/
+SAINT VINCENT/GRENADINES/SURINAME/SWEDEN/TAIWAN,
+PROVINCE OF/TAJIKISTAN/TOGO/TRINIDAD/TOBAGO/
+TUNISIA/TURKS/CAICOS ISLANDS/UKRAINE/URUGUAY/
+UZBEKISTAN/VATICAN CITY/VIETNAM/BRITISH VIRGIN
+ISLANDS/WALLIS/FUTUNA ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN ANTIGUA/BARBUDA/BURKINA FASO/BERMUDA/BRUNEI
+DARUSSALAM/BOLIVIA/BRAZIL/BAHAMAS/BHUTAN/CHILE/
+COLOMBIA/COSTA RICA/DOMINICA/DOMINICAN REPUBLIC/
+ECUADOR/GABON/GUATEMALA/HONDURAS/HAITI/JAMAICA/
+CAYMAN ISLANDS/MARSHALL ISLANDS/MONGOLIA/MEXICO/
+NICARAGUA/PANAMA/PERU/PARAGUAY
+OR - TICKETS MUST BE ISSUED ON KU OR HR AND MAY ONLY BE
+SOLD IN SURINAME/EL SALVADOR/TURKS/CAICOS ISLANDS/
+TAJIKISTAN/TURKMENISTAN/TUNISIA/TRINIDAD/TOBAGO/
+UKRAINE/URUGUAY/UZBEKISTAN/BRITISH VIRGIN ISLANDS/
+YEMEN, REPUBLIC OF/ZAMBIA/KYRGYZSTAN
+IF THE FARE COMPONENT IS ON
+ONE OR MORE OF THE FOLLOWING
+ANY KU FLIGHT OPERATED BY KU
+TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE SOLD
+IN ALBANIA/AMERICAN SAMOA/ANDORRA/ANTIGUA/BARBUDA/
+ARGENTINA/ARMENIA/ARUBA/AUSTRALIA/AUSTRIA/AZERBAIJAN/
+BAHAMAS/BARBADOS/BELARUS/BELGIUM/BENIN/BERMUDA/BHUTAN/
+BOLIVIA/BONAIRE, SAINT EUSTATIUS, SABA/BOTSWANA/BRAZIL/
+BULGARIA/BURKINA FASO/CAMBODIA/CAPE VERDE/CAYMAN
+ISLANDS/CHILE/COLOMBIA/COOK ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN COSTA RICA/CROATIA/CURACAO/CYPRUS/CZECH
+REPUBLIC/COTE D'IVOIRE/DENMARK/DOMINICA/DOMINICAN
+REPUBLIC/ECUADOR/EL SALVADOR/ESTONIA/FAROE ISLANDS/
+FINLAND/FRENCH GUIANA/FRENCH POLYNESIA/GIBRALTAR/
+GREECE/GREENLAND/GRENADA/GUADELOUPE/GUAM/GUATEMALA/
+GUYANA/HAITI/HONDURAS/HONG KONG, SAR, CHINA/
+HONDURAS/ICELAND
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN INDONESIA/IRELAND/JAMAICA/JAPAN/KAZAKHSTAN/
+KENYA/ESWATINI/KIRIBATI/MONACO/KYRGYZSTAN/LATVIA/
+LESOTHO/LIECHTENSTEIN/LITHUANIA/LUXEMBOURG/MACAU
+SAR/NORTH MACEDONIA, REPUBLIC OF/MADAGASCAR/MALAWI/
+MALAYSIA/MALDIVES/MALI/MALTA/MARSHALL ISLANDS/
+MARTINIQUE/MAURITIUS/MAYOTTE/MEXICO/MICRONESIA/
+CAROLINE ISLANDS/MOLDOVA,REPUBLIC OF
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN MONGOLIA/MONTENEGRO/MONTSERRAT/MOROCCO/
+MYANMAR/NAMIBIA/NEPAL/NETHERLANDS/NEW CALEDONIA/NEW
+ZEALAND/NICARAGUA/MARIANA ISLANDS/NORWAY/OCCUPIED
+PALESTINIAN TERRITORY/PANAMA/PAPUA NEW GUINEA/PERU/
+POLAND/PORTUGAL/PALAU/REUNION/ROMANIA/SAMOA/SAN
+MARINO/SERBIA/SEYCHELLES/SINGAPORE/SINT MAARTEN/
+SLOVAKIA
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN SLOVENIA/SOLOMON ISLANDS/SOUTH AFRICA/
+KOREA, REPUBLIC OF/SPAIN AND CANARY ISLANDS/SAINT
+KITTS AND NEVIS/SAINT LUCIA/ST. PIERRE/MIQUELON/
+SAINT VINCENT/GRENADINES/SURINAME/SWEDEN/TAIWAN,
+PROVINCE OF/TAJIKISTAN/TOGO/TRINIDAD/TOBAGO/
+TUNISIA/TURKS/CAICOS ISLANDS/UKRAINE/URUGUAY/
+UZBEKISTAN/VATICAN CITY/VIETNAM/BRITISH VIRGIN
+ISLANDS/WALLIS/FUTUNA ISLANDS
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN ANTIGUA/BARBUDA/BURKINA FASO/BERMUDA/BRUNEI
+DARUSSALAM/BOLIVIA/BRAZIL/BAHAMAS/BHUTAN/CHILE/
+COLOMBIA/COSTA RICA/DOMINICA/DOMINICAN REPUBLIC/
+ECUADOR/GABON/GUATEMALA/HONDURAS/HAITI/JAMAICA/
+CAYMAN ISLANDS/MARSHALL ISLANDS/MONGOLIA/MEXICO/
+NICARAGUA/PANAMA/PERU/PARAGUAY
+OR - TICKETS MUST BE ISSUED ON KU OR GP AND MAY ONLY BE
+SOLD IN SURINAME/EL SALVADOR/TURKS/CAICOS ISLANDS/
+TAJIKISTAN/TURKMENISTAN/TUNISIA/TRINIDAD/TOBAGO/
+UKRAINE/URUGUAY/UZBEKISTAN/BRITISH VIRGIN ISLANDS/
+YEMEN, REPUBLIC OF/ZAMBIA/KYRGYZSTAN
+BETWEEN BANGLADESH AND AREA 1
+ORIGINATING BANGLADESH -
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN
+SUDAN/VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC
+OF/NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/CUBA
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.
+ORIGINATING AREA 1 -
+TICKETS MUST BE ISSUED ON KU AND MAY NOT BE SOLD IN
+SUDAN/VENEZUELA/ANGOLA/ZIMBABWE/IRAN,ISLAMIC REPUBLIC
+OF/EGYPT/NIGERIA/CAMEROON/KOREA, REPUBLIC OF/BELARUS/
+CUBA/BANGLADESH
+NOTE -
+FARE TO QUOTE ON PLATING CXR KU ONLY.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="16" Type="RULE">
+                        <![CDATA[FOR T- TYPE FARES
+CHANGES
+ANY TIME
+CHARGE USD 50.00.
+NOTE -
+PER TRANSACTION AND TICKET TO BE ISSUED.
+------------------------------------------------
+CHANGE FEE DOES NOT APPLY TO INFANT NOT
+OCCUPYING A SEAT.
+----------------------------------------
+CHARGE USD 50.00 FOR NO-SHOW.
+NOTE -
+NO-SHOW CHARGES TO BE COLLECTED PLUS REFUND FEES
+INCASE OF REFUND AFTER NO-SHOW.
+INFANTS ARE EXEMPTED FROM DATED CHANGE PENALTY -
+NO-SHOW AND REFUND...
+----------------------------
+IF PAX IS NO-SHOW PENALTY OF CHANGING DATE AND
+NO-SHOW BOTH TO BE APPLIED.
+--------------------------------
+REFUND FEE WAIVED INCASE OF DEATH OF PASSENGER OR
+IMMEDIATE FAMILY MEMBER AND THE OFFICIAL
+DOCUMENTS ARE REQUIRED.
+--------------------------------------------------
+TO AVOID NO-SHOW CHARGES TICKET MUST BE
+REISSUED/REFUNDED BEFORE SCHEDULED FLIGHT
+DEPARTURE IN TICKET
+--------------------------------------------------
+CANCELLATIONS
+BEFORE DEPARTURE
+CHARGE USD 75.00 FOR REFUND.
+NOTE -
+UNUTILISED TICKETS
+-------------------------------------------------
+CANCELLATION FEE DOES NOT APPLY TO INFANT NOT
+OCCUPYING A SEAT.
+AFTER DEPARTURE
+CHARGE USD 100.00 FOR REFUND.
+NOTE -
+PARTLY UNUSED TICKETS -
+REFUND PERMITTED DEDUCT OW FARE ON THE SAME RBD
+IF ONE WAY FARE IS NOT AVAILABLE METIONED ON THE
+TICKET THEN DEDUCT NEXT AVAILABLE OW FARE FOR
+WHICH THE JOURNEY HAS BEEN PERFORMED.
+--------------------------------------------------
+CHARGE USD 75.00 FOR NO-SHOW.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="17" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THE HIGHER INTERMEDIATE POINT RULE DOES NOT APPLY FOR
+STOPOVERS.
+AND - THE HIGHER INTERMEDIATE POINT RULE DOES NOT APPLY
+FOR CONNECTIONS.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="18" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THE ORIGINAL AND THE REISSUED TICKET MUST BE ANNOTATED -
+VALID ON KU ONLY/ - AND - NON END - IN THE ENDORSEMENT
+BOX.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="19" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+ACCOMPANIED CHILD 2-11 - CHARGE 75 PERCENT OF THE FARE.
+TICKET DESIGNATOR - CH AND PERCENT OF DISCOUNT
+OR - INFANT UNDER 2 WITHOUT A SEAT - CHARGE 20 PERCENT OF
+THE FARE.
+TICKET DESIGNATOR - IN AND PERCENT OF DISCOUNT.
+NOTE -
+NOTE
+WHEN INFANT REACHES 2 YEARS OF AGE ON/BEFORE
+DEPARTURE FROM POINT OF TURNAROUND
+A SEAT MUST BE BOOKED ON THE RETURN LEG AND THE
+APPLICABLE CHILD FARE CHARGED ON HALF ROUNDTRIP
+BASIS WITH OUTBOUND INFANT FARE.
+---------------------------------------------
+OR - INFANT UNDER 2 WITH A SEAT - CHARGE 75 PERCENT OF THE
+FARE.
+TICKET DESIGNATOR - CH AND PERCENT OF DISCOUNT
+OR - UNACCOMPANIED CHILD 6-11 - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="20" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+TOUR CONDUCTOR - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="21" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+AGENT - NO DISCOUNT.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="22" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+NOTE -
+NO OTHER DISCOUNTS PERMITTED.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="23" Type="RULE">
+                        <![CDATA[UNLESS OTHERWISE SPECIFIED
+THIS FARE MUST NOT BE USED AS THE HIGH OR THE LOW FARE
+WHEN CALCULATING A DIFFERENTIAL. THIS FARE MUST NOT BE
+USED AS THE THROUGH FARE WHEN PRICING A FARE COMPONENT
+WITH A DIFFERENTIAL.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="27" Type="RULE">
+                        <![CDATA[BETWEEN DAC AND AREA 1
+FARES APPLY IN CONJUNCTION WITH TOUR NUMBER DACT22.]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="31" Type="RULE">
+                        <![CDATA[DO A CATEGORY 31 SPECIFIC TEXT ENTRY TO VIEW CONTENTS
+ALSO REFERENCE 16 PENALTIES - FOR ADDITIONAL CHANGE INFORMATION]]>
+                    </air:FareRuleLong>
+                    <air:FareRuleLong Category="33" Type="RULE">
+                        <![CDATA[FOR T- TYPE FARES
+REFUND MUST BE REQUESTED BEFORE DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED BEFORE ORIGINALLY SCHEDULED
+FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 75.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+NEW FARE FOR FULLY FLOWN FARE COMPONENTS MUST BE HIGHER
+THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED BEFORE DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED ANYTIME AFTER ORIGINALLY
+SCHEDULED FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 150.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+NEW FARE FOR FULLY FLOWN FARE COMPONENTS MUST BE HIGHER
+THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED AFTER DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED BEFORE ORIGINALLY SCHEDULED
+FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 100.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+REPRICE FLOWN PORTION USING FARES IN EFFECT ON TICKET
+ISSUANCE DATE. FOR FULLY FLOWN FARE COMPONENTS FARE BREAK
+POINTS MAY NOT BE CHANGED. FOR PARTIALLY FLOWN FARE
+COMPONENTS ONLY DESTINATION FARE BREAK POINTS MAY BE
+CHANGED. REPRICE USING NORMAL/SPECIAL ONE WAY/ROUND TRIP
+FARES/ANY RULE/FARE CLASS/RBD. PUBLIC FARES ARE USED IF
+TICKETED FARE IS IN PUBLIC TARIFF. QUALIFIED PRIVATE
+FARES OR PUBLIC FARES ARE USED IF TICKETED FARE IS IN
+PRIVATE TARIFF. NEW FARE FOR FULLY FLOWN FARE COMPONENTS
+MUST BE HIGHER THAN TICKETED FARE.
+OR -
+REFUND MUST BE REQUESTED AFTER DEPARTURE OF JOURNEY.
+REFUND REQUEST REQUIRED ANYTIME AFTER ORIGINALLY
+SCHEDULED FLIGHT OF FIRST UNUSED TICKET COUPON.
+CHARGE USD 175.00 PER PRICING UNIT. IF ALL PENALTIES IN
+PRICING UNIT ARE PER PRICING UNIT COLLECT HIGHEST. IF MIX
+OF PER FARE COMPONENT AND PER PRICING UNIT CALCULATE EACH
+AS PER PRICING UNIT AND COLLECT HIGHEST.
+FORM OF REFUND - ORIGINAL FORM OF PAYMENT. ONLY VALIDATING
+CARRIER MAY REFUND TICKET.
+REPRICE FLOWN PORTION USING FARES IN EFFECT ON TICKET
+ISSUANCE DATE. FOR FULLY FLOWN FARE COMPONENTS FARE BREAK
+POINTS MAY NOT BE CHANGED. FOR PARTIALLY FLOWN FARE
+COMPONENTS ONLY DESTINATION FARE BREAK POINTS MAY BE
+CHANGED. REPRICE USING NORMAL/SPECIAL ONE WAY/ROUND TRIP
+FARES/ANY RULE/FARE CLASS/RBD. PUBLIC FARES ARE USED IF
+TICKETED FARE IS IN PUBLIC TARIFF. QUALIFIED PRIVATE
+FARES OR PUBLIC FARES ARE USED IF TICKETED FARE IS IN
+PRIVATE TARIFF. NEW FARE FOR FULLY FLOWN FARE COMPONENTS
+MUST BE HIGHER THAN TICKETED FARE.]]>
+                    </air:FareRuleLong>
+                </air:FareRule>
+            </air:AirPriceResult>
+        </air:AirPriceRsp>
+    </SOAP:Body>
+</SOAP:Envelope>

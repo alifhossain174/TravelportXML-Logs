@@ -1,0 +1,66 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <AirPriceReq xmlns="http://www.travelport.com/schema/air_v52_0"
+            TraceId="c8f38268010611bc23e5-01969005035" TargetBranch="P7212436"
+            CheckOBFees="TicketingOnly" FareRuleType="long" CheckFlightDetails="true">
+            <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v52_0" OriginApplication="UAPI" />
+            <AirItinerary>
+                <AirSegment Key="py+ZwMUqWDKAndQzBAAAAA==" AvailabilitySource="S" Equipment="77W" OptionalServicesIndicator="false" 
+                    ETicketability="Yes" LinkAvailability="true" AvailabilityDisplayType="Fare Shop/Optimal Shop" Group="0" 
+                    Carrier="KU" 
+                    FlightNumber="284" 
+                    Origin="DAC" 
+                    Destination="KWI" 
+                    DepartureTime="2024-12-18T02:45:00.000+06:00"
+                    ArrivalTime="2024-12-18T06:15:00.000+03:00" 
+                    FlightTime="390" 
+                    Distance="2635" 
+                    ProviderCode="1G" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Cached status used. Polled avail exists">
+                    <AirAvailInfo ProviderCode="1G" />
+                    <Connection />
+                </AirSegment>
+                <AirSegment Key="py+ZwMUqWDKApdQzBAAAAA==" NumberOfStops="1" AvailabilitySource="S" Equipment="77W" 
+                    OptionalServicesIndicator="false" ETicketability="Yes" LinkAvailability="true" 
+                    AvailabilityDisplayType="Fare Shop/Optimal Shop" Group="0" 
+                    Carrier="KU" 
+                    FlightNumber="117" 
+                    Origin="KWI" 
+                    Destination="JFK" 
+                    DepartureTime="2024-12-18T09:00:00.000+03:00"
+                    ArrivalTime="2024-12-18T14:20:00.000-05:00" 
+                    FlightTime="800" 
+                    Distance="6339" 
+                    ProviderCode="1G" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Cached status used. Polled avail exists">
+                    <AirAvailInfo ProviderCode="1G" />
+                </AirSegment>
+                <AirSegment Key="py+ZwMUqWDKArdQzBAAAAA==" NumberOfStops="1" AvailabilitySource="S"
+                    Equipment="77W" OptionalServicesIndicator="false" ETicketability="Yes"
+                    LinkAvailability="true" AvailabilityDisplayType="Fare Shop/Optimal Shop"
+                    Group="1" Carrier="KU" FlightNumber="118" Origin="JFK" Destination="KWI"
+                    DepartureTime="2024-12-22T17:00:00.000-05:00"
+                    ArrivalTime="2024-12-23T13:00:00.000+03:00" FlightTime="720" Distance="6339"
+                    ProviderCode="1G" ParticipantLevel="Secure Sell"
+                    PolledAvailabilityOption="Cached status used. Polled avail exists">
+                    <AirAvailInfo ProviderCode="1G" />
+                    <Connection />
+                </AirSegment>
+                <AirSegment Key="py+ZwMUqWDKAtdQzBAAAAA==" AvailabilitySource="S" Equipment="77W"
+                    OptionalServicesIndicator="false" ETicketability="Yes" LinkAvailability="true"
+                    AvailabilityDisplayType="Fare Shop/Optimal Shop" Group="1" Carrier="KU"
+                    FlightNumber="283" Origin="KWI" Destination="DAC"
+                    DepartureTime="2024-12-23T17:00:00.000+03:00"
+                    ArrivalTime="2024-12-24T01:00:00.000+06:00" FlightTime="300" Distance="2635"
+                    ProviderCode="1G" ParticipantLevel="Secure Sell"
+                    PolledAvailabilityOption="Cached status used. Polled avail exists">
+                    <AirAvailInfo ProviderCode="1G" />
+                </AirSegment>
+            </AirItinerary>
+            <AirPricingModifiers ETicketability="Required" PlatingCarrier="KU" FaresIndicator="PublicAndPrivateFares" />
+            <SearchPassenger xmlns="http://www.travelport.com/schema/common_v52_0" Code="ADT" BookingTravelerRef="ADT_0" />
+            <SearchPassenger xmlns="http://www.travelport.com/schema/common_v52_0" Code="CNN" Age="8" BookingTravelerRef="CNN_0" />
+            <SearchPassenger xmlns="http://www.travelport.com/schema/common_v52_0" Code="INF" Age="1" BookingTravelerRef="INF_0" />
+            <AirPricingCommand />
+        </AirPriceReq>
+    </s:Body>
+</s:Envelope>
