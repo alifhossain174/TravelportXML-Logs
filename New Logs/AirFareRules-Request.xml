@@ -1,10 +1,9 @@
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
     <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-        <AirFareRulesReq xmlns="http://www.travelport.com/schema/air_v52_0"
-            TraceId="c8f38268010611bc23e5-01969005035" TargetBranch="P7212436">
+        <AirFareRulesReq xmlns="http://www.travelport.com/schema/air_v52_0" TraceId="c8f38268010611bc23e5-01969005035" TargetBranch="P7212436">
             <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v52_0" OriginApplication="UAPI" />
-            <FareRuleKey FareInfoRef="nJ4ZwMSqWDKARKx7BAAAAA==" ProviderCode="1G">
-                6UUVoSldxwiJHY+3EwpFPMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA/1o7RJJQL0ZxWa1uaqI55k3aSkvhp2ybbasuQRXKmbK9xCocCLJPFbAyGqh8JIaqFFsjyBRuYCPWASdz5F+ImHQ0/JSlbZyfYX+hNfHEXoxUV3b2b+cmv9gFHVWNccKgROr5JaKLxm5BY5hoVUuDw6dw/Am9T/DRIMN1QPqv5KjwDJZXjGKbuIoENBXp3ZIethzqS2wx7Rgy5YV9dV3U4CXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzzD4Wdjal2fHna1H5QsLdGaNi6zOfbTtQPFaO1aw82YXLrIvrO4Jg+HJ56Dnec57ey1v21tBX94dvtw1s7GDgc=
+            <FareRuleKey FareInfoRef="JNW2iNVqWDKAWqrpAAAAAA==" ProviderCode="1G">
+                6UUVoSldxwgjVAjCMlGZb8bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA/1o7RJJQL0ZxWa1uaqI55k3aSkvhp2ybYl8LqeP9EQrfpG++UgdbzvAyGqh8JIaqLGnk28Emq8dWASdz5F+ImGavtiMAvkh+4X+hNfHEXoxUV3b2b+cmv9gFHVWNccKgROr5JaKLxm5BY5hoVUuDw6dw/Am9T/DRIMN1QPqv5KjwDJZXjGKbuKPfZkX03mJLTf03EuYx8Mly5YV9dV3U4CXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzzD4Wdjal2fHna1H5QsLdGaNi6zOfbTtY770mJHGJ8MXLrIvrO4Jg88QstvynrkQ+y1v21tBX94dvtw1s7GDgc=
             </FareRuleKey>
         </AirFareRulesReq>
     </s:Body>

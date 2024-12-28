@@ -6,19 +6,19 @@
             <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v52_0" OriginApplication="UAPI" />
             <SearchAirLeg>
                 <SearchOrigin>
-                    <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="DAC" PreferCity="true" />
+                    <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="BKK" PreferCity="true" />
                 </SearchOrigin>
                 <SearchDestination>
                     <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="DXB" PreferCity="true" />
                 </SearchDestination>
-                <SearchDepTime PreferredTime="2024-12-24" />
+                <SearchDepTime PreferredTime="2024-12-26" />
             </SearchAirLeg>
             <SearchAirLeg>
                 <SearchOrigin>
                     <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="DXB" PreferCity="true" />
                 </SearchOrigin>
                 <SearchDestination>
-                    <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="DAC" PreferCity="true" />
+                    <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="BKK" PreferCity="true" />
                 </SearchDestination>
                 <SearchDepTime PreferredTime="2024-12-28" />
             </SearchAirLeg>
