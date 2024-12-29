@@ -1,0 +1,21 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <AirTicketingReq xmlns="http://www.travelport.com/schema/air_v52_0" TraceId="c8f38268010611bc23e5-01969005035" TargetBranch="P7212436">
+            <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v52_0" OriginApplication="UAPI" />
+            <AirReservationLocatorCode>2KPIY2</AirReservationLocatorCode>
+
+            <AirPricingInfoRef Key="uLJ5gPSqWDKA61SJRAAAAA==" />
+            <AirPricingInfoRef Key="uLJ5gPSqWDKAV3SJRAAAAA==" />
+            <AirPricingInfoRef Key="uLJ5gPSqWDKAv4SJRAAAAA==" />
+
+            <AirTicketingModifiers PlatingCarrier="UL">
+                <AirPricingInfoRef Key="uLJ5gPSqWDKA61SJRAAAAA==" />
+                <AirPricingInfoRef Key="uLJ5gPSqWDKAV3SJRAAAAA==" />
+                <AirPricingInfoRef Key="uLJ5gPSqWDKAv4SJRAAAAA==" />
+                <Commission xmlns="http://www.travelport.com/schema/common_v52_0" Level="Fare" Type="PercentBase" Percentage="7.00" />
+                <FormOfPayment xmlns="http://www.travelport.com/schema/common_v52_0" Type="Cash" IsAgentType="true" />
+            </AirTicketingModifiers>
+            
+        </AirTicketingReq>
+    </s:Body>
+</s:Envelope>
