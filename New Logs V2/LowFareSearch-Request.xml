@@ -9,23 +9,29 @@
                     <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="BKK" PreferCity="true" />
                 </SearchOrigin>
                 <SearchDestination>
-                    <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="DXB" PreferCity="true" />
+                    <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="LHR" PreferCity="true" />
                 </SearchDestination>
-                <SearchDepTime PreferredTime="2024-12-26" />
+                <SearchDepTime PreferredTime="2025-01-20" />
             </SearchAirLeg>
             <SearchAirLeg>
                 <SearchOrigin>
-                    <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="DXB" PreferCity="true" />
+                    <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="LHR" PreferCity="true" />
                 </SearchOrigin>
                 <SearchDestination>
                     <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="BKK" PreferCity="true" />
                 </SearchDestination>
-                <SearchDepTime PreferredTime="2024-12-28" />
-            </SearchAirLeg>
+                <SearchDepTime PreferredTime="2025-01-24" />
+            </SearchAirLeg> 
             <AirSearchModifiers>
                 <PreferredProviders>
                     <Provider xmlns="http://www.travelport.com/schema/common_v52_0" Code="1G" />
                 </PreferredProviders>
+                <!-- later on added by me -->
+                <PermittedCarriers>
+                    <Carrier xmlns="http://www.travelport.com/schema/common_v52_0" Code="TG" /> <!-- Thai Airways -->
+                    <Carrier xmlns="http://www.travelport.com/schema/common_v52_0" Code="UL" /> <!-- SriLankan Airlines -->
+                </PermittedCarriers>
+                <!-- later on added by me -->
                 <PreferredCabins>
                     <CabinClass xmlns="http://www.travelport.com/schema/common_v52_0" Type="Economy" />
                 </PreferredCabins>
