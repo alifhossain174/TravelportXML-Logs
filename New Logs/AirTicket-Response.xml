@@ -1,13 +1,13 @@
 <SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
     <SOAP:Body>
-        <air:AirTicketingRsp xmlns:air="http://www.travelport.com/schema/air_v52_0" xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0"  TraceId="c8f38268010611bc23e5-01969005035" TransactionId="64E0C1080A0D6A937FE403DCCC1A4280" ResponseTime="724">
+        <air:AirTicketingRsp xmlns:air="http://www.travelport.com/schema/air_v52_0" xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0"  TraceId="c8f38268010611bc23e5-01969005035" TransactionId="31A4F5510A0D6A94343220A225B04B89" ResponseTime="509">
             <common_v52_0:ResponseMessage Code="4055" Type="Warning" ProviderCode="1G">
                 <![CDATA[Plating carrier is not supported for the requested provider.]]>
             </common_v52_0:ResponseMessage>
-            <air:TicketFailureInfo Code="12008" Message="Host error during ticket issue. INVALID ND LINKAGE" BookingTravelerRef="JNW2iNVqWDKAMRWqAAAAAA==">
-                <air:AirPricingInfoRef Key="JNW2iNVqWDKAHqrpAAAAAA=="/>
-                <air:AirPricingInfoRef Key="JNW2iNVqWDKAKrrpAAAAAA=="/>
-                <air:AirPricingInfoRef Key="JNW2iNVqWDKANsrpAAAAAA=="/>
+            <air:TicketFailureInfo Code="12008" Message="Host error during ticket issue. INVALID ND LINKAGE" BookingTravelerRef="MH63gPUqWDKAMEDWeAAAAA==">
+                <air:AirPricingInfoRef Key="MH63gPUqWDKA5EDWeAAAAA=="/>
+                <air:AirPricingInfoRef Key="MH63gPUqWDKA6EDWeAAAAA=="/>
+                <air:AirPricingInfoRef Key="MH63gPUqWDKA7EDWeAAAAA=="/>
                 <common_v52_0:Name Prefix="MR" First="Fahim" Last="Hossain"/>
             </air:TicketFailureInfo>
         </air:AirTicketingRsp>

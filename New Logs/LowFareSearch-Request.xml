@@ -11,7 +11,7 @@
                 <SearchDestination>
                     <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="DXB" PreferCity="true" />
                 </SearchDestination>
-                <SearchDepTime PreferredTime="2024-12-24" />
+                <SearchDepTime PreferredTime="2025-01-22" />
             </SearchAirLeg>
             <SearchAirLeg>
                 <SearchOrigin>
@@ -20,12 +20,17 @@
                 <SearchDestination>
                     <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="DAC" PreferCity="true" />
                 </SearchDestination>
-                <SearchDepTime PreferredTime="2024-12-28" />
+                <SearchDepTime PreferredTime="2025-01-26" />
             </SearchAirLeg>
             <AirSearchModifiers>
                 <PreferredProviders>
                     <Provider xmlns="http://www.travelport.com/schema/common_v52_0" Code="1G" />
                 </PreferredProviders>
+                <!-- later on added by me -->
+                <PermittedCarriers>
+                    <Carrier xmlns="http://www.travelport.com/schema/common_v52_0" Code="KU" /> <!-- Kuwait Airways -->
+                </PermittedCarriers>
+                <!-- later on added by me -->
                 <PreferredCabins>
                     <CabinClass xmlns="http://www.travelport.com/schema/common_v52_0" Type="Economy" />
                 </PreferredCabins>

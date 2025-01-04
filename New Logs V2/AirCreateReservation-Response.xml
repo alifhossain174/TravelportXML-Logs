@@ -1,6 +1,6 @@
 <SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
     <SOAP:Body>
-        <universal:AirCreateReservationRsp xmlns:universal="http://www.travelport.com/schema/universal_v52_0" xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0"     xmlns:air="http://www.travelport.com/schema/air_v52_0"  TraceId="c8f38268010611bc23e5-01969005035" TransactionId="1190E31A0A0D6A926B779048AADE9AC0" ResponseTime="5365">
+        <universal:AirCreateReservationRsp xmlns:universal="http://www.travelport.com/schema/universal_v52_0" xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0"     xmlns:air="http://www.travelport.com/schema/air_v52_0"  TraceId="c8f38268010611bc23e5-01969005035" TransactionId="3172898B0A0D6A935F2842BE2AECA894" ResponseTime="4925">
             <common_v52_0:ResponseMessage Code="13566" Type="Warning" ProviderCode="1G">
                 <![CDATA[Brand optional services were filtered out as they are not offered in the brand or are only available at a charge.]]>
             </common_v52_0:ResponseMessage>
@@ -13,71 +13,72 @@
             <common_v52_0:ResponseMessage Code="13565" Type="Warning" ProviderCode="1G">
                 <![CDATA[UpsellBrandID has been ignored.]]>
             </common_v52_0:ResponseMessage>
-            <universal:UniversalRecord LocatorCode="2KPIY1" Version="0" Status="Active">
-                <common_v52_0:BookingTraveler Key="uLJ5gPSqWDKANviORAAAAA==" TravelerType="ADT" DOB="1998-12-10" Gender="M" ElStat="A">
+            <universal:UniversalRecord LocatorCode="2LKO7M" Version="0" Status="Active">
+                <common_v52_0:BookingTraveler Key="0rg3gPTqWDKA8IwYeAAAAA==" TravelerType="ADT" DOB="1998-12-10" Gender="M" ElStat="A">
                     <common_v52_0:BookingTravelerName Prefix="MR" First="Fahim" Last="Hossain"/>
-                    <common_v52_0:PhoneNumber Key="uLJ5gPSqWDKAQviORAAAAA==" Type="None" Location="BZL" Number="01969005035" ElStat="A">
-                        <common_v52_0:ProviderReservationInfoRef Key="uLJ5gPSqWDKAq8iORAAAAA=="/>
+                    <common_v52_0:PhoneNumber Key="0rg3gPTqWDKA/IwYeAAAAA==" Type="None" Location="BZL" Number="01969005035" ElStat="A">
+                        <common_v52_0:ProviderReservationInfoRef Key="0rg3gPTqWDKAYrwYeAAAAA=="/>
                     </common_v52_0:PhoneNumber>
-                    <common_v52_0:Email Key="uLJ5gPSqWDKATviORAAAAA==" Type="Home" EmailID="alifhossain@gmail.com" ElStat="A">
-                        <common_v52_0:ProviderReservationInfoRef Key="uLJ5gPSqWDKAq8iORAAAAA=="/>
+                    <common_v52_0:Email Key="0rg3gPTqWDKACJwYeAAAAA==" Type="Home" EmailID="alifhossain@gmail.com" ElStat="A">
+                        <common_v52_0:ProviderReservationInfoRef Key="0rg3gPTqWDKAYrwYeAAAAA=="/>
                     </common_v52_0:Email>
-                    <common_v52_0:SSR Key="uLJ5gPSqWDKAE0iORAAAAA==" SegmentRef="uLJ5gPSqWDKAr1SJRAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="UL" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" ElStat="C"/>
-                    <common_v52_0:SSR Key="uLJ5gPSqWDKAF0iORAAAAA==" SegmentRef="uLJ5gPSqWDKAt1SJRAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="UL" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" ElStat="C"/>
-                    <common_v52_0:SSR Key="uLJ5gPSqWDKAG0iORAAAAA==" SegmentRef="uLJ5gPSqWDKAv1SJRAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="UL" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" ElStat="C"/>
-                    <common_v52_0:SSR Key="uLJ5gPSqWDKAH0iORAAAAA==" SegmentRef="uLJ5gPSqWDKAx1SJRAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="UL" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" ElStat="C"/>
-                    <common_v52_0:SSR Key="uLJ5gPSqWDKAI0iORAAAAA==" Status="HK" Type="DOCS" FreeText="P/BD/000007878/BD/0000000/M/01JAN28/FAHIM/HOSSAIN -1HOSSAIN/FAHIMMR" Carrier="UL" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" ElStat="C"/>
+                    <common_v52_0:SSR Key="0rg3gPTqWDKAKkwYeAAAAA==" SegmentRef="0rg3gPTqWDKA+osXeAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="UL" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" ElStat="C"/>
+                    <common_v52_0:SSR Key="0rg3gPTqWDKALkwYeAAAAA==" SegmentRef="0rg3gPTqWDKAApsXeAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="UL" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" ElStat="C"/>
+                    <common_v52_0:SSR Key="0rg3gPTqWDKAMkwYeAAAAA==" SegmentRef="0rg3gPTqWDKACpsXeAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="UL" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" ElStat="C"/>
+                    <common_v52_0:SSR Key="0rg3gPTqWDKANkwYeAAAAA==" SegmentRef="0rg3gPTqWDKAEpsXeAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="UL" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" ElStat="C"/>
+                    <common_v52_0:SSR Key="0rg3gPTqWDKAOkwYeAAAAA==" Status="HK" Type="DOCS" FreeText="P/BD/000007878/BD/0000000/M/01JAN28/FAHIM/HOSSAIN -1HOSSAIN/FAHIMMR" Carrier="UL" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" ElStat="C"/>
                 </common_v52_0:BookingTraveler>
-                <common_v52_0:BookingTraveler Key="uLJ5gPSqWDKAFviORAAAAA==" TravelerType="CNN" Age="11" DOB="2015-06-12" Gender="M" ElStat="A">
+                <common_v52_0:BookingTraveler Key="0rg3gPTqWDKA0IwYeAAAAA==" TravelerType="CNN" Age="11" DOB="2015-06-12" Gender="M" ElStat="A">
                     <common_v52_0:BookingTravelerName Prefix="MSTR" First="AHMAD" Last="WAFEE"/>
-                    <common_v52_0:SSR Key="uLJ5gPSqWDKAJ0iORAAAAA==" Status="HK" Type="DOCS" FreeText="P/BD/000009325/BD/0000000/M/01JAN26/WAFEE/AHMAD -1WAFEE/AHMADMSTR" Carrier="UL" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" ElStat="C"/>
-                    <common_v52_0:NameRemark Key="uLJ5gPSqWDKAHviORAAAAA==" ElStat="A">
+                    <common_v52_0:SSR Key="0rg3gPTqWDKAPkwYeAAAAA==" Status="HK" Type="DOCS" FreeText="P/BD/000009325/BD/0000000/M/01JAN26/WAFEE/AHMAD -1WAFEE/AHMADMSTR" Carrier="UL" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" ElStat="C"/>
+                    <common_v52_0:NameRemark Key="0rg3gPTqWDKA2IwYeAAAAA==" ElStat="A">
                         <common_v52_0:RemarkData>P-C11 DOB12JUN15</common_v52_0:RemarkData>
-                        <common_v52_0:ProviderReservationInfoRef Key="uLJ5gPSqWDKAq8iORAAAAA=="/>
+                        <common_v52_0:ProviderReservationInfoRef Key="0rg3gPTqWDKAYrwYeAAAAA=="/>
                     </common_v52_0:NameRemark>
                 </common_v52_0:BookingTraveler>
-                <common_v52_0:BookingTraveler Key="uLJ5gPSqWDKA/uiORAAAAA==" TravelerType="INF" Age="1" DOB="2023-11-13" Gender="M" ElStat="A">
+                <common_v52_0:BookingTraveler Key="0rg3gPTqWDKAuIwYeAAAAA==" TravelerType="INF" Age="1" DOB="2023-11-13" Gender="M" ElStat="A">
                     <common_v52_0:BookingTravelerName Prefix="MSTR" First="AHMAD" Last="NAFEE"/>
-                    <common_v52_0:SSR Key="uLJ5gPSqWDKAK0iORAAAAA==" Status="HK" Type="DOCS" FreeText="P/BD/000006987/BD/0000000/MI/02MAR26/NAFEE/AHMAD -1NAFEE/AHMADMSTR" Carrier="UL" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" ElStat="C"/>
-                    <common_v52_0:NameRemark Key="uLJ5gPSqWDKABviORAAAAA==" ElStat="A">
+                    <common_v52_0:SSR Key="0rg3gPTqWDKAQkwYeAAAAA==" Status="HK" Type="DOCS" FreeText="P/BD/000006987/BD/0000000/MI/02MAR26/NAFEE/AHMAD -1NAFEE/AHMADMSTR" Carrier="UL" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" ElStat="C"/>
+                    <common_v52_0:NameRemark Key="0rg3gPTqWDKAwIwYeAAAAA==" ElStat="A">
                         <common_v52_0:RemarkData>13NOV23</common_v52_0:RemarkData>
-                        <common_v52_0:ProviderReservationInfoRef Key="uLJ5gPSqWDKAq8iORAAAAA=="/>
+                        <common_v52_0:ProviderReservationInfoRef Key="0rg3gPTqWDKAYrwYeAAAAA=="/>
                     </common_v52_0:NameRemark>
                 </common_v52_0:BookingTraveler>
-                <common_v52_0:ActionStatus Key="uLJ5gPSqWDKAaviORAAAAA==" Type="TAU" TicketDate="2024-12-30T23:59:00.000+06:00" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" ProviderCode="1G" ElStat="A"/>
-                <universal:ProviderReservationInfo Key="uLJ5gPSqWDKAq8iORAAAAA==" ProviderCode="1G" LocatorCode="9F9G33" CreateDate="2024-12-29T08:38:20.301+00:00" ModifiedDate="2024-12-29T08:38:20.301+00:00" HostCreateDate="2024-12-29" OwningPCC="LT7"/>
-                <air:AirReservation xmlns:air="http://www.travelport.com/schema/air_v52_0" xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0"  LocatorCode="2KPIY2" CreateDate="2024-12-29T08:38:18.996+00:00" ModifiedDate="2024-12-29T08:38:20.301+00:00">
-                    <common_v52_0:BookingTravelerRef Key="uLJ5gPSqWDKANviORAAAAA=="/>
-                    <common_v52_0:BookingTravelerRef Key="uLJ5gPSqWDKAFviORAAAAA=="/>
-                    <common_v52_0:BookingTravelerRef Key="uLJ5gPSqWDKA/uiORAAAAA=="/>
-                    <common_v52_0:ProviderReservationInfoRef Key="uLJ5gPSqWDKAq8iORAAAAA=="/>
-                    <air:AirSegment Key="uLJ5gPSqWDKAr1SJRAAAAA==" Group="0" Carrier="UL" CabinClass="Economy" FlightNumber="403" ProviderCode="1G" Origin="BKK" Destination="CMB" DepartureTime="2025-01-20T09:00:00.000+07:00" ArrivalTime="2025-01-20T11:00:00.000+05:30" TravelTime="210" Distance="1485" ClassOfService="S" ETicketability="Yes" Equipment="320" MarriageGroup="1" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" ElStat="A">
-                        <air:FlightDetails Key="uLJ5gPSqWDKAA0iORAAAAA==" Origin="BKK" Destination="CMB" DepartureTime="2025-01-20T09:00:00.000+07:00" ArrivalTime="2025-01-20T11:00:00.000+05:30" FlightTime="210" TravelTime="210" Equipment="320" AutomatedCheckin="false" ElStat="C"/>
+                <common_v52_0:ActionStatus Key="0rg3gPTqWDKAJJwYeAAAAA==" Type="TAU" TicketDate="2025-01-04T23:59:00.000+06:00" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" ProviderCode="1G" ElStat="A"/>
+                <universal:ProviderReservationInfo Key="0rg3gPTqWDKAYrwYeAAAAA==" ProviderCode="1G" LocatorCode="9FB76X" CreateDate="2025-01-04T13:13:01.777+00:00" ModifiedDate="2025-01-04T13:13:01.777+00:00" HostCreateDate="2025-01-04" OwningPCC="LT7"/>
+                <air:AirReservation xmlns:air="http://www.travelport.com/schema/air_v52_0" xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0"  LocatorCode="2LKO7R" CreateDate="2025-01-04T13:13:00.563+00:00" ModifiedDate="2025-01-04T13:13:01.777+00:00">
+                    <common_v52_0:SupplierLocator SupplierCode="UL" SupplierLocatorCode="5HL2WQ" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" CreateDateTime="2025-01-04T13:24:00.000+00:00"/>
+                    <common_v52_0:BookingTravelerRef Key="0rg3gPTqWDKA8IwYeAAAAA=="/>
+                    <common_v52_0:BookingTravelerRef Key="0rg3gPTqWDKA0IwYeAAAAA=="/>
+                    <common_v52_0:BookingTravelerRef Key="0rg3gPTqWDKAuIwYeAAAAA=="/>
+                    <common_v52_0:ProviderReservationInfoRef Key="0rg3gPTqWDKAYrwYeAAAAA=="/>
+                    <air:AirSegment Key="0rg3gPTqWDKA+osXeAAAAA==" Group="0" Carrier="UL" CabinClass="Economy" FlightNumber="403" ProviderCode="1G" Origin="BKK" Destination="CMB" DepartureTime="2025-01-20T09:00:00.000+07:00" ArrivalTime="2025-01-20T11:00:00.000+05:30" TravelTime="210" Distance="1485" ClassOfService="S" ETicketability="Yes" Equipment="320" MarriageGroup="1" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" ElStat="A">
+                        <air:FlightDetails Key="0rg3gPTqWDKAGkwYeAAAAA==" Origin="BKK" Destination="CMB" DepartureTime="2025-01-20T09:00:00.000+07:00" ArrivalTime="2025-01-20T11:00:00.000+05:30" FlightTime="210" TravelTime="210" Equipment="320" AutomatedCheckin="false" ElStat="C"/>
                         <air:Connection Duration="110"/>
                     </air:AirSegment>
-                    <air:AirSegment Key="uLJ5gPSqWDKAt1SJRAAAAA==" Group="0" Carrier="UL" CabinClass="Economy" FlightNumber="503" ProviderCode="1G" Origin="CMB" Destination="LHR" DepartureTime="2025-01-20T12:50:00.000+05:30" ArrivalTime="2025-01-20T19:10:00.000+00:00" TravelTime="710" Distance="5403" ClassOfService="S" ETicketability="Yes" Equipment="333" MarriageGroup="1" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" TravelOrder="2" ProviderSegmentOrder="2" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" ElStat="A">
-                        <air:FlightDetails Key="uLJ5gPSqWDKAB0iORAAAAA==" Origin="CMB" Destination="LHR" DepartureTime="2025-01-20T12:50:00.000+05:30" ArrivalTime="2025-01-20T19:10:00.000+00:00" FlightTime="710" TravelTime="710" Equipment="333" DestinationTerminal="3" AutomatedCheckin="false" ElStat="C"/>
+                    <air:AirSegment Key="0rg3gPTqWDKAApsXeAAAAA==" Group="0" Carrier="UL" CabinClass="Economy" FlightNumber="503" ProviderCode="1G" Origin="CMB" Destination="LHR" DepartureTime="2025-01-20T12:50:00.000+05:30" ArrivalTime="2025-01-20T19:10:00.000+00:00" TravelTime="710" Distance="5403" ClassOfService="S" ETicketability="Yes" Equipment="333" MarriageGroup="1" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" TravelOrder="2" ProviderSegmentOrder="2" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" ElStat="A">
+                        <air:FlightDetails Key="0rg3gPTqWDKAHkwYeAAAAA==" Origin="CMB" Destination="LHR" DepartureTime="2025-01-20T12:50:00.000+05:30" ArrivalTime="2025-01-20T19:10:00.000+00:00" FlightTime="710" TravelTime="710" Equipment="333" DestinationTerminal="3" AutomatedCheckin="false" ElStat="C"/>
                         <common_v52_0:SellMessage>ARRIVES LHR TERMINAL 3</common_v52_0:SellMessage>
                     </air:AirSegment>
-                    <air:AirSegment Key="uLJ5gPSqWDKAv1SJRAAAAA==" Group="1" Carrier="UL" CabinClass="Economy" FlightNumber="504" ProviderCode="1G" Origin="LHR" Destination="CMB" DepartureTime="2025-01-24T20:40:00.000+00:00" ArrivalTime="2025-01-25T12:30:00.000+05:30" TravelTime="620" Distance="5403" ClassOfService="S" ETicketability="Yes" Equipment="333" MarriageGroup="2" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" TravelOrder="3" ProviderSegmentOrder="3" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" ElStat="A">
-                        <air:FlightDetails Key="uLJ5gPSqWDKAw1SJRAAAAA==" Origin="LHR" Destination="CMB" DepartureTime="2025-01-24T20:40:00.000+00:00" ArrivalTime="2025-01-25T12:30:00.000+05:30" FlightTime="620" TravelTime="620" Equipment="333" OriginTerminal="3" AutomatedCheckin="false" ElStat="A"/>
+                    <air:AirSegment Key="0rg3gPTqWDKACpsXeAAAAA==" Group="1" Carrier="UL" CabinClass="Economy" FlightNumber="504" ProviderCode="1G" Origin="LHR" Destination="CMB" DepartureTime="2025-01-24T20:40:00.000+00:00" ArrivalTime="2025-01-25T12:30:00.000+05:30" TravelTime="620" Distance="5403" ClassOfService="S" ETicketability="Yes" Equipment="333" MarriageGroup="2" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" TravelOrder="3" ProviderSegmentOrder="3" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" ElStat="A">
+                        <air:FlightDetails Key="0rg3gPTqWDKADpsXeAAAAA==" Origin="LHR" Destination="CMB" DepartureTime="2025-01-24T20:40:00.000+00:00" ArrivalTime="2025-01-25T12:30:00.000+05:30" FlightTime="620" TravelTime="620" Equipment="333" OriginTerminal="3" AutomatedCheckin="false" ElStat="A"/>
                         <common_v52_0:SellMessage>DEPARTS LHR TERMINAL 3</common_v52_0:SellMessage>
                     </air:AirSegment>
-                    <air:AirSegment Key="uLJ5gPSqWDKAx1SJRAAAAA==" Group="2" Carrier="UL" CabinClass="Economy" FlightNumber="402" ProviderCode="1G" Origin="CMB" Destination="BKK" DepartureTime="2025-01-26T01:15:00.000+05:30" ArrivalTime="2025-01-26T06:20:00.000+07:00" TravelTime="215" Distance="1485" ClassOfService="S" ETicketability="Yes" Equipment="320" MarriageGroup="2" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" TravelOrder="4" ProviderSegmentOrder="4" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" ElStat="A">
-                        <air:FlightDetails Key="uLJ5gPSqWDKAD0iORAAAAA==" Origin="CMB" Destination="BKK" DepartureTime="2025-01-26T01:15:00.000+05:30" ArrivalTime="2025-01-26T06:20:00.000+07:00" FlightTime="215" TravelTime="215" Equipment="320" AutomatedCheckin="false" ElStat="C"/>
+                    <air:AirSegment Key="0rg3gPTqWDKAEpsXeAAAAA==" Group="2" Carrier="UL" CabinClass="Economy" FlightNumber="402" ProviderCode="1G" Origin="CMB" Destination="BKK" DepartureTime="2025-01-26T01:15:00.000+05:30" ArrivalTime="2025-01-26T06:20:00.000+07:00" TravelTime="215" Distance="1485" ClassOfService="S" ETicketability="Yes" Equipment="320" MarriageGroup="2" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" TravelOrder="4" ProviderSegmentOrder="4" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" ElStat="A">
+                        <air:FlightDetails Key="0rg3gPTqWDKAJkwYeAAAAA==" Origin="CMB" Destination="BKK" DepartureTime="2025-01-26T01:15:00.000+05:30" ArrivalTime="2025-01-26T06:20:00.000+07:00" FlightTime="215" TravelTime="215" Equipment="320" AutomatedCheckin="false" ElStat="C"/>
                         <common_v52_0:SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</common_v52_0:SellMessage>
                         <common_v52_0:SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</common_v52_0:SellMessage>
                         <common_v52_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</common_v52_0:SellMessage>
                         <common_v52_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v52_0:SellMessage>
                     </air:AirSegment>
-                    <air:AirPricingInfo Key="uLJ5gPSqWDKA61SJRAAAAA==" TotalPrice="BDT131490" BasePrice="THB14740" ApproximateTotalPrice="BDT131490" ApproximateBasePrice="BDT52619" EquivalentBasePrice="BDT52619" Taxes="BDT78871" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" TrueLastDateToTicket="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" ElStat="A" FareCalculationInd="G">
-                        <air:FareInfo Key="uLJ5gPSqWDKAO0iORAAAAA==" FareBasis="SRTTH" PassengerTypeCode="ADT" Origin="BKK" Destination="CMB" EffectiveDate="2024-12-29T00:00:00.000+06:00" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20" PseudoCityCode="LT7" ElStat="C">
+                    <air:AirPricingInfo Key="0rg3gPTqWDKANpsXeAAAAA==" TotalPrice="BDT131490" BasePrice="THB14740" ApproximateTotalPrice="BDT131490" ApproximateBasePrice="BDT52619" EquivalentBasePrice="BDT52619" Taxes="BDT78871" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" TrueLastDateToTicket="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" ElStat="A" FareCalculationInd="G">
+                        <air:FareInfo Key="0rg3gPTqWDKAUkwYeAAAAA==" FareBasis="SRTTH" PassengerTypeCode="ADT" Origin="BKK" Destination="CMB" EffectiveDate="2025-01-04T00:00:00.000+06:00" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20" PseudoCityCode="LT7" ElStat="C">
                             <common_v52_0:Endorsement Value="VALID ON UL ONLY"/>
                             <common_v52_0:Endorsement Value="CHANGE FEE MAY APPLY"/>
                             <air:BaggageAllowance>
                                 <air:MaxWeight Value="30" Unit="Kilograms"/>
                             </air:BaggageAllowance>
-                            <air:Brand Key="uLJ5gPSqWDKAO0iORAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
+                            <air:Brand Key="0rg3gPTqWDKAUkwYeAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
                                 <air:Title Type="External" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Title Type="Short" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Value includes:
@@ -104,7 +105,7 @@ Please refer to fare rules for full conditions</air:Text>
                                 <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/srilankanairlines/UL_general_small_537368.jpg</air:ImageLocation>
                                 <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/srilankanairlines/UL_general_small_537470.jpg</air:ImageLocation>
                                 <air:OptionalServices>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.258+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKA81iORAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKA61iORAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.808+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAokwYeAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAmkwYeAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Checked Baggage 30kg 158cm</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71508.jpg"/>
@@ -119,7 +120,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Checked Baggage 30kg 158cm</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Checked Ba</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.258+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKA91iORAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKA71iORAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.808+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKApkwYeAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAnkwYeAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Carry On Baggage 1pc 7kg</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71509.jpg"/>
@@ -142,7 +143,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Carry On Baggage 1pc 7kg</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Carry On B</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.258+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAA2iORAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.808+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAskwYeAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Refund</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71511.jpg"/>
@@ -155,7 +156,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Refund</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Refund</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.258+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAB2iORAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.809+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAtkwYeAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Rebooking</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71510.jpg"/>
@@ -168,7 +169,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Rebooking</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Rebooking</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.258+00:00" ElStat="A" Key="uLJ5gPSqWDKAF2iORAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.809+00:00" ElStat="A" Key="0rg3gPTqWDKAxkwYeAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Inflight meal</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_small_564768.jpg"/>
@@ -183,32 +184,32 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                     </air:OptionalService>
                                 </air:OptionalServices>
                                 <air:ServiceAssociations>
-                                    <air:ApplicableSegment Key="oEN2ckJYRh2+773braTT7g==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKA81iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="QGf+YDkkTUKpBB7xFsrL+w==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAokwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="oEN2ckJYRh2+773braTT7g==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKA91iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="QGf+YDkkTUKpBB7xFsrL+w==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKApkwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="oEN2ckJYRh2+773braTT7g==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAA2iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="QGf+YDkkTUKpBB7xFsrL+w==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAskwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="oEN2ckJYRh2+773braTT7g==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAB2iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="QGf+YDkkTUKpBB7xFsrL+w==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAtkwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="oEN2ckJYRh2+773braTT7g==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAF2iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="QGf+YDkkTUKpBB7xFsrL+w==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAxkwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
                                 </air:ServiceAssociations>
-                                <air:ApplicableSegment Key="oEN2ckJYRh2+773braTT7g=="/>
+                                <air:ApplicableSegment Key="QGf+YDkkTUKpBB7xFsrL+w=="/>
                             </air:Brand>
                         </air:FareInfo>
-                        <air:FareInfo Key="uLJ5gPSqWDKAP0iORAAAAA==" FareBasis="SRTTH" PassengerTypeCode="ADT" Origin="CMB" Destination="LHR" EffectiveDate="2024-12-29T00:00:00.000+06:00" Amount="NUC222.64" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="0rg3gPTqWDKAVkwYeAAAAA==" FareBasis="SRTTH" PassengerTypeCode="ADT" Origin="CMB" Destination="LHR" EffectiveDate="2025-01-04T00:00:00.000+06:00" Amount="NUC222.64" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20" PseudoCityCode="LT7" ElStat="C">
                             <common_v52_0:Endorsement Value="VALID ON UL ONLY"/>
                             <common_v52_0:Endorsement Value="CHANGE FEE MAY APPLY"/>
                             <air:BaggageAllowance>
                                 <air:MaxWeight Value="30" Unit="Kilograms"/>
                             </air:BaggageAllowance>
-                            <air:Brand Key="uLJ5gPSqWDKAP0iORAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
+                            <air:Brand Key="0rg3gPTqWDKAVkwYeAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
                                 <air:Title Type="External" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Title Type="Short" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Value includes:
@@ -235,7 +236,7 @@ Please refer to fare rules for full conditions</air:Text>
                                 <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/srilankanairlines/UL_general_small_537368.jpg</air:ImageLocation>
                                 <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/srilankanairlines/UL_general_small_537470.jpg</air:ImageLocation>
                                 <air:OptionalServices>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.297+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAP2iORAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAN2iORAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.830+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKA7kwYeAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKA5kwYeAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Checked Baggage 30kg 158cm</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71508.jpg"/>
@@ -250,7 +251,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Checked Baggage 30kg 158cm</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Checked Ba</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.297+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAQ2iORAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAO2iORAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.830+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKA8kwYeAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKA6kwYeAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Carry On Baggage 1pc 7kg</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71509.jpg"/>
@@ -273,7 +274,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Carry On Baggage 1pc 7kg</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Carry On B</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.297+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAT2iORAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.830+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKA/kwYeAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Refund</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71511.jpg"/>
@@ -286,7 +287,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Refund</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Refund</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.297+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAU2iORAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.830+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAAlwYeAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Rebooking</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71510.jpg"/>
@@ -299,7 +300,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Rebooking</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Rebooking</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.297+00:00" ElStat="A" Key="uLJ5gPSqWDKAY2iORAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.831+00:00" ElStat="A" Key="0rg3gPTqWDKAElwYeAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Inflight meal</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_small_564768.jpg"/>
@@ -314,32 +315,32 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                     </air:OptionalService>
                                 </air:OptionalServices>
                                 <air:ServiceAssociations>
-                                    <air:ApplicableSegment Key="Yspbl7b2QXCEN0QfdhTFfA==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAP2iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="4cpXz3qKTsu4pCufWqmvXQ==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKA7kwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="Yspbl7b2QXCEN0QfdhTFfA==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAQ2iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="4cpXz3qKTsu4pCufWqmvXQ==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKA8kwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="Yspbl7b2QXCEN0QfdhTFfA==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAT2iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="4cpXz3qKTsu4pCufWqmvXQ==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKA/kwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="Yspbl7b2QXCEN0QfdhTFfA==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAU2iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="4cpXz3qKTsu4pCufWqmvXQ==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAAlwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="Yspbl7b2QXCEN0QfdhTFfA==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAY2iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="4cpXz3qKTsu4pCufWqmvXQ==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAElwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
                                 </air:ServiceAssociations>
-                                <air:ApplicableSegment Key="Yspbl7b2QXCEN0QfdhTFfA=="/>
+                                <air:ApplicableSegment Key="4cpXz3qKTsu4pCufWqmvXQ=="/>
                             </air:Brand>
                         </air:FareInfo>
-                        <air:FareInfo Key="uLJ5gPSqWDKAQ0iORAAAAA==" FareBasis="SRTTH" PassengerTypeCode="ADT" Origin="LHR" Destination="CMB" EffectiveDate="2024-12-29T00:00:00.000+06:00" NegotiatedFare="false" NotValidBefore="2025-01-24" NotValidAfter="2025-01-24" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="0rg3gPTqWDKAWkwYeAAAAA==" FareBasis="SRTTH" PassengerTypeCode="ADT" Origin="LHR" Destination="CMB" EffectiveDate="2025-01-04T00:00:00.000+06:00" NotValidBefore="2025-01-24" NotValidAfter="2025-01-24" PseudoCityCode="LT7" ElStat="C">
                             <common_v52_0:Endorsement Value="VALID ON UL ONLY"/>
                             <common_v52_0:Endorsement Value="CHANGE FEE MAY APPLY"/>
                             <air:BaggageAllowance>
                                 <air:MaxWeight Value="30" Unit="Kilograms"/>
                             </air:BaggageAllowance>
-                            <air:Brand Key="uLJ5gPSqWDKAQ0iORAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
+                            <air:Brand Key="0rg3gPTqWDKAWkwYeAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
                                 <air:Title Type="External" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Title Type="Short" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Value includes:
@@ -366,7 +367,7 @@ Please refer to fare rules for full conditions</air:Text>
                                 <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/srilankanairlines/UL_general_small_537368.jpg</air:ImageLocation>
                                 <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/srilankanairlines/UL_general_small_537470.jpg</air:ImageLocation>
                                 <air:OptionalServices>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.336+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAi2iORAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAg2iORAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.865+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAOlwYeAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAMlwYeAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Checked Baggage 30kg 158cm</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71508.jpg"/>
@@ -381,7 +382,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Checked Baggage 30kg 158cm</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Checked Ba</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.336+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAj2iORAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAh2iORAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.865+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAPlwYeAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKANlwYeAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Carry On Baggage 1pc 7kg</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71509.jpg"/>
@@ -404,7 +405,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Carry On Baggage 1pc 7kg</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Carry On B</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.336+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAm2iORAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.865+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKASlwYeAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Refund</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71511.jpg"/>
@@ -417,7 +418,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Refund</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Refund</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.336+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAn2iORAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.865+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKATlwYeAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Rebooking</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71510.jpg"/>
@@ -430,7 +431,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Rebooking</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Rebooking</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.336+00:00" ElStat="A" Key="uLJ5gPSqWDKAr2iORAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.865+00:00" ElStat="A" Key="0rg3gPTqWDKAXlwYeAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Inflight meal</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_small_564768.jpg"/>
@@ -445,32 +446,32 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                     </air:OptionalService>
                                 </air:OptionalServices>
                                 <air:ServiceAssociations>
-                                    <air:ApplicableSegment Key="IXT5Md7OQwWMZM7J1d5/aQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAi2iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="Vug4mOlrSsm3lgMxjzF/AA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAOlwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="IXT5Md7OQwWMZM7J1d5/aQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAj2iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="Vug4mOlrSsm3lgMxjzF/AA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAPlwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="IXT5Md7OQwWMZM7J1d5/aQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAm2iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="Vug4mOlrSsm3lgMxjzF/AA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKASlwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="IXT5Md7OQwWMZM7J1d5/aQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAn2iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="Vug4mOlrSsm3lgMxjzF/AA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKATlwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="IXT5Md7OQwWMZM7J1d5/aQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAr2iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="Vug4mOlrSsm3lgMxjzF/AA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAXlwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
                                 </air:ServiceAssociations>
-                                <air:ApplicableSegment Key="IXT5Md7OQwWMZM7J1d5/aQ=="/>
+                                <air:ApplicableSegment Key="Vug4mOlrSsm3lgMxjzF/AA=="/>
                             </air:Brand>
                         </air:FareInfo>
-                        <air:FareInfo Key="uLJ5gPSqWDKAR0iORAAAAA==" FareBasis="SRTTH" PassengerTypeCode="ADT" Origin="CMB" Destination="BKK" EffectiveDate="2024-12-29T00:00:00.000+06:00" Amount="NUC222.64" NegotiatedFare="false" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="0rg3gPTqWDKAXkwYeAAAAA==" FareBasis="SRTTH" PassengerTypeCode="ADT" Origin="CMB" Destination="BKK" EffectiveDate="2025-01-04T00:00:00.000+06:00" Amount="NUC222.64" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26" PseudoCityCode="LT7" ElStat="C">
                             <common_v52_0:Endorsement Value="VALID ON UL ONLY"/>
                             <common_v52_0:Endorsement Value="CHANGE FEE MAY APPLY"/>
                             <air:BaggageAllowance>
                                 <air:MaxWeight Value="30" Unit="Kilograms"/>
                             </air:BaggageAllowance>
-                            <air:Brand Key="uLJ5gPSqWDKAR0iORAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
+                            <air:Brand Key="0rg3gPTqWDKAXkwYeAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
                                 <air:Title Type="External" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Title Type="Short" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Value includes:
@@ -497,7 +498,7 @@ Please refer to fare rules for full conditions</air:Text>
                                 <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/srilankanairlines/UL_general_small_537368.jpg</air:ImageLocation>
                                 <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/srilankanairlines/UL_general_small_537470.jpg</air:ImageLocation>
                                 <air:OptionalServices>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.356+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKA12iORAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAz2iORAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.880+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAhlwYeAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAflwYeAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Checked Baggage 30kg 158cm</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71508.jpg"/>
@@ -512,7 +513,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Checked Baggage 30kg 158cm</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Checked Ba</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.356+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKA22iORAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKA02iORAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.880+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAilwYeAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAglwYeAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Carry On Baggage 1pc 7kg</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71509.jpg"/>
@@ -535,7 +536,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Carry On Baggage 1pc 7kg</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Carry On B</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.356+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKA52iORAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.880+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAllwYeAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Refund</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71511.jpg"/>
@@ -548,7 +549,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Refund</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Refund</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.356+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKA62iORAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.880+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAmlwYeAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Rebooking</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71510.jpg"/>
@@ -561,7 +562,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Rebooking</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Rebooking</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.357+00:00" ElStat="A" Key="uLJ5gPSqWDKA+2iORAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.880+00:00" ElStat="A" Key="0rg3gPTqWDKAqlwYeAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Inflight meal</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_small_564768.jpg"/>
@@ -576,56 +577,56 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                     </air:OptionalService>
                                 </air:OptionalServices>
                                 <air:ServiceAssociations>
-                                    <air:ApplicableSegment Key="ed5bxG6tSUCCuQKtlW5Y5Q==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKA12iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="xujmYKCfRGmY3y78A+nlLA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAhlwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="ed5bxG6tSUCCuQKtlW5Y5Q==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKA22iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="xujmYKCfRGmY3y78A+nlLA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAilwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="ed5bxG6tSUCCuQKtlW5Y5Q==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKA52iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="xujmYKCfRGmY3y78A+nlLA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAllwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="ed5bxG6tSUCCuQKtlW5Y5Q==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKA62iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="xujmYKCfRGmY3y78A+nlLA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAmlwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="ed5bxG6tSUCCuQKtlW5Y5Q==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKA+2iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="xujmYKCfRGmY3y78A+nlLA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAqlwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
                                 </air:ServiceAssociations>
-                                <air:ApplicableSegment Key="ed5bxG6tSUCCuQKtlW5Y5Q=="/>
+                                <air:ApplicableSegment Key="xujmYKCfRGmY3y78A+nlLA=="/>
                             </air:Brand>
                         </air:FareInfo>
-                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="uLJ5gPSqWDKAO0iORAAAAA==" SegmentRef="uLJ5gPSqWDKAr1SJRAAAAA=="/>
-                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="uLJ5gPSqWDKAP0iORAAAAA==" SegmentRef="uLJ5gPSqWDKAt1SJRAAAAA=="/>
-                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="uLJ5gPSqWDKAQ0iORAAAAA==" SegmentRef="uLJ5gPSqWDKAv1SJRAAAAA=="/>
-                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="uLJ5gPSqWDKAR0iORAAAAA==" SegmentRef="uLJ5gPSqWDKAx1SJRAAAAA=="/>
-                        <air:TaxInfo Category="E7" Amount="BDT250" Key="uLJ5gPSqWDKA71SJRAAAAA=="/>
-                        <air:TaxInfo Category="G8" Amount="BDT108" Key="uLJ5gPSqWDKA81SJRAAAAA=="/>
-                        <air:TaxInfo Category="TS" Amount="BDT2606" Key="uLJ5gPSqWDKA91SJRAAAAA=="/>
-                        <air:TaxInfo Category="GB" Amount="BDT14310" Key="uLJ5gPSqWDKA+1SJRAAAAA=="/>
-                        <air:TaxInfo Category="UB" Amount="BDT7605" Key="uLJ5gPSqWDKA/1SJRAAAAA=="/>
-                        <air:TaxInfo Category="YQ" Amount="BDT53992" Key="uLJ5gPSqWDKAA2SJRAAAAA=="/>
+                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAUkwYeAAAAA==" SegmentRef="0rg3gPTqWDKA+osXeAAAAA=="/>
+                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAVkwYeAAAAA==" SegmentRef="0rg3gPTqWDKAApsXeAAAAA=="/>
+                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAWkwYeAAAAA==" SegmentRef="0rg3gPTqWDKACpsXeAAAAA=="/>
+                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAXkwYeAAAAA==" SegmentRef="0rg3gPTqWDKAEpsXeAAAAA=="/>
+                        <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAOpsXeAAAAA=="/>
+                        <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAPpsXeAAAAA=="/>
+                        <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKAQpsXeAAAAA=="/>
+                        <air:TaxInfo Category="GB" Amount="BDT14310" Key="0rg3gPTqWDKARpsXeAAAAA=="/>
+                        <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKASpsXeAAAAA=="/>
+                        <air:TaxInfo Category="YQ" Amount="BDT53992" Key="0rg3gPTqWDKATpsXeAAAAA=="/>
                         <air:FareCalc>BKK UL X/CMB UL LON 222.64SRTTH UL X/CMB UL BKK 222.64SRTTH NUC445.28END ROE33.10266</air:FareCalc>
-                        <air:PassengerType Code="ADT" BookingTravelerRef="uLJ5gPSqWDKANviORAAAAA==">
-                            <air:FareGuaranteeInfo GuaranteeDate="2024-12-29" GuaranteeType="Guaranteed"/>
+                        <air:PassengerType Code="ADT" BookingTravelerRef="0rg3gPTqWDKA8IwYeAAAAA==">
+                            <air:FareGuaranteeInfo GuaranteeDate="2025-01-04" GuaranteeType="Guaranteed"/>
                         </air:PassengerType>
-                        <common_v52_0:BookingTravelerRef Key="uLJ5gPSqWDKANviORAAAAA=="/>
+                        <common_v52_0:BookingTravelerRef Key="0rg3gPTqWDKA8IwYeAAAAA=="/>
                         <air:ChangePenalty PenaltyApplies="Anytime">
                             <air:Amount>BDT3926.0</air:Amount>
                         </air:ChangePenalty>
                         <air:CancelPenalty PenaltyApplies="Anytime">
                             <air:Amount>BDT10709</air:Amount>
                         </air:CancelPenalty>
-                        <air:TicketingModifiersRef Key="uLJ5gPSqWDKAQ9iORAAAAA=="/>
+                        <air:TicketingModifiersRef Key="0rg3gPTqWDKA/rwYeAAAAA=="/>
                     </air:AirPricingInfo>
-                    <air:AirPricingInfo Key="uLJ5gPSqWDKAV3SJRAAAAA==" TotalPrice="BDT104025" BasePrice="THB11055" ApproximateTotalPrice="BDT104025" ApproximateBasePrice="BDT39464" EquivalentBasePrice="BDT39464" Taxes="BDT64561" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" TrueLastDateToTicket="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" ElStat="A" FareCalculationInd="G">
-                        <air:FareInfo Key="uLJ5gPSqWDKAS0iORAAAAA==" FareBasis="SRTTHCH75" PassengerTypeCode="CNN" Origin="BKK" Destination="CMB" EffectiveDate="2024-12-29T00:00:00.000+06:00" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20" PseudoCityCode="LT7" ElStat="C">
+                    <air:AirPricingInfo Key="0rg3gPTqWDKAoqsXeAAAAA==" TotalPrice="BDT104025" BasePrice="THB11055" ApproximateTotalPrice="BDT104025" ApproximateBasePrice="BDT39464" EquivalentBasePrice="BDT39464" Taxes="BDT64561" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" TrueLastDateToTicket="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" ElStat="A" FareCalculationInd="G">
+                        <air:FareInfo Key="0rg3gPTqWDKAYkwYeAAAAA==" FareBasis="SRTTHCH75" PassengerTypeCode="CNN" Origin="BKK" Destination="CMB" EffectiveDate="2025-01-04T00:00:00.000+06:00" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20" PseudoCityCode="LT7" ElStat="C">
                             <common_v52_0:Endorsement Value="VALID ON UL ONLY"/>
                             <common_v52_0:Endorsement Value="CHANGE FEE MAY APPLY"/>
                             <air:BaggageAllowance>
                                 <air:MaxWeight Value="30" Unit="Kilograms"/>
                             </air:BaggageAllowance>
-                            <air:Brand Key="uLJ5gPSqWDKAS0iORAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
+                            <air:Brand Key="0rg3gPTqWDKAYkwYeAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
                                 <air:Title Type="External" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Title Type="Short" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Value includes:
@@ -652,7 +653,7 @@ Please refer to fare rules for full conditions</air:Text>
                                 <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/srilankanairlines/UL_general_small_537368.jpg</air:ImageLocation>
                                 <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/srilankanairlines/UL_general_small_537470.jpg</air:ImageLocation>
                                 <air:OptionalServices>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.406+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAK3iORAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAG3iORAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.918+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKA2lwYeAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAylwYeAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Checked Baggage 30kg 158cm</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71508.jpg"/>
@@ -667,7 +668,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Checked Baggage 30kg 158cm</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Checked Ba</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.406+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAL3iORAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAH3iORAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.918+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKA3lwYeAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAzlwYeAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Carry On Baggage 1pc 7kg</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71509.jpg"/>
@@ -690,7 +691,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Carry On Baggage 1pc 7kg</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Carry On B</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.406+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAO3iORAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.919+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKA6lwYeAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Refund</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71511.jpg"/>
@@ -703,7 +704,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Refund</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Refund</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.406+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAP3iORAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.919+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKA7lwYeAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Rebooking</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71510.jpg"/>
@@ -716,7 +717,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Rebooking</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Rebooking</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.406+00:00" ElStat="A" Key="uLJ5gPSqWDKAT3iORAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.919+00:00" ElStat="A" Key="0rg3gPTqWDKA/lwYeAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Inflight meal</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_small_564768.jpg"/>
@@ -731,32 +732,32 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                     </air:OptionalService>
                                 </air:OptionalServices>
                                 <air:ServiceAssociations>
-                                    <air:ApplicableSegment Key="lCyoOOTISbiGpaONXt37/w==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAK3iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="EQHlwmY1Rj2ZSeGAe6Ha9w==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKA2lwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="lCyoOOTISbiGpaONXt37/w==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAL3iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="EQHlwmY1Rj2ZSeGAe6Ha9w==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKA3lwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="lCyoOOTISbiGpaONXt37/w==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAO3iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="EQHlwmY1Rj2ZSeGAe6Ha9w==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKA6lwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="lCyoOOTISbiGpaONXt37/w==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAP3iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="EQHlwmY1Rj2ZSeGAe6Ha9w==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKA7lwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="lCyoOOTISbiGpaONXt37/w==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAT3iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="EQHlwmY1Rj2ZSeGAe6Ha9w==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKA/lwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
                                 </air:ServiceAssociations>
-                                <air:ApplicableSegment Key="lCyoOOTISbiGpaONXt37/w=="/>
+                                <air:ApplicableSegment Key="EQHlwmY1Rj2ZSeGAe6Ha9w=="/>
                             </air:Brand>
                         </air:FareInfo>
-                        <air:FareInfo Key="uLJ5gPSqWDKAT0iORAAAAA==" FareBasis="SRTTHCH75" PassengerTypeCode="CNN" Origin="CMB" Destination="LHR" EffectiveDate="2024-12-29T00:00:00.000+06:00" Amount="NUC166.98" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="0rg3gPTqWDKAZkwYeAAAAA==" FareBasis="SRTTHCH75" PassengerTypeCode="CNN" Origin="CMB" Destination="LHR" EffectiveDate="2025-01-04T00:00:00.000+06:00" Amount="NUC166.98" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20" PseudoCityCode="LT7" ElStat="C">
                             <common_v52_0:Endorsement Value="VALID ON UL ONLY"/>
                             <common_v52_0:Endorsement Value="CHANGE FEE MAY APPLY"/>
                             <air:BaggageAllowance>
                                 <air:MaxWeight Value="30" Unit="Kilograms"/>
                             </air:BaggageAllowance>
-                            <air:Brand Key="uLJ5gPSqWDKAT0iORAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
+                            <air:Brand Key="0rg3gPTqWDKAZkwYeAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
                                 <air:Title Type="External" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Title Type="Short" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Value includes:
@@ -783,7 +784,7 @@ Please refer to fare rules for full conditions</air:Text>
                                 <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/srilankanairlines/UL_general_small_537368.jpg</air:ImageLocation>
                                 <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/srilankanairlines/UL_general_small_537470.jpg</air:ImageLocation>
                                 <air:OptionalServices>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.437+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAu3iORAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAq3iORAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.999+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAcmwYeAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAYmwYeAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Checked Baggage 30kg 158cm</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71508.jpg"/>
@@ -798,7 +799,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Checked Baggage 30kg 158cm</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Checked Ba</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.437+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAv3iORAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAr3iORAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.999+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAdmwYeAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAZmwYeAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Carry On Baggage 1pc 7kg</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71509.jpg"/>
@@ -821,7 +822,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Carry On Baggage 1pc 7kg</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Carry On B</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.437+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAy3iORAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.999+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAgmwYeAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Refund</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71511.jpg"/>
@@ -834,7 +835,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Refund</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Refund</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.437+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAz3iORAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:00.999+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAhmwYeAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Rebooking</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71510.jpg"/>
@@ -847,7 +848,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Rebooking</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Rebooking</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.437+00:00" ElStat="A" Key="uLJ5gPSqWDKA33iORAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.000+00:00" ElStat="A" Key="0rg3gPTqWDKAlmwYeAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Inflight meal</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_small_564768.jpg"/>
@@ -862,32 +863,32 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                     </air:OptionalService>
                                 </air:OptionalServices>
                                 <air:ServiceAssociations>
-                                    <air:ApplicableSegment Key="kTy8gKR2QD6TeCJTg+cy4Q==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAu3iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="PS+6dzNCR9iQN4P3oxJr+g==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAcmwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="kTy8gKR2QD6TeCJTg+cy4Q==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAv3iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="PS+6dzNCR9iQN4P3oxJr+g==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAdmwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="kTy8gKR2QD6TeCJTg+cy4Q==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAy3iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="PS+6dzNCR9iQN4P3oxJr+g==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAgmwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="kTy8gKR2QD6TeCJTg+cy4Q==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAz3iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="PS+6dzNCR9iQN4P3oxJr+g==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAhmwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="kTy8gKR2QD6TeCJTg+cy4Q==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKA33iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="PS+6dzNCR9iQN4P3oxJr+g==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAlmwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
                                 </air:ServiceAssociations>
-                                <air:ApplicableSegment Key="kTy8gKR2QD6TeCJTg+cy4Q=="/>
+                                <air:ApplicableSegment Key="PS+6dzNCR9iQN4P3oxJr+g=="/>
                             </air:Brand>
                         </air:FareInfo>
-                        <air:FareInfo Key="uLJ5gPSqWDKAU0iORAAAAA==" FareBasis="SRTTHCH75" PassengerTypeCode="CNN" Origin="LHR" Destination="CMB" EffectiveDate="2024-12-29T00:00:00.000+06:00" NegotiatedFare="false" NotValidBefore="2025-01-24" NotValidAfter="2025-01-24" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="0rg3gPTqWDKAakwYeAAAAA==" FareBasis="SRTTHCH75" PassengerTypeCode="CNN" Origin="LHR" Destination="CMB" EffectiveDate="2025-01-04T00:00:00.000+06:00" NotValidBefore="2025-01-24" NotValidAfter="2025-01-24" PseudoCityCode="LT7" ElStat="C">
                             <common_v52_0:Endorsement Value="VALID ON UL ONLY"/>
                             <common_v52_0:Endorsement Value="CHANGE FEE MAY APPLY"/>
                             <air:BaggageAllowance>
                                 <air:MaxWeight Value="30" Unit="Kilograms"/>
                             </air:BaggageAllowance>
-                            <air:Brand Key="uLJ5gPSqWDKAU0iORAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
+                            <air:Brand Key="0rg3gPTqWDKAakwYeAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
                                 <air:Title Type="External" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Title Type="Short" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Value includes:
@@ -914,7 +915,7 @@ Please refer to fare rules for full conditions</air:Text>
                                 <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/srilankanairlines/UL_general_small_537368.jpg</air:ImageLocation>
                                 <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/srilankanairlines/UL_general_small_537470.jpg</air:ImageLocation>
                                 <air:OptionalServices>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.466+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAS4iORAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAO4iORAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.041+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAAnwYeAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKA8mwYeAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Checked Baggage 30kg 158cm</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71508.jpg"/>
@@ -929,7 +930,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Checked Baggage 30kg 158cm</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Checked Ba</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.466+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAT4iORAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAP4iORAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.041+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKABnwYeAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKA9mwYeAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Carry On Baggage 1pc 7kg</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71509.jpg"/>
@@ -952,7 +953,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Carry On Baggage 1pc 7kg</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Carry On B</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.466+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAW4iORAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.041+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAEnwYeAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Refund</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71511.jpg"/>
@@ -965,7 +966,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Refund</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Refund</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.466+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAX4iORAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.041+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAFnwYeAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Rebooking</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71510.jpg"/>
@@ -978,7 +979,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Rebooking</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Rebooking</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.466+00:00" ElStat="A" Key="uLJ5gPSqWDKAb4iORAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.041+00:00" ElStat="A" Key="0rg3gPTqWDKAJnwYeAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Inflight meal</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_small_564768.jpg"/>
@@ -993,32 +994,32 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                     </air:OptionalService>
                                 </air:OptionalServices>
                                 <air:ServiceAssociations>
-                                    <air:ApplicableSegment Key="Dg+H56RiSQqEYuRJJhnyfQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAS4iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="MFMEN0XmRA6yXbMNc+PBXw==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAAnwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="Dg+H56RiSQqEYuRJJhnyfQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAT4iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="MFMEN0XmRA6yXbMNc+PBXw==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKABnwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="Dg+H56RiSQqEYuRJJhnyfQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAW4iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="MFMEN0XmRA6yXbMNc+PBXw==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAEnwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="Dg+H56RiSQqEYuRJJhnyfQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAX4iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="MFMEN0XmRA6yXbMNc+PBXw==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAFnwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="Dg+H56RiSQqEYuRJJhnyfQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAb4iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="MFMEN0XmRA6yXbMNc+PBXw==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAJnwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
                                 </air:ServiceAssociations>
-                                <air:ApplicableSegment Key="Dg+H56RiSQqEYuRJJhnyfQ=="/>
+                                <air:ApplicableSegment Key="MFMEN0XmRA6yXbMNc+PBXw=="/>
                             </air:Brand>
                         </air:FareInfo>
-                        <air:FareInfo Key="uLJ5gPSqWDKAV0iORAAAAA==" FareBasis="SRTTHCH75" PassengerTypeCode="CNN" Origin="CMB" Destination="BKK" EffectiveDate="2024-12-29T00:00:00.000+06:00" Amount="NUC166.98" NegotiatedFare="false" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="0rg3gPTqWDKAbkwYeAAAAA==" FareBasis="SRTTHCH75" PassengerTypeCode="CNN" Origin="CMB" Destination="BKK" EffectiveDate="2025-01-04T00:00:00.000+06:00" Amount="NUC166.98" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26" PseudoCityCode="LT7" ElStat="C">
                             <common_v52_0:Endorsement Value="VALID ON UL ONLY"/>
                             <common_v52_0:Endorsement Value="CHANGE FEE MAY APPLY"/>
                             <air:BaggageAllowance>
                                 <air:MaxWeight Value="30" Unit="Kilograms"/>
                             </air:BaggageAllowance>
-                            <air:Brand Key="uLJ5gPSqWDKAV0iORAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
+                            <air:Brand Key="0rg3gPTqWDKAbkwYeAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
                                 <air:Title Type="External" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Title Type="Short" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Value includes:
@@ -1045,7 +1046,7 @@ Please refer to fare rules for full conditions</air:Text>
                                 <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/srilankanairlines/UL_general_small_537368.jpg</air:ImageLocation>
                                 <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/srilankanairlines/UL_general_small_537470.jpg</air:ImageLocation>
                                 <air:OptionalServices>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.490+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKA24iORAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAy4iORAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.076+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAknwYeAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAgnwYeAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Checked Baggage 30kg 158cm</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71508.jpg"/>
@@ -1060,7 +1061,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Checked Baggage 30kg 158cm</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Checked Ba</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.490+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKA34iORAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAz4iORAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.076+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAlnwYeAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAhnwYeAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Carry On Baggage 1pc 7kg</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71509.jpg"/>
@@ -1083,7 +1084,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Carry On Baggage 1pc 7kg</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Carry On B</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.490+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKA64iORAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.076+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAonwYeAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Refund</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71511.jpg"/>
@@ -1096,7 +1097,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Refund</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Refund</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.490+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKA74iORAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.076+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKApnwYeAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Rebooking</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71510.jpg"/>
@@ -1109,7 +1110,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Rebooking</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Rebooking</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.490+00:00" ElStat="A" Key="uLJ5gPSqWDKA/4iORAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.076+00:00" ElStat="A" Key="0rg3gPTqWDKAtnwYeAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Inflight meal</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_small_564768.jpg"/>
@@ -1124,55 +1125,55 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                     </air:OptionalService>
                                 </air:OptionalServices>
                                 <air:ServiceAssociations>
-                                    <air:ApplicableSegment Key="86LY4BX4SUKgVBH9AFtVvQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKA24iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="a5iWL2c6ToWZHzxrQaMWJA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAknwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="86LY4BX4SUKgVBH9AFtVvQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKA34iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="a5iWL2c6ToWZHzxrQaMWJA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAlnwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="86LY4BX4SUKgVBH9AFtVvQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKA64iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="a5iWL2c6ToWZHzxrQaMWJA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAonwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="86LY4BX4SUKgVBH9AFtVvQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKA74iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="a5iWL2c6ToWZHzxrQaMWJA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKApnwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="86LY4BX4SUKgVBH9AFtVvQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKA/4iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="a5iWL2c6ToWZHzxrQaMWJA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAtnwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
                                 </air:ServiceAssociations>
-                                <air:ApplicableSegment Key="86LY4BX4SUKgVBH9AFtVvQ=="/>
+                                <air:ApplicableSegment Key="a5iWL2c6ToWZHzxrQaMWJA=="/>
                             </air:Brand>
                         </air:FareInfo>
-                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="uLJ5gPSqWDKAS0iORAAAAA==" SegmentRef="uLJ5gPSqWDKAr1SJRAAAAA=="/>
-                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="uLJ5gPSqWDKAT0iORAAAAA==" SegmentRef="uLJ5gPSqWDKAt1SJRAAAAA=="/>
-                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="uLJ5gPSqWDKAU0iORAAAAA==" SegmentRef="uLJ5gPSqWDKAv1SJRAAAAA=="/>
-                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="uLJ5gPSqWDKAV0iORAAAAA==" SegmentRef="uLJ5gPSqWDKAx1SJRAAAAA=="/>
-                        <air:TaxInfo Category="E7" Amount="BDT250" Key="uLJ5gPSqWDKAW3SJRAAAAA=="/>
-                        <air:TaxInfo Category="G8" Amount="BDT108" Key="uLJ5gPSqWDKAX3SJRAAAAA=="/>
-                        <air:TaxInfo Category="TS" Amount="BDT2606" Key="uLJ5gPSqWDKAY3SJRAAAAA=="/>
-                        <air:TaxInfo Category="UB" Amount="BDT7605" Key="uLJ5gPSqWDKAZ3SJRAAAAA=="/>
-                        <air:TaxInfo Category="YQ" Amount="BDT53992" Key="uLJ5gPSqWDKAa3SJRAAAAA=="/>
+                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAYkwYeAAAAA==" SegmentRef="0rg3gPTqWDKA+osXeAAAAA=="/>
+                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAZkwYeAAAAA==" SegmentRef="0rg3gPTqWDKAApsXeAAAAA=="/>
+                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAakwYeAAAAA==" SegmentRef="0rg3gPTqWDKACpsXeAAAAA=="/>
+                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAbkwYeAAAAA==" SegmentRef="0rg3gPTqWDKAEpsXeAAAAA=="/>
+                        <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKApqsXeAAAAA=="/>
+                        <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAqqsXeAAAAA=="/>
+                        <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKArqsXeAAAAA=="/>
+                        <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAsqsXeAAAAA=="/>
+                        <air:TaxInfo Category="YQ" Amount="BDT53992" Key="0rg3gPTqWDKAtqsXeAAAAA=="/>
                         <air:FareCalc>BKK UL X/CMB UL LON 166.98SRTTHCH75 UL X/CMB UL BKK 166.98SRTTHCH75 NUC333.96END ROE33.10266</air:FareCalc>
-                        <air:PassengerType Code="CNN" Age="8" BookingTravelerRef="uLJ5gPSqWDKAFviORAAAAA==">
-                            <air:FareGuaranteeInfo GuaranteeDate="2024-12-29" GuaranteeType="Guaranteed"/>
+                        <air:PassengerType Code="CNN" Age="8" BookingTravelerRef="0rg3gPTqWDKA0IwYeAAAAA==">
+                            <air:FareGuaranteeInfo GuaranteeDate="2025-01-04" GuaranteeType="Guaranteed"/>
                         </air:PassengerType>
-                        <common_v52_0:BookingTravelerRef Key="uLJ5gPSqWDKAFviORAAAAA=="/>
+                        <common_v52_0:BookingTravelerRef Key="0rg3gPTqWDKA0IwYeAAAAA=="/>
                         <air:ChangePenalty PenaltyApplies="Anytime">
                             <air:Amount>BDT3926.0</air:Amount>
                         </air:ChangePenalty>
                         <air:CancelPenalty PenaltyApplies="Anytime">
                             <air:Amount>BDT10709</air:Amount>
                         </air:CancelPenalty>
-                        <air:TicketingModifiersRef Key="uLJ5gPSqWDKAQ9iORAAAAA=="/>
+                        <air:TicketingModifiersRef Key="0rg3gPTqWDKA/rwYeAAAAA=="/>
                     </air:AirPricingInfo>
-                    <air:AirPricingInfo Key="uLJ5gPSqWDKAv4SJRAAAAA==" TotalPrice="BDT13229" BasePrice="THB1475" ApproximateTotalPrice="BDT13229" ApproximateBasePrice="BDT5266" EquivalentBasePrice="BDT5266" Taxes="BDT7963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" TrueLastDateToTicket="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" ElStat="A" FareCalculationInd="G">
-                        <air:FareInfo Key="uLJ5gPSqWDKAW0iORAAAAA==" FareBasis="SRTTHIN10" PassengerTypeCode="INF" Origin="BKK" Destination="CMB" EffectiveDate="2024-12-29T00:00:00.000+06:00" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20" PseudoCityCode="LT7" ElStat="C">
+                    <air:AirPricingInfo Key="0rg3gPTqWDKACssXeAAAAA==" TotalPrice="BDT13229" BasePrice="THB1475" ApproximateTotalPrice="BDT13229" ApproximateBasePrice="BDT5266" EquivalentBasePrice="BDT5266" Taxes="BDT7963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" TrueLastDateToTicket="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" ElStat="A" FareCalculationInd="G">
+                        <air:FareInfo Key="0rg3gPTqWDKAckwYeAAAAA==" FareBasis="SRTTHIN10" PassengerTypeCode="INF" Origin="BKK" Destination="CMB" EffectiveDate="2025-01-04T00:00:00.000+06:00" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20" PseudoCityCode="LT7" ElStat="C">
                             <common_v52_0:Endorsement Value="VALID ON UL ONLY"/>
                             <common_v52_0:Endorsement Value="CHANGE FEE MAY APPLY"/>
                             <air:BaggageAllowance>
                                 <air:MaxWeight Value="10" Unit="Kilograms"/>
                             </air:BaggageAllowance>
-                            <air:Brand Key="uLJ5gPSqWDKAW0iORAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
+                            <air:Brand Key="0rg3gPTqWDKAckwYeAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
                                 <air:Title Type="External" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Title Type="Short" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Value includes:
@@ -1199,7 +1200,7 @@ Please refer to fare rules for full conditions</air:Text>
                                 <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/srilankanairlines/UL_general_small_537368.jpg</air:ImageLocation>
                                 <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/srilankanairlines/UL_general_small_537470.jpg</air:ImageLocation>
                                 <air:OptionalServices>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.536+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAc5iORAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAW5iORAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.118+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAKowYeAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAEowYeAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Checked Baggage 30kg 158cm</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71508.jpg"/>
@@ -1214,7 +1215,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Checked Baggage 30kg 158cm</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Checked Ba</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.536+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAd5iORAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAX5iORAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.118+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKALowYeAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAFowYeAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Carry On Baggage 1pc 7kg</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71509.jpg"/>
@@ -1237,7 +1238,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Carry On Baggage 1pc 7kg</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Carry On B</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.536+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAg5iORAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.118+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAOowYeAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Refund</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71511.jpg"/>
@@ -1250,7 +1251,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Refund</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Refund</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.537+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAh5iORAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.118+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAPowYeAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Rebooking</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71510.jpg"/>
@@ -1263,7 +1264,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Rebooking</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Rebooking</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.537+00:00" ElStat="A" Key="uLJ5gPSqWDKAl5iORAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.119+00:00" ElStat="A" Key="0rg3gPTqWDKATowYeAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Inflight meal</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_small_564768.jpg"/>
@@ -1278,32 +1279,32 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                     </air:OptionalService>
                                 </air:OptionalServices>
                                 <air:ServiceAssociations>
-                                    <air:ApplicableSegment Key="wm3V97u0TP6XMZAz1BAUSg==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAc5iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="Ej6hAZGLR0mPzLeC5qMHuA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAKowYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="wm3V97u0TP6XMZAz1BAUSg==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAd5iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="Ej6hAZGLR0mPzLeC5qMHuA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKALowYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="wm3V97u0TP6XMZAz1BAUSg==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAg5iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="Ej6hAZGLR0mPzLeC5qMHuA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAOowYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="wm3V97u0TP6XMZAz1BAUSg==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAh5iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="Ej6hAZGLR0mPzLeC5qMHuA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAPowYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="wm3V97u0TP6XMZAz1BAUSg==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAl5iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="Ej6hAZGLR0mPzLeC5qMHuA==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKATowYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
                                 </air:ServiceAssociations>
-                                <air:ApplicableSegment Key="wm3V97u0TP6XMZAz1BAUSg=="/>
+                                <air:ApplicableSegment Key="Ej6hAZGLR0mPzLeC5qMHuA=="/>
                             </air:Brand>
                         </air:FareInfo>
-                        <air:FareInfo Key="uLJ5gPSqWDKAX0iORAAAAA==" FareBasis="SRTTHIN10" PassengerTypeCode="INF" Origin="CMB" Destination="LHR" EffectiveDate="2024-12-29T00:00:00.000+06:00" Amount="NUC22.26" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="0rg3gPTqWDKAdkwYeAAAAA==" FareBasis="SRTTHIN10" PassengerTypeCode="INF" Origin="CMB" Destination="LHR" EffectiveDate="2025-01-04T00:00:00.000+06:00" Amount="NUC22.26" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20" PseudoCityCode="LT7" ElStat="C">
                             <common_v52_0:Endorsement Value="VALID ON UL ONLY"/>
                             <common_v52_0:Endorsement Value="CHANGE FEE MAY APPLY"/>
                             <air:BaggageAllowance>
                                 <air:MaxWeight Value="10" Unit="Kilograms"/>
                             </air:BaggageAllowance>
-                            <air:Brand Key="uLJ5gPSqWDKAX0iORAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
+                            <air:Brand Key="0rg3gPTqWDKAdkwYeAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
                                 <air:Title Type="External" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Title Type="Short" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Value includes:
@@ -1330,7 +1331,7 @@ Please refer to fare rules for full conditions</air:Text>
                                 <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/srilankanairlines/UL_general_small_537368.jpg</air:ImageLocation>
                                 <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/srilankanairlines/UL_general_small_537470.jpg</air:ImageLocation>
                                 <air:OptionalServices>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.595+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAR6iORAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAL6iORAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.178+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKA/owYeAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKA5owYeAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Checked Baggage 30kg 158cm</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71508.jpg"/>
@@ -1345,7 +1346,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Checked Baggage 30kg 158cm</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Checked Ba</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.595+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAS6iORAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAM6iORAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.178+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAApwYeAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKA6owYeAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Carry On Baggage 1pc 7kg</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71509.jpg"/>
@@ -1368,7 +1369,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Carry On Baggage 1pc 7kg</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Carry On B</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.595+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAV6iORAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.178+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKADpwYeAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Refund</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71511.jpg"/>
@@ -1381,7 +1382,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Refund</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Refund</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.595+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAW6iORAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.178+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAEpwYeAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Rebooking</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71510.jpg"/>
@@ -1394,7 +1395,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Rebooking</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Rebooking</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.595+00:00" ElStat="A" Key="uLJ5gPSqWDKAa6iORAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.178+00:00" ElStat="A" Key="0rg3gPTqWDKAIpwYeAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Inflight meal</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_small_564768.jpg"/>
@@ -1409,32 +1410,32 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                     </air:OptionalService>
                                 </air:OptionalServices>
                                 <air:ServiceAssociations>
-                                    <air:ApplicableSegment Key="7kZg9y2yTjSJsPt0AU2fvw==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAR6iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="SVokj099TUKa9vKpydDrXw==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKA/owYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="7kZg9y2yTjSJsPt0AU2fvw==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAS6iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="SVokj099TUKa9vKpydDrXw==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAApwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="7kZg9y2yTjSJsPt0AU2fvw==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAV6iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="SVokj099TUKa9vKpydDrXw==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKADpwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="7kZg9y2yTjSJsPt0AU2fvw==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAW6iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="SVokj099TUKa9vKpydDrXw==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAEpwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="7kZg9y2yTjSJsPt0AU2fvw==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAa6iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="SVokj099TUKa9vKpydDrXw==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAIpwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
                                 </air:ServiceAssociations>
-                                <air:ApplicableSegment Key="7kZg9y2yTjSJsPt0AU2fvw=="/>
+                                <air:ApplicableSegment Key="SVokj099TUKa9vKpydDrXw=="/>
                             </air:Brand>
                         </air:FareInfo>
-                        <air:FareInfo Key="uLJ5gPSqWDKAY0iORAAAAA==" FareBasis="SRTTHIN10" PassengerTypeCode="INF" Origin="LHR" Destination="CMB" EffectiveDate="2024-12-29T00:00:00.000+06:00" NegotiatedFare="false" NotValidBefore="2025-01-24" NotValidAfter="2025-01-24" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="0rg3gPTqWDKAekwYeAAAAA==" FareBasis="SRTTHIN10" PassengerTypeCode="INF" Origin="LHR" Destination="CMB" EffectiveDate="2025-01-04T00:00:00.000+06:00" NotValidBefore="2025-01-24" NotValidAfter="2025-01-24" PseudoCityCode="LT7" ElStat="C">
                             <common_v52_0:Endorsement Value="VALID ON UL ONLY"/>
                             <common_v52_0:Endorsement Value="CHANGE FEE MAY APPLY"/>
                             <air:BaggageAllowance>
                                 <air:MaxWeight Value="10" Unit="Kilograms"/>
                             </air:BaggageAllowance>
-                            <air:Brand Key="uLJ5gPSqWDKAY0iORAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
+                            <air:Brand Key="0rg3gPTqWDKAekwYeAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
                                 <air:Title Type="External" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Title Type="Short" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Value includes:
@@ -1461,7 +1462,7 @@ Please refer to fare rules for full conditions</air:Text>
                                 <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/srilankanairlines/UL_general_small_537368.jpg</air:ImageLocation>
                                 <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/srilankanairlines/UL_general_small_537470.jpg</air:ImageLocation>
                                 <air:OptionalServices>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.647+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAG7iORAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAA7iORAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.224+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKA0pwYeAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAupwYeAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Checked Baggage 30kg 158cm</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71508.jpg"/>
@@ -1476,7 +1477,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Checked Baggage 30kg 158cm</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Checked Ba</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.647+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAH7iORAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKAB7iORAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.224+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKA1pwYeAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAvpwYeAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Carry On Baggage 1pc 7kg</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71509.jpg"/>
@@ -1499,7 +1500,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Carry On Baggage 1pc 7kg</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Carry On B</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.647+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAK7iORAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.224+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKA4pwYeAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Refund</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71511.jpg"/>
@@ -1512,7 +1513,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Refund</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Refund</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.647+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAL7iORAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.224+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKA5pwYeAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Rebooking</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71510.jpg"/>
@@ -1525,7 +1526,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Rebooking</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Rebooking</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.647+00:00" ElStat="A" Key="uLJ5gPSqWDKAP7iORAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.224+00:00" ElStat="A" Key="0rg3gPTqWDKA9pwYeAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Inflight meal</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_small_564768.jpg"/>
@@ -1540,32 +1541,32 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                     </air:OptionalService>
                                 </air:OptionalServices>
                                 <air:ServiceAssociations>
-                                    <air:ApplicableSegment Key="VmAQOy1zQSSRVMjihtU35g==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAG7iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="7HMM0R+tQ5mlz3p9nv8y8Q==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKA0pwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="VmAQOy1zQSSRVMjihtU35g==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAH7iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="7HMM0R+tQ5mlz3p9nv8y8Q==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKA1pwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="VmAQOy1zQSSRVMjihtU35g==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAK7iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="7HMM0R+tQ5mlz3p9nv8y8Q==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKA4pwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="VmAQOy1zQSSRVMjihtU35g==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAL7iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="7HMM0R+tQ5mlz3p9nv8y8Q==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKA5pwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="VmAQOy1zQSSRVMjihtU35g==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAP7iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="7HMM0R+tQ5mlz3p9nv8y8Q==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKA9pwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
                                 </air:ServiceAssociations>
-                                <air:ApplicableSegment Key="VmAQOy1zQSSRVMjihtU35g=="/>
+                                <air:ApplicableSegment Key="7HMM0R+tQ5mlz3p9nv8y8Q=="/>
                             </air:Brand>
                         </air:FareInfo>
-                        <air:FareInfo Key="uLJ5gPSqWDKAZ0iORAAAAA==" FareBasis="SRTTHIN10" PassengerTypeCode="INF" Origin="CMB" Destination="BKK" EffectiveDate="2024-12-29T00:00:00.000+06:00" Amount="NUC22.26" NegotiatedFare="false" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="0rg3gPTqWDKAfkwYeAAAAA==" FareBasis="SRTTHIN10" PassengerTypeCode="INF" Origin="CMB" Destination="BKK" EffectiveDate="2025-01-04T00:00:00.000+06:00" Amount="NUC22.26" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26" PseudoCityCode="LT7" ElStat="C">
                             <common_v52_0:Endorsement Value="VALID ON UL ONLY"/>
                             <common_v52_0:Endorsement Value="CHANGE FEE MAY APPLY"/>
                             <air:BaggageAllowance>
                                 <air:MaxWeight Value="10" Unit="Kilograms"/>
                             </air:BaggageAllowance>
-                            <air:Brand Key="uLJ5gPSqWDKAZ0iORAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
+                            <air:Brand Key="0rg3gPTqWDKAfkwYeAAAAA==" BrandID="1308417" Name="Economy Value" Carrier="UL" BrandTier="0004">
                                 <air:Title Type="External" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Title Type="Short" LanguageCode="EN">Econ Value</air:Title>
                                 <air:Text Type="MarketingConsumer" LanguageCode="EN">Economy Value includes:
@@ -1592,7 +1593,7 @@ Please refer to fare rules for full conditions</air:Text>
                                 <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/srilankanairlines/UL_general_small_537368.jpg</air:ImageLocation>
                                 <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/srilankanairlines/UL_general_small_537470.jpg</air:ImageLocation>
                                 <air:OptionalServices>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.700+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKA77iORAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKA17iORAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.284+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKApqwYeAAAAA==" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAjqwYeAAAAA==" Tag="Checked Baggage" DisplayOrder="1">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Checked Baggage 30kg 158cm</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71508.jpg"/>
@@ -1607,7 +1608,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Checked Baggage 30kg 158cm</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Checked Ba</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.700+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKA87iORAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="uLJ5gPSqWDKA27iORAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
+                                    <air:OptionalService Type="Baggage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.284+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAqqwYeAAAAA==" SecondaryType="Carry On Hand Baggage" Chargeable="Included in the brand" OptionalServicesRuleRef="0rg3gPTqWDKAkqwYeAAAAA==" Tag="Carry On Hand Baggage" DisplayOrder="2">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Carry On Baggage 1pc 7kg</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="AGENT" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71509.jpg"/>
@@ -1630,7 +1631,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Carry On Baggage 1pc 7kg</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Carry On B</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.700+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKA/7iORAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.284+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAtqwYeAAAAA==" Chargeable="Included in the brand" Tag="Refund" DisplayOrder="4">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Refund</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71511.jpg"/>
@@ -1643,7 +1644,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Refund</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Refund</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.700+00:00" ElStat="A" ServiceSubCode="" Key="uLJ5gPSqWDKAA8iORAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
+                                    <air:OptionalService Type="Branded Fares" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.284+00:00" ElStat="A" ServiceSubCode="" Key="0rg3gPTqWDKAuqwYeAAAAA==" Chargeable="Included in the brand" Tag="Rebooking" DisplayOrder="3">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Rebooking</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_medium_71510.jpg"/>
@@ -1656,7 +1657,7 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                         <air:Title Type="External" LanguageCode="EN">Rebooking</air:Title>
                                         <air:Title Type="Short" LanguageCode="EN">Rebooking</air:Title>
                                     </air:OptionalService>
-                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2024-12-29T08:38:19.700+00:00" ElStat="A" Key="uLJ5gPSqWDKAE8iORAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
+                                    <air:OptionalService Type="MealOrBeverage" SupplierCode="UL" CreateDate="2025-01-04T13:13:01.284+00:00" ElStat="A" Key="0rg3gPTqWDKAyqwYeAAAAA==" Chargeable="Included in the brand" Tag="MEALS" DisplayOrder="6">
                                         <common_v52_0:ServiceInfo>
                                             <common_v52_0:Description>Inflight meal</common_v52_0:Description>
                                             <common_v52_0:MediaItem caption="CONSUMER" height="60" width="60" url="https://cdn.travelport.com/srilankanairlines/UL_general_small_564768.jpg"/>
@@ -1671,57 +1672,57 @@ Economy Class 30kg 158cm/ 62 inch</air:Text>
                                     </air:OptionalService>
                                 </air:OptionalServices>
                                 <air:ServiceAssociations>
-                                    <air:ApplicableSegment Key="ga4EmRkeTjiDtq8YkRHXrQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKA77iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="COjp6jLKSPGzOKiDCMCYRg==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKApqwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="ga4EmRkeTjiDtq8YkRHXrQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKA87iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="COjp6jLKSPGzOKiDCMCYRg==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAqqwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="ga4EmRkeTjiDtq8YkRHXrQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKA/7iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="COjp6jLKSPGzOKiDCMCYRg==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAtqwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="ga4EmRkeTjiDtq8YkRHXrQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAA8iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="COjp6jLKSPGzOKiDCMCYRg==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAuqwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
-                                    <air:ApplicableSegment Key="ga4EmRkeTjiDtq8YkRHXrQ==">
-                                        <air:OptionalServiceRef>uLJ5gPSqWDKAE8iORAAAAA==</air:OptionalServiceRef>
+                                    <air:ApplicableSegment Key="COjp6jLKSPGzOKiDCMCYRg==">
+                                        <air:OptionalServiceRef>0rg3gPTqWDKAyqwYeAAAAA==</air:OptionalServiceRef>
                                     </air:ApplicableSegment>
                                 </air:ServiceAssociations>
-                                <air:ApplicableSegment Key="ga4EmRkeTjiDtq8YkRHXrQ=="/>
+                                <air:ApplicableSegment Key="COjp6jLKSPGzOKiDCMCYRg=="/>
                             </air:Brand>
                         </air:FareInfo>
-                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="uLJ5gPSqWDKAW0iORAAAAA==" SegmentRef="uLJ5gPSqWDKAr1SJRAAAAA=="/>
-                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="uLJ5gPSqWDKAX0iORAAAAA==" SegmentRef="uLJ5gPSqWDKAt1SJRAAAAA=="/>
-                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="uLJ5gPSqWDKAY0iORAAAAA==" SegmentRef="uLJ5gPSqWDKAv1SJRAAAAA=="/>
-                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="uLJ5gPSqWDKAZ0iORAAAAA==" SegmentRef="uLJ5gPSqWDKAx1SJRAAAAA=="/>
-                        <air:TaxInfo Category="E7" Amount="BDT250" Key="uLJ5gPSqWDKAw4SJRAAAAA=="/>
-                        <air:TaxInfo Category="G8" Amount="BDT108" Key="uLJ5gPSqWDKAx4SJRAAAAA=="/>
-                        <air:TaxInfo Category="UB" Amount="BDT7605" Key="uLJ5gPSqWDKAy4SJRAAAAA=="/>
+                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAckwYeAAAAA==" SegmentRef="0rg3gPTqWDKA+osXeAAAAA=="/>
+                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAdkwYeAAAAA==" SegmentRef="0rg3gPTqWDKAApsXeAAAAA=="/>
+                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAekwYeAAAAA==" SegmentRef="0rg3gPTqWDKACpsXeAAAAA=="/>
+                        <air:BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAfkwYeAAAAA==" SegmentRef="0rg3gPTqWDKAEpsXeAAAAA=="/>
+                        <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKADssXeAAAAA=="/>
+                        <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAEssXeAAAAA=="/>
+                        <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAFssXeAAAAA=="/>
                         <air:FareCalc>BKK UL X/CMB UL LON 22.26SRTTHIN10 UL X/CMB UL BKK 22.26SRTTHIN10 NUC44.52END ROE33.10266</air:FareCalc>
-                        <air:PassengerType Code="INF" Age="1" BookingTravelerRef="uLJ5gPSqWDKA/uiORAAAAA==">
-                            <air:FareGuaranteeInfo GuaranteeDate="2024-12-29" GuaranteeType="Guaranteed"/>
+                        <air:PassengerType Code="INF" Age="1" BookingTravelerRef="0rg3gPTqWDKAuIwYeAAAAA==">
+                            <air:FareGuaranteeInfo GuaranteeDate="2025-01-04" GuaranteeType="Guaranteed"/>
                         </air:PassengerType>
-                        <common_v52_0:BookingTravelerRef Key="uLJ5gPSqWDKA/uiORAAAAA=="/>
+                        <common_v52_0:BookingTravelerRef Key="0rg3gPTqWDKAuIwYeAAAAA=="/>
                         <air:ChangePenalty PenaltyApplies="Anytime">
                             <air:Amount>BDT3926.0</air:Amount>
                         </air:ChangePenalty>
                         <air:CancelPenalty PenaltyApplies="Anytime">
                             <air:Amount>BDT10709</air:Amount>
                         </air:CancelPenalty>
-                        <air:TicketingModifiersRef Key="uLJ5gPSqWDKAQ9iORAAAAA=="/>
+                        <air:TicketingModifiersRef Key="0rg3gPTqWDKA/rwYeAAAAA=="/>
                     </air:AirPricingInfo>
-                    <air:TicketingModifiers PlatingCarrier="UL" Key="uLJ5gPSqWDKAQ9iORAAAAA==" ElStat="A">
+                    <air:TicketingModifiers PlatingCarrier="UL" Key="0rg3gPTqWDKA/rwYeAAAAA==" ElStat="A">
                         <air:DocumentSelect IssueElectronicTicket="true"/>
                     </air:TicketingModifiers>
                 </air:AirReservation>
                 <common_v52_0:AgencyInfo>
-                    <common_v52_0:AgentAction ActionType="Created" AgentCode="uAPI1464296256-58a33bd9" BranchCode="P7212436" AgencyCode="S7212429" EventTime="2024-12-29T08:38:15.600+00:00"/>
+                    <common_v52_0:AgentAction ActionType="Created" AgentCode="uAPI1464296256-58a33bd9" BranchCode="P7212436" AgencyCode="S7212429" EventTime="2025-01-04T13:12:57.516+00:00"/>
                 </common_v52_0:AgencyInfo>
-                <common_v52_0:SSR Key="uLJ5gPSqWDKAL0iORAAAAA==" Status="HK" Type="CTCM" FreeText="/01969005035-1HOSSAIN/FAHIMMR" Carrier="UL" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" ElStat="C"/>
-                <common_v52_0:SSR Key="uLJ5gPSqWDKAM0iORAAAAA==" Status="HK" Type="CTCE" FreeText="/ALIFHOSSAIN//GMAIL.COM-1HOSSAIN/FAHIMMR" Carrier="UL" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" ElStat="C"/>
-                <common_v52_0:SSR Key="uLJ5gPSqWDKAN0iORAAAAA==" Status="HK" Type="CHLD" FreeText="/-1WAFEE/AHMADMSTR" Carrier="UL" ProviderReservationInfoRef="uLJ5gPSqWDKAq8iORAAAAA==" ElStat="C"/>
-                <common_v52_0:FormOfPayment Key="uLJ5gPSqWDKAZviORAAAAA==" Type="Cash" Reusable="false" ProfileKey="meDscEj/Rd6Kr+UXP9GnvA==" ElStat="A">
-                    <common_v52_0:ProviderReservationInfoRef Key="uLJ5gPSqWDKAq8iORAAAAA=="/>
+                <common_v52_0:SSR Key="0rg3gPTqWDKARkwYeAAAAA==" Status="HK" Type="CTCM" FreeText="/01969005035-1HOSSAIN/FAHIMMR" Carrier="UL" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" ElStat="C"/>
+                <common_v52_0:SSR Key="0rg3gPTqWDKASkwYeAAAAA==" Status="HK" Type="CTCE" FreeText="/ALIFHOSSAIN//GMAIL.COM-1HOSSAIN/FAHIMMR" Carrier="UL" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" ElStat="C"/>
+                <common_v52_0:SSR Key="0rg3gPTqWDKATkwYeAAAAA==" Status="HK" Type="CHLD" FreeText="/-1WAFEE/AHMADMSTR" Carrier="UL" ProviderReservationInfoRef="0rg3gPTqWDKAYrwYeAAAAA==" ElStat="C"/>
+                <common_v52_0:FormOfPayment Key="0rg3gPTqWDKAIJwYeAAAAA==" Type="Cash" Reusable="false" ProfileKey="PC+o7byEREWkpIZPeqARhA==" ElStat="A">
+                    <common_v52_0:ProviderReservationInfoRef Key="0rg3gPTqWDKAYrwYeAAAAA=="/>
                 </common_v52_0:FormOfPayment>
             </universal:UniversalRecord>
         </universal:AirCreateReservationRsp>

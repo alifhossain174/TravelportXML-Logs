@@ -1,7 +1,7 @@
 <SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
     <SOAP:Body>
-        <air:AirFareRulesRsp xmlns:air="http://www.travelport.com/schema/air_v52_0"   TraceId="c8f38268010611bc23e5-01969005035" TransactionId="116318890A0D6A935F2842BE0880588B" ResponseTime="242">
-            <air:FareRule FareInfoRef="uLJ5gPSqWDKAB2SJRAAAAA==" RuleNumber="TH02" Source="ATPCO" TariffNumber="004" ProviderCode="1G">
+        <air:AirFareRulesRsp xmlns:air="http://www.travelport.com/schema/air_v52_0"   TraceId="c8f38268010611bc23e5-01969005035" TransactionId="315F86AC0A0D6A94343220A2FEDEF67C" ResponseTime="157">
+            <air:FareRule FareInfoRef="0rg3gPTqWDKAUpsXeAAAAA==" RuleNumber="TH02" Source="ATPCO" TariffNumber="004" ProviderCode="1G">
                 <air:FareRuleLong Category="0" Type="RULE">
                     <![CDATA[APPLICATION AND OTHER CONDITIONS
 RULE - 004/TH02

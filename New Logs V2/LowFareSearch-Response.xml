@@ -1,236 +1,236 @@
 <SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
     <SOAP:Body>
-        <air:LowFareSearchRsp xmlns:air="http://www.travelport.com/schema/air_v52_0"   TraceId="c8f38268010611bc23e5-01969005035" TransactionId="115A5A940A0D6A935F2842BE26D203D0" ResponseTime="1213" DistanceUnits="MI" CurrencyType="BDT">
+        <air:LowFareSearchRsp xmlns:air="http://www.travelport.com/schema/air_v52_0"   TraceId="c8f38268010611bc23e5-01969005035" TransactionId="315B0DD40A0D6A94343220A292A1ACB0" ResponseTime="1224" DistanceUnits="MI" CurrencyType="BDT">
             <air:FlightDetailsList>
-                <air:FlightDetails Key="0rg3gPTqWDKAYi4ERAAAAA==" Origin="BKK" Destination="CMB" DepartureTime="2025-01-20T09:00:00.000+07:00" ArrivalTime="2025-01-20T11:00:00.000+05:30" FlightTime="210" TravelTime="1030" Equipment="320"/>
-                <air:FlightDetails Key="0rg3gPTqWDKAai4ERAAAAA==" Origin="CMB" Destination="LHR" DepartureTime="2025-01-20T12:50:00.000+05:30" ArrivalTime="2025-01-20T19:10:00.000+00:00" FlightTime="710" TravelTime="1030" Equipment="333" DestinationTerminal="3"/>
-                <air:FlightDetails Key="0rg3gPTqWDKAci4ERAAAAA==" Origin="LHR" Destination="CMB" DepartureTime="2025-01-24T20:40:00.000+00:00" ArrivalTime="2025-01-25T12:30:00.000+05:30" FlightTime="620" TravelTime="1600" Equipment="333" OriginTerminal="3"/>
-                <air:FlightDetails Key="0rg3gPTqWDKAei4ERAAAAA==" Origin="CMB" Destination="BKK" DepartureTime="2025-01-26T01:15:00.000+05:30" ArrivalTime="2025-01-26T06:20:00.000+07:00" FlightTime="215" TravelTime="1600" Equipment="320"/>
-                <air:FlightDetails Key="0rg3gPTqWDKAzi4ERAAAAA==" Origin="BKK" Destination="CMB" DepartureTime="2025-01-20T13:55:00.000+07:00" ArrivalTime="2025-01-20T15:55:00.000+05:30" FlightTime="210" TravelTime="2175" Equipment="32B"/>
-                <air:FlightDetails Key="0rg3gPTqWDKA2i4ERAAAAA==" Origin="CMB" Destination="LHR" DepartureTime="2025-01-21T12:50:00.000+05:30" ArrivalTime="2025-01-21T19:10:00.000+00:00" FlightTime="710" TravelTime="2175" Equipment="333" DestinationTerminal="3"/>
-                <air:FlightDetails Key="0rg3gPTqWDKAoj4ERAAAAA==" Origin="BKK" Destination="LHR" DepartureTime="2025-01-20T13:20:00.000+07:00" ArrivalTime="2025-01-20T19:35:00.000+00:00" FlightTime="795" TravelTime="795" Equipment="77W" DestinationTerminal="2"/>
-                <air:FlightDetails Key="0rg3gPTqWDKAqj4ERAAAAA==" Origin="LHR" Destination="BKK" DepartureTime="2025-01-24T11:50:00.000+00:00" ArrivalTime="2025-01-25T06:15:00.000+07:00" FlightTime="685" TravelTime="685" Equipment="77W" OriginTerminal="2"/>
-                <air:FlightDetails Key="0rg3gPTqWDKA/j4ERAAAAA==" Origin="BKK" Destination="LHR" DepartureTime="2025-01-20T00:05:00.000+07:00" ArrivalTime="2025-01-20T06:40:00.000+00:00" FlightTime="815" TravelTime="815" Equipment="77W" DestinationTerminal="2"/>
-                <air:FlightDetails Key="0rg3gPTqWDKACk4ERAAAAA==" Origin="LHR" Destination="BKK" DepartureTime="2025-01-24T21:35:00.000+00:00" ArrivalTime="2025-01-25T16:00:00.000+07:00" FlightTime="685" TravelTime="685" Equipment="77W" OriginTerminal="2"/>
+                <air:FlightDetails Key="MH63gPUqWDKA6u3TeAAAAA==" Origin="BKK" Destination="CMB" DepartureTime="2025-01-20T09:00:00.000+07:00" ArrivalTime="2025-01-20T11:00:00.000+05:30" FlightTime="210" TravelTime="1030" Equipment="320"/>
+                <air:FlightDetails Key="MH63gPUqWDKA8u3TeAAAAA==" Origin="CMB" Destination="LHR" DepartureTime="2025-01-20T12:50:00.000+05:30" ArrivalTime="2025-01-20T19:10:00.000+00:00" FlightTime="710" TravelTime="1030" Equipment="333" DestinationTerminal="3"/>
+                <air:FlightDetails Key="MH63gPUqWDKA+u3TeAAAAA==" Origin="LHR" Destination="CMB" DepartureTime="2025-01-24T20:40:00.000+00:00" ArrivalTime="2025-01-25T12:30:00.000+05:30" FlightTime="620" TravelTime="1600" Equipment="333" OriginTerminal="3"/>
+                <air:FlightDetails Key="MH63gPUqWDKAAv3TeAAAAA==" Origin="CMB" Destination="BKK" DepartureTime="2025-01-26T01:15:00.000+05:30" ArrivalTime="2025-01-26T06:20:00.000+07:00" FlightTime="215" TravelTime="1600" Equipment="320"/>
+                <air:FlightDetails Key="MH63gPUqWDKAVv3TeAAAAA==" Origin="BKK" Destination="CMB" DepartureTime="2025-01-20T13:55:00.000+07:00" ArrivalTime="2025-01-20T15:55:00.000+05:30" FlightTime="210" TravelTime="2175" Equipment="32B"/>
+                <air:FlightDetails Key="MH63gPUqWDKAYv3TeAAAAA==" Origin="CMB" Destination="LHR" DepartureTime="2025-01-21T12:50:00.000+05:30" ArrivalTime="2025-01-21T19:10:00.000+00:00" FlightTime="710" TravelTime="2175" Equipment="333" DestinationTerminal="3"/>
+                <air:FlightDetails Key="MH63gPUqWDKAKw3TeAAAAA==" Origin="BKK" Destination="LHR" DepartureTime="2025-01-20T13:20:00.000+07:00" ArrivalTime="2025-01-20T19:35:00.000+00:00" FlightTime="795" TravelTime="795" Equipment="77W" DestinationTerminal="2"/>
+                <air:FlightDetails Key="MH63gPUqWDKAMw3TeAAAAA==" Origin="LHR" Destination="BKK" DepartureTime="2025-01-24T11:50:00.000+00:00" ArrivalTime="2025-01-25T06:15:00.000+07:00" FlightTime="685" TravelTime="685" Equipment="77W" OriginTerminal="2"/>
+                <air:FlightDetails Key="MH63gPUqWDKAhw3TeAAAAA==" Origin="BKK" Destination="LHR" DepartureTime="2025-01-20T00:05:00.000+07:00" ArrivalTime="2025-01-20T06:40:00.000+00:00" FlightTime="815" TravelTime="815" Equipment="77W" DestinationTerminal="2"/>
+                <air:FlightDetails Key="MH63gPUqWDKAkw3TeAAAAA==" Origin="LHR" Destination="BKK" DepartureTime="2025-01-24T21:35:00.000+00:00" ArrivalTime="2025-01-25T16:00:00.000+07:00" FlightTime="685" TravelTime="685" Equipment="77W" OriginTerminal="2"/>
             </air:FlightDetailsList>
             <air:AirSegmentList>
-                <air:AirSegment Key="0rg3gPTqWDKAXi4ERAAAAA==" Group="0" Carrier="UL" FlightNumber="403" Origin="BKK" Destination="CMB" DepartureTime="2025-01-20T09:00:00.000+07:00" ArrivalTime="2025-01-20T11:00:00.000+05:30" FlightTime="210" Distance="1485" ETicketability="Yes" Equipment="320" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                <air:AirSegment Key="MH63gPUqWDKA5u3TeAAAAA==" Group="0" Carrier="UL" FlightNumber="403" Origin="BKK" Destination="CMB" DepartureTime="2025-01-20T09:00:00.000+07:00" ArrivalTime="2025-01-20T11:00:00.000+05:30" FlightTime="210" Distance="1485" ETicketability="Yes" Equipment="320" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
                     <air:AirAvailInfo ProviderCode="1G"/>
-                    <air:FlightDetailsRef Key="0rg3gPTqWDKAYi4ERAAAAA=="/>
+                    <air:FlightDetailsRef Key="MH63gPUqWDKA6u3TeAAAAA=="/>
                 </air:AirSegment>
-                <air:AirSegment Key="0rg3gPTqWDKAZi4ERAAAAA==" Group="0" Carrier="UL" FlightNumber="503" Origin="CMB" Destination="LHR" DepartureTime="2025-01-20T12:50:00.000+05:30" ArrivalTime="2025-01-20T19:10:00.000+00:00" FlightTime="710" Distance="5403" ETicketability="Yes" Equipment="333" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                <air:AirSegment Key="MH63gPUqWDKA7u3TeAAAAA==" Group="0" Carrier="UL" FlightNumber="503" Origin="CMB" Destination="LHR" DepartureTime="2025-01-20T12:50:00.000+05:30" ArrivalTime="2025-01-20T19:10:00.000+00:00" FlightTime="710" Distance="5403" ETicketability="Yes" Equipment="333" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
                     <air:AirAvailInfo ProviderCode="1G"/>
-                    <air:FlightDetailsRef Key="0rg3gPTqWDKAai4ERAAAAA=="/>
+                    <air:FlightDetailsRef Key="MH63gPUqWDKA8u3TeAAAAA=="/>
                 </air:AirSegment>
-                <air:AirSegment Key="0rg3gPTqWDKAbi4ERAAAAA==" Group="1" Carrier="UL" FlightNumber="504" Origin="LHR" Destination="CMB" DepartureTime="2025-01-24T20:40:00.000+00:00" ArrivalTime="2025-01-25T12:30:00.000+05:30" FlightTime="620" Distance="5403" ETicketability="Yes" Equipment="333" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                <air:AirSegment Key="MH63gPUqWDKA9u3TeAAAAA==" Group="1" Carrier="UL" FlightNumber="504" Origin="LHR" Destination="CMB" DepartureTime="2025-01-24T20:40:00.000+00:00" ArrivalTime="2025-01-25T12:30:00.000+05:30" FlightTime="620" Distance="5403" ETicketability="Yes" Equipment="333" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
                     <air:AirAvailInfo ProviderCode="1G"/>
-                    <air:FlightDetailsRef Key="0rg3gPTqWDKAci4ERAAAAA=="/>
+                    <air:FlightDetailsRef Key="MH63gPUqWDKA+u3TeAAAAA=="/>
                 </air:AirSegment>
-                <air:AirSegment Key="0rg3gPTqWDKAdi4ERAAAAA==" Group="1" Carrier="UL" FlightNumber="402" Origin="CMB" Destination="BKK" DepartureTime="2025-01-26T01:15:00.000+05:30" ArrivalTime="2025-01-26T06:20:00.000+07:00" FlightTime="215" Distance="1485" ETicketability="Yes" Equipment="320" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                <air:AirSegment Key="MH63gPUqWDKA/u3TeAAAAA==" Group="1" Carrier="UL" FlightNumber="402" Origin="CMB" Destination="BKK" DepartureTime="2025-01-26T01:15:00.000+05:30" ArrivalTime="2025-01-26T06:20:00.000+07:00" FlightTime="215" Distance="1485" ETicketability="Yes" Equipment="320" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
                     <air:AirAvailInfo ProviderCode="1G"/>
-                    <air:FlightDetailsRef Key="0rg3gPTqWDKAei4ERAAAAA=="/>
+                    <air:FlightDetailsRef Key="MH63gPUqWDKAAv3TeAAAAA=="/>
                 </air:AirSegment>
-                <air:AirSegment Key="0rg3gPTqWDKAyi4ERAAAAA==" Group="0" Carrier="UL" FlightNumber="405" Origin="BKK" Destination="CMB" DepartureTime="2025-01-20T13:55:00.000+07:00" ArrivalTime="2025-01-20T15:55:00.000+05:30" FlightTime="210" Distance="1485" ETicketability="Yes" Equipment="32B" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                <air:AirSegment Key="MH63gPUqWDKAUv3TeAAAAA==" Group="0" Carrier="UL" FlightNumber="405" Origin="BKK" Destination="CMB" DepartureTime="2025-01-20T13:55:00.000+07:00" ArrivalTime="2025-01-20T15:55:00.000+05:30" FlightTime="210" Distance="1485" ETicketability="Yes" Equipment="32B" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
                     <air:AirAvailInfo ProviderCode="1G"/>
-                    <air:FlightDetailsRef Key="0rg3gPTqWDKAzi4ERAAAAA=="/>
+                    <air:FlightDetailsRef Key="MH63gPUqWDKAVv3TeAAAAA=="/>
                 </air:AirSegment>
-                <air:AirSegment Key="0rg3gPTqWDKA1i4ERAAAAA==" Group="0" Carrier="UL" FlightNumber="503" Origin="CMB" Destination="LHR" DepartureTime="2025-01-21T12:50:00.000+05:30" ArrivalTime="2025-01-21T19:10:00.000+00:00" FlightTime="710" Distance="5403" ETicketability="Yes" Equipment="333" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                <air:AirSegment Key="MH63gPUqWDKAXv3TeAAAAA==" Group="0" Carrier="UL" FlightNumber="503" Origin="CMB" Destination="LHR" DepartureTime="2025-01-21T12:50:00.000+05:30" ArrivalTime="2025-01-21T19:10:00.000+00:00" FlightTime="710" Distance="5403" ETicketability="Yes" Equipment="333" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
                     <air:AirAvailInfo ProviderCode="1G"/>
-                    <air:FlightDetailsRef Key="0rg3gPTqWDKA2i4ERAAAAA=="/>
+                    <air:FlightDetailsRef Key="MH63gPUqWDKAYv3TeAAAAA=="/>
                 </air:AirSegment>
-                <air:AirSegment Key="0rg3gPTqWDKAnj4ERAAAAA==" Group="0" Carrier="TG" FlightNumber="916" Origin="BKK" Destination="LHR" DepartureTime="2025-01-20T13:20:00.000+07:00" ArrivalTime="2025-01-20T19:35:00.000+00:00" FlightTime="795" Distance="5928" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                <air:AirSegment Key="MH63gPUqWDKAJw3TeAAAAA==" Group="0" Carrier="TG" FlightNumber="916" Origin="BKK" Destination="LHR" DepartureTime="2025-01-20T13:20:00.000+07:00" ArrivalTime="2025-01-20T19:35:00.000+00:00" FlightTime="795" Distance="5928" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
                     <air:AirAvailInfo ProviderCode="1G"/>
-                    <air:FlightDetailsRef Key="0rg3gPTqWDKAoj4ERAAAAA=="/>
+                    <air:FlightDetailsRef Key="MH63gPUqWDKAKw3TeAAAAA=="/>
                 </air:AirSegment>
-                <air:AirSegment Key="0rg3gPTqWDKApj4ERAAAAA==" Group="1" Carrier="TG" FlightNumber="911" Origin="LHR" Destination="BKK" DepartureTime="2025-01-24T11:50:00.000+00:00" ArrivalTime="2025-01-25T06:15:00.000+07:00" FlightTime="685" Distance="5928" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                <air:AirSegment Key="MH63gPUqWDKALw3TeAAAAA==" Group="1" Carrier="TG" FlightNumber="911" Origin="LHR" Destination="BKK" DepartureTime="2025-01-24T11:50:00.000+00:00" ArrivalTime="2025-01-25T06:15:00.000+07:00" FlightTime="685" Distance="5928" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
                     <air:AirAvailInfo ProviderCode="1G"/>
-                    <air:FlightDetailsRef Key="0rg3gPTqWDKAqj4ERAAAAA=="/>
+                    <air:FlightDetailsRef Key="MH63gPUqWDKAMw3TeAAAAA=="/>
                 </air:AirSegment>
-                <air:AirSegment Key="0rg3gPTqWDKA+j4ERAAAAA==" Group="0" Carrier="TG" FlightNumber="910" Origin="BKK" Destination="LHR" DepartureTime="2025-01-20T00:05:00.000+07:00" ArrivalTime="2025-01-20T06:40:00.000+00:00" FlightTime="815" Distance="5928" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                <air:AirSegment Key="MH63gPUqWDKAgw3TeAAAAA==" Group="0" Carrier="TG" FlightNumber="910" Origin="BKK" Destination="LHR" DepartureTime="2025-01-20T00:05:00.000+07:00" ArrivalTime="2025-01-20T06:40:00.000+00:00" FlightTime="815" Distance="5928" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
                     <air:AirAvailInfo ProviderCode="1G"/>
-                    <air:FlightDetailsRef Key="0rg3gPTqWDKA/j4ERAAAAA=="/>
+                    <air:FlightDetailsRef Key="MH63gPUqWDKAhw3TeAAAAA=="/>
                 </air:AirSegment>
-                <air:AirSegment Key="0rg3gPTqWDKABk4ERAAAAA==" Group="1" Carrier="TG" FlightNumber="917" Origin="LHR" Destination="BKK" DepartureTime="2025-01-24T21:35:00.000+00:00" ArrivalTime="2025-01-25T16:00:00.000+07:00" FlightTime="685" Distance="5928" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                <air:AirSegment Key="MH63gPUqWDKAjw3TeAAAAA==" Group="1" Carrier="TG" FlightNumber="917" Origin="LHR" Destination="BKK" DepartureTime="2025-01-24T21:35:00.000+00:00" ArrivalTime="2025-01-25T16:00:00.000+07:00" FlightTime="685" Distance="5928" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
                     <air:AirAvailInfo ProviderCode="1G"/>
-                    <air:FlightDetailsRef Key="0rg3gPTqWDKACk4ERAAAAA=="/>
+                    <air:FlightDetailsRef Key="MH63gPUqWDKAkw3TeAAAAA=="/>
                 </air:AirSegment>
             </air:AirSegmentList>
             <air:FareInfoList>
-                <air:FareInfo Key="0rg3gPTqWDKAoi4ERAAAAA==" FareBasis="SRTTH" PassengerTypeCode="ADT" Origin="BKK" Destination="LHR" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT26310" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20">
+                <air:FareInfo Key="MH63gPUqWDKAKv3TeAAAAA==" FareBasis="SRTTH" PassengerTypeCode="ADT" Origin="BKK" Destination="LHR" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT26310" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20">
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="30" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKAoi4ERAAAAA==" ProviderCode="1G">gws-eJxNTjEOwyAQe0zk/XChbTbaNBFSIoY0GbL0/8+ogVTqSZwNPuyLMdLoHdnH/+rw6fYFeR+ADOosaQXJq4fT7YCZebzXbUuQQzBH03uuWkNXp8bLcBdgsolNKoWj9uc8S2u2MnQouShUP/AjYxLNj5eyjIq1EILvT9Fu0KJfaZArVQ==</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKAom4ERAAAAA==" BrandID="1308417" UpSellBrandID="1308418" BrandTier="0004">
-                        <air:UpsellBrand FareBasis="ERTTH" FareInfoRef="0rg3gPTqWDKAsl4ERAAAAA=="/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKAKv3TeAAAAA==" ProviderCode="1G">gws-eJxNTjEOwyAQe0zk3VwhaTfaNBFSIoY0GbL0/8+ogVbqSZwNPuyLMRot0NHH/+rw7o4V+RiBDNNZ0wYz6z2cbidIery2fU9oDka956o1dHVquoxXAWbO1qRSOGt/LIu0ZitDh5KLQvUDPzIl0Xx/KoumWIYQ/O0rcoAW/QBjnStN</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAKz3TeAAAAA==" BrandID="1308417" UpSellBrandID="1308418" BrandTier="0004">
+                        <air:UpsellBrand FareBasis="ERTTH" FareInfoRef="MH63gPUqWDKAOy3TeAAAAA=="/>
                     </air:Brand>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKAwi4ERAAAAA==" FareBasis="SRTTH" PassengerTypeCode="ADT" Origin="LHR" Destination="BKK" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT26309" NegotiatedFare="false" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26">
+                <air:FareInfo Key="MH63gPUqWDKASv3TeAAAAA==" FareBasis="SRTTH" PassengerTypeCode="ADT" Origin="LHR" Destination="BKK" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT26309" NegotiatedFare="false" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26">
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="30" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKAwi4ERAAAAA==" ProviderCode="1G">gws-eJxNTkEOgzAMewzyPfXabdy6MVAlUA4MDlz2/2fMFCYtUmO3Tu3knGmMgWzzfzX4NOsEXzvAQZ3nOILkNdbbBjOLeM/LUiCHZIFR7161A0Od6i/dXYDBBlZpc9XZpzJLO2xlGLDnYqf6gR/pi6g/XsoyKtZSSrE9RbtBi34BaxUrZQ==</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKAqm4ERAAAAA==" BrandID="1308417" UpSellBrandID="1308418" BrandTier="0004">
-                        <air:UpsellBrand FareBasis="ERTTH" FareInfoRef="0rg3gPTqWDKA0l4ERAAAAA=="/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKASv3TeAAAAA==" ProviderCode="1G">gws-eJxNTssOgzAM+xjke5qlsN268VAlUA4MDlz2/58x0zJpkRq7dWonpaSiUYJY+q8Gn2Zf4HsPOJTnNc9Q1dbK7YCIGN7rtmVUBzW+e9EqhjI13vo7AZNMWqTDWVdf8kqt2tIw4MzFSfkDPzJmUn8OzBJlrMQY7XGJ0oGLfgFlIitd</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAMz3TeAAAAA==" BrandID="1308417" UpSellBrandID="1308418" BrandTier="0004">
+                        <air:UpsellBrand FareBasis="ERTTH" FareInfoRef="MH63gPUqWDKAWy3TeAAAAA=="/>
                     </air:Brand>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKADj4ERAAAAA==" FareBasis="SRTTH" PassengerTypeCode="CNN" Origin="BKK" Destination="LHR" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT19732" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20">
+                <air:FareInfo Key="MH63gPUqWDKAlv3TeAAAAA==" FareBasis="SRTTH" PassengerTypeCode="CNN" Origin="BKK" Destination="LHR" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT19732" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20">
                     <air:TicketingCode Value="SRTTHCH75"/>
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="30" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKADj4ERAAAAA==" ProviderCode="1G">gws-eJxNTkEOwzAIe0zlO2FJ19yiRa0iteLQtYde9v9nzEk6aUiAwWBIKamod6ox/duAz3BusDMDBqVvZYcbxzjBsbogIh7v/TgKqBDEqbBvjetZ29T8yBMTFlm0U9VwtfhaV3JdloKKehcVcgM/MBdCy2ZHEeVZCSH4eJPyBB/9AnayK3k=</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKAsm4ERAAAAA==" BrandID="1308417" UpSellBrandID="1308418" BrandTier="0004">
-                        <air:UpsellBrand FareBasis="ERTTH" FareInfoRef="0rg3gPTqWDKADm4ERAAAAA=="/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKAlv3TeAAAAA==" ProviderCode="1G">gws-eJxNTkEOwzAIe0zlu8OSrr1Fi1pFasWhSw+97P/PGEk6aUiAwWCIMQol0NHHfxvwGc4deiZAIeZ7PuDGcZ7grLpA0uN9lJLRFYTW18b1LG1qeaTJElau0qlquFp8bZtxXdYEBfUuKrQN/MCSDWpSLZliZxlC8PNN8gl79Atwvytx</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAOz3TeAAAAA==" BrandID="1308417" UpSellBrandID="1308418" BrandTier="0004">
+                        <air:UpsellBrand FareBasis="ERTTH" FareInfoRef="MH63gPUqWDKAly3TeAAAAA=="/>
                     </air:Brand>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKAKj4ERAAAAA==" FareBasis="SRTTH" PassengerTypeCode="CNN" Origin="LHR" Destination="BKK" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT19732" NegotiatedFare="false" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26">
+                <air:FareInfo Key="MH63gPUqWDKAsv3TeAAAAA==" FareBasis="SRTTH" PassengerTypeCode="CNN" Origin="LHR" Destination="BKK" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT19732" NegotiatedFare="false" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26">
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="30" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKAKj4ERAAAAA==" ProviderCode="1G">gws-eJxNTkEOhDAIfIyZO2VbtbdmG00TDQetBy/7/2fsWN1kSYCBgYGUkop6pxrTv3X4dMcKOzJgUPp7WeD6Po6tOiEiHvtWawEVgjj17Fvj7qxtanrlkQmzzNqo02hPXMtG7paloOK6iwtyAz8wFULLZrWI8qyEEHx8SBnAR794NyuJ</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKAum4ERAAAAA==" BrandID="1308417" UpSellBrandID="1308418" BrandTier="0004">
-                        <air:UpsellBrand FareBasis="ERTTH" FareInfoRef="0rg3gPTqWDKAKm4ERAAAAA=="/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKAsv3TeAAAAA==" ProviderCode="1G">gws-eJxNTkEOhDAIfIyZ+8i2rt4aG00TDQe3Hrzs/58htppIAgwMDIQQhOLZ0oW3Nfg3+wrdI6AQ83FZ0Hbd0JfqAEmH35ZzQlUQZ30tXM1SpqZP7C1h5iyFOtTsjmvajKuyJii47uKCtoEHTMmgRtWcKHaW3ns33CS/sEdPckQrgQ==</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAQz3TeAAAAA==" BrandID="1308417" UpSellBrandID="1308418" BrandTier="0004">
+                        <air:UpsellBrand FareBasis="ERTTH" FareInfoRef="MH63gPUqWDKAsy3TeAAAAA=="/>
                     </air:Brand>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKAXj4ERAAAAA==" FareBasis="SRTTH" PassengerTypeCode="INF" Origin="BKK" Destination="LHR" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT2631" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20">
+                <air:FareInfo Key="MH63gPUqWDKA5v3TeAAAAA==" FareBasis="SRTTH" PassengerTypeCode="INF" Origin="BKK" Destination="LHR" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT2631" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20">
                     <air:TicketingCode Value="SRTTHIN10"/>
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="10" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKAXj4ERAAAAA==" ProviderCode="1G">gws-eJxNTkEOwyAMe0zlezCwrTe0qoipVQ4dPfSy/z9jgXbSIgU7ceKQUqIwOHJM/zHgM+wrdJ8ABS3XsoHkDc6KAyIS8N5qLTCDKI5ife3aib5PzX56GCBL5im1wNHf57I0o25r6NHOolHbwI/Mxai+NNcitLMSYwzjJcod9s8vQHgrJQ==</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKAwm4ERAAAAA==" BrandID="1308417" UpSellBrandID="1308418" BrandTier="0004">
-                        <air:UpsellBrand FareBasis="ERTTH" FareInfoRef="0rg3gPTqWDKAXm4ERAAAAA=="/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKA5v3TeAAAAA==" ProviderCode="1G">gws-eJxNTkEOwyAMe0zluxug3W5oVRFTqxw6euhl/3/GAmzSIgU7ceIQYxRK4Egf/2PAezh36LkACrHc8wERmTBacYGkx+soJaMbCK2vTevo2tTqlpsBEpN0qQau9j62rRo1W0OHehaV2gZ+ZM1G9ampZIqdZQjB378iZ9g/PzqNKx0=</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKASz3TeAAAAA==" BrandID="1308417" UpSellBrandID="1308418" BrandTier="0004">
+                        <air:UpsellBrand FareBasis="ERTTH" FareInfoRef="MH63gPUqWDKA5y3TeAAAAA=="/>
                     </air:Brand>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKAcj4ERAAAAA==" FareBasis="SRTTH" PassengerTypeCode="INF" Origin="LHR" Destination="BKK" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT2635" NegotiatedFare="false" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26">
+                <air:FareInfo Key="MH63gPUqWDKA+v3TeAAAAA==" FareBasis="SRTTH" PassengerTypeCode="INF" Origin="LHR" Destination="BKK" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT2635" NegotiatedFare="false" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26">
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="10" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKAcj4ERAAAAA==" ProviderCode="1G">gws-eJxNTkEOgzAMewzyPbgtG7dqiKoIlAMrBy77/zOWFiYtUmonTpzGGCn0PTnG/+jw6Y4NekyAgpavdQXJoRUnRMTjvZeSYQZBenrra9MudG1qdtPTAEkSm3Sqxf1uea9GzdbQoZ5FpbaBH5mzUV00lSy0sxJC8OMtygP2zy9CCys1</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKAym4ERAAAAA==" BrandID="1308417" UpSellBrandID="1308418" BrandTier="0004">
-                        <air:UpsellBrand FareBasis="ERTTH" FareInfoRef="0rg3gPTqWDKAcm4ERAAAAA=="/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKA+v3TeAAAAA==" ProviderCode="1G">gws-eJxNTssOwzAI+5jKd48ke9yiVY0yteLQpYde9v+fMUI7aUjEBoNJzlkoiRfG/B8DPsO2QLcRUIjlc54hIlcvdpCMeK+tVRwGEq2vrh0YfGoK490AhUVc2tXifJe6diO3NQzoZ9GpbeBHpmpUX1papdhZppTi4xR5g/3zCzwgKy0=</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAUz3TeAAAAA==" BrandID="1308417" UpSellBrandID="1308418" BrandTier="0004">
+                        <air:UpsellBrand FareBasis="ERTTH" FareInfoRef="MH63gPUqWDKA+y3TeAAAAA=="/>
                     </air:Brand>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKAzj4ERAAAAA==" FareBasis="YRMYYTG" PassengerTypeCode="ADT" Origin="BKK" Destination="LHR" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT253632" NegotiatedFare="false">
+                <air:FareInfo Key="MH63gPUqWDKAVw3TeAAAAA==" FareBasis="YRMYYTG" PassengerTypeCode="ADT" Origin="BKK" Destination="LHR" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT253632" NegotiatedFare="false">
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="30" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKAzj4ERAAAAA==" ProviderCode="1G">gws-eJxNTkEOwjAMe8zkexLaZbsVBtukQQ/TQOqF/z8Dt3DAUuJETpyklEwsqNmY/tHh3R0L8nMCMoxxX3eYhv4UoWwLRCSg7I9SOEiTKGpCJTf1y9rmZp+dhMZNqkBp+bJtkJ8xLRX1NGrJDULiaANuK8t8vh5O8HBVpxfEPQzgEl/4ABZuLG0=</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKA0m4ERAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKAVw3TeAAAAA==" ProviderCode="1G">gws-eJxNTkEOwjAMe8zkexraddwKg23SoIdpIOXC/5+Bm3HAUuJETpyUUlQ0SZBY/tHh0+0z6msEKpTxWDZoiP0pIbA1iEiEbU8zDh4mKlSqqwcHn5vylElwdqkB5vm6rpCfMS0D2mm0khuEpLMOuC8s6+W2Z4KHmzq+ITnHAVziC18QYyxl</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAWz3TeAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKA8j4ERAAAAA==" FareBasis="YRMYYTG" PassengerTypeCode="ADT" Origin="LHR" Destination="BKK" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT253633" NegotiatedFare="false">
+                <air:FareInfo Key="MH63gPUqWDKAew3TeAAAAA==" FareBasis="YRMYYTG" PassengerTypeCode="ADT" Origin="LHR" Destination="BKK" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT253633" NegotiatedFare="false">
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="30" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKA8j4ERAAAAA==" ProviderCode="1G">gws-eJxNTkEOwjAMe8zkexJaut0KgzFpkMM0kHrh/8+YW3bAUuJETpzknE0sqNmQ/9Hh220P+HsEHMa4LgtMw/kUW1sgIgFlfZXCQZpEUQtUvKk/1jY3pSmR0LhKxYkjP+cVchjTUlFPo5bcICQO1uM+s/TLbUsED1d1/EBSCj24xBd2F8ssfQ==</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKA2m4ERAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKAew3TeAAAAA==" ProviderCode="1G">gws-eJxNTkEOwjAMe8zkexpaMm6FwZg06GEaSLnw/2fM7XbAUuJETpzknFU0SZCY/9Hh161PlM8AFCjjNs/QEM+n1FqHiET48nbn4G6ikUpp6s6hzY02GgmNq+SFOPJrWiCHMS0D6mnUkhuEpIv2eEwsy/W+GsHDVR2+ELPYg0t8YQMRwCx1</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAYz3TeAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKAMk4ERAAAAA==" FareBasis="YRMYYTG" PassengerTypeCode="CNN" Origin="BKK" Destination="LHR" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT190224" NegotiatedFare="false">
+                <air:FareInfo Key="MH63gPUqWDKAuw3TeAAAAA==" FareBasis="YRMYYTG" PassengerTypeCode="CNN" Origin="BKK" Destination="LHR" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT190224" NegotiatedFare="false">
                     <air:FareTicketDesignator Value="CH"/>
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="30" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKAMk4ERAAAAA==" ProviderCode="1G">gws-eJxNTkEOwzAIe0zlO0FpaW7RonWVunKoukm57P/PmJPuMEtgkMGQc1bRGFRT/seAz3A+4K8COJTxXA+ESZJNCGwrRCSiHnutHKTJKEGFinf1Yu1ziy1GQucuNaD2fNs2yM+Ylop2Gq3kBiFj0hn3laUXdyN4uKnlDTGLM9fBF74eliyF</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKA4m4ERAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKAuw3TeAAAAA==" ProviderCode="1G">gws-eJxNTkEOwzAIe0zlO0FpaW/RonWVunGotklc9v9nzEl3mCUwyGAopajoKEly+ceAz/C8wV8VcCjjvh1Ikyw2IbENiEhGHI8IDp4mKlS8qydrn1ttNRI6d6kB0fNl3yE/Y1oq2mm0khuEjIvOuG4svbobwcNNrW+IWZ65Dr7wBRiLLH0=</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAaz3TeAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKAUk4ERAAAAA==" FareBasis="YRMYYTG" PassengerTypeCode="CNN" Origin="LHR" Destination="BKK" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT190225" NegotiatedFare="false">
+                <air:FareInfo Key="MH63gPUqWDKA2w3TeAAAAA==" FareBasis="YRMYYTG" PassengerTypeCode="CNN" Origin="LHR" Destination="BKK" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT190225" NegotiatedFare="false">
                     <air:FareTicketDesignator Value="CH"/>
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="30" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKAUk4ERAAAAA==" ProviderCode="1G">gws-eJxNTkEOwzAIe0zlO0FpaW7RonWVunKoukm57P/PmJP1MEtgkMGQc1bRGFRT/seAz3A+4K8COJRx2zaESZJNva0QkYh67LVykCajBI1UvKs/1j632GIkdG5SdeLKz/WAXMa0VLTTaCU3CBmTzrivLL24G8HDTS1viFmcuQ6+8AUf8yyV</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKA6m4ERAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKA2w3TeAAAAA==" ProviderCode="1G">gws-eJxNTkEOg0AIfIyZO5JV9LbpptbEloNpm3Dp/5/R2dWDk8BABgZyzio6SC8pX9Hh170f8E8BHMq4bRv6UWYbWxsQkYTYXxEcPEw0UfGmHqxtbrHFSGhcpXDizM91h5zGtFTU06glNwgZZp1wX1l6cTeCh6tavhCzNHEdfOEPGegsjQ==</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAcz3TeAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKAfk4ERAAAAA==" FareBasis="YRMYYTG" PassengerTypeCode="INF" Origin="BKK" Destination="LHR" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT25364" NegotiatedFare="false">
+                <air:FareInfo Key="MH63gPUqWDKABx3TeAAAAA==" FareBasis="YRMYYTG" PassengerTypeCode="INF" Origin="BKK" Destination="LHR" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT25364" NegotiatedFare="false">
                     <air:FareTicketDesignator Value="IN"/>
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="10" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKAfk4ERAAAAA==" ProviderCode="1G">gws-eJxNjrEOwjAMRD+mut12UtJuEVVDUSFDBUhe+P/P4JIunJSco2efk3M2sahmc/7XgO/wuqG+F6DCeB7bAdN4CVC+HCIS4cfTnX3MGEVNSGqnp4feV1JJNHTvqAne7+u+k53BjAxom9FKTlAyzjZh3VjWey2J4uJGlw8kpThBFPzCD+vWLDs=</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKA8m4ERAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKABx3TeAAAAA==" ProviderCode="1G">gws-eJxNjsEOAiEMRD9mM/dSWFlvxI24ZpXDRk168f8/w6FcnASm5LVTSikqOkuQVP414Tu9bmjvFWhQnsd2QEM6RQS+DCKSYMfTjH0jQ4WkOR0eva/mmmlwd9QF8/uy72QjmJERfTN6yQlK5rMuuG4s273VTHFxp+sHknNaIAH8wg/l0ywz</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAez3TeAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKAmk4ERAAAAA==" FareBasis="YRMYYTG" PassengerTypeCode="INF" Origin="LHR" Destination="BKK" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT25363" NegotiatedFare="false">
+                <air:FareInfo Key="MH63gPUqWDKAIx3TeAAAAA==" FareBasis="YRMYYTG" PassengerTypeCode="INF" Origin="LHR" Destination="BKK" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT25363" NegotiatedFare="false">
                     <air:FareTicketDesignator Value="IN"/>
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="10" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKAmk4ERAAAAA==" ProviderCode="1G">gws-eJxNjrEOwjAMRD+mut1xUtxuERWhqOChAqQs/P9ncEkZOCk5R88+J+esoimozvlfAz7D8wp/LYBDec7bBg3pFPurQkQS6v6olX3MGCVoIvFOD4+9r1gxGro3VJ363fd1JzuCGRnRNqOVnKBknHXCZWXpNy9GcXGjyxtiliZIAL/wBe1BLEs=</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKA+m4ERAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKAIx3TeAAAAA==" ProviderCode="1G">gws-eJxNjrEOwyAMRD8mut0YEtINNQpNlNZD1FZi6f9/Rg/o0JPgjJ59JqWkoqM4CelfAz7D8wZ7LYBBea7HAXVh8u1VICIB5XyUwr6eoYHEGu3uW1+OOdLQvKJi1O++bydZD2akR92MWnKCkvGiM9aNpe2WI8XFlS5vSIxhhjjwC1/nPixD</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAgz3TeAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKAsl4ERAAAAA==" FareBasis="ERTTH" PassengerTypeCode="ADT" Origin="BKK" Destination="LHR" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT48246" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20">
+                <air:FareInfo Key="MH63gPUqWDKAOy3TeAAAAA==" FareBasis="ERTTH" PassengerTypeCode="ADT" Origin="BKK" Destination="LHR" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT48246" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20">
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="30" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKAsl4ERAAAAA==" ProviderCode="1G">gws-eJxNTkEOhDAIfIyZO7Bt1Ft33Zommh6MHrz4/2fstHUTSYCBgYEQgok5NRvD0zpc3bEiHxOQYfQ1bXAyWA9ldUJEHOK27wlU8KIm7OfKtax1Kr6mgQmzzNaoYjhr/CwLuSZLQUW5iwK5gT+IiTC/v7wlVsa99268SenBR39mTytR</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKAAn4ERAAAAA==" BrandID="1308418" UpSellBrandFound="false" BrandTier="0005"/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKAOy3TeAAAAA==" ProviderCode="1G">gws-eJxNTkEOwzAIe0zlu8MStbtl61JFapVD1R562f+fMSfZpCEBBoMhxmi0QEcf/23Aezg3lHMGCky+5R2ek41wqi6Q9Ej7cWR0BaP6pXE9uzaVbvOkhIWLdaoarhaf6yquy0rQod5FhdrAD6QsWB4v3aLV8RCCv39JjtCjH2BcK0k=</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAiz3TeAAAAA==" BrandID="1308418" UpSellBrandFound="false" BrandTier="0005"/>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKA0l4ERAAAAA==" FareBasis="ERTTH" PassengerTypeCode="ADT" Origin="LHR" Destination="BKK" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT48245" NegotiatedFare="false" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26">
+                <air:FareInfo Key="MH63gPUqWDKAWy3TeAAAAA==" FareBasis="ERTTH" PassengerTypeCode="ADT" Origin="LHR" Destination="BKK" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT48245" NegotiatedFare="false" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26">
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="30" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKA0l4ERAAAAA==" ProviderCode="1G">gws-eJxNTkEOg0AIfIyZO0vZqLdt7ZpNNByMHrz0/8/o7GqTkgADAwMpJRW1oDqmf+vw6Y4VfkyAQ+mvZYHJoH2rToiIIW/7XkCFKEGNfW/clUObyo9pYMIsszbqdNod17KRu2QpGFDvokJu4AdyIfTnm7dE63iM0cablB589Atn1Cth</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKACn4ERAAAAA==" BrandID="1308418" UpSellBrandFound="false" BrandTier="0005"/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKAWy3TeAAAAA==" ProviderCode="1G">gws-eJxNTkEOhDAIfIyZ+5Rto966qzVNNByMHrz4/2csbd1kSYCBgYEYo1ACHX38tw53d27QcwIUYv5ZV3gO0tfqAkmPtB9HRlMQb32tXMuuTqXXNFjCwkUqdanZE7e8G9dkTdCh3EWBtoEfSNmgvme7RSnjIQQ/PiR72KNfYeErWQ==</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAkz3TeAAAAA==" BrandID="1308418" UpSellBrandFound="false" BrandTier="0005"/>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKADm4ERAAAAA==" FareBasis="ERTTH" PassengerTypeCode="CNN" Origin="BKK" Destination="LHR" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT36184" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20">
+                <air:FareInfo Key="MH63gPUqWDKAly3TeAAAAA==" FareBasis="ERTTH" PassengerTypeCode="CNN" Origin="BKK" Destination="LHR" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT36184" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20">
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="30" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKADm4ERAAAAA==" ProviderCode="1G">gws-eJxNTkEOwzAIe0zlO6HJtt6iRakiteJQpYdc9v9nzEk7aSDAyGCIMaqod6pL/LcJn+ncYWcCDMrYy4FZHipw7BpExCMftRZQIYgjY8PbXXVM5Tm9WLDKqhfVDW3k97aRu2QpqOh30SE38AO5EFoyq0WUZyWE4JeblCf46BdfQytF</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKAEn4ERAAAAA==" BrandID="1308418" UpSellBrandFound="false" BrandTier="0005"/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKAly3TeAAAAA==" ProviderCode="1G">gws-eJxNTssKxDAI/Jgy96lN9nELG1ICLR5Keshl//8z1iQtrKKOjI6GEITiOdOFf5vwnc4dekZAIRZ7PrDwIcRsXQVJh3SUkjEUjNHu9arSp9ISX1awcpVBNUPt+bNtxg1ZExS0u2jQNnCDlA1qVC2ZYmfpvXfvi+QT9ugPWVArPQ==</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAmz3TeAAAAA==" BrandID="1308418" UpSellBrandFound="false" BrandTier="0005"/>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKAKm4ERAAAAA==" FareBasis="ERTTH" PassengerTypeCode="CNN" Origin="LHR" Destination="BKK" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT36194" NegotiatedFare="false" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26">
+                <air:FareInfo Key="MH63gPUqWDKAsy3TeAAAAA==" FareBasis="ERTTH" PassengerTypeCode="CNN" Origin="LHR" Destination="BKK" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT36194" NegotiatedFare="false" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26">
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="30" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKAKm4ERAAAAA==" ProviderCode="1G">gws-eJxNTkEOgzAMewzy3Zh2G7dqqKgSKAdUDlz2/2csFCYtUhInTpyklESFXhrTv3X4dPsK2yfAIPf3smDgQ2zVAZIBeau1wBUiewXvW+OurDaVh+nlCTNnNeowtzuuZXPuknVB4byLE/oGfiAXhzaZ1UL5WcYYw3iTfMIf/QJgyCtV</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKAGn4ERAAAAA==" BrandID="1308418" UpSellBrandFound="false" BrandTier="0005"/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKAsy3TeAAAAA==" ProviderCode="1G">gws-eJxNTssKwzAM+5iiu+Yme9zCQkugxYeSHnrZ/3/G1KSDGWzLli07pWS0yBtD+rcBn2Ff4XsGHCZ/LwtG3o2tOkAyYNpqLegKFtT3xvVsbWoa81MJM2dr1OGyK65lE9dlJWg47+KE2sAPTEXQs3stNJ1ljDG8LpIP6NEvWtUrTQ==</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAoz3TeAAAAA==" BrandID="1308418" UpSellBrandFound="false" BrandTier="0005"/>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKAXm4ERAAAAA==" FareBasis="ERTTH" PassengerTypeCode="INF" Origin="BKK" Destination="LHR" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT4825" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20">
+                <air:FareInfo Key="MH63gPUqWDKA5y3TeAAAAA==" FareBasis="ERTTH" PassengerTypeCode="INF" Origin="BKK" Destination="LHR" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT4825" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20">
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="10" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKAXm4ERAAAAA==" ProviderCode="1G">gws-eJxNTkEOwyAMe0zluwmgtTe0CsTUikNFD73s/89YQjdpkRIbnDhJKQklOJEl/ceE93TuaOcKNIjmXg8EzgKnjwskA/LRe4UaRDqh/reh3ehHV/brrIDCIrdkgWvU57YNI7NV9LC1MKoT+JFclbZXK71SrDvGGJavyAf0zg86tCsb</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKAIn4ERAAAAA==" BrandID="1308418" UpSellBrandFound="false" BrandTier="0005"/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKA5y3TeAAAAA==" ProviderCode="1G">gws-eJxNTkEOwyAMe0zluxtA625oFYipFYeKHnrZ/5+xBDppkRIbnDiJMQolcKaP/zHhM5076rkCFaK5lwOei2DWxwWSHulorWAYCPW/dm2g613JrYsCMrMMyQJXr69t60Zmq+hga2FUJ/AjqSit75pboVh3CME/b5EP6J1fNMkrEw==</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAqz3TeAAAAA==" BrandID="1308418" UpSellBrandFound="false" BrandTier="0005"/>
                 </air:FareInfo>
-                <air:FareInfo Key="0rg3gPTqWDKAcm4ERAAAAA==" FareBasis="ERTTH" PassengerTypeCode="INF" Origin="LHR" Destination="BKK" EffectiveDate="2024-12-29T13:49:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT4832" NegotiatedFare="false" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26">
+                <air:FareInfo Key="MH63gPUqWDKA+y3TeAAAAA==" FareBasis="ERTTH" PassengerTypeCode="INF" Origin="LHR" Destination="BKK" EffectiveDate="2025-01-04T18:59:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT4832" NegotiatedFare="false" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26">
                     <air:BaggageAllowance>
                         <air:MaxWeight Value="10" Unit="Kilograms"/>
                     </air:BaggageAllowance>
-                    <air:FareRuleKey FareInfoRef="0rg3gPTqWDKAcm4ERAAAAA==" ProviderCode="1G">gws-eJxNTkEOhDAIfIyZO1Ka1Vuzpk03Gg6mHrz4/2dIWTdZEphpBwZSSkwsI/Oc/mPANRwb9FgABVu+1xVCE/vjBBEJ8t5ahRlEGlnsX137YvCuHJbJAIUKu3SqxVO3urtRtzUM6GvRqU3gR3I1qh8trRL37hijzI9IL9idNzxHKys=</air:FareRuleKey>
-                    <air:Brand Key="0rg3gPTqWDKAKn4ERAAAAA==" BrandID="1308418" UpSellBrandFound="false" BrandTier="0005"/>
+                    <air:FareRuleKey FareInfoRef="MH63gPUqWDKA+y3TeAAAAA==" ProviderCode="1G">gws-eJxNTkEOhDAIfIyZO1Ia3Vuzpk03Gg6mHrzs/5+xFDVZEphpBwZSSkwcaSRJ/zHgOxwb9FgABVu+1xVCM/vjBBEJ8t5axWXAYv/q2oXBu3JYZgMUKuzSqRZ33eruRt3WMKCvRac2gYfkalQ/Wlol7t0xRnndIk2wO382XCsj</air:FareRuleKey>
+                    <air:Brand Key="MH63gPUqWDKAsz3TeAAAAA==" BrandID="1308418" UpSellBrandFound="false" BrandTier="0005"/>
                 </air:FareInfo>
             </air:FareInfoList>
             <air:RouteList>
-                <air:Route Key="0rg3gPTqWDKAmm4ERAAAAA==">
-                    <air:Leg Key="0rg3gPTqWDKAfi4ERAAAAA==" Group="0" Origin="BKK" Destination="LON"/>
-                    <air:Leg Key="0rg3gPTqWDKAgi4ERAAAAA==" Group="1" Origin="LON" Destination="BKK"/>
+                <air:Route Key="MH63gPUqWDKAIz3TeAAAAA==">
+                    <air:Leg Key="MH63gPUqWDKABv3TeAAAAA==" Group="0" Origin="BKK" Destination="LON"/>
+                    <air:Leg Key="MH63gPUqWDKACv3TeAAAAA==" Group="1" Origin="LON" Destination="BKK"/>
                 </air:Route>
             </air:RouteList>
-            <air:AirPricingSolution Key="0rg3gPTqWDKAWi4ERAAAAA==" TotalPrice="BDT248744" BasePrice="THB27270" ApproximateTotalPrice="BDT248744" ApproximateBasePrice="BDT97349" EquivalentBasePrice="BDT97349" Taxes="BDT151395" ApproximateTaxes="BDT151395">
+            <air:AirPricingSolution Key="MH63gPUqWDKA4u3TeAAAAA==" TotalPrice="BDT248744" BasePrice="THB27270" ApproximateTotalPrice="BDT248744" ApproximateBasePrice="BDT97349" EquivalentBasePrice="BDT97349" Taxes="BDT151395" ApproximateTaxes="BDT151395">
                 <air:Journey TravelTime="P0DT17H10M0S">
-                    <air:AirSegmentRef Key="0rg3gPTqWDKAXi4ERAAAAA=="/>
-                    <air:AirSegmentRef Key="0rg3gPTqWDKAZi4ERAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKA5u3TeAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKA7u3TeAAAAA=="/>
                 </air:Journey>
                 <air:Journey TravelTime="P1DT2H40M0S">
-                    <air:AirSegmentRef Key="0rg3gPTqWDKAbi4ERAAAAA=="/>
-                    <air:AirSegmentRef Key="0rg3gPTqWDKAdi4ERAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKA9u3TeAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKA/u3TeAAAAA=="/>
                 </air:Journey>
-                <air:LegRef Key="0rg3gPTqWDKAfi4ERAAAAA=="/>
-                <air:LegRef Key="0rg3gPTqWDKAgi4ERAAAAA=="/>
-                <air:AirPricingInfo Key="0rg3gPTqWDKAhi4ERAAAAA==" TotalPrice="BDT131490" BasePrice="THB14740" ApproximateTotalPrice="BDT131490" ApproximateBasePrice="BDT52619" EquivalentBasePrice="BDT52619" Taxes="BDT78871" ApproximateTaxes="BDT78871" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAoi4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAwi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAoi4ERAAAAA==" SegmentRef="0rg3gPTqWDKAXi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAoi4ERAAAAA==" SegmentRef="0rg3gPTqWDKAZi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAwi4ERAAAAA==" SegmentRef="0rg3gPTqWDKAbi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAwi4ERAAAAA==" SegmentRef="0rg3gPTqWDKAdi4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAii4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAji4ERAAAAA=="/>
-                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKAki4ERAAAAA=="/>
-                    <air:TaxInfo Category="GB" Amount="BDT14310" Key="0rg3gPTqWDKAli4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAmi4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT53992" Key="0rg3gPTqWDKAni4ERAAAAA=="/>
+                <air:LegRef Key="MH63gPUqWDKABv3TeAAAAA=="/>
+                <air:LegRef Key="MH63gPUqWDKACv3TeAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKADv3TeAAAAA==" TotalPrice="BDT131490" BasePrice="THB14740" ApproximateTotalPrice="BDT131490" ApproximateBasePrice="BDT52619" EquivalentBasePrice="BDT52619" Taxes="BDT78871" ApproximateTaxes="BDT78871" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKAKv3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKASv3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAKv3TeAAAAA==" SegmentRef="MH63gPUqWDKA5u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAKv3TeAAAAA==" SegmentRef="MH63gPUqWDKA7u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKASv3TeAAAAA==" SegmentRef="MH63gPUqWDKA9u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKASv3TeAAAAA==" SegmentRef="MH63gPUqWDKA/u3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKAEv3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKAFv3TeAAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="MH63gPUqWDKAGv3TeAAAAA=="/>
+                    <air:TaxInfo Category="GB" Amount="BDT14310" Key="MH63gPUqWDKAHv3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKAIv3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT53992" Key="MH63gPUqWDKAJv3TeAAAAA=="/>
                     <air:FareCalc>BKK UL X/CMB UL LON 222.64SRTTH UL X/CMB UL BKK 222.64SRTTH NUC445.28END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="ADT"/>
                     <air:ChangePenalty PenaltyApplies="Anytime">
@@ -240,18 +240,18 @@
                         <air:Amount>BDT10709</air:Amount>
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
-                <air:AirPricingInfo Key="0rg3gPTqWDKA9i4ERAAAAA==" TotalPrice="BDT104025" BasePrice="THB11055" ApproximateTotalPrice="BDT104025" ApproximateBasePrice="BDT39464" EquivalentBasePrice="BDT39464" Taxes="BDT64561" ApproximateTaxes="BDT64561" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKADj4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAKj4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKADj4ERAAAAA==" SegmentRef="0rg3gPTqWDKAXi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKADj4ERAAAAA==" SegmentRef="0rg3gPTqWDKAZi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAKj4ERAAAAA==" SegmentRef="0rg3gPTqWDKAbi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAKj4ERAAAAA==" SegmentRef="0rg3gPTqWDKAdi4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKA+i4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKA/i4ERAAAAA=="/>
-                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKAAj4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKABj4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT53992" Key="0rg3gPTqWDKACj4ERAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKAfv3TeAAAAA==" TotalPrice="BDT104025" BasePrice="THB11055" ApproximateTotalPrice="BDT104025" ApproximateBasePrice="BDT39464" EquivalentBasePrice="BDT39464" Taxes="BDT64561" ApproximateTaxes="BDT64561" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKAlv3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKAsv3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAlv3TeAAAAA==" SegmentRef="MH63gPUqWDKA5u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAlv3TeAAAAA==" SegmentRef="MH63gPUqWDKA7u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAsv3TeAAAAA==" SegmentRef="MH63gPUqWDKA9u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAsv3TeAAAAA==" SegmentRef="MH63gPUqWDKA/u3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKAgv3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKAhv3TeAAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="MH63gPUqWDKAiv3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKAjv3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT53992" Key="MH63gPUqWDKAkv3TeAAAAA=="/>
                     <air:FareCalc>BKK UL X/CMB UL LON 166.98SRTTHCH75 UL X/CMB UL BKK 166.98SRTTHCH75 NUC333.96END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="CNN" Age="8"/>
                     <air:ChangePenalty PenaltyApplies="Anytime">
@@ -261,16 +261,16 @@
                         <air:Amount>BDT10709</air:Amount>
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
-                <air:AirPricingInfo Key="0rg3gPTqWDKATj4ERAAAAA==" TotalPrice="BDT13229" BasePrice="THB1475" ApproximateTotalPrice="BDT13229" ApproximateBasePrice="BDT5266" EquivalentBasePrice="BDT5266" Taxes="BDT7963" ApproximateTaxes="BDT7963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAXj4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAcj4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAXj4ERAAAAA==" SegmentRef="0rg3gPTqWDKAXi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAXj4ERAAAAA==" SegmentRef="0rg3gPTqWDKAZi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAcj4ERAAAAA==" SegmentRef="0rg3gPTqWDKAbi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAcj4ERAAAAA==" SegmentRef="0rg3gPTqWDKAdi4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAUj4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAVj4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAWj4ERAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKA1v3TeAAAAA==" TotalPrice="BDT13229" BasePrice="THB1475" ApproximateTotalPrice="BDT13229" ApproximateBasePrice="BDT5266" EquivalentBasePrice="BDT5266" Taxes="BDT7963" ApproximateTaxes="BDT7963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKA5v3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKA+v3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA5v3TeAAAAA==" SegmentRef="MH63gPUqWDKA5u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA5v3TeAAAAA==" SegmentRef="MH63gPUqWDKA7u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA+v3TeAAAAA==" SegmentRef="MH63gPUqWDKA9u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA+v3TeAAAAA==" SegmentRef="MH63gPUqWDKA/u3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKA2v3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKA3v3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKA4v3TeAAAAA=="/>
                     <air:FareCalc>BKK UL X/CMB UL LON 22.26SRTTHIN10 UL X/CMB UL BKK 22.26SRTTHIN10 NUC44.52END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="INF" Age="1"/>
                     <air:ChangePenalty PenaltyApplies="Anytime">
@@ -283,30 +283,30 @@
                 <air:Connection SegmentIndex="0"/>
                 <air:Connection SegmentIndex="2"/>
             </air:AirPricingSolution>
-            <air:AirPricingSolution Key="0rg3gPTqWDKAlj4ERAAAAA==" TotalPrice="BDT248744" BasePrice="THB27270" ApproximateTotalPrice="BDT248744" ApproximateBasePrice="BDT97349" EquivalentBasePrice="BDT97349" Taxes="BDT151395" ApproximateTaxes="BDT151395">
+            <air:AirPricingSolution Key="MH63gPUqWDKAHw3TeAAAAA==" TotalPrice="BDT248744" BasePrice="THB27270" ApproximateTotalPrice="BDT248744" ApproximateBasePrice="BDT97349" EquivalentBasePrice="BDT97349" Taxes="BDT151395" ApproximateTaxes="BDT151395">
                 <air:Journey TravelTime="P1DT12H15M0S">
-                    <air:AirSegmentRef Key="0rg3gPTqWDKAyi4ERAAAAA=="/>
-                    <air:AirSegmentRef Key="0rg3gPTqWDKA1i4ERAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKAUv3TeAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKAXv3TeAAAAA=="/>
                 </air:Journey>
                 <air:Journey TravelTime="P1DT2H40M0S">
-                    <air:AirSegmentRef Key="0rg3gPTqWDKAbi4ERAAAAA=="/>
-                    <air:AirSegmentRef Key="0rg3gPTqWDKAdi4ERAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKA9u3TeAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKA/u3TeAAAAA=="/>
                 </air:Journey>
-                <air:LegRef Key="0rg3gPTqWDKAfi4ERAAAAA=="/>
-                <air:LegRef Key="0rg3gPTqWDKAgi4ERAAAAA=="/>
-                <air:AirPricingInfo Key="0rg3gPTqWDKApi4ERAAAAA==" TotalPrice="BDT131490" BasePrice="THB14740" ApproximateTotalPrice="BDT131490" ApproximateBasePrice="BDT52619" EquivalentBasePrice="BDT52619" Taxes="BDT78871" ApproximateTaxes="BDT78871" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAoi4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAwi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAoi4ERAAAAA==" SegmentRef="0rg3gPTqWDKAyi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAoi4ERAAAAA==" SegmentRef="0rg3gPTqWDKA1i4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAwi4ERAAAAA==" SegmentRef="0rg3gPTqWDKAbi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAwi4ERAAAAA==" SegmentRef="0rg3gPTqWDKAdi4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAqi4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAri4ERAAAAA=="/>
-                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKAsi4ERAAAAA=="/>
-                    <air:TaxInfo Category="GB" Amount="BDT14310" Key="0rg3gPTqWDKAti4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAui4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT53992" Key="0rg3gPTqWDKAvi4ERAAAAA=="/>
+                <air:LegRef Key="MH63gPUqWDKABv3TeAAAAA=="/>
+                <air:LegRef Key="MH63gPUqWDKACv3TeAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKALv3TeAAAAA==" TotalPrice="BDT131490" BasePrice="THB14740" ApproximateTotalPrice="BDT131490" ApproximateBasePrice="BDT52619" EquivalentBasePrice="BDT52619" Taxes="BDT78871" ApproximateTaxes="BDT78871" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKAKv3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKASv3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAKv3TeAAAAA==" SegmentRef="MH63gPUqWDKAUv3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAKv3TeAAAAA==" SegmentRef="MH63gPUqWDKAXv3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKASv3TeAAAAA==" SegmentRef="MH63gPUqWDKA9u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKASv3TeAAAAA==" SegmentRef="MH63gPUqWDKA/u3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKAMv3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKANv3TeAAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="MH63gPUqWDKAOv3TeAAAAA=="/>
+                    <air:TaxInfo Category="GB" Amount="BDT14310" Key="MH63gPUqWDKAPv3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKAQv3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT53992" Key="MH63gPUqWDKARv3TeAAAAA=="/>
                     <air:FareCalc>BKK UL X/CMB UL LON 222.64SRTTH UL X/CMB UL BKK 222.64SRTTH NUC445.28END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="ADT"/>
                     <air:ChangePenalty PenaltyApplies="Anytime">
@@ -316,18 +316,18 @@
                         <air:Amount>BDT10709</air:Amount>
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
-                <air:AirPricingInfo Key="0rg3gPTqWDKAEj4ERAAAAA==" TotalPrice="BDT104025" BasePrice="THB11055" ApproximateTotalPrice="BDT104025" ApproximateBasePrice="BDT39464" EquivalentBasePrice="BDT39464" Taxes="BDT64561" ApproximateTaxes="BDT64561" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKADj4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAKj4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKADj4ERAAAAA==" SegmentRef="0rg3gPTqWDKAyi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKADj4ERAAAAA==" SegmentRef="0rg3gPTqWDKA1i4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAKj4ERAAAAA==" SegmentRef="0rg3gPTqWDKAbi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAKj4ERAAAAA==" SegmentRef="0rg3gPTqWDKAdi4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAFj4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAGj4ERAAAAA=="/>
-                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKAHj4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAIj4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT53992" Key="0rg3gPTqWDKAJj4ERAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKAmv3TeAAAAA==" TotalPrice="BDT104025" BasePrice="THB11055" ApproximateTotalPrice="BDT104025" ApproximateBasePrice="BDT39464" EquivalentBasePrice="BDT39464" Taxes="BDT64561" ApproximateTaxes="BDT64561" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKAlv3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKAsv3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAlv3TeAAAAA==" SegmentRef="MH63gPUqWDKAUv3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAlv3TeAAAAA==" SegmentRef="MH63gPUqWDKAXv3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAsv3TeAAAAA==" SegmentRef="MH63gPUqWDKA9u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAsv3TeAAAAA==" SegmentRef="MH63gPUqWDKA/u3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKAnv3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKAov3TeAAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="MH63gPUqWDKApv3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKAqv3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT53992" Key="MH63gPUqWDKArv3TeAAAAA=="/>
                     <air:FareCalc>BKK UL X/CMB UL LON 166.98SRTTHCH75 UL X/CMB UL BKK 166.98SRTTHCH75 NUC333.96END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="CNN" Age="8"/>
                     <air:ChangePenalty PenaltyApplies="Anytime">
@@ -337,16 +337,16 @@
                         <air:Amount>BDT10709</air:Amount>
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
-                <air:AirPricingInfo Key="0rg3gPTqWDKAYj4ERAAAAA==" TotalPrice="BDT13229" BasePrice="THB1475" ApproximateTotalPrice="BDT13229" ApproximateBasePrice="BDT5266" EquivalentBasePrice="BDT5266" Taxes="BDT7963" ApproximateTaxes="BDT7963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAXj4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAcj4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAXj4ERAAAAA==" SegmentRef="0rg3gPTqWDKAyi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAXj4ERAAAAA==" SegmentRef="0rg3gPTqWDKA1i4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAcj4ERAAAAA==" SegmentRef="0rg3gPTqWDKAbi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAcj4ERAAAAA==" SegmentRef="0rg3gPTqWDKAdi4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAZj4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAaj4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAbj4ERAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKA6v3TeAAAAA==" TotalPrice="BDT13229" BasePrice="THB1475" ApproximateTotalPrice="BDT13229" ApproximateBasePrice="BDT5266" EquivalentBasePrice="BDT5266" Taxes="BDT7963" ApproximateTaxes="BDT7963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKA5v3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKA+v3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA5v3TeAAAAA==" SegmentRef="MH63gPUqWDKAUv3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA5v3TeAAAAA==" SegmentRef="MH63gPUqWDKAXv3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA+v3TeAAAAA==" SegmentRef="MH63gPUqWDKA9u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA+v3TeAAAAA==" SegmentRef="MH63gPUqWDKA/u3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKA7v3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKA8v3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKA9v3TeAAAAA=="/>
                     <air:FareCalc>BKK UL X/CMB UL LON 22.26SRTTHIN10 UL X/CMB UL BKK 22.26SRTTHIN10 NUC44.52END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="INF" Age="1"/>
                     <air:ChangePenalty PenaltyApplies="Anytime">
@@ -359,27 +359,27 @@
                 <air:Connection SegmentIndex="0"/>
                 <air:Connection SegmentIndex="2"/>
             </air:AirPricingSolution>
-            <air:AirPricingSolution Key="0rg3gPTqWDKAmj4ERAAAAA==" TotalPrice="BDT1063680" BasePrice="THB262885" ApproximateTotalPrice="BDT1063680" ApproximateBasePrice="BDT938441" EquivalentBasePrice="BDT938441" Taxes="BDT125239" ApproximateTaxes="BDT125239">
+            <air:AirPricingSolution Key="MH63gPUqWDKAIw3TeAAAAA==" TotalPrice="BDT1063680" BasePrice="THB262885" ApproximateTotalPrice="BDT1063680" ApproximateBasePrice="BDT938441" EquivalentBasePrice="BDT938441" Taxes="BDT125239" ApproximateTaxes="BDT125239">
                 <air:Journey TravelTime="P0DT13H15M0S">
-                    <air:AirSegmentRef Key="0rg3gPTqWDKAnj4ERAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKAJw3TeAAAAA=="/>
                 </air:Journey>
                 <air:Journey TravelTime="P0DT11H25M0S">
-                    <air:AirSegmentRef Key="0rg3gPTqWDKApj4ERAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKALw3TeAAAAA=="/>
                 </air:Journey>
-                <air:LegRef Key="0rg3gPTqWDKAfi4ERAAAAA=="/>
-                <air:LegRef Key="0rg3gPTqWDKAgi4ERAAAAA=="/>
-                <air:AirPricingInfo Key="0rg3gPTqWDKArj4ERAAAAA==" TotalPrice="BDT570538" BasePrice="THB142100" ApproximateTotalPrice="BDT570538" ApproximateBasePrice="BDT507265" EquivalentBasePrice="BDT507265" Taxes="BDT63273" ApproximateTaxes="BDT63273" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAzj4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKA8j4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAzj4ERAAAAA==" SegmentRef="0rg3gPTqWDKAnj4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKA8j4ERAAAAA==" SegmentRef="0rg3gPTqWDKApj4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAsj4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAtj4ERAAAAA=="/>
-                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKAuj4ERAAAAA=="/>
-                    <air:TaxInfo Category="GB" Amount="BDT14310" Key="0rg3gPTqWDKAvj4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAwj4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT37194" Key="0rg3gPTqWDKAxj4ERAAAAA=="/>
-                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="0rg3gPTqWDKAyj4ERAAAAA=="/>
+                <air:LegRef Key="MH63gPUqWDKABv3TeAAAAA=="/>
+                <air:LegRef Key="MH63gPUqWDKACv3TeAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKANw3TeAAAAA==" TotalPrice="BDT570538" BasePrice="THB142100" ApproximateTotalPrice="BDT570538" ApproximateBasePrice="BDT507265" EquivalentBasePrice="BDT507265" Taxes="BDT63273" ApproximateTaxes="BDT63273" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKAVw3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKAew3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAVw3TeAAAAA==" SegmentRef="MH63gPUqWDKAJw3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAew3TeAAAAA==" SegmentRef="MH63gPUqWDKALw3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKAOw3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKAPw3TeAAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="MH63gPUqWDKAQw3TeAAAAA=="/>
+                    <air:TaxInfo Category="GB" Amount="BDT14310" Key="MH63gPUqWDKARw3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKASw3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT37194" Key="MH63gPUqWDKATw3TeAAAAA=="/>
+                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="MH63gPUqWDKAUw3TeAAAAA=="/>
                     <air:FareCalc>BKK TG LON 2146.35YRMYYTG TG BKK 2146.35YRMYYTG NUC4292.70END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="ADT"/>
                     <air:ChangePenalty>
@@ -389,17 +389,17 @@
                         <air:Percentage>0.00</air:Percentage>
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
-                <air:AirPricingInfo Key="0rg3gPTqWDKAFk4ERAAAAA==" TotalPrice="BDT429412" BasePrice="THB106575" ApproximateTotalPrice="BDT429412" ApproximateBasePrice="BDT380449" EquivalentBasePrice="BDT380449" Taxes="BDT48963" ApproximateTaxes="BDT48963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAMk4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAUk4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAMk4ERAAAAA==" SegmentRef="0rg3gPTqWDKAnj4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAUk4ERAAAAA==" SegmentRef="0rg3gPTqWDKApj4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAGk4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAHk4ERAAAAA=="/>
-                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKAIk4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAJk4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT37194" Key="0rg3gPTqWDKAKk4ERAAAAA=="/>
-                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="0rg3gPTqWDKALk4ERAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKAnw3TeAAAAA==" TotalPrice="BDT429412" BasePrice="THB106575" ApproximateTotalPrice="BDT429412" ApproximateBasePrice="BDT380449" EquivalentBasePrice="BDT380449" Taxes="BDT48963" ApproximateTaxes="BDT48963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKAuw3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKA2w3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAuw3TeAAAAA==" SegmentRef="MH63gPUqWDKAJw3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA2w3TeAAAAA==" SegmentRef="MH63gPUqWDKALw3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKAow3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKApw3TeAAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="MH63gPUqWDKAqw3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKArw3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT37194" Key="MH63gPUqWDKAsw3TeAAAAA=="/>
+                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="MH63gPUqWDKAtw3TeAAAAA=="/>
                     <air:FareCalc>BKK TG LON 1609.76YRMYYTG/CH TG BKK 1609.76YRMYYTG/CH NUC3219.52END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="CNN" Age="8"/>
                     <air:ChangePenalty>
@@ -409,16 +409,16 @@
                         <air:Percentage>0.00</air:Percentage>
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
-                <air:AirPricingInfo Key="0rg3gPTqWDKAZk4ERAAAAA==" TotalPrice="BDT63730" BasePrice="THB14210" ApproximateTotalPrice="BDT63730" ApproximateBasePrice="BDT50727" EquivalentBasePrice="BDT50727" Taxes="BDT13003" ApproximateTaxes="BDT13003" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAfk4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAmk4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAfk4ERAAAAA==" SegmentRef="0rg3gPTqWDKAnj4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAmk4ERAAAAA==" SegmentRef="0rg3gPTqWDKApj4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAak4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAbk4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAck4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT3840" Key="0rg3gPTqWDKAdk4ERAAAAA=="/>
-                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="0rg3gPTqWDKAek4ERAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKA7w3TeAAAAA==" TotalPrice="BDT63730" BasePrice="THB14210" ApproximateTotalPrice="BDT63730" ApproximateBasePrice="BDT50727" EquivalentBasePrice="BDT50727" Taxes="BDT13003" ApproximateTaxes="BDT13003" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKABx3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKAIx3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKABx3TeAAAAA==" SegmentRef="MH63gPUqWDKAJw3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAIx3TeAAAAA==" SegmentRef="MH63gPUqWDKALw3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKA8w3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKA9w3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKA+w3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT3840" Key="MH63gPUqWDKA/w3TeAAAAA=="/>
+                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="MH63gPUqWDKAAx3TeAAAAA=="/>
                     <air:FareCalc>BKK TG LON 214.63YRMYYTG/IN TG BKK 214.64YRMYYTG/IN NUC429.27END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="INF" Age="1"/>
                     <air:ChangePenalty>
@@ -429,27 +429,27 @@
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
             </air:AirPricingSolution>
-            <air:AirPricingSolution Key="0rg3gPTqWDKArk4ERAAAAA==" TotalPrice="BDT1063680" BasePrice="THB262885" ApproximateTotalPrice="BDT1063680" ApproximateBasePrice="BDT938441" EquivalentBasePrice="BDT938441" Taxes="BDT125239" ApproximateTaxes="BDT125239">
+            <air:AirPricingSolution Key="MH63gPUqWDKANx3TeAAAAA==" TotalPrice="BDT1063680" BasePrice="THB262885" ApproximateTotalPrice="BDT1063680" ApproximateBasePrice="BDT938441" EquivalentBasePrice="BDT938441" Taxes="BDT125239" ApproximateTaxes="BDT125239">
                 <air:Journey TravelTime="P0DT13H35M0S">
-                    <air:AirSegmentRef Key="0rg3gPTqWDKA+j4ERAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKAgw3TeAAAAA=="/>
                 </air:Journey>
                 <air:Journey TravelTime="P0DT11H25M0S">
-                    <air:AirSegmentRef Key="0rg3gPTqWDKApj4ERAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKALw3TeAAAAA=="/>
                 </air:Journey>
-                <air:LegRef Key="0rg3gPTqWDKAfi4ERAAAAA=="/>
-                <air:LegRef Key="0rg3gPTqWDKAgi4ERAAAAA=="/>
-                <air:AirPricingInfo Key="0rg3gPTqWDKAsk4ERAAAAA==" TotalPrice="BDT570538" BasePrice="THB142100" ApproximateTotalPrice="BDT570538" ApproximateBasePrice="BDT507265" EquivalentBasePrice="BDT507265" Taxes="BDT63273" ApproximateTaxes="BDT63273" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAzj4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKA8j4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAzj4ERAAAAA==" SegmentRef="0rg3gPTqWDKA+j4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKA8j4ERAAAAA==" SegmentRef="0rg3gPTqWDKApj4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAtk4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAuk4ERAAAAA=="/>
-                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKAvk4ERAAAAA=="/>
-                    <air:TaxInfo Category="GB" Amount="BDT14310" Key="0rg3gPTqWDKAwk4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAxk4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT37194" Key="0rg3gPTqWDKAyk4ERAAAAA=="/>
-                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="0rg3gPTqWDKAzk4ERAAAAA=="/>
+                <air:LegRef Key="MH63gPUqWDKABv3TeAAAAA=="/>
+                <air:LegRef Key="MH63gPUqWDKACv3TeAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKAOx3TeAAAAA==" TotalPrice="BDT570538" BasePrice="THB142100" ApproximateTotalPrice="BDT570538" ApproximateBasePrice="BDT507265" EquivalentBasePrice="BDT507265" Taxes="BDT63273" ApproximateTaxes="BDT63273" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKAVw3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKAew3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAVw3TeAAAAA==" SegmentRef="MH63gPUqWDKAgw3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAew3TeAAAAA==" SegmentRef="MH63gPUqWDKALw3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKAPx3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKAQx3TeAAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="MH63gPUqWDKARx3TeAAAAA=="/>
+                    <air:TaxInfo Category="GB" Amount="BDT14310" Key="MH63gPUqWDKASx3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKATx3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT37194" Key="MH63gPUqWDKAUx3TeAAAAA=="/>
+                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="MH63gPUqWDKAVx3TeAAAAA=="/>
                     <air:FareCalc>BKK TG LON 2146.35YRMYYTG TG BKK 2146.35YRMYYTG NUC4292.70END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="ADT"/>
                     <air:ChangePenalty>
@@ -459,17 +459,17 @@
                         <air:Percentage>0.00</air:Percentage>
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
-                <air:AirPricingInfo Key="0rg3gPTqWDKA2k4ERAAAAA==" TotalPrice="BDT429412" BasePrice="THB106575" ApproximateTotalPrice="BDT429412" ApproximateBasePrice="BDT380449" EquivalentBasePrice="BDT380449" Taxes="BDT48963" ApproximateTaxes="BDT48963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAMk4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAUk4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAMk4ERAAAAA==" SegmentRef="0rg3gPTqWDKA+j4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAUk4ERAAAAA==" SegmentRef="0rg3gPTqWDKApj4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKA3k4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKA4k4ERAAAAA=="/>
-                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKA5k4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKA6k4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT37194" Key="0rg3gPTqWDKA7k4ERAAAAA=="/>
-                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="0rg3gPTqWDKA8k4ERAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKAYx3TeAAAAA==" TotalPrice="BDT429412" BasePrice="THB106575" ApproximateTotalPrice="BDT429412" ApproximateBasePrice="BDT380449" EquivalentBasePrice="BDT380449" Taxes="BDT48963" ApproximateTaxes="BDT48963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKAuw3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKA2w3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAuw3TeAAAAA==" SegmentRef="MH63gPUqWDKAgw3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA2w3TeAAAAA==" SegmentRef="MH63gPUqWDKALw3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKAZx3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKAax3TeAAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="MH63gPUqWDKAbx3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKAcx3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT37194" Key="MH63gPUqWDKAdx3TeAAAAA=="/>
+                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="MH63gPUqWDKAex3TeAAAAA=="/>
                     <air:FareCalc>BKK TG LON 1609.76YRMYYTG/CH TG BKK 1609.76YRMYYTG/CH NUC3219.52END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="CNN" Age="8"/>
                     <air:ChangePenalty>
@@ -479,16 +479,16 @@
                         <air:Percentage>0.00</air:Percentage>
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
-                <air:AirPricingInfo Key="0rg3gPTqWDKA/k4ERAAAAA==" TotalPrice="BDT63730" BasePrice="THB14210" ApproximateTotalPrice="BDT63730" ApproximateBasePrice="BDT50727" EquivalentBasePrice="BDT50727" Taxes="BDT13003" ApproximateTaxes="BDT13003" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAfk4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAmk4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAfk4ERAAAAA==" SegmentRef="0rg3gPTqWDKA+j4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAmk4ERAAAAA==" SegmentRef="0rg3gPTqWDKApj4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAAl4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKABl4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKACl4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT3840" Key="0rg3gPTqWDKADl4ERAAAAA=="/>
-                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="0rg3gPTqWDKAEl4ERAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKAhx3TeAAAAA==" TotalPrice="BDT63730" BasePrice="THB14210" ApproximateTotalPrice="BDT63730" ApproximateBasePrice="BDT50727" EquivalentBasePrice="BDT50727" Taxes="BDT13003" ApproximateTaxes="BDT13003" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKABx3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKAIx3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKABx3TeAAAAA==" SegmentRef="MH63gPUqWDKAgw3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAIx3TeAAAAA==" SegmentRef="MH63gPUqWDKALw3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKAix3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKAjx3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKAkx3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT3840" Key="MH63gPUqWDKAlx3TeAAAAA=="/>
+                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="MH63gPUqWDKAmx3TeAAAAA=="/>
                     <air:FareCalc>BKK TG LON 214.63YRMYYTG/IN TG BKK 214.64YRMYYTG/IN NUC429.27END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="INF" Age="1"/>
                     <air:ChangePenalty>
@@ -499,27 +499,27 @@
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
             </air:AirPricingSolution>
-            <air:AirPricingSolution Key="0rg3gPTqWDKAHl4ERAAAAA==" TotalPrice="BDT1063680" BasePrice="THB262885" ApproximateTotalPrice="BDT1063680" ApproximateBasePrice="BDT938441" EquivalentBasePrice="BDT938441" Taxes="BDT125239" ApproximateTaxes="BDT125239">
+            <air:AirPricingSolution Key="MH63gPUqWDKApx3TeAAAAA==" TotalPrice="BDT1063680" BasePrice="THB262885" ApproximateTotalPrice="BDT1063680" ApproximateBasePrice="BDT938441" EquivalentBasePrice="BDT938441" Taxes="BDT125239" ApproximateTaxes="BDT125239">
                 <air:Journey TravelTime="P0DT13H15M0S">
-                    <air:AirSegmentRef Key="0rg3gPTqWDKAnj4ERAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKAJw3TeAAAAA=="/>
                 </air:Journey>
                 <air:Journey TravelTime="P0DT11H25M0S">
-                    <air:AirSegmentRef Key="0rg3gPTqWDKABk4ERAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKAjw3TeAAAAA=="/>
                 </air:Journey>
-                <air:LegRef Key="0rg3gPTqWDKAfi4ERAAAAA=="/>
-                <air:LegRef Key="0rg3gPTqWDKAgi4ERAAAAA=="/>
-                <air:AirPricingInfo Key="0rg3gPTqWDKAIl4ERAAAAA==" TotalPrice="BDT570538" BasePrice="THB142100" ApproximateTotalPrice="BDT570538" ApproximateBasePrice="BDT507265" EquivalentBasePrice="BDT507265" Taxes="BDT63273" ApproximateTaxes="BDT63273" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAzj4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKA8j4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAzj4ERAAAAA==" SegmentRef="0rg3gPTqWDKAnj4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKA8j4ERAAAAA==" SegmentRef="0rg3gPTqWDKABk4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAJl4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAKl4ERAAAAA=="/>
-                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKALl4ERAAAAA=="/>
-                    <air:TaxInfo Category="GB" Amount="BDT14310" Key="0rg3gPTqWDKAMl4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKANl4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT37194" Key="0rg3gPTqWDKAOl4ERAAAAA=="/>
-                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="0rg3gPTqWDKAPl4ERAAAAA=="/>
+                <air:LegRef Key="MH63gPUqWDKABv3TeAAAAA=="/>
+                <air:LegRef Key="MH63gPUqWDKACv3TeAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKAqx3TeAAAAA==" TotalPrice="BDT570538" BasePrice="THB142100" ApproximateTotalPrice="BDT570538" ApproximateBasePrice="BDT507265" EquivalentBasePrice="BDT507265" Taxes="BDT63273" ApproximateTaxes="BDT63273" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKAVw3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKAew3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAVw3TeAAAAA==" SegmentRef="MH63gPUqWDKAJw3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAew3TeAAAAA==" SegmentRef="MH63gPUqWDKAjw3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKArx3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKAsx3TeAAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="MH63gPUqWDKAtx3TeAAAAA=="/>
+                    <air:TaxInfo Category="GB" Amount="BDT14310" Key="MH63gPUqWDKAux3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKAvx3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT37194" Key="MH63gPUqWDKAwx3TeAAAAA=="/>
+                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="MH63gPUqWDKAxx3TeAAAAA=="/>
                     <air:FareCalc>BKK TG LON 2146.35YRMYYTG TG BKK 2146.35YRMYYTG NUC4292.70END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="ADT"/>
                     <air:ChangePenalty>
@@ -529,17 +529,17 @@
                         <air:Percentage>0.00</air:Percentage>
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
-                <air:AirPricingInfo Key="0rg3gPTqWDKASl4ERAAAAA==" TotalPrice="BDT429412" BasePrice="THB106575" ApproximateTotalPrice="BDT429412" ApproximateBasePrice="BDT380449" EquivalentBasePrice="BDT380449" Taxes="BDT48963" ApproximateTaxes="BDT48963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAMk4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAUk4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAMk4ERAAAAA==" SegmentRef="0rg3gPTqWDKAnj4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAUk4ERAAAAA==" SegmentRef="0rg3gPTqWDKABk4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKATl4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAUl4ERAAAAA=="/>
-                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKAVl4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAWl4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT37194" Key="0rg3gPTqWDKAXl4ERAAAAA=="/>
-                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="0rg3gPTqWDKAYl4ERAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKA0x3TeAAAAA==" TotalPrice="BDT429412" BasePrice="THB106575" ApproximateTotalPrice="BDT429412" ApproximateBasePrice="BDT380449" EquivalentBasePrice="BDT380449" Taxes="BDT48963" ApproximateTaxes="BDT48963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKAuw3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKA2w3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAuw3TeAAAAA==" SegmentRef="MH63gPUqWDKAJw3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA2w3TeAAAAA==" SegmentRef="MH63gPUqWDKAjw3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKA1x3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKA2x3TeAAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="MH63gPUqWDKA3x3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKA4x3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT37194" Key="MH63gPUqWDKA5x3TeAAAAA=="/>
+                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="MH63gPUqWDKA6x3TeAAAAA=="/>
                     <air:FareCalc>BKK TG LON 1609.76YRMYYTG/CH TG BKK 1609.76YRMYYTG/CH NUC3219.52END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="CNN" Age="8"/>
                     <air:ChangePenalty>
@@ -549,16 +549,16 @@
                         <air:Percentage>0.00</air:Percentage>
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
-                <air:AirPricingInfo Key="0rg3gPTqWDKAbl4ERAAAAA==" TotalPrice="BDT63730" BasePrice="THB14210" ApproximateTotalPrice="BDT63730" ApproximateBasePrice="BDT50727" EquivalentBasePrice="BDT50727" Taxes="BDT13003" ApproximateTaxes="BDT13003" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAfk4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAmk4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAfk4ERAAAAA==" SegmentRef="0rg3gPTqWDKAnj4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAmk4ERAAAAA==" SegmentRef="0rg3gPTqWDKABk4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAcl4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAdl4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAel4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT3840" Key="0rg3gPTqWDKAfl4ERAAAAA=="/>
-                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="0rg3gPTqWDKAgl4ERAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKA9x3TeAAAAA==" TotalPrice="BDT63730" BasePrice="THB14210" ApproximateTotalPrice="BDT63730" ApproximateBasePrice="BDT50727" EquivalentBasePrice="BDT50727" Taxes="BDT13003" ApproximateTaxes="BDT13003" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKABx3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKAIx3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKABx3TeAAAAA==" SegmentRef="MH63gPUqWDKAJw3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAIx3TeAAAAA==" SegmentRef="MH63gPUqWDKAjw3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKA+x3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKA/x3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKAAy3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT3840" Key="MH63gPUqWDKABy3TeAAAAA=="/>
+                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="MH63gPUqWDKACy3TeAAAAA=="/>
                     <air:FareCalc>BKK TG LON 214.63YRMYYTG/IN TG BKK 214.64YRMYYTG/IN NUC429.27END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="INF" Age="1"/>
                     <air:ChangePenalty>
@@ -569,27 +569,27 @@
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
             </air:AirPricingSolution>
-            <air:AirPricingSolution Key="0rg3gPTqWDKAjl4ERAAAAA==" TotalPrice="BDT1063680" BasePrice="THB262885" ApproximateTotalPrice="BDT1063680" ApproximateBasePrice="BDT938441" EquivalentBasePrice="BDT938441" Taxes="BDT125239" ApproximateTaxes="BDT125239">
+            <air:AirPricingSolution Key="MH63gPUqWDKAFy3TeAAAAA==" TotalPrice="BDT1063680" BasePrice="THB262885" ApproximateTotalPrice="BDT1063680" ApproximateBasePrice="BDT938441" EquivalentBasePrice="BDT938441" Taxes="BDT125239" ApproximateTaxes="BDT125239">
                 <air:Journey TravelTime="P0DT13H35M0S">
-                    <air:AirSegmentRef Key="0rg3gPTqWDKA+j4ERAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKAgw3TeAAAAA=="/>
                 </air:Journey>
                 <air:Journey TravelTime="P0DT11H25M0S">
-                    <air:AirSegmentRef Key="0rg3gPTqWDKABk4ERAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKAjw3TeAAAAA=="/>
                 </air:Journey>
-                <air:LegRef Key="0rg3gPTqWDKAfi4ERAAAAA=="/>
-                <air:LegRef Key="0rg3gPTqWDKAgi4ERAAAAA=="/>
-                <air:AirPricingInfo Key="0rg3gPTqWDKA0j4ERAAAAA==" TotalPrice="BDT570538" BasePrice="THB142100" ApproximateTotalPrice="BDT570538" ApproximateBasePrice="BDT507265" EquivalentBasePrice="BDT507265" Taxes="BDT63273" ApproximateTaxes="BDT63273" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAzj4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKA8j4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAzj4ERAAAAA==" SegmentRef="0rg3gPTqWDKA+j4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKA8j4ERAAAAA==" SegmentRef="0rg3gPTqWDKABk4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKA1j4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKA2j4ERAAAAA=="/>
-                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKA3j4ERAAAAA=="/>
-                    <air:TaxInfo Category="GB" Amount="BDT14310" Key="0rg3gPTqWDKA4j4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKA5j4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT37194" Key="0rg3gPTqWDKA6j4ERAAAAA=="/>
-                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="0rg3gPTqWDKA7j4ERAAAAA=="/>
+                <air:LegRef Key="MH63gPUqWDKABv3TeAAAAA=="/>
+                <air:LegRef Key="MH63gPUqWDKACv3TeAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKAWw3TeAAAAA==" TotalPrice="BDT570538" BasePrice="THB142100" ApproximateTotalPrice="BDT570538" ApproximateBasePrice="BDT507265" EquivalentBasePrice="BDT507265" Taxes="BDT63273" ApproximateTaxes="BDT63273" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKAVw3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKAew3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAVw3TeAAAAA==" SegmentRef="MH63gPUqWDKAgw3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAew3TeAAAAA==" SegmentRef="MH63gPUqWDKAjw3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKAXw3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKAYw3TeAAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="MH63gPUqWDKAZw3TeAAAAA=="/>
+                    <air:TaxInfo Category="GB" Amount="BDT14310" Key="MH63gPUqWDKAaw3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKAbw3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT37194" Key="MH63gPUqWDKAcw3TeAAAAA=="/>
+                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="MH63gPUqWDKAdw3TeAAAAA=="/>
                     <air:FareCalc>BKK TG LON 2146.35YRMYYTG TG BKK 2146.35YRMYYTG NUC4292.70END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="ADT"/>
                     <air:ChangePenalty>
@@ -599,17 +599,17 @@
                         <air:Percentage>0.00</air:Percentage>
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
-                <air:AirPricingInfo Key="0rg3gPTqWDKANk4ERAAAAA==" TotalPrice="BDT429412" BasePrice="THB106575" ApproximateTotalPrice="BDT429412" ApproximateBasePrice="BDT380449" EquivalentBasePrice="BDT380449" Taxes="BDT48963" ApproximateTaxes="BDT48963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAMk4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAUk4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAMk4ERAAAAA==" SegmentRef="0rg3gPTqWDKA+j4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAUk4ERAAAAA==" SegmentRef="0rg3gPTqWDKABk4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAOk4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAPk4ERAAAAA=="/>
-                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKAQk4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKARk4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT37194" Key="0rg3gPTqWDKASk4ERAAAAA=="/>
-                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="0rg3gPTqWDKATk4ERAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKAvw3TeAAAAA==" TotalPrice="BDT429412" BasePrice="THB106575" ApproximateTotalPrice="BDT429412" ApproximateBasePrice="BDT380449" EquivalentBasePrice="BDT380449" Taxes="BDT48963" ApproximateTaxes="BDT48963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKAuw3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKA2w3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAuw3TeAAAAA==" SegmentRef="MH63gPUqWDKAgw3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA2w3TeAAAAA==" SegmentRef="MH63gPUqWDKAjw3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKAww3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKAxw3TeAAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="MH63gPUqWDKAyw3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKAzw3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT37194" Key="MH63gPUqWDKA0w3TeAAAAA=="/>
+                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="MH63gPUqWDKA1w3TeAAAAA=="/>
                     <air:FareCalc>BKK TG LON 1609.76YRMYYTG/CH TG BKK 1609.76YRMYYTG/CH NUC3219.52END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="CNN" Age="8"/>
                     <air:ChangePenalty>
@@ -619,16 +619,16 @@
                         <air:Percentage>0.00</air:Percentage>
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
-                <air:AirPricingInfo Key="0rg3gPTqWDKAgk4ERAAAAA==" TotalPrice="BDT63730" BasePrice="THB14210" ApproximateTotalPrice="BDT63730" ApproximateBasePrice="BDT50727" EquivalentBasePrice="BDT50727" Taxes="BDT13003" ApproximateTaxes="BDT13003" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAfk4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAmk4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAfk4ERAAAAA==" SegmentRef="0rg3gPTqWDKA+j4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAmk4ERAAAAA==" SegmentRef="0rg3gPTqWDKABk4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAhk4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAik4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAjk4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT3840" Key="0rg3gPTqWDKAkk4ERAAAAA=="/>
-                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="0rg3gPTqWDKAlk4ERAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKACx3TeAAAAA==" TotalPrice="BDT63730" BasePrice="THB14210" ApproximateTotalPrice="BDT63730" ApproximateBasePrice="BDT50727" EquivalentBasePrice="BDT50727" Taxes="BDT13003" ApproximateTaxes="BDT13003" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="TG" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="MH63gPUqWDKABx3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKAIx3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKABx3TeAAAAA==" SegmentRef="MH63gPUqWDKAgw3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAIx3TeAAAAA==" SegmentRef="MH63gPUqWDKAjw3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKADx3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKAEx3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKAFx3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT3840" Key="MH63gPUqWDKAGx3TeAAAAA=="/>
+                    <air:TaxInfo Category="YR" Amount="BDT1200" Key="MH63gPUqWDKAHx3TeAAAAA=="/>
                     <air:FareCalc>BKK TG LON 214.63YRMYYTG/IN TG BKK 214.64YRMYYTG/IN NUC429.27END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="INF" Age="1"/>
                     <air:ChangePenalty>
@@ -639,30 +639,30 @@
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
             </air:AirPricingSolution>
-            <air:AirPricingSolution Key="0rg3gPTqWDKAkl4ERAAAAA==" TotalPrice="BDT329921" BasePrice="THB50010" ApproximateTotalPrice="BDT329921" ApproximateBasePrice="BDT178526" EquivalentBasePrice="BDT178526" Taxes="BDT151395" ApproximateTaxes="BDT151395">
+            <air:AirPricingSolution Key="MH63gPUqWDKAGy3TeAAAAA==" TotalPrice="BDT329921" BasePrice="THB50010" ApproximateTotalPrice="BDT329921" ApproximateBasePrice="BDT178526" EquivalentBasePrice="BDT178526" Taxes="BDT151395" ApproximateTaxes="BDT151395">
                 <air:Journey TravelTime="P0DT17H10M0S">
-                    <air:AirSegmentRef Key="0rg3gPTqWDKAXi4ERAAAAA=="/>
-                    <air:AirSegmentRef Key="0rg3gPTqWDKAZi4ERAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKA5u3TeAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKA7u3TeAAAAA=="/>
                 </air:Journey>
                 <air:Journey TravelTime="P1DT2H40M0S">
-                    <air:AirSegmentRef Key="0rg3gPTqWDKAbi4ERAAAAA=="/>
-                    <air:AirSegmentRef Key="0rg3gPTqWDKAdi4ERAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKA9u3TeAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKA/u3TeAAAAA=="/>
                 </air:Journey>
-                <air:LegRef Key="0rg3gPTqWDKAfi4ERAAAAA=="/>
-                <air:LegRef Key="0rg3gPTqWDKAgi4ERAAAAA=="/>
-                <air:AirPricingInfo Key="0rg3gPTqWDKAll4ERAAAAA==" TotalPrice="BDT175362" BasePrice="THB27030" ApproximateTotalPrice="BDT175362" ApproximateBasePrice="BDT96491" EquivalentBasePrice="BDT96491" Taxes="BDT78871" ApproximateTaxes="BDT78871" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" PlatingCarrier="UL" ProviderCode="1G">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAsl4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKA0l4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAsl4ERAAAAA==" SegmentRef="0rg3gPTqWDKAXi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAsl4ERAAAAA==" SegmentRef="0rg3gPTqWDKAZi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKA0l4ERAAAAA==" SegmentRef="0rg3gPTqWDKAbi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKA0l4ERAAAAA==" SegmentRef="0rg3gPTqWDKAdi4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAml4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAnl4ERAAAAA=="/>
-                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKAol4ERAAAAA=="/>
-                    <air:TaxInfo Category="GB" Amount="BDT14310" Key="0rg3gPTqWDKApl4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAql4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT53992" Key="0rg3gPTqWDKArl4ERAAAAA=="/>
+                <air:LegRef Key="MH63gPUqWDKABv3TeAAAAA=="/>
+                <air:LegRef Key="MH63gPUqWDKACv3TeAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKAHy3TeAAAAA==" TotalPrice="BDT175362" BasePrice="THB27030" ApproximateTotalPrice="BDT175362" ApproximateBasePrice="BDT96491" EquivalentBasePrice="BDT96491" Taxes="BDT78871" ApproximateTaxes="BDT78871" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" PlatingCarrier="UL" ProviderCode="1G">
+                    <air:FareInfoRef Key="MH63gPUqWDKAOy3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKAWy3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAOy3TeAAAAA==" SegmentRef="MH63gPUqWDKA5u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAOy3TeAAAAA==" SegmentRef="MH63gPUqWDKA7u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAWy3TeAAAAA==" SegmentRef="MH63gPUqWDKA9u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAWy3TeAAAAA==" SegmentRef="MH63gPUqWDKA/u3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKAIy3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKAJy3TeAAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="MH63gPUqWDKAKy3TeAAAAA=="/>
+                    <air:TaxInfo Category="GB" Amount="BDT14310" Key="MH63gPUqWDKALy3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKAMy3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT53992" Key="MH63gPUqWDKANy3TeAAAAA=="/>
                     <air:FareCalc>BKK UL X/CMB UL LON 408.27ERTTH UL X/CMB UL BKK 408.28ERTTH NUC816.55END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="ADT"/>
                     <air:ChangePenalty PenaltyApplies="Anytime">
@@ -672,18 +672,18 @@
                         <air:Amount>BDT10352</air:Amount>
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
-                <air:AirPricingInfo Key="0rg3gPTqWDKA9l4ERAAAAA==" TotalPrice="BDT136939" BasePrice="THB20275" ApproximateTotalPrice="BDT136939" ApproximateBasePrice="BDT72378" EquivalentBasePrice="BDT72378" Taxes="BDT64561" ApproximateTaxes="BDT64561" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" PlatingCarrier="UL" ProviderCode="1G">
-                    <air:FareInfoRef Key="0rg3gPTqWDKADm4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAKm4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKADm4ERAAAAA==" SegmentRef="0rg3gPTqWDKAXi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKADm4ERAAAAA==" SegmentRef="0rg3gPTqWDKAZi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAKm4ERAAAAA==" SegmentRef="0rg3gPTqWDKAbi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAKm4ERAAAAA==" SegmentRef="0rg3gPTqWDKAdi4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKA+l4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKA/l4ERAAAAA=="/>
-                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKAAm4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKABm4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT53992" Key="0rg3gPTqWDKACm4ERAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKAfy3TeAAAAA==" TotalPrice="BDT136939" BasePrice="THB20275" ApproximateTotalPrice="BDT136939" ApproximateBasePrice="BDT72378" EquivalentBasePrice="BDT72378" Taxes="BDT64561" ApproximateTaxes="BDT64561" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" PlatingCarrier="UL" ProviderCode="1G">
+                    <air:FareInfoRef Key="MH63gPUqWDKAly3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKAsy3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAly3TeAAAAA==" SegmentRef="MH63gPUqWDKA5u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAly3TeAAAAA==" SegmentRef="MH63gPUqWDKA7u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAsy3TeAAAAA==" SegmentRef="MH63gPUqWDKA9u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAsy3TeAAAAA==" SegmentRef="MH63gPUqWDKA/u3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKAgy3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKAhy3TeAAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="MH63gPUqWDKAiy3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKAjy3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT53992" Key="MH63gPUqWDKAky3TeAAAAA=="/>
                     <air:FareCalc>BKK UL X/CMB UL LON 306.20ERTTHCH75 UL X/CMB UL BKK 306.21ERTTHCH75 NUC612.41END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="CNN" Age="8"/>
                     <air:ChangePenalty PenaltyApplies="Anytime">
@@ -693,16 +693,16 @@
                         <air:Amount>BDT10352</air:Amount>
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
-                <air:AirPricingInfo Key="0rg3gPTqWDKATm4ERAAAAA==" TotalPrice="BDT17620" BasePrice="THB2705" ApproximateTotalPrice="BDT17620" ApproximateBasePrice="BDT9657" EquivalentBasePrice="BDT9657" Taxes="BDT7963" ApproximateTaxes="BDT7963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" PlatingCarrier="UL" ProviderCode="1G">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAXm4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAcm4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAXm4ERAAAAA==" SegmentRef="0rg3gPTqWDKAXi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAXm4ERAAAAA==" SegmentRef="0rg3gPTqWDKAZi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAcm4ERAAAAA==" SegmentRef="0rg3gPTqWDKAbi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAcm4ERAAAAA==" SegmentRef="0rg3gPTqWDKAdi4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAUm4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAVm4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAWm4ERAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKA1y3TeAAAAA==" TotalPrice="BDT17620" BasePrice="THB2705" ApproximateTotalPrice="BDT17620" ApproximateBasePrice="BDT9657" EquivalentBasePrice="BDT9657" Taxes="BDT7963" ApproximateTaxes="BDT7963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" PlatingCarrier="UL" ProviderCode="1G">
+                    <air:FareInfoRef Key="MH63gPUqWDKA5y3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKA+y3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA5y3TeAAAAA==" SegmentRef="MH63gPUqWDKA5u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA5y3TeAAAAA==" SegmentRef="MH63gPUqWDKA7u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA+y3TeAAAAA==" SegmentRef="MH63gPUqWDKA9u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA+y3TeAAAAA==" SegmentRef="MH63gPUqWDKA/u3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKA2y3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKA3y3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKA4y3TeAAAAA=="/>
                     <air:FareCalc>BKK UL X/CMB UL LON 40.82ERTTHIN10 UL X/CMB UL BKK 40.83ERTTHIN10 NUC81.65END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="INF" Age="1"/>
                     <air:ChangePenalty PenaltyApplies="Anytime">
@@ -715,30 +715,30 @@
                 <air:Connection SegmentIndex="0"/>
                 <air:Connection SegmentIndex="2"/>
             </air:AirPricingSolution>
-            <air:AirPricingSolution Key="0rg3gPTqWDKAlm4ERAAAAA==" TotalPrice="BDT329921" BasePrice="THB50010" ApproximateTotalPrice="BDT329921" ApproximateBasePrice="BDT178526" EquivalentBasePrice="BDT178526" Taxes="BDT151395" ApproximateTaxes="BDT151395">
+            <air:AirPricingSolution Key="MH63gPUqWDKAHz3TeAAAAA==" TotalPrice="BDT329921" BasePrice="THB50010" ApproximateTotalPrice="BDT329921" ApproximateBasePrice="BDT178526" EquivalentBasePrice="BDT178526" Taxes="BDT151395" ApproximateTaxes="BDT151395">
                 <air:Journey TravelTime="P1DT12H15M0S">
-                    <air:AirSegmentRef Key="0rg3gPTqWDKAyi4ERAAAAA=="/>
-                    <air:AirSegmentRef Key="0rg3gPTqWDKA1i4ERAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKAUv3TeAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKAXv3TeAAAAA=="/>
                 </air:Journey>
                 <air:Journey TravelTime="P1DT2H40M0S">
-                    <air:AirSegmentRef Key="0rg3gPTqWDKAbi4ERAAAAA=="/>
-                    <air:AirSegmentRef Key="0rg3gPTqWDKAdi4ERAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKA9u3TeAAAAA=="/>
+                    <air:AirSegmentRef Key="MH63gPUqWDKA/u3TeAAAAA=="/>
                 </air:Journey>
-                <air:LegRef Key="0rg3gPTqWDKAfi4ERAAAAA=="/>
-                <air:LegRef Key="0rg3gPTqWDKAgi4ERAAAAA=="/>
-                <air:AirPricingInfo Key="0rg3gPTqWDKAtl4ERAAAAA==" TotalPrice="BDT175362" BasePrice="THB27030" ApproximateTotalPrice="BDT175362" ApproximateBasePrice="BDT96491" EquivalentBasePrice="BDT96491" Taxes="BDT78871" ApproximateTaxes="BDT78871" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" PlatingCarrier="UL" ProviderCode="1G">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAsl4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKA0l4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAsl4ERAAAAA==" SegmentRef="0rg3gPTqWDKAyi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAsl4ERAAAAA==" SegmentRef="0rg3gPTqWDKA1i4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKA0l4ERAAAAA==" SegmentRef="0rg3gPTqWDKAbi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKA0l4ERAAAAA==" SegmentRef="0rg3gPTqWDKAdi4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAul4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAvl4ERAAAAA=="/>
-                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKAwl4ERAAAAA=="/>
-                    <air:TaxInfo Category="GB" Amount="BDT14310" Key="0rg3gPTqWDKAxl4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAyl4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT53992" Key="0rg3gPTqWDKAzl4ERAAAAA=="/>
+                <air:LegRef Key="MH63gPUqWDKABv3TeAAAAA=="/>
+                <air:LegRef Key="MH63gPUqWDKACv3TeAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKAPy3TeAAAAA==" TotalPrice="BDT175362" BasePrice="THB27030" ApproximateTotalPrice="BDT175362" ApproximateBasePrice="BDT96491" EquivalentBasePrice="BDT96491" Taxes="BDT78871" ApproximateTaxes="BDT78871" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" PlatingCarrier="UL" ProviderCode="1G">
+                    <air:FareInfoRef Key="MH63gPUqWDKAOy3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKAWy3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAOy3TeAAAAA==" SegmentRef="MH63gPUqWDKAUv3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAOy3TeAAAAA==" SegmentRef="MH63gPUqWDKAXv3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAWy3TeAAAAA==" SegmentRef="MH63gPUqWDKA9u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAWy3TeAAAAA==" SegmentRef="MH63gPUqWDKA/u3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKAQy3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKARy3TeAAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="MH63gPUqWDKASy3TeAAAAA=="/>
+                    <air:TaxInfo Category="GB" Amount="BDT14310" Key="MH63gPUqWDKATy3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKAUy3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT53992" Key="MH63gPUqWDKAVy3TeAAAAA=="/>
                     <air:FareCalc>BKK UL X/CMB UL LON 408.27ERTTH UL X/CMB UL BKK 408.28ERTTH NUC816.55END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="ADT"/>
                     <air:ChangePenalty PenaltyApplies="Anytime">
@@ -748,18 +748,18 @@
                         <air:Amount>BDT10352</air:Amount>
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
-                <air:AirPricingInfo Key="0rg3gPTqWDKAEm4ERAAAAA==" TotalPrice="BDT136939" BasePrice="THB20275" ApproximateTotalPrice="BDT136939" ApproximateBasePrice="BDT72378" EquivalentBasePrice="BDT72378" Taxes="BDT64561" ApproximateTaxes="BDT64561" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" PlatingCarrier="UL" ProviderCode="1G">
-                    <air:FareInfoRef Key="0rg3gPTqWDKADm4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAKm4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKADm4ERAAAAA==" SegmentRef="0rg3gPTqWDKAyi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKADm4ERAAAAA==" SegmentRef="0rg3gPTqWDKA1i4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAKm4ERAAAAA==" SegmentRef="0rg3gPTqWDKAbi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAKm4ERAAAAA==" SegmentRef="0rg3gPTqWDKAdi4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAFm4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAGm4ERAAAAA=="/>
-                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKAHm4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAIm4ERAAAAA=="/>
-                    <air:TaxInfo Category="YQ" Amount="BDT53992" Key="0rg3gPTqWDKAJm4ERAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKAmy3TeAAAAA==" TotalPrice="BDT136939" BasePrice="THB20275" ApproximateTotalPrice="BDT136939" ApproximateBasePrice="BDT72378" EquivalentBasePrice="BDT72378" Taxes="BDT64561" ApproximateTaxes="BDT64561" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" PlatingCarrier="UL" ProviderCode="1G">
+                    <air:FareInfoRef Key="MH63gPUqWDKAly3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKAsy3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAly3TeAAAAA==" SegmentRef="MH63gPUqWDKAUv3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAly3TeAAAAA==" SegmentRef="MH63gPUqWDKAXv3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAsy3TeAAAAA==" SegmentRef="MH63gPUqWDKA9u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAsy3TeAAAAA==" SegmentRef="MH63gPUqWDKA/u3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKAny3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKAoy3TeAAAAA=="/>
+                    <air:TaxInfo Category="TS" Amount="BDT2606" Key="MH63gPUqWDKApy3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKAqy3TeAAAAA=="/>
+                    <air:TaxInfo Category="YQ" Amount="BDT53992" Key="MH63gPUqWDKAry3TeAAAAA=="/>
                     <air:FareCalc>BKK UL X/CMB UL LON 306.20ERTTHCH75 UL X/CMB UL BKK 306.21ERTTHCH75 NUC612.41END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="CNN" Age="8"/>
                     <air:ChangePenalty PenaltyApplies="Anytime">
@@ -769,16 +769,16 @@
                         <air:Amount>BDT10352</air:Amount>
                     </air:CancelPenalty>
                 </air:AirPricingInfo>
-                <air:AirPricingInfo Key="0rg3gPTqWDKAYm4ERAAAAA==" TotalPrice="BDT17620" BasePrice="THB2705" ApproximateTotalPrice="BDT17620" ApproximateBasePrice="BDT9657" EquivalentBasePrice="BDT9657" Taxes="BDT7963" ApproximateTaxes="BDT7963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" PlatingCarrier="UL" ProviderCode="1G">
-                    <air:FareInfoRef Key="0rg3gPTqWDKAXm4ERAAAAA=="/>
-                    <air:FareInfoRef Key="0rg3gPTqWDKAcm4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAXm4ERAAAAA==" SegmentRef="0rg3gPTqWDKAyi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAXm4ERAAAAA==" SegmentRef="0rg3gPTqWDKA1i4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAcm4ERAAAAA==" SegmentRef="0rg3gPTqWDKAbi4ERAAAAA=="/>
-                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAcm4ERAAAAA==" SegmentRef="0rg3gPTqWDKAdi4ERAAAAA=="/>
-                    <air:TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAZm4ERAAAAA=="/>
-                    <air:TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAam4ERAAAAA=="/>
-                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAbm4ERAAAAA=="/>
+                <air:AirPricingInfo Key="MH63gPUqWDKA6y3TeAAAAA==" TotalPrice="BDT17620" BasePrice="THB2705" ApproximateTotalPrice="BDT17620" ApproximateBasePrice="BDT9657" EquivalentBasePrice="BDT9657" Taxes="BDT7963" ApproximateTaxes="BDT7963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" PlatingCarrier="UL" ProviderCode="1G">
+                    <air:FareInfoRef Key="MH63gPUqWDKA5y3TeAAAAA=="/>
+                    <air:FareInfoRef Key="MH63gPUqWDKA+y3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA5y3TeAAAAA==" SegmentRef="MH63gPUqWDKAUv3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA5y3TeAAAAA==" SegmentRef="MH63gPUqWDKAXv3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA+y3TeAAAAA==" SegmentRef="MH63gPUqWDKA9u3TeAAAAA=="/>
+                    <air:BookingInfo BookingCode="E" BookingCount="9" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA+y3TeAAAAA==" SegmentRef="MH63gPUqWDKA/u3TeAAAAA=="/>
+                    <air:TaxInfo Category="E7" Amount="BDT250" Key="MH63gPUqWDKA7y3TeAAAAA=="/>
+                    <air:TaxInfo Category="G8" Amount="BDT108" Key="MH63gPUqWDKA8y3TeAAAAA=="/>
+                    <air:TaxInfo Category="UB" Amount="BDT7605" Key="MH63gPUqWDKA9y3TeAAAAA=="/>
                     <air:FareCalc>BKK UL X/CMB UL LON 40.82ERTTHIN10 UL X/CMB UL BKK 40.83ERTTHIN10 NUC81.65END ROE33.10266</air:FareCalc>
                     <air:PassengerType Code="INF" Age="1"/>
                     <air:ChangePenalty PenaltyApplies="Anytime">
@@ -792,7 +792,7 @@
                 <air:Connection SegmentIndex="2"/>
             </air:AirPricingSolution>
             <air:BrandList>
-                <air:Brand Key="0rg3gPTqWDKAMn4ERAAAAA==" BrandID="1308418" Name="Economy Semi Flex" BrandedDetailsAvailable="true" Carrier="UL">
+                <air:Brand Key="MH63gPUqWDKAuz3TeAAAAA==" BrandID="1308418" Name="Economy Semi Flex" BrandedDetailsAvailable="true" Carrier="UL">
                     <air:Title Type="External" LanguageCode="EN">Econ Semi Flex</air:Title>
                     <air:Title Type="Short" LanguageCode="EN">Econ Semi</air:Title>
                     <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Semi Flex includes:
@@ -809,7 +809,7 @@ Please refer to fare rules for full conditions</air:Text>
                     <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/srilankanairlines/UL_general_small_537361.jpg</air:ImageLocation>
                     <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/srilankanairlines/UL_general_small_537462.jpg</air:ImageLocation>
                 </air:Brand>
-                <air:Brand Key="0rg3gPTqWDKAOn4ERAAAAA==" BrandID="1308417" Name="Economy Value" BrandedDetailsAvailable="true" Carrier="UL">
+                <air:Brand Key="MH63gPUqWDKAwz3TeAAAAA==" BrandID="1308417" Name="Economy Value" BrandedDetailsAvailable="true" Carrier="UL">
                     <air:Title Type="External" LanguageCode="EN">Econ Value</air:Title>
                     <air:Title Type="Short" LanguageCode="EN">Econ Value</air:Title>
                     <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Value includes:

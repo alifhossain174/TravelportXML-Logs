@@ -14,7 +14,7 @@
                 <BookingTravelerName Prefix="MR" First="Fahim" Last="Hossain" />
                 <PhoneNumber Number="01969005035" />
                 <Email Type="Home" EmailID="alifhossain@gmail.com" />
-                <SSR SegmentRef="uLJ5gPSqWDKAr1SJRAAAAA==" Type="DOCS"
+                <SSR SegmentRef="0rg3gPTqWDKA+osXeAAAAA==" Type="DOCS"
                     FreeText="P/BD/BK0277878/BD/10Dec98/M/01Jan28/Fahim/Hossain" Carrier="UL" />
                 <SSR Type="CTCM" Status="HK" FreeText="01969005035" Carrier="UL" />
                 <SSR Type="CTCE" Status="HK" FreeText="alifhossain//gmail.com" Carrier="UL" />
@@ -24,7 +24,7 @@
                 Key="gr8AVWGCR064r57Jt0+8bA==1" TravelerType="CNN" Age="11" DOB="2015-06-12"
                 Gender="M" Nationality="BD">
                 <BookingTravelerName Prefix="MSTR" First="AHMAD" Last="WAFEE" />
-                <SSR SegmentRef="uLJ5gPSqWDKAr1SJRAAAAA==" Type="DOCS"
+                <SSR SegmentRef="0rg3gPTqWDKA+osXeAAAAA==" Type="DOCS"
                     FreeText="P/BD/AA8569325/BD/12Jun15/M/01Jan26/WAFEE/AHMAD" Carrier="UL" />
                 <NameRemark>
                     <RemarkData>P-C11 DOB12Jun15</RemarkData>
@@ -35,7 +35,7 @@
                 Key="gr8AVWGCR064r57Jt0+8bA==2" TravelerType="INF" Age="1" DOB="2023-11-13"
                 Gender="M" Nationality="BD">
                 <BookingTravelerName Prefix="MSTR" First="AHMAD" Last="NAFEE" />
-                <SSR SegmentRef="uLJ5gPSqWDKAr1SJRAAAAA==" Type="DOCS"
+                <SSR SegmentRef="0rg3gPTqWDKA+osXeAAAAA==" Type="DOCS"
                     FreeText="P/BD/AA5236987/BD/13Nov23/MI/02Mar26/NAFEE/AHMAD" Carrier="UL" />
                 <NameRemark>
                     <RemarkData>13Nov23</RemarkData>
@@ -47,132 +47,63 @@
                 IsAgentType="true" />
 
             <AirPricingSolution xmlns="http://www.travelport.com/schema/air_v52_0"
-                Key="uLJ5gPSqWDKAz1SJRAAAAA==" TotalPrice="BDT248744" BasePrice="THB27270"
-                ApproximateTotalPrice="BDT248744" ApproximateBasePrice="BDT97349"
-                EquivalentBasePrice="BDT97349" Taxes="BDT151395" Fees="BDT0"
-                ApproximateTaxes="BDT151395" QuoteDate="2024-12-29">
+                Key="0rg3gPTqWDKAGpsXeAAAAA==" TotalPrice="BDT248744" BasePrice="THB27270" ApproximateTotalPrice="BDT248744" ApproximateBasePrice="BDT97349" EquivalentBasePrice="BDT97349" Taxes="BDT151395" Fees="BDT0" ApproximateTaxes="BDT151395" QuoteDate="2025-01-04">
 
-
-                <AirSegment Key="uLJ5gPSqWDKAr1SJRAAAAA==" Group="0" Carrier="UL"
-                    FlightNumber="403" ProviderCode="1G" Origin="BKK" Destination="CMB"
-                    DepartureTime="2025-01-20T09:00:00.000+07:00"
-                    ArrivalTime="2025-01-20T11:00:00.000+05:30" FlightTime="210" TravelTime="210"
-                    Distance="1485" ClassOfService="S" Equipment="320" ChangeOfPlane="false"
-                    OptionalServicesIndicator="false" AvailabilitySource="S"
-                    ParticipantLevel="Secure Sell" LinkAvailability="true"
-                    PolledAvailabilityOption="O and D cache or polled status used with different local status"
-                    AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                <AirSegment Key="0rg3gPTqWDKA+osXeAAAAA==" Group="0" Carrier="UL" FlightNumber="403" ProviderCode="1G" Origin="BKK" Destination="CMB" DepartureTime="2025-01-20T09:00:00.000+07:00" ArrivalTime="2025-01-20T11:00:00.000+05:30" FlightTime="210" TravelTime="210" Distance="1485" ClassOfService="S" Equipment="320" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
                     <CodeshareInfo OperatingCarrier="UL">SRILANKAN AIRLINES</CodeshareInfo>
-                    <AirAvailInfo ProviderCode="1G" />
-                    <FlightDetails Key="uLJ5gPSqWDKAs1SJRAAAAA==" Origin="BKK" Destination="CMB"
-                        DepartureTime="2025-01-20T09:00:00.000+07:00"
-                        ArrivalTime="2025-01-20T11:00:00.000+05:30" FlightTime="210"
-                        TravelTime="210">
+                    <AirAvailInfo ProviderCode="1G"/>
+                    <FlightDetails Key="0rg3gPTqWDKA/osXeAAAAA==" Origin="BKK" Destination="CMB" DepartureTime="2025-01-20T09:00:00.000+07:00" ArrivalTime="2025-01-20T11:00:00.000+05:30" FlightTime="210" TravelTime="210">
                     </FlightDetails>
-                    <Connection />
+                    <Connection/>
                 </AirSegment>
-                <AirSegment Key="uLJ5gPSqWDKAt1SJRAAAAA==" Group="0" Carrier="UL"
-                    FlightNumber="503" ProviderCode="1G" Origin="CMB" Destination="LHR"
-                    DepartureTime="2025-01-20T12:50:00.000+05:30"
-                    ArrivalTime="2025-01-20T19:10:00.000+00:00" FlightTime="710" TravelTime="710"
-                    Distance="5403" ClassOfService="S" Equipment="333" ChangeOfPlane="false"
-                    OptionalServicesIndicator="false" AvailabilitySource="S"
-                    ParticipantLevel="Secure Sell" LinkAvailability="true"
-                    PolledAvailabilityOption="O and D cache or polled status used with different local status"
-                    AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                <AirSegment Key="0rg3gPTqWDKAApsXeAAAAA==" Group="0" Carrier="UL" FlightNumber="503" ProviderCode="1G" Origin="CMB" Destination="LHR" DepartureTime="2025-01-20T12:50:00.000+05:30" ArrivalTime="2025-01-20T19:10:00.000+00:00" FlightTime="710" TravelTime="710" Distance="5403" ClassOfService="S" Equipment="333" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
                     <CodeshareInfo OperatingCarrier="UL">SRILANKAN AIRLINES</CodeshareInfo>
-                    <AirAvailInfo ProviderCode="1G" />
-                    <FlightDetails Key="uLJ5gPSqWDKAu1SJRAAAAA==" Origin="CMB" Destination="LHR"
-                        DepartureTime="2025-01-20T12:50:00.000+05:30"
-                        ArrivalTime="2025-01-20T19:10:00.000+00:00" FlightTime="710"
-                        TravelTime="710">
+                    <AirAvailInfo ProviderCode="1G"/>
+                    <FlightDetails Key="0rg3gPTqWDKABpsXeAAAAA==" Origin="CMB" Destination="LHR" DepartureTime="2025-01-20T12:50:00.000+05:30" ArrivalTime="2025-01-20T19:10:00.000+00:00" FlightTime="710" TravelTime="710">
                     </FlightDetails>
                 </AirSegment>
-                <AirSegment Key="uLJ5gPSqWDKAv1SJRAAAAA==" Group="1" Carrier="UL"
-                    FlightNumber="504" ProviderCode="1G" Origin="LHR" Destination="CMB"
-                    DepartureTime="2025-01-24T20:40:00.000+00:00"
-                    ArrivalTime="2025-01-25T12:30:00.000+05:30" FlightTime="620" TravelTime="620"
-                    Distance="5403" ClassOfService="S" Equipment="333" ChangeOfPlane="false"
-                    OptionalServicesIndicator="false" AvailabilitySource="S"
-                    ParticipantLevel="Secure Sell" LinkAvailability="true"
-                    PolledAvailabilityOption="O and D cache or polled status used with different local status"
-                    AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                <AirSegment Key="0rg3gPTqWDKACpsXeAAAAA==" Group="1" Carrier="UL" FlightNumber="504" ProviderCode="1G" Origin="LHR" Destination="CMB" DepartureTime="2025-01-24T20:40:00.000+00:00" ArrivalTime="2025-01-25T12:30:00.000+05:30" FlightTime="620" TravelTime="620" Distance="5403" ClassOfService="S" Equipment="333" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
                     <CodeshareInfo OperatingCarrier="UL">SRILANKAN AIRLINES</CodeshareInfo>
-                    <AirAvailInfo ProviderCode="1G" />
-                    <FlightDetails Key="uLJ5gPSqWDKAw1SJRAAAAA==" Origin="LHR" Destination="CMB"
-                        DepartureTime="2025-01-24T20:40:00.000+00:00"
-                        ArrivalTime="2025-01-25T12:30:00.000+05:30" FlightTime="620"
-                        TravelTime="620">
+                    <AirAvailInfo ProviderCode="1G"/>
+                    <FlightDetails Key="0rg3gPTqWDKADpsXeAAAAA==" Origin="LHR" Destination="CMB" DepartureTime="2025-01-24T20:40:00.000+00:00" ArrivalTime="2025-01-25T12:30:00.000+05:30" FlightTime="620" TravelTime="620">
                     </FlightDetails>
-                    <Connection />
+                    <Connection/>
                 </AirSegment>
-                <AirSegment Key="uLJ5gPSqWDKAx1SJRAAAAA==" Group="1" Carrier="UL"
-                    FlightNumber="402" ProviderCode="1G" Origin="CMB" Destination="BKK"
-                    DepartureTime="2025-01-26T01:15:00.000+05:30"
-                    ArrivalTime="2025-01-26T06:20:00.000+07:00" FlightTime="215" TravelTime="215"
-                    Distance="1485" ClassOfService="S" Equipment="320" ChangeOfPlane="false"
-                    OptionalServicesIndicator="false" AvailabilitySource="S"
-                    ParticipantLevel="Secure Sell" LinkAvailability="true"
-                    PolledAvailabilityOption="O and D cache or polled status used with different local status"
-                    AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                <AirSegment Key="0rg3gPTqWDKAEpsXeAAAAA==" Group="1" Carrier="UL" FlightNumber="402" ProviderCode="1G" Origin="CMB" Destination="BKK" DepartureTime="2025-01-26T01:15:00.000+05:30" ArrivalTime="2025-01-26T06:20:00.000+07:00" FlightTime="215" TravelTime="215" Distance="1485" ClassOfService="S" Equipment="320" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
                     <CodeshareInfo OperatingCarrier="UL">SRILANKAN AIRLINES</CodeshareInfo>
-                    <AirAvailInfo ProviderCode="1G" />
-                    <FlightDetails Key="uLJ5gPSqWDKAy1SJRAAAAA==" Origin="CMB" Destination="BKK"
-                        DepartureTime="2025-01-26T01:15:00.000+05:30"
-                        ArrivalTime="2025-01-26T06:20:00.000+07:00" FlightTime="215"
-                        TravelTime="215">
+                    <AirAvailInfo ProviderCode="1G"/>
+                    <FlightDetails Key="0rg3gPTqWDKAFpsXeAAAAA==" Origin="CMB" Destination="BKK" DepartureTime="2025-01-26T01:15:00.000+05:30" ArrivalTime="2025-01-26T06:20:00.000+07:00" FlightTime="215" TravelTime="215">
                     </FlightDetails>
                 </AirSegment>
 
 
-                <AirPricingInfo Key="uLJ5gPSqWDKA61SJRAAAAA==" TotalPrice="BDT131490" BasePrice="THB14740" ApproximateTotalPrice="BDT131490"
-                    ApproximateBasePrice="BDT52619" EquivalentBasePrice="BDT52619" ApproximateTaxes="BDT78871" Taxes="BDT78871"
-                    LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
-                    <FareInfo Key="uLJ5gPSqWDKAB2SJRAAAAA==" FareBasis="SRTTH" PassengerTypeCode="ADT" Origin="BKK" Destination="LHR"
-                        EffectiveDate="2024-12-29T13:55:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT26310" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20" TaxAmount="BDT29781.00">
-                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON UL ONLY" />
-                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="CHANGE FEE MAY APPLY" />
-                        <FareRuleKey FareInfoRef="uLJ5gPSqWDKAB2SJRAAAAA==" ProviderCode="1G">
-                            6UUVoSldxwjZsJLjVcaTasbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxBgpKGYh5CixWa1uaqI55k3aSkvhp2ybQpxyggGKz0b0sZLfR5PU6nAyGqh8JIaqCCyQd5VB2yHZ8OegBABiICg7ZpRYsiiaDvQIlbeGa6Ahf6E18cRejF6+WRr8tqYPBIQ9y8dNcvmDKkyxeVMLVxW8vSBNa8ZUmwC02UUzMsnhMzrhOa9evWnUmOJFoDQT1Mcj9He2m1Fv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHzQapDbCAMr/TUGWlPDKj6v0aMBFljDuP9NE5OQYAbQxQjNcRVuhMk5FdIhjv34L89wXtO9a1rEPZ33HZfhum1A=</FareRuleKey>
-                        <Brand Key="uLJ5gPSqWDKAB2SJRAAAAA==" BrandID="1308417"
-                            UpSellBrandID="1308418" Name="Economy Value" Carrier="UL"
-                            BrandTier="0004">
+
+                <AirPricingInfo Key="0rg3gPTqWDKANpsXeAAAAA==" TotalPrice="BDT131490" BasePrice="THB14740" ApproximateTotalPrice="BDT131490" ApproximateBasePrice="BDT52619" EquivalentBasePrice="BDT52619" ApproximateTaxes="BDT78871" Taxes="BDT78871" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                    <FareInfo Key="0rg3gPTqWDKAUpsXeAAAAA==" FareBasis="SRTTH" PassengerTypeCode="ADT" Origin="BKK" Destination="LHR" EffectiveDate="2025-01-04T19:02:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT26310" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20" TaxAmount="BDT29781.00">
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON UL ONLY"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="CHANGE FEE MAY APPLY"/>
+                        <FareRuleKey FareInfoRef="0rg3gPTqWDKAUpsXeAAAAA==" ProviderCode="1G">6UUVoSldxwh7qc9OvGH3A8bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxBgpKGYh5CixWa1uaqI55k3aSkvhp2ybQpxyggGKz0b0sZLfR5PU6nAyGqh8JIaqCCyQd5VB2yHZ8OegBABiICg7ZpRYsiiaDvQIlbeGa6Ahf6E18cRejF6+WRr8tqYPBIQ9y8dNcvmDKkyxeVMLVxW8vSBNa8ZUmwC02UUzMsnhMzrhOa9evWnUmOJFoDQT1Mcj9He2m1Fv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHzQapDbCAMr/TUGWlPDKj6v0aMBFljDuP9NE5OQYAbQxQjNcRVuhMk5FdIhjv34L89wXtO9a1rEPZ33HZfhum1A=</FareRuleKey>
+                        <Brand Key="0rg3gPTqWDKAUpsXeAAAAA==" BrandID="1308417" UpSellBrandID="1308418" Name="Economy Value" Carrier="UL" BrandTier="0004">
                         </Brand>
                     </FareInfo>
-                    <FareInfo Key="uLJ5gPSqWDKAp2SJRAAAAA==" FareBasis="SRTTH"
-                        PassengerTypeCode="ADT" Origin="LHR" Destination="BKK"
-                        EffectiveDate="2024-12-29T13:55:00.000+06:00" DepartureDate="2025-01-24"
-                        Amount="BDT26309" NegotiatedFare="false" NotValidBefore="2025-01-24"
-                        NotValidAfter="2025-01-24" TaxAmount="BDT49090.00">
-                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON UL ONLY" />
-                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="CHANGE FEE MAY APPLY" />
-                        <FareRuleKey FareInfoRef="uLJ5gPSqWDKAp2SJRAAAAA==" ProviderCode="1G">
-                            6UUVoSldxwjZsJLjVcaTasbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxBgpKGYh5CixWa1uaqI55k3aSkvhp2ybR5k6f5IiMNxaNbDqG0NFTzAyGqh8JIaqCCyQd5VB2yHZ8OegBABiIAhLPbx2/mCQDvQIlbeGa6Ahf6E18cRejF6+WRr8tqYPBIQ9y8dNcvmDKkyxeVMLVxW8vSBNa8ZUmnWyFpl55B9h9NGckIHiUuERafGo8Xk7lMcj9He2m1Fv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHzQapDbCAMr/TUGWlPDKj6v0aMBFljDuP9NE5OQYAbQxQjNcRVuhMk5FdIhjv34L89wXtO9a1rEPZ33HZfhum1A=</FareRuleKey>
-                        <Brand Key="uLJ5gPSqWDKAp2SJRAAAAA==" BrandID="1308417"
-                            UpSellBrandID="1308418" Name="Economy Value" Carrier="UL"
-                            BrandTier="0004">
+                    <FareInfo Key="0rg3gPTqWDKA8psXeAAAAA==" FareBasis="SRTTH" PassengerTypeCode="ADT" Origin="LHR" Destination="BKK" EffectiveDate="2025-01-04T19:02:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT26309" NegotiatedFare="false" NotValidBefore="2025-01-24" NotValidAfter="2025-01-24" TaxAmount="BDT49090.00">
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON UL ONLY"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="CHANGE FEE MAY APPLY"/>
+                        <FareRuleKey FareInfoRef="0rg3gPTqWDKA8psXeAAAAA==" ProviderCode="1G">6UUVoSldxwh7qc9OvGH3A8bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxBgpKGYh5CixWa1uaqI55k3aSkvhp2ybR5k6f5IiMNxaNbDqG0NFTzAyGqh8JIaqCCyQd5VB2yHZ8OegBABiIAhLPbx2/mCQDvQIlbeGa6Ahf6E18cRejF6+WRr8tqYPBIQ9y8dNcvmDKkyxeVMLVxW8vSBNa8ZUmnWyFpl55B9h9NGckIHiUuERafGo8Xk7lMcj9He2m1Fv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHzQapDbCAMr/TUGWlPDKj6v0aMBFljDuP9NE5OQYAbQxQjNcRVuhMk5FdIhjv34L89wXtO9a1rEPZ33HZfhum1A=</FareRuleKey>
+                        <Brand Key="0rg3gPTqWDKA8psXeAAAAA==" BrandID="1308417" UpSellBrandID="1308418" Name="Economy Value" Carrier="UL" BrandTier="0004">
                         </Brand>
                     </FareInfo>
-                    <BookingInfo BookingCode="S" CabinClass="Economy"
-                        FareInfoRef="uLJ5gPSqWDKAB2SJRAAAAA==" SegmentRef="uLJ5gPSqWDKAr1SJRAAAAA=="
-                        HostTokenRef="uLJ5gPSqWDKA01SJRAAAAA==" />
-                    <BookingInfo BookingCode="S" CabinClass="Economy"
-                        FareInfoRef="uLJ5gPSqWDKAB2SJRAAAAA==" SegmentRef="uLJ5gPSqWDKAt1SJRAAAAA=="
-                        HostTokenRef="uLJ5gPSqWDKA01SJRAAAAA==" />
-                    <BookingInfo BookingCode="S" CabinClass="Economy"
-                        FareInfoRef="uLJ5gPSqWDKAp2SJRAAAAA==" SegmentRef="uLJ5gPSqWDKAv1SJRAAAAA=="
-                        HostTokenRef="uLJ5gPSqWDKA11SJRAAAAA==" />
-                    <BookingInfo BookingCode="S" CabinClass="Economy"
-                        FareInfoRef="uLJ5gPSqWDKAp2SJRAAAAA==" SegmentRef="uLJ5gPSqWDKAx1SJRAAAAA=="
-                        HostTokenRef="uLJ5gPSqWDKA11SJRAAAAA==" />
-                    <TaxInfo Category="E7" Amount="BDT250" Key="uLJ5gPSqWDKA71SJRAAAAA==" />
-                    <TaxInfo Category="G8" Amount="BDT108" Key="uLJ5gPSqWDKA81SJRAAAAA==" />
-                    <TaxInfo Category="TS" Amount="BDT2606" Key="uLJ5gPSqWDKA91SJRAAAAA==" />
-                    <TaxInfo Category="GB" Amount="BDT14310" Key="uLJ5gPSqWDKA+1SJRAAAAA==" />
-                    <TaxInfo Category="UB" Amount="BDT7605" Key="uLJ5gPSqWDKA/1SJRAAAAA==" />
-                    <TaxInfo Category="YQ" Amount="BDT53992" Key="uLJ5gPSqWDKAA2SJRAAAAA==" />
-                    <FareCalc>BKK UL X/CMB UL LON 222.64SRTTH UL X/CMB UL BKK 222.64SRTTH
-                        NUC445.28END ROE33.10266</FareCalc>
+                    <BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAUpsXeAAAAA==" SegmentRef="0rg3gPTqWDKA+osXeAAAAA==" HostTokenRef="0rg3gPTqWDKAHpsXeAAAAA=="/>
+                    <BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAUpsXeAAAAA==" SegmentRef="0rg3gPTqWDKAApsXeAAAAA==" HostTokenRef="0rg3gPTqWDKAHpsXeAAAAA=="/>
+                    <BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKA8psXeAAAAA==" SegmentRef="0rg3gPTqWDKACpsXeAAAAA==" HostTokenRef="0rg3gPTqWDKAIpsXeAAAAA=="/>
+                    <BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKA8psXeAAAAA==" SegmentRef="0rg3gPTqWDKAEpsXeAAAAA==" HostTokenRef="0rg3gPTqWDKAIpsXeAAAAA=="/>
+                    <TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKAOpsXeAAAAA=="/>
+                    <TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAPpsXeAAAAA=="/>
+                    <TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKAQpsXeAAAAA=="/>
+                    <TaxInfo Category="GB" Amount="BDT14310" Key="0rg3gPTqWDKARpsXeAAAAA=="/>
+                    <TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKASpsXeAAAAA=="/>
+                    <TaxInfo Category="YQ" Amount="BDT53992" Key="0rg3gPTqWDKATpsXeAAAAA=="/>
+                    <FareCalc>BKK UL X/CMB UL LON 222.64SRTTH UL X/CMB UL BKK 222.64SRTTH NUC445.28END ROE33.10266</FareCalc>
                     <PassengerType Code="ADT" BookingTravelerRef="gr8AVWGCR064r57Jt0+8bA==0"/>
                     <ChangePenalty PenaltyApplies="Anytime">
                         <Amount>BDT3926.0</Amount>
@@ -181,15 +112,13 @@
                         <Amount>BDT10709</Amount>
                     </CancelPenalty>
                     <BaggageAllowances>
-                        <BaggageAllowanceInfo TravelerType="ADT" Origin="BKK" Destination="LHR"
-                            Carrier="UL">
+                        <BaggageAllowanceInfo TravelerType="ADT" Origin="BKK" Destination="LHR" Carrier="UL">
                             <URLInfo>
                                 <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UL</URL>
                             </URLInfo>
                             <TextInfo>
                                 <Text>30K</Text>
-                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER
-                                    STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
                             </TextInfo>
                             <BagDetails ApplicableBags="1stChecked">
                                 <BaggageRestriction>
@@ -206,15 +135,13 @@
                                 </BaggageRestriction>
                             </BagDetails>
                         </BaggageAllowanceInfo>
-                        <BaggageAllowanceInfo TravelerType="ADT" Origin="LHR" Destination="BKK"
-                            Carrier="UL">
+                        <BaggageAllowanceInfo TravelerType="ADT" Origin="LHR" Destination="BKK" Carrier="UL">
                             <URLInfo>
                                 <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UL</URL>
                             </URLInfo>
                             <TextInfo>
                                 <Text>30K</Text>
-                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER
-                                    STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
                             </TextInfo>
                             <BagDetails ApplicableBags="1stChecked">
                                 <BaggageRestriction>
@@ -235,8 +162,7 @@
                             <TextInfo>
                                 <Text>1P</Text>
                             </TextInfo>
-                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00"
-                                TotalPrice="USD0.00">
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
                                 <BaggageRestriction>
                                     <TextInfo>
                                         <Text>CARRYON HAND BAGGAGE ALLOWANCE</Text>
@@ -248,8 +174,7 @@
                             <TextInfo>
                                 <Text>1P</Text>
                             </TextInfo>
-                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00"
-                                TotalPrice="USD0.00">
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
                                 <BaggageRestriction>
                                     <TextInfo>
                                         <Text>CARRYON HAND BAGGAGE ALLOWANCE</Text>
@@ -261,8 +186,7 @@
                             <TextInfo>
                                 <Text>1P</Text>
                             </TextInfo>
-                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00"
-                                TotalPrice="USD0.00">
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
                                 <BaggageRestriction>
                                     <TextInfo>
                                         <Text>CARRYON HAND BAGGAGE ALLOWANCE</Text>
@@ -274,8 +198,7 @@
                             <TextInfo>
                                 <Text>1P</Text>
                             </TextInfo>
-                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00"
-                                TotalPrice="USD0.00">
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
                                 <BaggageRestriction>
                                     <TextInfo>
                                         <Text>CARRYON HAND BAGGAGE ALLOWANCE</Text>
@@ -285,58 +208,33 @@
                         </CarryOnAllowanceInfo>
                     </BaggageAllowances>
                 </AirPricingInfo>
-                <AirPricingInfo Key="uLJ5gPSqWDKAV3SJRAAAAA==" TotalPrice="BDT104025" BasePrice="THB11055" ApproximateTotalPrice="BDT104025"
-                    ApproximateBasePrice="BDT39464" EquivalentBasePrice="BDT39464" ApproximateTaxes="BDT64561" Taxes="BDT64561"
-                    LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
-                    <FareInfo Key="uLJ5gPSqWDKAb3SJRAAAAA==" FareBasis="SRTTH"
-                        PassengerTypeCode="CNN" Origin="BKK" Destination="LHR"
-                        EffectiveDate="2024-12-29T13:55:00.000+06:00" DepartureDate="2025-01-20"
-                        Amount="BDT19732" NegotiatedFare="false" NotValidBefore="2025-01-20"
-                        NotValidAfter="2025-01-20" TaxAmount="BDT29781.00">
-                        <TicketingCode Value="SRTTHCH75" />
-                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON UL ONLY" />
-                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="CHANGE FEE MAY APPLY" />
-                        <FareRuleKey FareInfoRef="uLJ5gPSqWDKAb3SJRAAAAA==" ProviderCode="1G">
-                            6UUVoSldxwjZsJLjVcaTasbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxBgpKGYh5CixWa1uaqI55k3aSkvhp2yberXTBl9Nbz4E7LPBNEBpEjAyGqh8JIaqCCyQd5VB2yHZ8OegBABiICg7ZpRYsiiaDvQIlbeGa6Ahf6E18cRejG1HGG63MSskxIQ9y8dNcvmDKkyxeVMLVxW8vSBNa8ZUmwC02UUzMsnhMzrhOa9evWbyFXneT85DE6qtSLbVEEnv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHzQapDbCAMr/TUGWlPDKj6v0aMBFljDuP9NE5OQYAbQxBYvSiCk/0GxFdIhjv34L89wXtO9a1rEPZ33HZfhum1A=</FareRuleKey>
-                        <Brand Key="uLJ5gPSqWDKAb3SJRAAAAA==" BrandID="1308417"
-                            UpSellBrandID="1308418" Name="Economy Value" Carrier="UL"
-                            BrandTier="0004">
+                <AirPricingInfo Key="0rg3gPTqWDKAoqsXeAAAAA==" TotalPrice="BDT104025" BasePrice="THB11055" ApproximateTotalPrice="BDT104025" ApproximateBasePrice="BDT39464" EquivalentBasePrice="BDT39464" ApproximateTaxes="BDT64561" Taxes="BDT64561" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                    <FareInfo Key="0rg3gPTqWDKAuqsXeAAAAA==" FareBasis="SRTTH" PassengerTypeCode="CNN" Origin="BKK" Destination="LHR" EffectiveDate="2025-01-04T19:02:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT19732" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20" TaxAmount="BDT29781.00">
+                        <TicketingCode Value="SRTTHCH75"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON UL ONLY"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="CHANGE FEE MAY APPLY"/>
+                        <FareRuleKey FareInfoRef="0rg3gPTqWDKAuqsXeAAAAA==" ProviderCode="1G">6UUVoSldxwh7qc9OvGH3A8bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxBgpKGYh5CixWa1uaqI55k3aSkvhp2yberXTBl9Nbz4E7LPBNEBpEjAyGqh8JIaqCCyQd5VB2yHZ8OegBABiICg7ZpRYsiiaDvQIlbeGa6Ahf6E18cRejG1HGG63MSskxIQ9y8dNcvmDKkyxeVMLVxW8vSBNa8ZUmwC02UUzMsnhMzrhOa9evWbyFXneT85DE6qtSLbVEEnv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHzQapDbCAMr/TUGWlPDKj6v0aMBFljDuP9NE5OQYAbQxBYvSiCk/0GxFdIhjv34L89wXtO9a1rEPZ33HZfhum1A=</FareRuleKey>
+                        <Brand Key="0rg3gPTqWDKAuqsXeAAAAA==" BrandID="1308417" UpSellBrandID="1308418" Name="Economy Value" Carrier="UL" BrandTier="0004">
                         </Brand>
                     </FareInfo>
-                    <FareInfo Key="uLJ5gPSqWDKAD4SJRAAAAA==" FareBasis="SRTTH"
-                        PassengerTypeCode="CNN" Origin="LHR" Destination="BKK"
-                        EffectiveDate="2024-12-29T13:55:00.000+06:00" DepartureDate="2025-01-24"
-                        Amount="BDT19732" NegotiatedFare="false" NotValidBefore="2025-01-24"
-                        NotValidAfter="2025-01-24" TaxAmount="BDT34780.00">
-                        <TicketingCode Value="SRTTHCH75" />
-                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON UL ONLY" />
-                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="CHANGE FEE MAY APPLY" />
-                        <FareRuleKey FareInfoRef="uLJ5gPSqWDKAD4SJRAAAAA==" ProviderCode="1G">
-                            6UUVoSldxwjZsJLjVcaTasbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxBgpKGYh5CixWa1uaqI55k3aSkvhp2ybfxLi9k9n5EYAuBpR4RfD9PAyGqh8JIaqCCyQd5VB2yHZ8OegBABiIAhLPbx2/mCQDvQIlbeGa6Ahf6E18cRejG1HGG63MSskxIQ9y8dNcvmDKkyxeVMLVxW8vSBNa8ZUmnWyFpl55B9h9NGckIHiUsZsEC7ix3tTE6qtSLbVEEnv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHzQapDbCAMr/TUGWlPDKj6v0aMBFljDuP9NE5OQYAbQxBYvSiCk/0GxFdIhjv34L89wXtO9a1rEPZ33HZfhum1A=</FareRuleKey>
-                        <Brand Key="uLJ5gPSqWDKAD4SJRAAAAA==" BrandID="1308417"
-                            UpSellBrandID="1308418" Name="Economy Value" Carrier="UL"
-                            BrandTier="0004">
+                    <FareInfo Key="0rg3gPTqWDKAWrsXeAAAAA==" FareBasis="SRTTH" PassengerTypeCode="CNN" Origin="LHR" Destination="BKK" EffectiveDate="2025-01-04T19:02:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT19732" NegotiatedFare="false" NotValidBefore="2025-01-24" NotValidAfter="2025-01-24" TaxAmount="BDT34780.00">
+                        <TicketingCode Value="SRTTHCH75"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON UL ONLY"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="CHANGE FEE MAY APPLY"/>
+                        <FareRuleKey FareInfoRef="0rg3gPTqWDKAWrsXeAAAAA==" ProviderCode="1G">6UUVoSldxwh7qc9OvGH3A8bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxBgpKGYh5CixWa1uaqI55k3aSkvhp2ybfxLi9k9n5EYAuBpR4RfD9PAyGqh8JIaqCCyQd5VB2yHZ8OegBABiIAhLPbx2/mCQDvQIlbeGa6Ahf6E18cRejG1HGG63MSskxIQ9y8dNcvmDKkyxeVMLVxW8vSBNa8ZUmnWyFpl55B9h9NGckIHiUsZsEC7ix3tTE6qtSLbVEEnv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHzQapDbCAMr/TUGWlPDKj6v0aMBFljDuP9NE5OQYAbQxBYvSiCk/0GxFdIhjv34L89wXtO9a1rEPZ33HZfhum1A=</FareRuleKey>
+                        <Brand Key="0rg3gPTqWDKAWrsXeAAAAA==" BrandID="1308417" UpSellBrandID="1308418" Name="Economy Value" Carrier="UL" BrandTier="0004">
                         </Brand>
                     </FareInfo>
-                    <BookingInfo BookingCode="S" CabinClass="Economy"
-                        FareInfoRef="uLJ5gPSqWDKAb3SJRAAAAA==" SegmentRef="uLJ5gPSqWDKAr1SJRAAAAA=="
-                        HostTokenRef="uLJ5gPSqWDKA21SJRAAAAA==" />
-                    <BookingInfo BookingCode="S" CabinClass="Economy"
-                        FareInfoRef="uLJ5gPSqWDKAb3SJRAAAAA==" SegmentRef="uLJ5gPSqWDKAt1SJRAAAAA=="
-                        HostTokenRef="uLJ5gPSqWDKA21SJRAAAAA==" />
-                    <BookingInfo BookingCode="S" CabinClass="Economy"
-                        FareInfoRef="uLJ5gPSqWDKAD4SJRAAAAA==" SegmentRef="uLJ5gPSqWDKAv1SJRAAAAA=="
-                        HostTokenRef="uLJ5gPSqWDKA31SJRAAAAA==" />
-                    <BookingInfo BookingCode="S" CabinClass="Economy"
-                        FareInfoRef="uLJ5gPSqWDKAD4SJRAAAAA==" SegmentRef="uLJ5gPSqWDKAx1SJRAAAAA=="
-                        HostTokenRef="uLJ5gPSqWDKA31SJRAAAAA==" />
-                    <TaxInfo Category="E7" Amount="BDT250" Key="uLJ5gPSqWDKAW3SJRAAAAA==" />
-                    <TaxInfo Category="G8" Amount="BDT108" Key="uLJ5gPSqWDKAX3SJRAAAAA==" />
-                    <TaxInfo Category="TS" Amount="BDT2606" Key="uLJ5gPSqWDKAY3SJRAAAAA==" />
-                    <TaxInfo Category="UB" Amount="BDT7605" Key="uLJ5gPSqWDKAZ3SJRAAAAA==" />
-                    <TaxInfo Category="YQ" Amount="BDT53992" Key="uLJ5gPSqWDKAa3SJRAAAAA==" />
-                    <FareCalc>BKK UL X/CMB UL LON 166.98SRTTHCH75 UL X/CMB UL BKK
-                        166.98SRTTHCH75 NUC333.96END ROE33.10266</FareCalc>
+                    <BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAuqsXeAAAAA==" SegmentRef="0rg3gPTqWDKA+osXeAAAAA==" HostTokenRef="0rg3gPTqWDKAJpsXeAAAAA=="/>
+                    <BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAuqsXeAAAAA==" SegmentRef="0rg3gPTqWDKAApsXeAAAAA==" HostTokenRef="0rg3gPTqWDKAJpsXeAAAAA=="/>
+                    <BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAWrsXeAAAAA==" SegmentRef="0rg3gPTqWDKACpsXeAAAAA==" HostTokenRef="0rg3gPTqWDKAKpsXeAAAAA=="/>
+                    <BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAWrsXeAAAAA==" SegmentRef="0rg3gPTqWDKAEpsXeAAAAA==" HostTokenRef="0rg3gPTqWDKAKpsXeAAAAA=="/>
+                    <TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKApqsXeAAAAA=="/>
+                    <TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAqqsXeAAAAA=="/>
+                    <TaxInfo Category="TS" Amount="BDT2606" Key="0rg3gPTqWDKArqsXeAAAAA=="/>
+                    <TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAsqsXeAAAAA=="/>
+                    <TaxInfo Category="YQ" Amount="BDT53992" Key="0rg3gPTqWDKAtqsXeAAAAA=="/>
+                    <FareCalc>BKK UL X/CMB UL LON 166.98SRTTHCH75 UL X/CMB UL BKK 166.98SRTTHCH75 NUC333.96END ROE33.10266</FareCalc>
                     <PassengerType Code="CNN" Age="8" BookingTravelerRef="gr8AVWGCR064r57Jt0+8bA==1"/>
                     <ChangePenalty PenaltyApplies="Anytime">
                         <Amount>BDT3926.0</Amount>
@@ -345,15 +243,13 @@
                         <Amount>BDT10709</Amount>
                     </CancelPenalty>
                     <BaggageAllowances>
-                        <BaggageAllowanceInfo TravelerType="CNN" Origin="BKK" Destination="LHR"
-                            Carrier="UL">
+                        <BaggageAllowanceInfo TravelerType="CNN" Origin="BKK" Destination="LHR" Carrier="UL">
                             <URLInfo>
                                 <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UL</URL>
                             </URLInfo>
                             <TextInfo>
                                 <Text>30K</Text>
-                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER
-                                    STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
                             </TextInfo>
                             <BagDetails ApplicableBags="1stChecked">
                                 <BaggageRestriction>
@@ -370,15 +266,13 @@
                                 </BaggageRestriction>
                             </BagDetails>
                         </BaggageAllowanceInfo>
-                        <BaggageAllowanceInfo TravelerType="CNN" Origin="LHR" Destination="BKK"
-                            Carrier="UL">
+                        <BaggageAllowanceInfo TravelerType="CNN" Origin="LHR" Destination="BKK" Carrier="UL">
                             <URLInfo>
                                 <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UL</URL>
                             </URLInfo>
                             <TextInfo>
                                 <Text>30K</Text>
-                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER
-                                    STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
                             </TextInfo>
                             <BagDetails ApplicableBags="1stChecked">
                                 <BaggageRestriction>
@@ -399,8 +293,7 @@
                             <TextInfo>
                                 <Text>1P</Text>
                             </TextInfo>
-                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00"
-                                TotalPrice="USD0.00">
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
                                 <BaggageRestriction>
                                     <TextInfo>
                                         <Text>CARRYON HAND BAGGAGE ALLOWANCE</Text>
@@ -412,8 +305,7 @@
                             <TextInfo>
                                 <Text>1P</Text>
                             </TextInfo>
-                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00"
-                                TotalPrice="USD0.00">
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
                                 <BaggageRestriction>
                                     <TextInfo>
                                         <Text>CARRYON HAND BAGGAGE ALLOWANCE</Text>
@@ -425,8 +317,7 @@
                             <TextInfo>
                                 <Text>1P</Text>
                             </TextInfo>
-                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00"
-                                TotalPrice="USD0.00">
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
                                 <BaggageRestriction>
                                     <TextInfo>
                                         <Text>CARRYON HAND BAGGAGE ALLOWANCE</Text>
@@ -438,8 +329,7 @@
                             <TextInfo>
                                 <Text>1P</Text>
                             </TextInfo>
-                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00"
-                                TotalPrice="USD0.00">
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
                                 <BaggageRestriction>
                                     <TextInfo>
                                         <Text>CARRYON HAND BAGGAGE ALLOWANCE</Text>
@@ -449,59 +339,31 @@
                         </CarryOnAllowanceInfo>
                     </BaggageAllowances>
                 </AirPricingInfo>
-                <AirPricingInfo Key="uLJ5gPSqWDKAv4SJRAAAAA==" TotalPrice="BDT13229"
-                    BasePrice="THB1475" ApproximateTotalPrice="BDT13229"
-                    ApproximateBasePrice="BDT5266" EquivalentBasePrice="BDT5266"
-                    ApproximateTaxes="BDT7963" Taxes="BDT7963"
-                    LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed"
-                    Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
-                    <FareInfo Key="uLJ5gPSqWDKAz4SJRAAAAA==" FareBasis="SRTTH"
-                        PassengerTypeCode="INF" Origin="BKK" Destination="LHR"
-                        EffectiveDate="2024-12-29T13:55:00.000+06:00" DepartureDate="2025-01-20"
-                        Amount="BDT2631" NegotiatedFare="false" NotValidBefore="2025-01-20"
-                        NotValidAfter="2025-01-20" TaxAmount="BDT179.00">
-                        <TicketingCode Value="SRTTHIN10" />
-                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON UL ONLY" />
-                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="CHANGE FEE MAY APPLY" />
-                        <FareRuleKey FareInfoRef="uLJ5gPSqWDKAz4SJRAAAAA==" ProviderCode="1G">
-                            6UUVoSldxwjZsJLjVcaTasbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxBgpKGYh5CixWa1uaqI55k3aSkvhp2ybQpxyggGKz0bSPiaYugx3PlN3J3NyYpz6c9b3PsncOpVE/vll8QFEnI5WW51JSVEbsCIbRqMTJch6v9tEaRJgF6N3TEpBNIygs5I+QlctMGi29Gb9ca1WX9JTyB5x9tYSQLWhthMb3jlKvyHGllcqqoHiO6X1kwOYXJsHL3MMxTily5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA2+QKPIWaRvq6oxE1UL944DjaSte7T4ddJrb7lXriFx3OgNsWw2r7XA6prI2IFi8RKjTjdTfRhGNyUA+u2SNpM0=</FareRuleKey>
-                        <Brand Key="uLJ5gPSqWDKAz4SJRAAAAA==" BrandID="1308417"
-                            UpSellBrandID="1308418" Name="Economy Value" Carrier="UL"
-                            BrandTier="0004">
+                <AirPricingInfo Key="0rg3gPTqWDKACssXeAAAAA==" TotalPrice="BDT13229" BasePrice="THB1475" ApproximateTotalPrice="BDT13229" ApproximateBasePrice="BDT5266" EquivalentBasePrice="BDT5266" ApproximateTaxes="BDT7963" Taxes="BDT7963" LatestTicketingTime="2025-01-20T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                    <FareInfo Key="0rg3gPTqWDKAGssXeAAAAA==" FareBasis="SRTTH" PassengerTypeCode="INF" Origin="BKK" Destination="LHR" EffectiveDate="2025-01-04T19:02:00.000+06:00" DepartureDate="2025-01-20" Amount="BDT2631" NegotiatedFare="false" NotValidBefore="2025-01-20" NotValidAfter="2025-01-20" TaxAmount="BDT179.00">
+                        <TicketingCode Value="SRTTHIN10"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON UL ONLY"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="CHANGE FEE MAY APPLY"/>
+                        <FareRuleKey FareInfoRef="0rg3gPTqWDKAGssXeAAAAA==" ProviderCode="1G">6UUVoSldxwh7qc9OvGH3A8bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxBgpKGYh5CixWa1uaqI55k3aSkvhp2ybQpxyggGKz0bSPiaYugx3PlN3J3NyYpz6c9b3PsncOpVE/vll8QFEnI5WW51JSVEbsCIbRqMTJch6v9tEaRJgF6N3TEpBNIygs5I+QlctMGi29Gb9ca1WX9JTyB5x9tYSQLWhthMb3jlKvyHGllcqqoHiO6X1kwOYXJsHL3MMxTily5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA2+QKPIWaRvq6oxE1UL944DjaSte7T4ddJrb7lXriFx3OgNsWw2r7XA6prI2IFi8RKjTjdTfRhGNyUA+u2SNpM0=</FareRuleKey>
+                        <Brand Key="0rg3gPTqWDKAGssXeAAAAA==" BrandID="1308417" UpSellBrandID="1308418" Name="Economy Value" Carrier="UL" BrandTier="0004">
                         </Brand>
                     </FareInfo>
-                    <FareInfo Key="uLJ5gPSqWDKAb5SJRAAAAA==" FareBasis="SRTTH"
-                        PassengerTypeCode="INF" Origin="LHR" Destination="BKK"
-                        EffectiveDate="2024-12-29T13:55:00.000+06:00" DepartureDate="2025-01-24"
-                        Amount="BDT2635" NegotiatedFare="false" NotValidBefore="2025-01-24"
-                        NotValidAfter="2025-01-24" TaxAmount="BDT7784.00">
-                        <TicketingCode Value="SRTTHIN10" />
-                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON UL ONLY" />
-                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="CHANGE FEE MAY APPLY" />
-                        <FareRuleKey FareInfoRef="uLJ5gPSqWDKAb5SJRAAAAA==" ProviderCode="1G">
-                            6UUVoSldxwjZsJLjVcaTasbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxBgpKGYh5CixWa1uaqI55k3aSkvhp2ybR5k6f5IiMNxeK0XnbRTSrFN3J3NyYpz6c9b3PsncOpVE/vll8QFEnJAvECy2oo19sCIbRqMTJch6v9tEaRJgF6N3TEpBNIygs5I+QlctMGi29Gb9ca1WX+W/LcvQUQwuALWhthMb3jlNac+Hza997kHiO6X1kwOYXJsHL3MMxTily5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA2+QKPIWaRvq6oxE1UL944DjaSte7T4ddJrb7lXriFx3OgNsWw2r7XA6prI2IFi8RKjTjdTfRhGNyUA+u2SNpM0=</FareRuleKey>
-                        <Brand Key="uLJ5gPSqWDKAb5SJRAAAAA==" BrandID="1308417"
-                            UpSellBrandID="1308418" Name="Economy Value" Carrier="UL"
-                            BrandTier="0004">
+                    <FareInfo Key="0rg3gPTqWDKAussXeAAAAA==" FareBasis="SRTTH" PassengerTypeCode="INF" Origin="LHR" Destination="BKK" EffectiveDate="2025-01-04T19:02:00.000+06:00" DepartureDate="2025-01-24" Amount="BDT2635" NegotiatedFare="false" NotValidBefore="2025-01-24" NotValidAfter="2025-01-24" TaxAmount="BDT7784.00">
+                        <TicketingCode Value="SRTTHIN10"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON UL ONLY"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="CHANGE FEE MAY APPLY"/>
+                        <FareRuleKey FareInfoRef="0rg3gPTqWDKAussXeAAAAA==" ProviderCode="1G">6UUVoSldxwh7qc9OvGH3A8bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAxBgpKGYh5CixWa1uaqI55k3aSkvhp2ybR5k6f5IiMNxeK0XnbRTSrFN3J3NyYpz6c9b3PsncOpVE/vll8QFEnJAvECy2oo19sCIbRqMTJch6v9tEaRJgF6N3TEpBNIygs5I+QlctMGi29Gb9ca1WX+W/LcvQUQwuALWhthMb3jlNac+Hza997kHiO6X1kwOYXJsHL3MMxTily5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA2+QKPIWaRvq6oxE1UL944DjaSte7T4ddJrb7lXriFx3OgNsWw2r7XA6prI2IFi8RKjTjdTfRhGNyUA+u2SNpM0=</FareRuleKey>
+                        <Brand Key="0rg3gPTqWDKAussXeAAAAA==" BrandID="1308417" UpSellBrandID="1308418" Name="Economy Value" Carrier="UL" BrandTier="0004">
                         </Brand>
                     </FareInfo>
-                    <BookingInfo BookingCode="S" CabinClass="Economy"
-                        FareInfoRef="uLJ5gPSqWDKAz4SJRAAAAA==" SegmentRef="uLJ5gPSqWDKAr1SJRAAAAA=="
-                        HostTokenRef="uLJ5gPSqWDKA41SJRAAAAA==" />
-                    <BookingInfo BookingCode="S" CabinClass="Economy"
-                        FareInfoRef="uLJ5gPSqWDKAz4SJRAAAAA==" SegmentRef="uLJ5gPSqWDKAt1SJRAAAAA=="
-                        HostTokenRef="uLJ5gPSqWDKA41SJRAAAAA==" />
-                    <BookingInfo BookingCode="S" CabinClass="Economy"
-                        FareInfoRef="uLJ5gPSqWDKAb5SJRAAAAA==" SegmentRef="uLJ5gPSqWDKAv1SJRAAAAA=="
-                        HostTokenRef="uLJ5gPSqWDKA51SJRAAAAA==" />
-                    <BookingInfo BookingCode="S" CabinClass="Economy"
-                        FareInfoRef="uLJ5gPSqWDKAb5SJRAAAAA==" SegmentRef="uLJ5gPSqWDKAx1SJRAAAAA=="
-                        HostTokenRef="uLJ5gPSqWDKA51SJRAAAAA==" />
-                    <TaxInfo Category="E7" Amount="BDT250" Key="uLJ5gPSqWDKAw4SJRAAAAA==" />
-                    <TaxInfo Category="G8" Amount="BDT108" Key="uLJ5gPSqWDKAx4SJRAAAAA==" />
-                    <TaxInfo Category="UB" Amount="BDT7605" Key="uLJ5gPSqWDKAy4SJRAAAAA==" />
-                    <FareCalc>BKK UL X/CMB UL LON 22.26SRTTHIN10 UL X/CMB UL BKK 22.26SRTTHIN10
-                        NUC44.52END ROE33.10266</FareCalc>
+                    <BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAGssXeAAAAA==" SegmentRef="0rg3gPTqWDKA+osXeAAAAA==" HostTokenRef="0rg3gPTqWDKALpsXeAAAAA=="/>
+                    <BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAGssXeAAAAA==" SegmentRef="0rg3gPTqWDKAApsXeAAAAA==" HostTokenRef="0rg3gPTqWDKALpsXeAAAAA=="/>
+                    <BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAussXeAAAAA==" SegmentRef="0rg3gPTqWDKACpsXeAAAAA==" HostTokenRef="0rg3gPTqWDKAMpsXeAAAAA=="/>
+                    <BookingInfo BookingCode="S" CabinClass="Economy" FareInfoRef="0rg3gPTqWDKAussXeAAAAA==" SegmentRef="0rg3gPTqWDKAEpsXeAAAAA==" HostTokenRef="0rg3gPTqWDKAMpsXeAAAAA=="/>
+                    <TaxInfo Category="E7" Amount="BDT250" Key="0rg3gPTqWDKADssXeAAAAA=="/>
+                    <TaxInfo Category="G8" Amount="BDT108" Key="0rg3gPTqWDKAEssXeAAAAA=="/>
+                    <TaxInfo Category="UB" Amount="BDT7605" Key="0rg3gPTqWDKAFssXeAAAAA=="/>
+                    <FareCalc>BKK UL X/CMB UL LON 22.26SRTTHIN10 UL X/CMB UL BKK 22.26SRTTHIN10 NUC44.52END ROE33.10266</FareCalc>
                     <PassengerType Code="INF" Age="1" BookingTravelerRef="gr8AVWGCR064r57Jt0+8bA==2"/>
                     <ChangePenalty PenaltyApplies="Anytime">
                         <Amount>BDT3926.0</Amount>
@@ -510,15 +372,13 @@
                         <Amount>BDT10709</Amount>
                     </CancelPenalty>
                     <BaggageAllowances>
-                        <BaggageAllowanceInfo TravelerType="INF" Origin="BKK" Destination="LHR"
-                            Carrier="UL">
+                        <BaggageAllowanceInfo TravelerType="INF" Origin="BKK" Destination="LHR" Carrier="UL">
                             <URLInfo>
                                 <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UL</URL>
                             </URLInfo>
                             <TextInfo>
                                 <Text>10K</Text>
-                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER
-                                    STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
                             </TextInfo>
                             <BagDetails ApplicableBags="1stChecked">
                                 <BaggageRestriction>
@@ -535,15 +395,13 @@
                                 </BaggageRestriction>
                             </BagDetails>
                         </BaggageAllowanceInfo>
-                        <BaggageAllowanceInfo TravelerType="INF" Origin="LHR" Destination="BKK"
-                            Carrier="UL">
+                        <BaggageAllowanceInfo TravelerType="INF" Origin="LHR" Destination="BKK" Carrier="UL">
                             <URLInfo>
                                 <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/UL</URL>
                             </URLInfo>
                             <TextInfo>
                                 <Text>10K</Text>
-                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER
-                                    STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
                             </TextInfo>
                             <BagDetails ApplicableBags="1stChecked">
                                 <BaggageRestriction>
@@ -564,8 +422,7 @@
                             <TextInfo>
                                 <Text>1P</Text>
                             </TextInfo>
-                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00"
-                                TotalPrice="USD0.00">
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
                                 <BaggageRestriction>
                                     <TextInfo>
                                         <Text>CARRYON HAND BAGGAGE ALLOWANCE</Text>
@@ -577,8 +434,7 @@
                             <TextInfo>
                                 <Text>1P</Text>
                             </TextInfo>
-                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00"
-                                TotalPrice="USD0.00">
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
                                 <BaggageRestriction>
                                     <TextInfo>
                                         <Text>CARRYON HAND BAGGAGE ALLOWANCE</Text>
@@ -590,8 +446,7 @@
                             <TextInfo>
                                 <Text>1P</Text>
                             </TextInfo>
-                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00"
-                                TotalPrice="USD0.00">
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
                                 <BaggageRestriction>
                                     <TextInfo>
                                         <Text>CARRYON HAND BAGGAGE ALLOWANCE</Text>
@@ -603,8 +458,7 @@
                             <TextInfo>
                                 <Text>1P</Text>
                             </TextInfo>
-                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00"
-                                TotalPrice="USD0.00">
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="USD0.00" TotalPrice="USD0.00">
                                 <BaggageRestriction>
                                     <TextInfo>
                                         <Text>CARRYON HAND BAGGAGE ALLOWANCE</Text>
@@ -615,16 +469,18 @@
                     </BaggageAllowances>
                 </AirPricingInfo>
 
-                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="uLJ5gPSqWDKA01SJRAAAAA==">GFB10101ADT00  01SRTTH                                 0200010002#GFB200010101NADTV3004TH02001000019949#GFMCER 004NTH02 UL ADTSRTTH</HostToken>
-                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="uLJ5gPSqWDKA11SJRAAAAA==">GFB10101ADT00  02SRTTH                                 0200030004#GFB200010102NADTV3004TH02001000019949#GFMCER 004NTH02 UL ADTSRTTH</HostToken>
-                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="uLJ5gPSqWDKA21SJRAAAAA==">GFB10202CNN00  01SRTTH                                 0200010002#GFB200020201NCNNV3004TH02001000019910005137249#GFMCER 004NTH02DUL CNNSRTTH</HostToken>
-                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="uLJ5gPSqWDKA31SJRAAAAA==">GFB10202CNN00  02SRTTH                                 0200030004#GFB200020202NCNNV3004TH02001000019910005137249#GFMCER 004NTH02DUL CNNSRTTH</HostToken>
-                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="uLJ5gPSqWDKA41SJRAAAAA==">GFB10303INF00  01SRTTH                                 0200010002#GFB200030301NINFV3004TH02001000019910057173749#GFMCER 004NTH02DUL INFSRTTH</HostToken>
-                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="uLJ5gPSqWDKA51SJRAAAAA==">GFB10303INF00  02SRTTH                                 0200030004#GFB200030302NINFV3004TH02001000019910057173749#GFMCER 004NTH02DUL INFSRTTH</HostToken>
+
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="0rg3gPTqWDKAttsXeAAAAA==">GFB10101ADT00  01ERTTH                                 0200010002#GFB200010101NADTV3004TH02001000039949#GFMCER 004NTH02 UL ADTERTTH</HostToken>
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="0rg3gPTqWDKAutsXeAAAAA==">GFB10101ADT00  02ERTTH                                 0200030004#GFB200010102NADTV3004TH02001000039949#GFMCER 004NTH02 UL ADTERTTH</HostToken>
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="0rg3gPTqWDKAvtsXeAAAAA==">GFB10202CNN00  01ERTTH                                 0200010002#GFB200020201NCNNV3004TH02001000039910005137249#GFMCER 004NTH02DUL CNNERTTH</HostToken>
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="0rg3gPTqWDKAwtsXeAAAAA==">GFB10202CNN00  02ERTTH                                 0200030004#GFB200020202NCNNV3004TH02001000039910005137249#GFMCER 004NTH02DUL CNNERTTH</HostToken>
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="0rg3gPTqWDKAxtsXeAAAAA==">GFB10303INF00  01ERTTH                                 0200010002#GFB200030301NINFV3004TH02001000039910057173749#GFMCER 004NTH02DUL INFERTTH</HostToken>
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="0rg3gPTqWDKAytsXeAAAAA==">GFB10303INF00  02ERTTH                                 0200030004#GFB200030302NINFV3004TH02001000039910057173749#GFMCER 004NTH02DUL INFERTTH</HostToken>
 
             </AirPricingSolution>
+
             <ActionStatus xmlns="http://www.travelport.com/schema/common_v52_0" Type="TAU"
-                TicketDate="2024-12-30T12:55:00.000+01:00" ProviderCode="1G" />
+                TicketDate="2025-01-04T22:55:00.000+01:00" ProviderCode="1G" />
 
         </AirCreateReservationReq>
     </s:Body>

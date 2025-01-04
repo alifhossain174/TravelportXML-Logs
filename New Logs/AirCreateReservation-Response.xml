@@ -1,50 +1,50 @@
 <SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
     <SOAP:Body>
-        <universal:AirCreateReservationRsp xmlns:universal="http://www.travelport.com/schema/universal_v52_0" xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0"     xmlns:air="http://www.travelport.com/schema/air_v52_0"  TraceId="c8f38268010611bc23e5-01969005035" TransactionId="64E2549B0A0D6A9506FBC4043E0B3C4B" ResponseTime="3826">
+        <universal:AirCreateReservationRsp xmlns:universal="http://www.travelport.com/schema/universal_v52_0" xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0"     xmlns:air="http://www.travelport.com/schema/air_v52_0"  TraceId="c8f38268010611bc23e5-01969005035" TransactionId="31A2717D0A0D6A94343220A20AE5D9AC" ResponseTime="3796">
             <common_v52_0:ResponseMessage Code="7433" Type="Info" ProviderCode="1G">
                 <![CDATA[Both, Date Of Birth of Infant/Child and NameRemark was provided. NameRemark data has been ignored.]]>
             </common_v52_0:ResponseMessage>
-            <universal:UniversalRecord LocatorCode="2I9HOZ" Version="0" Status="Active">
-                <common_v52_0:BookingTraveler Key="JNW2iNVqWDKAMRWqAAAAAA==" TravelerType="ADT" DOB="1998-12-10" Gender="M" ElStat="A">
+            <universal:UniversalRecord LocatorCode="2LNIIE" Version="0" Status="Active">
+                <common_v52_0:BookingTraveler Key="MH63gPUqWDKAMEDWeAAAAA==" TravelerType="ADT" DOB="1998-12-10" Gender="M" ElStat="A">
                     <common_v52_0:BookingTravelerName Prefix="MR" First="Fahim" Last="Hossain"/>
-                    <common_v52_0:PhoneNumber Key="JNW2iNVqWDKAPRWqAAAAAA==" Type="None" Location="BZL" Number="01969005035" ElStat="A">
-                        <common_v52_0:ProviderReservationInfoRef Key="JNW2iNVqWDKAKWWqAAAAAA=="/>
+                    <common_v52_0:PhoneNumber Key="MH63gPUqWDKAPEDWeAAAAA==" Type="None" Location="BZL" Number="01969005035" ElStat="A">
+                        <common_v52_0:ProviderReservationInfoRef Key="MH63gPUqWDKA0FDWeAAAAA=="/>
                     </common_v52_0:PhoneNumber>
-                    <common_v52_0:Email Key="JNW2iNVqWDKASRWqAAAAAA==" Type="Home" EmailID="alifhossain@gmail.com" ElStat="A">
-                        <common_v52_0:ProviderReservationInfoRef Key="JNW2iNVqWDKAKWWqAAAAAA=="/>
+                    <common_v52_0:Email Key="MH63gPUqWDKASEDWeAAAAA==" Type="Home" EmailID="alifhossain@gmail.com" ElStat="A">
+                        <common_v52_0:ProviderReservationInfoRef Key="MH63gPUqWDKA0FDWeAAAAA=="/>
                     </common_v52_0:Email>
-                    <common_v52_0:SSR Key="JNW2iNVqWDKAhRWqAAAAAA==" SegmentRef="JNW2iNVqWDKA4prpAAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="KU" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" ElStat="C"/>
-                    <common_v52_0:SSR Key="JNW2iNVqWDKAiRWqAAAAAA==" SegmentRef="JNW2iNVqWDKA6prpAAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="KU" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" ElStat="C"/>
-                    <common_v52_0:SSR Key="JNW2iNVqWDKAjRWqAAAAAA==" SegmentRef="JNW2iNVqWDKA8prpAAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="KU" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" ElStat="C"/>
-                    <common_v52_0:SSR Key="JNW2iNVqWDKAkRWqAAAAAA==" SegmentRef="JNW2iNVqWDKA+prpAAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="KU" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" ElStat="C"/>
-                    <common_v52_0:SSR Key="JNW2iNVqWDKAlRWqAAAAAA==" Status="HK" Type="DOCS" FreeText="P/BD/000007878/BD/0000000/M/01JAN28/FAHIM/HOSSAIN -1HOSSAIN/FAHIMMR" Carrier="KU" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" ElStat="C"/>
+                    <common_v52_0:SSR Key="MH63gPUqWDKAvEDWeAAAAA==" SegmentRef="MH63gPUqWDKAXxjVeAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="KU" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" ElStat="C"/>
+                    <common_v52_0:SSR Key="MH63gPUqWDKAwEDWeAAAAA==" SegmentRef="MH63gPUqWDKAZxjVeAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="KU" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" ElStat="C"/>
+                    <common_v52_0:SSR Key="MH63gPUqWDKAxEDWeAAAAA==" SegmentRef="MH63gPUqWDKAbxjVeAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="KU" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" ElStat="C"/>
+                    <common_v52_0:SSR Key="MH63gPUqWDKAyEDWeAAAAA==" SegmentRef="MH63gPUqWDKAdxjVeAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="KU" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" ElStat="C"/>
+                    <common_v52_0:SSR Key="MH63gPUqWDKAzEDWeAAAAA==" Status="HK" Type="DOCS" FreeText="P/BD/000007878/BD/0000000/M/01JAN28/FAHIM/HOSSAIN -1HOSSAIN/FAHIMMR" Carrier="KU" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" ElStat="C"/>
                 </common_v52_0:BookingTraveler>
-                <common_v52_0:BookingTraveler Key="JNW2iNVqWDKAERWqAAAAAA==" TravelerType="CNN" Age="11" DOB="2015-06-12" Gender="M" ElStat="A">
+                <common_v52_0:BookingTraveler Key="MH63gPUqWDKAEEDWeAAAAA==" TravelerType="CNN" Age="11" DOB="2015-06-12" Gender="M" ElStat="A">
                     <common_v52_0:BookingTravelerName Prefix="MSTR" First="AHMAD" Last="WAFEE"/>
-                    <common_v52_0:SSR Key="JNW2iNVqWDKAmRWqAAAAAA==" Status="HK" Type="DOCS" FreeText="P/BD/000009325/BD/0000000/M/01JAN26/WAFEE/AHMAD -1WAFEE/AHMADMSTR" Carrier="KU" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" ElStat="C"/>
-                    <common_v52_0:NameRemark Key="JNW2iNVqWDKAGRWqAAAAAA==" ElStat="A">
+                    <common_v52_0:SSR Key="MH63gPUqWDKA0EDWeAAAAA==" Status="HK" Type="DOCS" FreeText="P/BD/000009325/BD/0000000/M/01JAN26/WAFEE/AHMAD -1WAFEE/AHMADMSTR" Carrier="KU" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" ElStat="C"/>
+                    <common_v52_0:NameRemark Key="MH63gPUqWDKAGEDWeAAAAA==" ElStat="A">
                         <common_v52_0:RemarkData>P-C11 DOB12JUN15</common_v52_0:RemarkData>
-                        <common_v52_0:ProviderReservationInfoRef Key="JNW2iNVqWDKAKWWqAAAAAA=="/>
+                        <common_v52_0:ProviderReservationInfoRef Key="MH63gPUqWDKA0FDWeAAAAA=="/>
                     </common_v52_0:NameRemark>
                 </common_v52_0:BookingTraveler>
-                <common_v52_0:BookingTraveler Key="JNW2iNVqWDKA+QWqAAAAAA==" TravelerType="INF" Age="1" DOB="2023-11-13" Gender="M" ElStat="A">
+                <common_v52_0:BookingTraveler Key="MH63gPUqWDKA+DDWeAAAAA==" TravelerType="INF" Age="1" DOB="2023-11-13" Gender="M" ElStat="A">
                     <common_v52_0:BookingTravelerName Prefix="MSTR" First="AHMAD" Last="NAFEE"/>
-                    <common_v52_0:SSR Key="JNW2iNVqWDKAnRWqAAAAAA==" Status="HK" Type="DOCS" FreeText="P/BD/000006987/BD/0000000/MI/02MAR26/NAFEE/AHMAD -1NAFEE/AHMADMSTR" Carrier="KU" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" ElStat="C"/>
-                    <common_v52_0:NameRemark Key="JNW2iNVqWDKAARWqAAAAAA==" ElStat="A">
+                    <common_v52_0:SSR Key="MH63gPUqWDKA1EDWeAAAAA==" Status="HK" Type="DOCS" FreeText="P/BD/000006987/BD/0000000/MI/02MAR26/NAFEE/AHMAD -1NAFEE/AHMADMSTR" Carrier="KU" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" ElStat="C"/>
+                    <common_v52_0:NameRemark Key="MH63gPUqWDKAAEDWeAAAAA==" ElStat="A">
                         <common_v52_0:RemarkData>13NOV23</common_v52_0:RemarkData>
-                        <common_v52_0:ProviderReservationInfoRef Key="JNW2iNVqWDKAKWWqAAAAAA=="/>
+                        <common_v52_0:ProviderReservationInfoRef Key="MH63gPUqWDKA0FDWeAAAAA=="/>
                     </common_v52_0:NameRemark>
                 </common_v52_0:BookingTraveler>
-                <common_v52_0:ActionStatus Key="JNW2iNVqWDKAZRWqAAAAAA==" Type="TAU" TicketDate="2024-12-10T23:59:00.000+06:00" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" ProviderCode="1G" ElStat="A"/>
-                <universal:ProviderReservationInfo Key="JNW2iNVqWDKAKWWqAAAAAA==" ProviderCode="1G" LocatorCode="9F35YV" CreateDate="2024-11-25T19:52:58.287+00:00" ModifiedDate="2024-11-25T19:52:58.287+00:00" HostCreateDate="2024-11-25" OwningPCC="LT7"/>
-                <air:AirReservation xmlns:air="http://www.travelport.com/schema/air_v52_0" xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0"  LocatorCode="2I9HP2" CreateDate="2024-11-25T19:52:57.556+00:00" ModifiedDate="2024-11-25T19:52:58.287+00:00">
-                    <common_v52_0:SupplierLocator SupplierCode="KU" SupplierLocatorCode="5TSECZ" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" CreateDateTime="2024-11-25T19:52:00.000+00:00"/>
-                    <common_v52_0:BookingTravelerRef Key="JNW2iNVqWDKAMRWqAAAAAA=="/>
-                    <common_v52_0:BookingTravelerRef Key="JNW2iNVqWDKAERWqAAAAAA=="/>
-                    <common_v52_0:BookingTravelerRef Key="JNW2iNVqWDKA+QWqAAAAAA=="/>
-                    <common_v52_0:ProviderReservationInfoRef Key="JNW2iNVqWDKAKWWqAAAAAA=="/>
-                    <air:AirSegment Key="JNW2iNVqWDKA4prpAAAAAA==" Group="0" Carrier="KU" CabinClass="Economy" FlightNumber="284" ProviderCode="1G" Origin="DAC" Destination="KWI" DepartureTime="2024-12-24T02:45:00.000+06:00" ArrivalTime="2024-12-24T06:15:00.000+03:00" TravelTime="390" Distance="2635" ClassOfService="M" ETicketability="Yes" Equipment="77W" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true" ElStat="A">
-                        <air:FlightDetails Key="JNW2iNVqWDKAdRWqAAAAAA==" Origin="DAC" Destination="KWI" DepartureTime="2024-12-24T02:45:00.000+06:00" ArrivalTime="2024-12-24T06:15:00.000+03:00" FlightTime="390" TravelTime="390" Equipment="77W" OriginTerminal="2" DestinationTerminal="4" AutomatedCheckin="false" ElStat="C"/>
+                <common_v52_0:ActionStatus Key="MH63gPUqWDKAZEDWeAAAAA==" Type="TAU" TicketDate="2025-01-04T23:59:00.000+06:00" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" ProviderCode="1G" ElStat="A"/>
+                <universal:ProviderReservationInfo Key="MH63gPUqWDKA0FDWeAAAAA==" ProviderCode="1G" LocatorCode="9FB79L" CreateDate="2025-01-04T14:05:20.667+00:00" ModifiedDate="2025-01-04T14:05:20.667+00:00" HostCreateDate="2025-01-04" OwningPCC="LT7"/>
+                <air:AirReservation xmlns:air="http://www.travelport.com/schema/air_v52_0" xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0"  LocatorCode="2LNIIT" CreateDate="2025-01-04T14:05:20.037+00:00" ModifiedDate="2025-01-04T14:05:20.667+00:00">
+                    <common_v52_0:SupplierLocator SupplierCode="KU" SupplierLocatorCode="5HRTC5" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" CreateDateTime="2025-01-04T14:17:00.000+00:00"/>
+                    <common_v52_0:BookingTravelerRef Key="MH63gPUqWDKAMEDWeAAAAA=="/>
+                    <common_v52_0:BookingTravelerRef Key="MH63gPUqWDKAEEDWeAAAAA=="/>
+                    <common_v52_0:BookingTravelerRef Key="MH63gPUqWDKA+DDWeAAAAA=="/>
+                    <common_v52_0:ProviderReservationInfoRef Key="MH63gPUqWDKA0FDWeAAAAA=="/>
+                    <air:AirSegment Key="MH63gPUqWDKAXxjVeAAAAA==" Group="0" Carrier="KU" CabinClass="Economy" FlightNumber="284" ProviderCode="1G" Origin="DAC" Destination="KWI" DepartureTime="2025-01-22T02:45:00.000+06:00" ArrivalTime="2025-01-22T06:15:00.000+03:00" TravelTime="390" Distance="2635" ClassOfService="B" ETicketability="Yes" Equipment="77W" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true" ElStat="A">
+                        <air:FlightDetails Key="MH63gPUqWDKArEDWeAAAAA==" Origin="DAC" Destination="KWI" DepartureTime="2025-01-22T02:45:00.000+06:00" ArrivalTime="2025-01-22T06:15:00.000+03:00" FlightTime="390" TravelTime="390" Equipment="77W" OriginTerminal="2" DestinationTerminal="4" AutomatedCheckin="false" ElStat="C"/>
                         <air:Connection Duration="190"/>
                         <common_v52_0:SellMessage>DEPARTS DAC TERMINAL 2  - ARRIVES KWI TERMINAL 4</common_v52_0:SellMessage>
                         <common_v52_0:SellMessage>*CHECK LATEST COVID 19 DESTINATION REGULATIONS*</common_v52_0:SellMessage>
@@ -52,8 +52,8 @@
                         <common_v52_0:SellMessage>*CHECK IN COUNTER CLOSES 60 MIN BEFORE DEPARTURE*</common_v52_0:SellMessage>
                         <common_v52_0:SellMessage>*LI.WS.LS.IL CTZNS RQR KW ENTRY TRANST VISA*</common_v52_0:SellMessage>
                     </air:AirSegment>
-                    <air:AirSegment Key="JNW2iNVqWDKA6prpAAAAAA==" Group="0" Carrier="KU" CabinClass="Economy" FlightNumber="671" ProviderCode="1G" Origin="KWI" Destination="DXB" DepartureTime="2024-12-24T09:25:00.000+03:00" ArrivalTime="2024-12-24T12:20:00.000+04:00" TravelTime="115" Distance="531" ClassOfService="M" ETicketability="Yes" Equipment="77W" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" TravelOrder="2" ProviderSegmentOrder="2" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true" ElStat="A">
-                        <air:FlightDetails Key="JNW2iNVqWDKAeRWqAAAAAA==" Origin="KWI" Destination="DXB" DepartureTime="2024-12-24T09:25:00.000+03:00" ArrivalTime="2024-12-24T12:20:00.000+04:00" FlightTime="115" TravelTime="115" Equipment="77W" OriginTerminal="4" DestinationTerminal="1" AutomatedCheckin="false" ElStat="C"/>
+                    <air:AirSegment Key="MH63gPUqWDKAZxjVeAAAAA==" Group="0" Carrier="KU" CabinClass="Economy" FlightNumber="671" ProviderCode="1G" Origin="KWI" Destination="DXB" DepartureTime="2025-01-22T09:25:00.000+03:00" ArrivalTime="2025-01-22T12:20:00.000+04:00" TravelTime="115" Distance="531" ClassOfService="B" ETicketability="Yes" Equipment="32N" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" TravelOrder="2" ProviderSegmentOrder="2" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true" ElStat="A">
+                        <air:FlightDetails Key="MH63gPUqWDKAsEDWeAAAAA==" Origin="KWI" Destination="DXB" DepartureTime="2025-01-22T09:25:00.000+03:00" ArrivalTime="2025-01-22T12:20:00.000+04:00" FlightTime="115" TravelTime="115" Equipment="32N" OriginTerminal="4" DestinationTerminal="1" AutomatedCheckin="false" ElStat="C"/>
                         <common_v52_0:SellMessage>DEPARTS KWI TERMINAL 4  - ARRIVES DXB TERMINAL 1</common_v52_0:SellMessage>
                         <common_v52_0:SellMessage>*CHECK LATEST COVID 19 DESTINATION REGULATIONS*</common_v52_0:SellMessage>
                         <common_v52_0:SellMessage>*DEPART KUWAIT TERMINAL 4 ARRIVE DUBAI TERMINAL 1*</common_v52_0:SellMessage>
@@ -61,9 +61,8 @@
                         <common_v52_0:SellMessage>*CHECK IN COUNTER CLOSES 60 MIN BEFORE DEPARTURE*</common_v52_0:SellMessage>
                         <common_v52_0:SellMessage>*LI.WS.LS.IL CTZNS RQR KW ENTRY TRANST VISA*</common_v52_0:SellMessage>
                     </air:AirSegment>
-                    <air:AirSegment Key="JNW2iNVqWDKA8prpAAAAAA==" Group="1" Carrier="KU" CabinClass="Economy" FlightNumber="672" ProviderCode="1G" Origin="DXB" Destination="KWI" DepartureTime="2024-12-28T13:20:00.000+04:00" ArrivalTime="2024-12-28T14:10:00.000+03:00" TravelTime="110" Distance="531" ClassOfService="H" ETicketability="Yes" Equipment="32A" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" TravelOrder="3" ProviderSegmentOrder="3" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true" ElStat="A">
-                        <air:FlightDetails Key="JNW2iNVqWDKAHWWqAAAAAA==" Origin="DXB" Destination="KWI" DepartureTime="2024-12-28T13:20:00.000+04:00" ArrivalTime="2024-12-28T14:00:00.000+03:00" FlightTime="100" TravelTime="110" Equipment="32A" OriginTerminal="1" DestinationTerminal="4" AutomatedCheckin="false" ElStat="C"/>
-                        <air:Connection Duration="170"/>
+                    <air:AirSegment Key="MH63gPUqWDKAbxjVeAAAAA==" Group="1" Carrier="KU" CabinClass="Economy" FlightNumber="674" ProviderCode="1G" Origin="DXB" Destination="KWI" DepartureTime="2025-01-26T19:00:00.000+04:00" ArrivalTime="2025-01-26T19:45:00.000+03:00" TravelTime="105" Distance="531" ClassOfService="H" ETicketability="Yes" Equipment="32N" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" TravelOrder="3" ProviderSegmentOrder="3" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true" ElStat="A">
+                        <air:FlightDetails Key="MH63gPUqWDKAtEDWeAAAAA==" Origin="DXB" Destination="KWI" DepartureTime="2025-01-26T19:00:00.000+04:00" ArrivalTime="2025-01-26T19:45:00.000+03:00" FlightTime="105" TravelTime="105" Equipment="32N" OriginTerminal="1" DestinationTerminal="4" AutomatedCheckin="false" ElStat="C"/>
                         <common_v52_0:SellMessage>DEPARTS DXB TERMINAL 1  - ARRIVES KWI TERMINAL 4</common_v52_0:SellMessage>
                         <common_v52_0:SellMessage>*CHECK LATEST COVID 19 DESTINATION REGULATIONS*</common_v52_0:SellMessage>
                         <common_v52_0:SellMessage>*DEPART DUBAI TERMINAL 1 ARRIVE KUWAIT TERMINAL 4*</common_v52_0:SellMessage>
@@ -71,8 +70,8 @@
                         <common_v52_0:SellMessage>*CHECK IN COUNTER CLOSES 60 MIN BEFORE DEPARTURE*</common_v52_0:SellMessage>
                         <common_v52_0:SellMessage>*LI.WS.LS.IL CTZNS RQR KW ENTRY TRANST VISA*</common_v52_0:SellMessage>
                     </air:AirSegment>
-                    <air:AirSegment Key="JNW2iNVqWDKA+prpAAAAAA==" Group="1" Carrier="KU" CabinClass="Economy" FlightNumber="283" ProviderCode="1G" Origin="KWI" Destination="DAC" DepartureTime="2024-12-28T17:00:00.000+03:00" ArrivalTime="2024-12-29T01:00:00.000+06:00" TravelTime="300" Distance="2635" ClassOfService="H" ETicketability="Yes" Equipment="77W" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" TravelOrder="4" ProviderSegmentOrder="4" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true" ElStat="A">
-                        <air:FlightDetails Key="JNW2iNVqWDKAgRWqAAAAAA==" Origin="KWI" Destination="DAC" DepartureTime="2024-12-28T17:00:00.000+03:00" ArrivalTime="2024-12-29T01:00:00.000+06:00" FlightTime="300" TravelTime="300" Equipment="77W" OriginTerminal="4" DestinationTerminal="2" AutomatedCheckin="false" ElStat="C"/>
+                    <air:AirSegment Key="MH63gPUqWDKAdxjVeAAAAA==" Group="2" Carrier="KU" CabinClass="Economy" FlightNumber="283" ProviderCode="1G" Origin="KWI" Destination="DAC" DepartureTime="2025-01-27T17:00:00.000+03:00" ArrivalTime="2025-01-28T01:00:00.000+06:00" TravelTime="300" Distance="2635" ClassOfService="H" ETicketability="Yes" Equipment="77W" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" TravelOrder="4" ProviderSegmentOrder="4" OptionalServicesIndicator="false" ParticipantLevel="Secure Sell" LinkAvailability="true" ElStat="A">
+                        <air:FlightDetails Key="MH63gPUqWDKAuEDWeAAAAA==" Origin="KWI" Destination="DAC" DepartureTime="2025-01-27T17:00:00.000+03:00" ArrivalTime="2025-01-28T01:00:00.000+06:00" FlightTime="300" TravelTime="300" Equipment="77W" OriginTerminal="4" DestinationTerminal="2" AutomatedCheckin="false" ElStat="C"/>
                         <common_v52_0:SellMessage>DEPARTS KWI TERMINAL 4  - ARRIVES DAC TERMINAL 2</common_v52_0:SellMessage>
                         <common_v52_0:SellMessage>*CHECK LATEST COVID 19 DESTINATION REGULATIONS*</common_v52_0:SellMessage>
                         <common_v52_0:SellMessage>*ADD MOBILE NBR AND EMAIL TO ADVISE CHANGES*</common_v52_0:SellMessage>
@@ -83,68 +82,69 @@
                         <common_v52_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</common_v52_0:SellMessage>
                         <common_v52_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v52_0:SellMessage>
                     </air:AirSegment>
-                    <air:AirPricingInfo Key="JNW2iNVqWDKAHqrpAAAAAA==" TotalPrice="BDT84305" BasePrice="USD542.00" ApproximateTotalPrice="BDT84305" ApproximateBasePrice="BDT65030" EquivalentBasePrice="BDT65030" Taxes="BDT19275" LatestTicketingTime="2024-12-24T23:59:00.000+06:00" TrueLastDateToTicket="2024-12-24T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" ElStat="A" FareCalculationInd="G">
-                        <air:FareInfo Key="JNW2iNVqWDKArRWqAAAAAA==" FareBasis="MRTBD1" PassengerTypeCode="ADT" Origin="DAC" Destination="KWI" EffectiveDate="2024-11-25T00:00:00.000+06:00" NegotiatedFare="false" NotValidBefore="2024-12-24" NotValidAfter="2024-12-24" PseudoCityCode="LT7" ElStat="C">
+                    <air:AirPricingInfo Key="MH63gPUqWDKA5EDWeAAAAA==" TotalPrice="BDT133376" BasePrice="USD951.00" ApproximateTotalPrice="BDT133376" ApproximateBasePrice="BDT114101" EquivalentBasePrice="BDT114101" Taxes="BDT19275" LatestTicketingTime="2025-01-22T23:59:00.000+06:00" TrueLastDateToTicket="2025-01-22T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" ElStat="C" FareCalculationInd="G">
+                        <air:FareInfo Key="MH63gPUqWDKA8EDWeAAAAA==" FareBasis="BRTBD1" PassengerTypeCode="ADT" Origin="DAC" Destination="KWI" EffectiveDate="2025-01-04T00:00:00.000+06:00" NotValidBefore="2025-01-22" NotValidAfter="2025-01-22" PseudoCityCode="LT7" ElStat="C">
                             <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
                             <common_v52_0:Endorsement Value="NON END"/>
                             <air:BaggageAllowance>
                                 <air:NumberOfPieces>2</air:NumberOfPieces>
                             </air:BaggageAllowance>
                         </air:FareInfo>
-                        <air:FareInfo Key="JNW2iNVqWDKAsRWqAAAAAA==" FareBasis="MRTBD1" PassengerTypeCode="ADT" Origin="KWI" Destination="DXB" EffectiveDate="2024-11-25T00:00:00.000+06:00" Amount="NUC316.00" NegotiatedFare="false" NotValidBefore="2024-12-24" NotValidAfter="2024-12-24" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="MH63gPUqWDKA9EDWeAAAAA==" FareBasis="BRTBD1" PassengerTypeCode="ADT" Origin="KWI" Destination="DXB" EffectiveDate="2025-01-04T00:00:00.000+06:00" Amount="NUC425.50" NotValidBefore="2025-01-22" NotValidAfter="2025-01-22" PseudoCityCode="LT7" ElStat="C">
                             <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
                             <common_v52_0:Endorsement Value="NON END"/>
                             <air:BaggageAllowance>
                                 <air:NumberOfPieces>2</air:NumberOfPieces>
                             </air:BaggageAllowance>
                         </air:FareInfo>
-                        <air:FareInfo Key="JNW2iNVqWDKAtRWqAAAAAA==" FareBasis="HRTBD1" PassengerTypeCode="ADT" Origin="DXB" Destination="KWI" EffectiveDate="2024-11-25T00:00:00.000+06:00" NegotiatedFare="false" NotValidBefore="2024-12-28" NotValidAfter="2024-12-28" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="MH63gPUqWDKA+EDWeAAAAA==" FareBasis="HRTBD1" PassengerTypeCode="ADT" Origin="DXB" Destination="KWI" EffectiveDate="2025-01-04T00:00:00.000+06:00" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26" PseudoCityCode="LT7" ElStat="C">
+                            <air:FareSurcharge Key="MH63gPUqWDKA6FDWeAAAAA==" Type="Stopover Charge" Amount="NUC160.00" ElStat="A" SegmentRef="MH63gPUqWDKAbxjVeAAAAA=="/>
                             <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
                             <common_v52_0:Endorsement Value="NON END"/>
                             <air:BaggageAllowance>
                                 <air:NumberOfPieces>2</air:NumberOfPieces>
                             </air:BaggageAllowance>
                         </air:FareInfo>
-                        <air:FareInfo Key="JNW2iNVqWDKAuRWqAAAAAA==" FareBasis="HRTBD1" PassengerTypeCode="ADT" Origin="KWI" Destination="DAC" EffectiveDate="2024-11-25T00:00:00.000+06:00" Amount="NUC225.50" NegotiatedFare="false" NotValidBefore="2024-12-28" NotValidAfter="2024-12-28" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="MH63gPUqWDKA/EDWeAAAAA==" FareBasis="HRTBD1" PassengerTypeCode="ADT" Origin="KWI" Destination="DAC" EffectiveDate="2025-01-04T00:00:00.000+06:00" Amount="NUC525.50" NotValidBefore="2025-01-27" NotValidAfter="2025-01-27" PseudoCityCode="LT7" ElStat="C">
                             <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
                             <common_v52_0:Endorsement Value="NON END"/>
                             <air:BaggageAllowance>
                                 <air:NumberOfPieces>2</air:NumberOfPieces>
                             </air:BaggageAllowance>
                         </air:FareInfo>
-                        <air:BookingInfo BookingCode="M" CabinClass="Economy" FareInfoRef="JNW2iNVqWDKArRWqAAAAAA==" SegmentRef="JNW2iNVqWDKA4prpAAAAAA=="/>
-                        <air:BookingInfo BookingCode="M" CabinClass="Economy" FareInfoRef="JNW2iNVqWDKAsRWqAAAAAA==" SegmentRef="JNW2iNVqWDKA6prpAAAAAA=="/>
-                        <air:BookingInfo BookingCode="H" CabinClass="Economy" FareInfoRef="JNW2iNVqWDKAtRWqAAAAAA==" SegmentRef="JNW2iNVqWDKA8prpAAAAAA=="/>
-                        <air:BookingInfo BookingCode="H" CabinClass="Economy" FareInfoRef="JNW2iNVqWDKAuRWqAAAAAA==" SegmentRef="JNW2iNVqWDKA+prpAAAAAA=="/>
-                        <air:TaxInfo Category="BD" Amount="BDT500" Key="JNW2iNVqWDKAIqrpAAAAAA=="/>
-                        <air:TaxInfo Category="OW" Amount="BDT2000" Key="JNW2iNVqWDKAJqrpAAAAAA=="/>
-                        <air:TaxInfo Category="P7" Amount="BDT1200" Key="JNW2iNVqWDKAKqrpAAAAAA=="/>
-                        <air:TaxInfo Category="P8" Amount="BDT1200" Key="JNW2iNVqWDKALqrpAAAAAA=="/>
-                        <air:TaxInfo Category="UT" Amount="BDT4000" Key="JNW2iNVqWDKAMqrpAAAAAA=="/>
-                        <air:TaxInfo Category="GZ" Amount="BDT786" Key="JNW2iNVqWDKANqrpAAAAAA=="/>
-                        <air:TaxInfo Category="L2" Amount="BDT786" Key="JNW2iNVqWDKAOqrpAAAAAA=="/>
-                        <air:TaxInfo Category="N4" Amount="BDT3926" Key="JNW2iNVqWDKAPqrpAAAAAA=="/>
-                        <air:TaxInfo Category="YX" Amount="BDT192" Key="JNW2iNVqWDKAQqrpAAAAAA=="/>
-                        <air:TaxInfo Category="AE" Amount="BDT2451" Key="JNW2iNVqWDKARqrpAAAAAA=="/>
-                        <air:TaxInfo Category="F6" Amount="BDT1307" Key="JNW2iNVqWDKASqrpAAAAAA=="/>
-                        <air:TaxInfo Category="TP" Amount="BDT164" Key="JNW2iNVqWDKATqrpAAAAAA=="/>
-                        <air:TaxInfo Category="ZR" Amount="BDT328" Key="JNW2iNVqWDKAUqrpAAAAAA=="/>
-                        <air:TaxInfo Category="E5" Amount="BDT435" Key="JNW2iNVqWDKAVqrpAAAAAA=="/>
-                        <air:FareCalc>DAC KU X/KWI KU DXB 316.00MRTBD1 KU X/KWI KU DAC 225.50HRTBD1 NUC541.50END ROE1.0</air:FareCalc>
-                        <air:PassengerType Code="ADT" BookingTravelerRef="JNW2iNVqWDKAMRWqAAAAAA==">
-                            <air:FareGuaranteeInfo GuaranteeDate="2024-11-26" GuaranteeType="Guaranteed"/>
+                        <air:BookingInfo BookingCode="B" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA8EDWeAAAAA==" SegmentRef="MH63gPUqWDKAXxjVeAAAAA=="/>
+                        <air:BookingInfo BookingCode="B" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA9EDWeAAAAA==" SegmentRef="MH63gPUqWDKAZxjVeAAAAA=="/>
+                        <air:BookingInfo BookingCode="H" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA+EDWeAAAAA==" SegmentRef="MH63gPUqWDKAbxjVeAAAAA=="/>
+                        <air:BookingInfo BookingCode="H" CabinClass="Economy" FareInfoRef="MH63gPUqWDKA/EDWeAAAAA==" SegmentRef="MH63gPUqWDKAdxjVeAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="BDT500" Key="MH63gPUqWDKAAFDWeAAAAA=="/>
+                        <air:TaxInfo Category="OW" Amount="BDT2000" Key="MH63gPUqWDKABFDWeAAAAA=="/>
+                        <air:TaxInfo Category="P7" Amount="BDT1200" Key="MH63gPUqWDKACFDWeAAAAA=="/>
+                        <air:TaxInfo Category="P8" Amount="BDT1200" Key="MH63gPUqWDKADFDWeAAAAA=="/>
+                        <air:TaxInfo Category="UT" Amount="BDT4000" Key="MH63gPUqWDKAEFDWeAAAAA=="/>
+                        <air:TaxInfo Category="GZ" Amount="BDT786" Key="MH63gPUqWDKAFFDWeAAAAA=="/>
+                        <air:TaxInfo Category="L2" Amount="BDT786" Key="MH63gPUqWDKAGFDWeAAAAA=="/>
+                        <air:TaxInfo Category="N4" Amount="BDT3926" Key="MH63gPUqWDKAHFDWeAAAAA=="/>
+                        <air:TaxInfo Category="YX" Amount="BDT192" Key="MH63gPUqWDKAIFDWeAAAAA=="/>
+                        <air:TaxInfo Category="AE" Amount="BDT2451" Key="MH63gPUqWDKAJFDWeAAAAA=="/>
+                        <air:TaxInfo Category="F6" Amount="BDT1307" Key="MH63gPUqWDKAKFDWeAAAAA=="/>
+                        <air:TaxInfo Category="TP" Amount="BDT164" Key="MH63gPUqWDKALFDWeAAAAA=="/>
+                        <air:TaxInfo Category="ZR" Amount="BDT328" Key="MH63gPUqWDKAMFDWeAAAAA=="/>
+                        <air:TaxInfo Category="E5" Amount="BDT435" Key="MH63gPUqWDKANFDWeAAAAA=="/>
+                        <air:FareCalc>DAC KU X/KWI KU DXB 425.50BRTBD1 KU KWI S160.00 KU DAC 365.50HRTBD1 NUC951.00END ROE1.0</air:FareCalc>
+                        <air:PassengerType Code="ADT" BookingTravelerRef="MH63gPUqWDKAMEDWeAAAAA==">
+                            <air:FareGuaranteeInfo GuaranteeDate="2025-01-04" GuaranteeType="Guaranteed"/>
                         </air:PassengerType>
-                        <common_v52_0:BookingTravelerRef Key="JNW2iNVqWDKAMRWqAAAAAA=="/>
+                        <common_v52_0:BookingTravelerRef Key="MH63gPUqWDKAMEDWeAAAAA=="/>
                         <air:ChangePenalty PenaltyApplies="Anytime">
                             <air:Amount>BDT4199.0</air:Amount>
                         </air:ChangePenalty>
                         <air:CancelPenalty PenaltyApplies="Before Departure">
                             <air:Amount>BDT6598.0</air:Amount>
                         </air:CancelPenalty>
-                        <air:TicketingModifiersRef Key="JNW2iNVqWDKAxWWqAAAAAA=="/>
+                        <air:TicketingModifiersRef Key="MH63gPUqWDKAdGDWeAAAAA=="/>
                     </air:AirPricingInfo>
-                    <air:AirPricingInfo Key="JNW2iNVqWDKAKrrpAAAAAA==" TotalPrice="BDT65987" BasePrice="USD406.00" ApproximateTotalPrice="BDT65987" ApproximateBasePrice="BDT48712" EquivalentBasePrice="BDT48712" Taxes="BDT17275" LatestTicketingTime="2024-12-24T23:59:00.000+06:00" TrueLastDateToTicket="2024-12-24T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" ElStat="A" FareCalculationInd="G">
-                        <air:FareInfo Key="JNW2iNVqWDKAvRWqAAAAAA==" FareBasis="MRTBD1" PassengerTypeCode="CNN" Origin="DAC" Destination="KWI" EffectiveDate="2024-11-25T00:00:00.000+06:00" NegotiatedFare="false" NotValidBefore="2024-12-24" NotValidAfter="2024-12-24" PseudoCityCode="LT7" ElStat="C">
+                    <air:AirPricingInfo Key="MH63gPUqWDKA6EDWeAAAAA==" TotalPrice="BDT107620" BasePrice="USD753.00" ApproximateTotalPrice="BDT107620" ApproximateBasePrice="BDT90345" EquivalentBasePrice="BDT90345" Taxes="BDT17275" LatestTicketingTime="2025-01-22T23:59:00.000+06:00" TrueLastDateToTicket="2025-01-22T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" ElStat="C" FareCalculationInd="G">
+                        <air:FareInfo Key="MH63gPUqWDKAOFDWeAAAAA==" FareBasis="BRTBD1" PassengerTypeCode="CNN" Origin="DAC" Destination="KWI" EffectiveDate="2025-01-04T00:00:00.000+06:00" NotValidBefore="2025-01-22" NotValidAfter="2025-01-22" PseudoCityCode="LT7" ElStat="C">
                             <air:FareTicketDesignator Value="CH25"/>
                             <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
                             <common_v52_0:Endorsement Value="NON END"/>
@@ -152,7 +152,7 @@
                                 <air:NumberOfPieces>2</air:NumberOfPieces>
                             </air:BaggageAllowance>
                         </air:FareInfo>
-                        <air:FareInfo Key="JNW2iNVqWDKAwRWqAAAAAA==" FareBasis="MRTBD1" PassengerTypeCode="CNN" Origin="KWI" Destination="DXB" EffectiveDate="2024-11-25T00:00:00.000+06:00" Amount="NUC237.00" NegotiatedFare="false" NotValidBefore="2024-12-24" NotValidAfter="2024-12-24" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="MH63gPUqWDKAPFDWeAAAAA==" FareBasis="BRTBD1" PassengerTypeCode="CNN" Origin="KWI" Destination="DXB" EffectiveDate="2025-01-04T00:00:00.000+06:00" Amount="NUC319.12" NotValidBefore="2025-01-22" NotValidAfter="2025-01-22" PseudoCityCode="LT7" ElStat="C">
                             <air:FareTicketDesignator Value="CH25"/>
                             <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
                             <common_v52_0:Endorsement Value="NON END"/>
@@ -160,7 +160,16 @@
                                 <air:NumberOfPieces>2</air:NumberOfPieces>
                             </air:BaggageAllowance>
                         </air:FareInfo>
-                        <air:FareInfo Key="JNW2iNVqWDKAxRWqAAAAAA==" FareBasis="HRTBD1" PassengerTypeCode="CNN" Origin="DXB" Destination="KWI" EffectiveDate="2024-11-25T00:00:00.000+06:00" NegotiatedFare="false" NotValidBefore="2024-12-28" NotValidAfter="2024-12-28" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="MH63gPUqWDKAQFDWeAAAAA==" FareBasis="HRTBD1" PassengerTypeCode="CNN" Origin="DXB" Destination="KWI" EffectiveDate="2025-01-04T00:00:00.000+06:00" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26" PseudoCityCode="LT7" ElStat="C">
+                            <air:FareTicketDesignator Value="CH25"/>
+                            <air:FareSurcharge Key="MH63gPUqWDKAVGDWeAAAAA==" Type="Stopover Charge" Amount="NUC160.00" ElStat="A" SegmentRef="MH63gPUqWDKAbxjVeAAAAA=="/>
+                            <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
+                            <common_v52_0:Endorsement Value="NON END"/>
+                            <air:BaggageAllowance>
+                                <air:NumberOfPieces>2</air:NumberOfPieces>
+                            </air:BaggageAllowance>
+                        </air:FareInfo>
+                        <air:FareInfo Key="MH63gPUqWDKARFDWeAAAAA==" FareBasis="HRTBD1" PassengerTypeCode="CNN" Origin="KWI" Destination="DAC" EffectiveDate="2025-01-04T00:00:00.000+06:00" Amount="NUC434.12" NotValidBefore="2025-01-27" NotValidAfter="2025-01-27" PseudoCityCode="LT7" ElStat="C">
                             <air:FareTicketDesignator Value="CH25"/>
                             <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
                             <common_v52_0:Endorsement Value="NON END"/>
@@ -168,47 +177,39 @@
                                 <air:NumberOfPieces>2</air:NumberOfPieces>
                             </air:BaggageAllowance>
                         </air:FareInfo>
-                        <air:FareInfo Key="JNW2iNVqWDKAyRWqAAAAAA==" FareBasis="HRTBD1" PassengerTypeCode="CNN" Origin="KWI" Destination="DAC" EffectiveDate="2024-11-25T00:00:00.000+06:00" Amount="NUC169.12" NegotiatedFare="false" NotValidBefore="2024-12-28" NotValidAfter="2024-12-28" PseudoCityCode="LT7" ElStat="C">
-                            <air:FareTicketDesignator Value="CH25"/>
-                            <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
-                            <common_v52_0:Endorsement Value="NON END"/>
-                            <air:BaggageAllowance>
-                                <air:NumberOfPieces>2</air:NumberOfPieces>
-                            </air:BaggageAllowance>
-                        </air:FareInfo>
-                        <air:BookingInfo BookingCode="M" CabinClass="Economy" FareInfoRef="JNW2iNVqWDKAvRWqAAAAAA==" SegmentRef="JNW2iNVqWDKA4prpAAAAAA=="/>
-                        <air:BookingInfo BookingCode="M" CabinClass="Economy" FareInfoRef="JNW2iNVqWDKAwRWqAAAAAA==" SegmentRef="JNW2iNVqWDKA6prpAAAAAA=="/>
-                        <air:BookingInfo BookingCode="H" CabinClass="Economy" FareInfoRef="JNW2iNVqWDKAxRWqAAAAAA==" SegmentRef="JNW2iNVqWDKA8prpAAAAAA=="/>
-                        <air:BookingInfo BookingCode="H" CabinClass="Economy" FareInfoRef="JNW2iNVqWDKAyRWqAAAAAA==" SegmentRef="JNW2iNVqWDKA+prpAAAAAA=="/>
-                        <air:TaxInfo Category="BD" Amount="BDT500" Key="JNW2iNVqWDKALrrpAAAAAA=="/>
-                        <air:TaxInfo Category="OW" Amount="BDT2000" Key="JNW2iNVqWDKAMrrpAAAAAA=="/>
-                        <air:TaxInfo Category="P7" Amount="BDT1200" Key="JNW2iNVqWDKANrrpAAAAAA=="/>
-                        <air:TaxInfo Category="P8" Amount="BDT1200" Key="JNW2iNVqWDKAOrrpAAAAAA=="/>
-                        <air:TaxInfo Category="UT" Amount="BDT2000" Key="JNW2iNVqWDKAPrrpAAAAAA=="/>
-                        <air:TaxInfo Category="GZ" Amount="BDT786" Key="JNW2iNVqWDKAQrrpAAAAAA=="/>
-                        <air:TaxInfo Category="L2" Amount="BDT786" Key="JNW2iNVqWDKARrrpAAAAAA=="/>
-                        <air:TaxInfo Category="N4" Amount="BDT3926" Key="JNW2iNVqWDKASrrpAAAAAA=="/>
-                        <air:TaxInfo Category="YX" Amount="BDT192" Key="JNW2iNVqWDKATrrpAAAAAA=="/>
-                        <air:TaxInfo Category="AE" Amount="BDT2451" Key="JNW2iNVqWDKAUrrpAAAAAA=="/>
-                        <air:TaxInfo Category="F6" Amount="BDT1307" Key="JNW2iNVqWDKAVrrpAAAAAA=="/>
-                        <air:TaxInfo Category="TP" Amount="BDT164" Key="JNW2iNVqWDKAWrrpAAAAAA=="/>
-                        <air:TaxInfo Category="ZR" Amount="BDT328" Key="JNW2iNVqWDKAXrrpAAAAAA=="/>
-                        <air:TaxInfo Category="E5" Amount="BDT435" Key="JNW2iNVqWDKAYrrpAAAAAA=="/>
-                        <air:FareCalc>DAC KU X/KWI KU DXB 237.00MRTBD1/CH25 KU X/KWI KU DAC 169.12HRTBD1/CH25 NUC406.12END ROE1.0</air:FareCalc>
-                        <air:PassengerType Code="CNN" Age="8" BookingTravelerRef="JNW2iNVqWDKAERWqAAAAAA==">
-                            <air:FareGuaranteeInfo GuaranteeDate="2024-11-26" GuaranteeType="Guaranteed"/>
+                        <air:BookingInfo BookingCode="B" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAOFDWeAAAAA==" SegmentRef="MH63gPUqWDKAXxjVeAAAAA=="/>
+                        <air:BookingInfo BookingCode="B" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAPFDWeAAAAA==" SegmentRef="MH63gPUqWDKAZxjVeAAAAA=="/>
+                        <air:BookingInfo BookingCode="H" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAQFDWeAAAAA==" SegmentRef="MH63gPUqWDKAbxjVeAAAAA=="/>
+                        <air:BookingInfo BookingCode="H" CabinClass="Economy" FareInfoRef="MH63gPUqWDKARFDWeAAAAA==" SegmentRef="MH63gPUqWDKAdxjVeAAAAA=="/>
+                        <air:TaxInfo Category="BD" Amount="BDT500" Key="MH63gPUqWDKASFDWeAAAAA=="/>
+                        <air:TaxInfo Category="OW" Amount="BDT2000" Key="MH63gPUqWDKATFDWeAAAAA=="/>
+                        <air:TaxInfo Category="P7" Amount="BDT1200" Key="MH63gPUqWDKAUFDWeAAAAA=="/>
+                        <air:TaxInfo Category="P8" Amount="BDT1200" Key="MH63gPUqWDKAVFDWeAAAAA=="/>
+                        <air:TaxInfo Category="UT" Amount="BDT2000" Key="MH63gPUqWDKAWFDWeAAAAA=="/>
+                        <air:TaxInfo Category="GZ" Amount="BDT786" Key="MH63gPUqWDKAXFDWeAAAAA=="/>
+                        <air:TaxInfo Category="L2" Amount="BDT786" Key="MH63gPUqWDKAYFDWeAAAAA=="/>
+                        <air:TaxInfo Category="N4" Amount="BDT3926" Key="MH63gPUqWDKAZFDWeAAAAA=="/>
+                        <air:TaxInfo Category="YX" Amount="BDT192" Key="MH63gPUqWDKAaFDWeAAAAA=="/>
+                        <air:TaxInfo Category="AE" Amount="BDT2451" Key="MH63gPUqWDKAbFDWeAAAAA=="/>
+                        <air:TaxInfo Category="F6" Amount="BDT1307" Key="MH63gPUqWDKAcFDWeAAAAA=="/>
+                        <air:TaxInfo Category="TP" Amount="BDT164" Key="MH63gPUqWDKAdFDWeAAAAA=="/>
+                        <air:TaxInfo Category="ZR" Amount="BDT328" Key="MH63gPUqWDKAeFDWeAAAAA=="/>
+                        <air:TaxInfo Category="E5" Amount="BDT435" Key="MH63gPUqWDKAfFDWeAAAAA=="/>
+                        <air:FareCalc>DAC KU X/KWI KU DXB 319.12BRTBD1/CH25 KU KWI S160.00 KU DAC 274.13HRTBD1/CH25 NUC753.25END ROE1.0</air:FareCalc>
+                        <air:PassengerType Code="CNN" Age="8" BookingTravelerRef="MH63gPUqWDKAEEDWeAAAAA==">
+                            <air:FareGuaranteeInfo GuaranteeDate="2025-01-04" GuaranteeType="Guaranteed"/>
                         </air:PassengerType>
-                        <common_v52_0:BookingTravelerRef Key="JNW2iNVqWDKAERWqAAAAAA=="/>
+                        <common_v52_0:BookingTravelerRef Key="MH63gPUqWDKAEEDWeAAAAA=="/>
                         <air:ChangePenalty PenaltyApplies="Anytime">
                             <air:Amount>BDT4199.0</air:Amount>
                         </air:ChangePenalty>
                         <air:CancelPenalty PenaltyApplies="Before Departure">
                             <air:Amount>BDT6598.0</air:Amount>
                         </air:CancelPenalty>
-                        <air:TicketingModifiersRef Key="JNW2iNVqWDKAxWWqAAAAAA=="/>
+                        <air:TicketingModifiersRef Key="MH63gPUqWDKAdGDWeAAAAA=="/>
                     </air:AirPricingInfo>
-                    <air:AirPricingInfo Key="JNW2iNVqWDKANsrpAAAAAA==" TotalPrice="BDT17482" BasePrice="USD108.00" ApproximateTotalPrice="BDT17482" ApproximateBasePrice="BDT12958" EquivalentBasePrice="BDT12958" Taxes="BDT4524" LatestTicketingTime="2024-12-24T23:59:00.000+06:00" TrueLastDateToTicket="2024-12-24T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" ElStat="A" FareCalculationInd="G">
-                        <air:FareInfo Key="JNW2iNVqWDKAzRWqAAAAAA==" FareBasis="MRTBD1" PassengerTypeCode="INF" Origin="DAC" Destination="KWI" EffectiveDate="2024-11-25T00:00:00.000+06:00" NegotiatedFare="false" NotValidBefore="2024-12-24" NotValidAfter="2024-12-24" PseudoCityCode="LT7" ElStat="C">
+                    <air:AirPricingInfo Key="MH63gPUqWDKA7EDWeAAAAA==" TotalPrice="BDT23481" BasePrice="USD158.00" ApproximateTotalPrice="BDT23481" ApproximateBasePrice="BDT18957" EquivalentBasePrice="BDT18957" Taxes="BDT4524" LatestTicketingTime="2025-01-22T23:59:00.000+06:00" TrueLastDateToTicket="2025-01-22T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" ElStat="C" FareCalculationInd="G">
+                        <air:FareInfo Key="MH63gPUqWDKAgFDWeAAAAA==" FareBasis="BRTBD1" PassengerTypeCode="INF" Origin="DAC" Destination="KWI" EffectiveDate="2025-01-04T00:00:00.000+06:00" NotValidBefore="2025-01-22" NotValidAfter="2025-01-22" PseudoCityCode="LT7" ElStat="C">
                             <air:FareTicketDesignator Value="IN80"/>
                             <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
                             <common_v52_0:Endorsement Value="NON END"/>
@@ -216,7 +217,7 @@
                                 <air:NumberOfPieces>1</air:NumberOfPieces>
                             </air:BaggageAllowance>
                         </air:FareInfo>
-                        <air:FareInfo Key="JNW2iNVqWDKA0RWqAAAAAA==" FareBasis="MRTBD1" PassengerTypeCode="INF" Origin="KWI" Destination="DXB" EffectiveDate="2024-11-25T00:00:00.000+06:00" Amount="NUC63.20" NegotiatedFare="false" NotValidBefore="2024-12-24" NotValidAfter="2024-12-24" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="MH63gPUqWDKAhFDWeAAAAA==" FareBasis="BRTBD1" PassengerTypeCode="INF" Origin="KWI" Destination="DXB" EffectiveDate="2025-01-04T00:00:00.000+06:00" Amount="NUC85.10" NotValidBefore="2025-01-22" NotValidAfter="2025-01-22" PseudoCityCode="LT7" ElStat="C">
                             <air:FareTicketDesignator Value="IN80"/>
                             <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
                             <common_v52_0:Endorsement Value="NON END"/>
@@ -224,7 +225,7 @@
                                 <air:NumberOfPieces>1</air:NumberOfPieces>
                             </air:BaggageAllowance>
                         </air:FareInfo>
-                        <air:FareInfo Key="JNW2iNVqWDKA1RWqAAAAAA==" FareBasis="HRTBD1" PassengerTypeCode="INF" Origin="DXB" Destination="KWI" EffectiveDate="2024-11-25T00:00:00.000+06:00" NegotiatedFare="false" NotValidBefore="2024-12-28" NotValidAfter="2024-12-28" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="MH63gPUqWDKAiFDWeAAAAA==" FareBasis="HRTBD1" PassengerTypeCode="INF" Origin="DXB" Destination="KWI" EffectiveDate="2025-01-04T00:00:00.000+06:00" NotValidBefore="2025-01-26" NotValidAfter="2025-01-26" PseudoCityCode="LT7" ElStat="C">
                             <air:FareTicketDesignator Value="IN80"/>
                             <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
                             <common_v52_0:Endorsement Value="NON END"/>
@@ -232,7 +233,7 @@
                                 <air:NumberOfPieces>1</air:NumberOfPieces>
                             </air:BaggageAllowance>
                         </air:FareInfo>
-                        <air:FareInfo Key="JNW2iNVqWDKA2RWqAAAAAA==" FareBasis="HRTBD1" PassengerTypeCode="INF" Origin="KWI" Destination="DAC" EffectiveDate="2024-11-25T00:00:00.000+06:00" Amount="NUC45.10" NegotiatedFare="false" NotValidBefore="2024-12-28" NotValidAfter="2024-12-28" PseudoCityCode="LT7" ElStat="C">
+                        <air:FareInfo Key="MH63gPUqWDKAjFDWeAAAAA==" FareBasis="HRTBD1" PassengerTypeCode="INF" Origin="KWI" Destination="DAC" EffectiveDate="2025-01-04T00:00:00.000+06:00" Amount="NUC73.10" NotValidBefore="2025-01-27" NotValidAfter="2025-01-27" PseudoCityCode="LT7" ElStat="C">
                             <air:FareTicketDesignator Value="IN80"/>
                             <common_v52_0:Endorsement Value="VALID ON KU ONLY/"/>
                             <common_v52_0:Endorsement Value="NON END"/>
@@ -240,66 +241,66 @@
                                 <air:NumberOfPieces>1</air:NumberOfPieces>
                             </air:BaggageAllowance>
                         </air:FareInfo>
-                        <air:BookingInfo BookingCode="M" CabinClass="Economy" FareInfoRef="JNW2iNVqWDKAzRWqAAAAAA==" SegmentRef="JNW2iNVqWDKA4prpAAAAAA=="/>
-                        <air:BookingInfo BookingCode="M" CabinClass="Economy" FareInfoRef="JNW2iNVqWDKA0RWqAAAAAA==" SegmentRef="JNW2iNVqWDKA6prpAAAAAA=="/>
-                        <air:BookingInfo BookingCode="H" CabinClass="Economy" FareInfoRef="JNW2iNVqWDKA1RWqAAAAAA==" SegmentRef="JNW2iNVqWDKA8prpAAAAAA=="/>
-                        <air:BookingInfo BookingCode="H" CabinClass="Economy" FareInfoRef="JNW2iNVqWDKA2RWqAAAAAA==" SegmentRef="JNW2iNVqWDKA+prpAAAAAA=="/>
-                        <air:TaxInfo Category="P7" Amount="BDT1200" Key="JNW2iNVqWDKAOsrpAAAAAA=="/>
-                        <air:TaxInfo Category="P8" Amount="BDT1200" Key="JNW2iNVqWDKAPsrpAAAAAA=="/>
-                        <air:TaxInfo Category="GZ" Amount="BDT786" Key="JNW2iNVqWDKAQsrpAAAAAA=="/>
-                        <air:TaxInfo Category="L2" Amount="BDT786" Key="JNW2iNVqWDKARsrpAAAAAA=="/>
-                        <air:TaxInfo Category="YX" Amount="BDT192" Key="JNW2iNVqWDKASsrpAAAAAA=="/>
-                        <air:TaxInfo Category="E5" Amount="BDT360" Key="JNW2iNVqWDKATsrpAAAAAA=="/>
-                        <air:FareCalc>DAC KU X/KWI KU DXB 63.20MRTBD1/IN80 KU X/KWI KU DAC 45.10HRTBD1/IN80 NUC108.30END ROE1.0</air:FareCalc>
-                        <air:PassengerType Code="INF" Age="1" BookingTravelerRef="JNW2iNVqWDKA+QWqAAAAAA==">
-                            <air:FareGuaranteeInfo GuaranteeDate="2024-11-26" GuaranteeType="Guaranteed"/>
+                        <air:BookingInfo BookingCode="B" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAgFDWeAAAAA==" SegmentRef="MH63gPUqWDKAXxjVeAAAAA=="/>
+                        <air:BookingInfo BookingCode="B" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAhFDWeAAAAA==" SegmentRef="MH63gPUqWDKAZxjVeAAAAA=="/>
+                        <air:BookingInfo BookingCode="H" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAiFDWeAAAAA==" SegmentRef="MH63gPUqWDKAbxjVeAAAAA=="/>
+                        <air:BookingInfo BookingCode="H" CabinClass="Economy" FareInfoRef="MH63gPUqWDKAjFDWeAAAAA==" SegmentRef="MH63gPUqWDKAdxjVeAAAAA=="/>
+                        <air:TaxInfo Category="P7" Amount="BDT1200" Key="MH63gPUqWDKAkFDWeAAAAA=="/>
+                        <air:TaxInfo Category="P8" Amount="BDT1200" Key="MH63gPUqWDKAlFDWeAAAAA=="/>
+                        <air:TaxInfo Category="GZ" Amount="BDT786" Key="MH63gPUqWDKAmFDWeAAAAA=="/>
+                        <air:TaxInfo Category="L2" Amount="BDT786" Key="MH63gPUqWDKAnFDWeAAAAA=="/>
+                        <air:TaxInfo Category="YX" Amount="BDT192" Key="MH63gPUqWDKAoFDWeAAAAA=="/>
+                        <air:TaxInfo Category="E5" Amount="BDT360" Key="MH63gPUqWDKApFDWeAAAAA=="/>
+                        <air:FareCalc>DAC KU X/KWI KU DXB 85.10BRTBD1/IN80 KU X/KWI KU DAC 73.10HRTBD1/IN80 NUC158.20END ROE1.0</air:FareCalc>
+                        <air:PassengerType Code="INF" Age="1" BookingTravelerRef="MH63gPUqWDKA+DDWeAAAAA==">
+                            <air:FareGuaranteeInfo GuaranteeDate="2025-01-04" GuaranteeType="Guaranteed"/>
                         </air:PassengerType>
-                        <common_v52_0:BookingTravelerRef Key="JNW2iNVqWDKA+QWqAAAAAA=="/>
+                        <common_v52_0:BookingTravelerRef Key="MH63gPUqWDKA+DDWeAAAAA=="/>
                         <air:ChangePenalty PenaltyApplies="Anytime">
                             <air:Amount>BDT4199.0</air:Amount>
                         </air:ChangePenalty>
                         <air:CancelPenalty PenaltyApplies="Before Departure">
                             <air:Amount>BDT6598.0</air:Amount>
                         </air:CancelPenalty>
-                        <air:TicketingModifiersRef Key="JNW2iNVqWDKAxWWqAAAAAA=="/>
+                        <air:TicketingModifiersRef Key="MH63gPUqWDKAdGDWeAAAAA=="/>
                     </air:AirPricingInfo>
-                    <air:TicketingModifiers PlatingCarrier="KU" Key="JNW2iNVqWDKAxWWqAAAAAA==" ElStat="A">
+                    <air:TicketingModifiers PlatingCarrier="KU" Key="MH63gPUqWDKAdGDWeAAAAA==" ElStat="A">
                         <air:DocumentSelect IssueElectronicTicket="true"/>
                     </air:TicketingModifiers>
                 </air:AirReservation>
                 <common_v52_0:AgencyInfo>
-                    <common_v52_0:AgentAction ActionType="Created" AgentCode="uAPI1464296256-58a33bd9" BranchCode="P7212436" AgencyCode="S7212429" EventTime="2024-11-25T19:52:54.703+00:00"/>
+                    <common_v52_0:AgentAction ActionType="Created" AgentCode="uAPI1464296256-58a33bd9" BranchCode="P7212436" AgencyCode="S7212429" EventTime="2025-01-04T14:05:17.086+00:00"/>
                 </common_v52_0:AgencyInfo>
-                <common_v52_0:SSR Key="JNW2iNVqWDKAoRWqAAAAAA==" Status="HK" Type="CTCM" FreeText="/01969005035-1HOSSAIN/FAHIMMR" Carrier="KU" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" ElStat="C"/>
-                <common_v52_0:SSR Key="JNW2iNVqWDKApRWqAAAAAA==" Status="HK" Type="CTCE" FreeText="/ALIFHOSSAIN//GMAIL.COM-1HOSSAIN/FAHIMMR" Carrier="KU" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" ElStat="C"/>
-                <common_v52_0:SSR Key="JNW2iNVqWDKAqRWqAAAAAA==" Status="HK" Type="CHLD" FreeText="/-1WAFEE/AHMADMSTR" Carrier="KU" ProviderReservationInfoRef="JNW2iNVqWDKAKWWqAAAAAA==" ElStat="C"/>
-                <common_v52_0:FormOfPayment Key="JNW2iNVqWDKAYRWqAAAAAA==" Type="Cash" Reusable="false" ProfileKey="SEcUmNwESleYXeD7r9zx9A==" ElStat="A">
-                    <common_v52_0:ProviderReservationInfoRef Key="JNW2iNVqWDKAKWWqAAAAAA=="/>
+                <common_v52_0:SSR Key="MH63gPUqWDKA2EDWeAAAAA==" Status="HK" Type="CTCM" FreeText="/01969005035-1HOSSAIN/FAHIMMR" Carrier="KU" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" ElStat="C"/>
+                <common_v52_0:SSR Key="MH63gPUqWDKA3EDWeAAAAA==" Status="HK" Type="CTCE" FreeText="/ALIFHOSSAIN//GMAIL.COM-1HOSSAIN/FAHIMMR" Carrier="KU" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" ElStat="C"/>
+                <common_v52_0:SSR Key="MH63gPUqWDKA4EDWeAAAAA==" Status="HK" Type="CHLD" FreeText="/-1WAFEE/AHMADMSTR" Carrier="KU" ProviderReservationInfoRef="MH63gPUqWDKA0FDWeAAAAA==" ElStat="C"/>
+                <common_v52_0:FormOfPayment Key="MH63gPUqWDKAYEDWeAAAAA==" Type="Cash" Reusable="false" ProfileKey="/bjUipmuQ5WH0+d5CGh9aQ==" ElStat="A">
+                    <common_v52_0:ProviderReservationInfoRef Key="MH63gPUqWDKA0FDWeAAAAA=="/>
                 </common_v52_0:FormOfPayment>
             </universal:UniversalRecord>
             <air:AirSolutionChangedInfo xmlns:air="http://www.travelport.com/schema/air_v52_0" xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0"  ReasonCode="Schedule">
-                <air:AirPricingSolution Key="JNW2iNVqWDKAsQWqAAAAAA==">
-                    <air:AirSegment Key="JNW2iNVqWDKA4prpAAAAAA==" Group="0" Carrier="KU" FlightNumber="284" ProviderCode="1G" Origin="DAC" Destination="KWI" DepartureTime="2024-12-24T02:45:00.000+06:00" ArrivalTime="2024-12-24T06:15:00.000+03:00" FlightTime="390" TravelTime="390" Distance="2635" ClassOfService="M" Equipment="77W" Status="NN" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilitySource="S" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" OptionalServicesIndicator="false">
+                <air:AirPricingSolution Key="MH63gPUqWDKAsDDWeAAAAA==">
+                    <air:AirSegment Key="MH63gPUqWDKAXxjVeAAAAA==" Group="0" Carrier="KU" FlightNumber="284" ProviderCode="1G" Origin="DAC" Destination="KWI" DepartureTime="2025-01-22T02:45:00.000+06:00" ArrivalTime="2025-01-22T06:15:00.000+03:00" FlightTime="390" TravelTime="390" Distance="2635" ClassOfService="B" Equipment="77W" Status="NN" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilitySource="S" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" OptionalServicesIndicator="false">
                         <air:CodeshareInfo OperatingCarrier="KU">KUWAIT AIRWAYS</air:CodeshareInfo>
                         <air:AirAvailInfo ProviderCode="1G"/>
-                        <air:FlightDetails Key="JNW2iNVqWDKA5prpAAAAAA==" Origin="DAC" Destination="KWI" DepartureTime="2024-12-24T02:45:00.000+06:00" ArrivalTime="2024-12-24T06:15:00.000+03:00" FlightTime="390" TravelTime="390"/>
+                        <air:FlightDetails Key="MH63gPUqWDKAYxjVeAAAAA==" Origin="DAC" Destination="KWI" DepartureTime="2025-01-22T02:45:00.000+06:00" ArrivalTime="2025-01-22T06:15:00.000+03:00" FlightTime="390" TravelTime="390" Equipment="77W" OriginTerminal="2" DestinationTerminal="4" AutomatedCheckin="false"/>
                         <air:Connection/>
                     </air:AirSegment>
-                    <air:AirSegment Key="JNW2iNVqWDKA6prpAAAAAA==" Group="0" Carrier="KU" FlightNumber="671" ProviderCode="1G" Origin="KWI" Destination="DXB" DepartureTime="2024-12-24T09:25:00.000+03:00" ArrivalTime="2024-12-24T12:20:00.000+04:00" FlightTime="115" TravelTime="115" Distance="531" ClassOfService="M" Equipment="77W" Status="NN" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" TravelOrder="1" AvailabilitySource="S" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" OptionalServicesIndicator="false">
+                    <air:AirSegment Key="MH63gPUqWDKAZxjVeAAAAA==" Group="0" Carrier="KU" FlightNumber="671" ProviderCode="1G" Origin="KWI" Destination="DXB" DepartureTime="2025-01-22T09:25:00.000+03:00" ArrivalTime="2025-01-22T12:20:00.000+04:00" FlightTime="115" TravelTime="115" Distance="531" ClassOfService="B" Equipment="32N" Status="NN" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" TravelOrder="1" AvailabilitySource="S" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" OptionalServicesIndicator="false">
                         <air:CodeshareInfo OperatingCarrier="KU">KUWAIT AIRWAYS</air:CodeshareInfo>
                         <air:AirAvailInfo ProviderCode="1G"/>
-                        <air:FlightDetails Key="JNW2iNVqWDKA7prpAAAAAA==" Origin="KWI" Destination="DXB" DepartureTime="2024-12-24T09:25:00.000+03:00" ArrivalTime="2024-12-24T12:20:00.000+04:00" FlightTime="115" TravelTime="115"/>
+                        <air:FlightDetails Key="MH63gPUqWDKAaxjVeAAAAA==" Origin="KWI" Destination="DXB" DepartureTime="2025-01-22T09:25:00.000+03:00" ArrivalTime="2025-01-22T12:20:00.000+04:00" FlightTime="115" TravelTime="115" Equipment="32N" OriginTerminal="4" DestinationTerminal="1" AutomatedCheckin="false"/>
                     </air:AirSegment>
-                    <air:AirSegment Key="JNW2iNVqWDKA8prpAAAAAA==" Group="1" Carrier="KU" FlightNumber="672" ProviderCode="1G" Origin="DXB" Destination="KWI" DepartureTime="2024-12-28T13:20:00.000+04:00" ArrivalTime="2024-12-28T14:00:00.000+03:00" FlightTime="100" TravelTime="100" Distance="531" ClassOfService="H" Equipment="32A" Status="NN" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" TravelOrder="2" AvailabilitySource="S" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" OptionalServicesIndicator="false">
+                    <air:AirSegment Key="MH63gPUqWDKAbxjVeAAAAA==" Group="1" Carrier="KU" FlightNumber="674" ProviderCode="1G" Origin="DXB" Destination="KWI" DepartureTime="2025-01-26T18:55:00.000+04:00" ArrivalTime="2025-01-26T19:40:00.000+03:00" FlightTime="105" TravelTime="105" Distance="531" ClassOfService="H" Equipment="32N" Status="NN" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" TravelOrder="2" AvailabilitySource="S" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" OptionalServicesIndicator="false">
                         <air:CodeshareInfo OperatingCarrier="KU">KUWAIT AIRWAYS</air:CodeshareInfo>
                         <air:AirAvailInfo ProviderCode="1G"/>
-                        <air:FlightDetails Key="JNW2iNVqWDKA9prpAAAAAA==" Origin="DXB" Destination="KWI" DepartureTime="2024-12-28T13:20:00.000+04:00" ArrivalTime="2024-12-28T14:00:00.000+03:00" FlightTime="100" TravelTime="100"/>
+                        <air:FlightDetails Key="MH63gPUqWDKAcxjVeAAAAA==" Origin="DXB" Destination="KWI" DepartureTime="2025-01-26T18:55:00.000+04:00" ArrivalTime="2025-01-26T19:40:00.000+03:00" FlightTime="105" TravelTime="105" Equipment="32N" OriginTerminal="1" DestinationTerminal="4" AutomatedCheckin="false"/>
                         <air:Connection/>
                     </air:AirSegment>
-                    <air:AirSegment Key="JNW2iNVqWDKA+prpAAAAAA==" Group="1" Carrier="KU" FlightNumber="283" ProviderCode="1G" Origin="KWI" Destination="DAC" DepartureTime="2024-12-28T17:00:00.000+03:00" ArrivalTime="2024-12-29T01:00:00.000+06:00" FlightTime="300" TravelTime="300" Distance="2635" ClassOfService="H" Equipment="77W" Status="NN" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" TravelOrder="3" AvailabilitySource="S" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" OptionalServicesIndicator="false">
+                    <air:AirSegment Key="MH63gPUqWDKAdxjVeAAAAA==" Group="1" Carrier="KU" FlightNumber="283" ProviderCode="1G" Origin="KWI" Destination="DAC" DepartureTime="2025-01-27T17:00:00.000+03:00" ArrivalTime="2025-01-28T01:00:00.000+06:00" FlightTime="300" TravelTime="300" Distance="2635" ClassOfService="H" Equipment="77W" Status="NN" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" TravelOrder="3" AvailabilitySource="S" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked" OptionalServicesIndicator="false">
                         <air:CodeshareInfo OperatingCarrier="KU">KUWAIT AIRWAYS</air:CodeshareInfo>
                         <air:AirAvailInfo ProviderCode="1G"/>
-                        <air:FlightDetails Key="JNW2iNVqWDKA/prpAAAAAA==" Origin="KWI" Destination="DAC" DepartureTime="2024-12-28T17:00:00.000+03:00" ArrivalTime="2024-12-29T01:00:00.000+06:00" FlightTime="300" TravelTime="300"/>
+                        <air:FlightDetails Key="MH63gPUqWDKAexjVeAAAAA==" Origin="KWI" Destination="DAC" DepartureTime="2025-01-27T17:00:00.000+03:00" ArrivalTime="2025-01-28T01:00:00.000+06:00" FlightTime="300" TravelTime="300" Equipment="77W" OriginTerminal="4" DestinationTerminal="2" AutomatedCheckin="false"/>
                     </air:AirSegment>
                 </air:AirPricingSolution>
             </air:AirSolutionChangedInfo>
