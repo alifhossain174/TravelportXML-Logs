@@ -5,6 +5,8 @@
             <FareRuleKey FareInfoRef="+xHzgRUqWDKAXYUxKAAAAA==" ProviderCode="1G">
                 6UUVoSldxwgOY5Daq48u98bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA/1o7RJJQL0ZxWa1uaqI55k3aSkvhp2ybZuuQV2TDA4Gg5zIvooZcM7AyGqh8JIaqKpQNKw8HbySWASdz5F+ImEhBW3iKtDTZIX+hNfHEXoxUV3b2b+cmv9gFHVWNccKgROr5JaKLxm5BY5hoVUuDw6dw/Am9T/DRIMN1QPqv5KjwDJZXjGKbuKjvcH0bTTA9LqHkzVOnpcUy5YV9dV3U4CXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzzD4Wdjal2fHna1H5QsLdGaNi6zOfbTtY770mJHGJ8MXLrIvrO4Jg9yyaqwie75Wey1v21tBX94dvtw1s7GDgc=
             </FareRuleKey>
+
+            <FareRuleKey FareInfoRef="q8RcJSUqWDKAhvbyKAAAAA==" ProviderCode="1G">6UUVoSldxwiunPnLG1dC78bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA/1o7RJJQL0ZxWa1uaqI55k3aSkvhp2ybYl8LqeP9EQrJ6DR4hZRGXPAyGqh8JIaqIHk/yB8scm4WASdz5F+ImF1CcxeWstSiYX+hNfHEXoxUV3b2b+cmv9gFHVWNccKgROr5JaKLxm5BY5hoVUuDw6dw/Am9T/DRIMN1QPqv5KjwDJZXjGKbuKPfZkX03mJLbqHkzVOnpcUy5YV9dV3U4CXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzzD4Wdjal2fHna1H5QsLdGaNi6zOfbTtY770mJHGJ8MXLrIvrO4Jg9yyaqwie75Wey1v21tBX94dvtw1s7GDgc=</FareRuleKey>
         </AirFareRulesReq>
     </s:Body>
 </s:Envelope>

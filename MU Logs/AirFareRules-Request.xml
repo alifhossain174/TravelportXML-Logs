@@ -1,0 +1,8 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <AirFareRulesReq xmlns="http://www.travelport.com/schema/air_v52_0" TraceId="c8f38268010611bc23e5-01969005035" TargetBranch="P7212436">
+            <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v52_0" OriginApplication="UAPI" />
+            <FareRuleKey FareInfoRef="YSmfJSVqWDKAryX1JAAAAA==" ProviderCode="1G">6UUVoSldxwin74b6tchZyMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA42FdhK/NgshxWa1uaqI55k3aSkvhp2ybVirtyypxOXJ7pQWWBqg37LAyGqh8JIaqF+AiQHmYDIr82YvxMP9SRVrJVhtHWvm+Or/bRGkSYBeVvL0gTWvGVKnsahilB5/WGmEdVMJXICd8+fnMZiKCcsAbCG2jBkvwYB1xjSbRrjKTicpvYbmY4Wr6XufjmxNIXfXilzFeqijir5wkVQHOuKXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dc3mNX1GvOry3EdbqPPDZRsBAkLPMThzJZe0D0ZJDzgSMKELlI1RNQQc5eqoCMS/QP43SMsNYCBI=</FareRuleKey>
+        </AirFareRulesReq>
+    </s:Body>
+</s:Envelope>

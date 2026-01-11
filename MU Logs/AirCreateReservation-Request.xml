@@ -1,0 +1,510 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <AirCreateReservationReq xmlns="http://www.travelport.com/schema/universal_v52_0"
+            TraceId="c8f38268010611bc23e5-01969005035" AuthorizedBy="AgentCode1000"
+            TargetBranch="P7212436" RetainReservation="Both" RestrictWaitlist="true">
+            <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v52_0"
+                OriginApplication="UAPI" />
+
+            <!-- passanger informations -->
+            <BookingTraveler xmlns="http://www.travelport.com/schema/common_v52_0"
+                Key="gr8AVWGCR064r57Jt0+8bA==0" TravelerType="ADT" DOB="1998-12-10" Gender="M"
+                Nationality="BD">
+                <BookingTravelerName Prefix="MR" First="Fahim" Last="Hossain" />
+                <PhoneNumber Number="01969005035" />
+                <Email Type="Home" EmailID="alifhossain@gmail.com" />
+                <SSR SegmentRef="YSmfJSVqWDKATyX1JAAAAA==" Type="DOCS"
+                    FreeText="P/BD/BK0277878/BD/10Dec98/M/01Jan28/Fahim/Hossain" Carrier="MU" />
+                <SSR Type="CTCM" Status="HK" FreeText="01969005035" Carrier="MU" />
+                <SSR Type="CTCE" Status="HK" FreeText="alifhossain//gmail.com" Carrier="MU" />
+            </BookingTraveler>
+
+            <BookingTraveler xmlns="http://www.travelport.com/schema/common_v52_0"
+                Key="gr8AVWGCR064r57Jt0+8bA==1" TravelerType="CNN" Age="11" DOB="2015-06-12"
+                Gender="M" Nationality="BD">
+                <BookingTravelerName Prefix="MSTR" First="AHMAD" Last="WAFEE" />
+                <SSR SegmentRef="YSmfJSVqWDKATyX1JAAAAA==" Type="DOCS"
+                    FreeText="P/BD/AA8569325/BD/12Jun15/M/01Jan26/WAFEE/AHMAD" Carrier="MU" />
+                <NameRemark>
+                    <RemarkData>P-C11 DOB12Jun15</RemarkData>
+                </NameRemark>
+            </BookingTraveler>
+
+            <BookingTraveler xmlns="http://www.travelport.com/schema/common_v52_0"
+                Key="gr8AVWGCR064r57Jt0+8bA==2" TravelerType="INF" Age="1" DOB="2023-11-13"
+                Gender="M" Nationality="BD">
+                <BookingTravelerName Prefix="MSTR" First="AHMAD" Last="NAFEE" />
+                <SSR SegmentRef="YSmfJSVqWDKATyX1JAAAAA==" Type="DOCS"
+                    FreeText="P/BD/AA5236987/BD/13Nov23/MI/02Mar26/NAFEE/AHMAD" Carrier="MU" />
+                <NameRemark>
+                    <RemarkData>13Nov23</RemarkData>
+                </NameRemark>
+            </BookingTraveler>
+
+            <ContinuityCheckOverride xmlns="http://www.travelport.com/schema/common_v52_0">Yes</ContinuityCheckOverride>
+            <FormOfPayment xmlns="http://www.travelport.com/schema/common_v52_0" Type="Cash"
+                IsAgentType="true" />
+
+            <AirPricingSolution xmlns="http://www.travelport.com/schema/air_v52_0" Key="YSmfJSVqWDKAbyX1JAAAAA==" TotalPrice="BDT195000" BasePrice="BDT130035" ApproximateTotalPrice="BDT195000" ApproximateBasePrice="BDT130035" Taxes="BDT64965" Fees="BDT0" ApproximateTaxes="BDT64965" QuoteDate="2025-01-28">
+
+                <AirSegment Key="YSmfJSVqWDKATyX1JAAAAA==" Group="0" Carrier="MU" FlightNumber="2036" ProviderCode="1G" Origin="DAC" Destination="KMG" DepartureTime="2025-02-06T15:00:00.000+06:00" ArrivalTime="2025-02-06T19:20:00.000+08:00" FlightTime="140" TravelTime="140" Distance="794" ClassOfService="I" Equipment="73L" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <CodeshareInfo OperatingCarrier="MU">China Eastern Airlines</CodeshareInfo>
+                    <AirAvailInfo ProviderCode="1G"/>
+                    <FlightDetails Key="YSmfJSVqWDKAUyX1JAAAAA==" Origin="DAC" Destination="KMG" DepartureTime="2025-02-06T15:00:00.000+06:00" ArrivalTime="2025-02-06T19:20:00.000+08:00" FlightTime="140" TravelTime="140" Equipment="73L" AutomatedCheckin="false">
+                    </FlightDetails>
+                    <Connection/>
+                </AirSegment>
+                <AirSegment Key="YSmfJSVqWDKAVyX1JAAAAA==" Group="0" Carrier="MU" FlightNumber="5739" ProviderCode="1G" Origin="KMG" Destination="CAN" DepartureTime="2025-02-06T22:10:00.000+08:00" ArrivalTime="2025-02-07T00:10:00.000+08:00" FlightTime="120" TravelTime="120" Distance="664" ClassOfService="J" Equipment="737" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <CodeshareInfo OperatingCarrier="MU">China Eastern Airlines</CodeshareInfo>
+                    <AirAvailInfo ProviderCode="1G"/>
+                    <FlightDetails Key="YSmfJSVqWDKAWyX1JAAAAA==" Origin="KMG" Destination="CAN" DepartureTime="2025-02-06T22:10:00.000+08:00" ArrivalTime="2025-02-07T00:10:00.000+08:00" FlightTime="120" TravelTime="120" Equipment="737" DestinationTerminal="1" AutomatedCheckin="false">
+                    </FlightDetails>
+                </AirSegment>
+                <AirSegment Key="YSmfJSVqWDKAXyX1JAAAAA==" Group="1" Carrier="MU" FlightNumber="5740" ProviderCode="1G" Origin="CAN" Destination="KMG" DepartureTime="2025-02-10T22:20:00.000+08:00" ArrivalTime="2025-02-11T01:15:00.000+08:00" FlightTime="175" TravelTime="175" Distance="664" ClassOfService="J" Equipment="737" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <CodeshareInfo OperatingCarrier="MU">China Eastern Airlines</CodeshareInfo>
+                    <AirAvailInfo ProviderCode="1G"/>
+                    <FlightDetails Key="YSmfJSVqWDKAYyX1JAAAAA==" Origin="CAN" Destination="KMG" DepartureTime="2025-02-10T22:20:00.000+08:00" ArrivalTime="2025-02-11T01:15:00.000+08:00" FlightTime="175" TravelTime="175" Equipment="737" OriginTerminal="1" AutomatedCheckin="false">
+                    </FlightDetails>
+                    <Connection/>
+                </AirSegment>
+                <AirSegment Key="YSmfJSVqWDKAZyX1JAAAAA==" Group="1" Carrier="MU" FlightNumber="2035" ProviderCode="1G" Origin="KMG" Destination="DAC" DepartureTime="2025-02-11T13:10:00.000+08:00" ArrivalTime="2025-02-11T13:50:00.000+06:00" FlightTime="160" TravelTime="160" Distance="794" ClassOfService="I" Equipment="73L" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <CodeshareInfo OperatingCarrier="MU">China Eastern Airlines</CodeshareInfo>
+                    <AirAvailInfo ProviderCode="1G"/>
+                    <FlightDetails Key="YSmfJSVqWDKAayX1JAAAAA==" Origin="KMG" Destination="DAC" DepartureTime="2025-02-11T13:10:00.000+08:00" ArrivalTime="2025-02-11T13:50:00.000+06:00" FlightTime="160" TravelTime="160" Equipment="73L" AutomatedCheckin="false">
+                    </FlightDetails>
+                </AirSegment>
+
+
+                <AirPricingInfo Key="YSmfJSVqWDKAiyX1JAAAAA==" TotalPrice="BDT104661" BasePrice="BDT70289" ApproximateTotalPrice="BDT104661" ApproximateBasePrice="BDT70289" ApproximateTaxes="BDT34372" Taxes="BDT34372" LatestTicketingTime="2025-02-06T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                    <FareInfo Key="YSmfJSVqWDKAryX1JAAAAA==" FareBasis="ILE00CJS" PassengerTypeCode="ADT" Origin="DAC" Destination="CAN" EffectiveDate="2025-01-28T15:55:00.000+06:00" DepartureDate="2025-02-06" Amount="BDT35145" NegotiatedFare="false" NotValidBefore="2025-02-06" NotValidAfter="2025-02-06" TaxAmount="BDT21878.00">
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="Q/NON-END/PENALTY APPLY"/>
+                        <FareRuleKey FareInfoRef="YSmfJSVqWDKAryX1JAAAAA==" ProviderCode="1G">6UUVoSldxwin74b6tchZyMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA42FdhK/NgshxWa1uaqI55k3aSkvhp2ybVirtyypxOXJ7pQWWBqg37LAyGqh8JIaqF+AiQHmYDIr82YvxMP9SRVrJVhtHWvm+Or/bRGkSYBeVvL0gTWvGVKnsahilB5/WGmEdVMJXICd8+fnMZiKCcsAbCG2jBkvwYB1xjSbRrjKTicpvYbmY4Wr6XufjmxNIXfXilzFeqijir5wkVQHOuKXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dc3mNX1GvOry3EdbqPPDZRsBAkLPMThzJZe0D0ZJDzgSMKELlI1RNQQc5eqoCMS/QP43SMsNYCBI=</FareRuleKey>
+                        <Brand Key="YSmfJSVqWDKAryX1JAAAAA==" BrandID="1577642" UpSellBrandID="1577641" Name="BUSINESS STANDARD" Carrier="MU" BrandTier="0005">
+                        </Brand>
+                    </FareInfo>
+                    <FareInfo Key="YSmfJSVqWDKANzX1JAAAAA==" FareBasis="ILE00CJS" PassengerTypeCode="ADT" Origin="CAN" Destination="DAC" EffectiveDate="2025-01-28T15:55:00.000+06:00" DepartureDate="2025-02-10" Amount="BDT35144" NegotiatedFare="false" NotValidBefore="2025-02-10" NotValidAfter="2025-02-10" TaxAmount="BDT12494.00">
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="Q/NON-END/PENALTY APPLY"/>
+                        <FareRuleKey FareInfoRef="YSmfJSVqWDKANzX1JAAAAA==" ProviderCode="1G">6UUVoSldxwin74b6tchZyMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA42FdhK/NgshxWa1uaqI55k3aSkvhp2ybSbwz6fyDLOYakm+EyUk3SDAyGqh8JIaqF+AiQHmYDIr82YvxMP9SRXgA/bvpHodTOr/bRGkSYBeVvL0gTWvGVKnsahilB5/WGmEdVMJXICd8+fnMZiKCcsAbCG2jBkvwTyy/Q52QOiITicpvYbmY4U8FuOnVfraFnfXilzFeqijir5wkVQHOuKXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dc3mNX1GvOry3EdbqPPDZRsBAkLPMThzJZe0D0ZJDzgSMKELlI1RNQQc5eqoCMS/QP43SMsNYCBI=</FareRuleKey>
+                        <Brand Key="YSmfJSVqWDKANzX1JAAAAA==" BrandID="1577642" UpSellBrandID="1577641" Name="BUSINESS STANDARD" Carrier="MU" BrandTier="0005">
+                        </Brand>
+                    </FareInfo>
+                    <BookingInfo BookingCode="I" CabinClass="Business" FareInfoRef="YSmfJSVqWDKAryX1JAAAAA==" SegmentRef="YSmfJSVqWDKATyX1JAAAAA==" HostTokenRef="YSmfJSVqWDKAcyX1JAAAAA=="/>
+                    <BookingInfo BookingCode="J" CabinClass="Business" FareInfoRef="YSmfJSVqWDKAryX1JAAAAA==" SegmentRef="YSmfJSVqWDKAVyX1JAAAAA==" HostTokenRef="YSmfJSVqWDKAcyX1JAAAAA=="/>
+                    <BookingInfo BookingCode="J" CabinClass="Business" FareInfoRef="YSmfJSVqWDKANzX1JAAAAA==" SegmentRef="YSmfJSVqWDKAXyX1JAAAAA==" HostTokenRef="YSmfJSVqWDKAdyX1JAAAAA=="/>
+                    <BookingInfo BookingCode="I" CabinClass="Business" FareInfoRef="YSmfJSVqWDKANzX1JAAAAA==" SegmentRef="YSmfJSVqWDKAZyX1JAAAAA==" HostTokenRef="YSmfJSVqWDKAdyX1JAAAAA=="/>
+                    <TaxInfo Category="BD" Amount="BDT500" Key="YSmfJSVqWDKAjyX1JAAAAA=="/>
+                    <TaxInfo Category="OW" Amount="BDT2000" Key="YSmfJSVqWDKAkyX1JAAAAA=="/>
+                    <TaxInfo Category="P7" Amount="BDT1200" Key="YSmfJSVqWDKAlyX1JAAAAA=="/>
+                    <TaxInfo Category="P8" Amount="BDT1200" Key="YSmfJSVqWDKAmyX1JAAAAA=="/>
+                    <TaxInfo Category="UT" Amount="BDT6000" Key="YSmfJSVqWDKAnyX1JAAAAA=="/>
+                    <TaxInfo Category="CN" Amount="BDT3203" Key="YSmfJSVqWDKAoyX1JAAAAA=="/>
+                    <TaxInfo Category="E5" Amount="BDT435" Key="YSmfJSVqWDKApyX1JAAAAA=="/>
+                    <TaxInfo Category="YQ" Amount="BDT19834" Key="YSmfJSVqWDKAqyX1JAAAAA=="/>
+                    <FareCalc>DAC MU X/KMG MU CAN 292.92ILE00CJS MU X/KMG MU DAC 292.92ILE00CJS NUC585.84END ROE119.98</FareCalc>
+                    <PassengerType Code="ADT" BookingTravelerRef="gr8AVWGCR064r57Jt0+8bA==0"/>
+                    <ChangePenalty PenaltyApplies="Anytime">
+                        <Amount>BDT5399.0</Amount>
+                    </ChangePenalty>
+                    <CancelPenalty PenaltyApplies="Anytime">
+                        <Amount>BDT8998.0</Amount>
+                    </CancelPenalty>
+                    <BaggageAllowances>
+                        <BaggageAllowanceInfo TravelerType="ADT" Origin="DAC" Destination="CAN" Carrier="MU">
+                            <URLInfo>
+                                <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/MU</URL>
+                            </URLInfo>
+                            <TextInfo>
+                                <Text>2P</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                            </TextInfo>
+                            <BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO70LB/32KG AND UPTO62LI/158LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                            <BagDetails ApplicableBags="2ndChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO70LB/32KG AND UPTO62LI/158LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                        </BaggageAllowanceInfo>
+                        <BaggageAllowanceInfo TravelerType="ADT" Origin="CAN" Destination="DAC" Carrier="MU">
+                            <URLInfo>
+                                <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/MU</URL>
+                            </URLInfo>
+                            <TextInfo>
+                                <Text>2P</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                            </TextInfo>
+                            <BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO70LB/32KG AND UPTO62LI/158LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                            <BagDetails ApplicableBags="2ndChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO70LB/32KG AND UPTO62LI/158LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                        </BaggageAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="DAC" Destination="KMG" Carrier="MU">
+                            <TextInfo>
+                                <Text>2P</Text>
+                            </TextInfo>
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO18LB/8KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                            <CarryOnDetails ApplicableCarryOnBags="2" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO18LB/8KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="KMG" Destination="CAN" Carrier="MU">
+                            <TextInfo>
+                                <Text>2P</Text>
+                            </TextInfo>
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="CNY0" ApproximateBasePrice="BDT0" TotalPrice="CNY0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO18LB/8KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                            <CarryOnDetails ApplicableCarryOnBags="2" BasePrice="CNY0" ApproximateBasePrice="BDT0" TotalPrice="CNY0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO18LB/8KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="CAN" Destination="KMG" Carrier="MU">
+                            <TextInfo>
+                                <Text>2P</Text>
+                            </TextInfo>
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="CNY0" ApproximateBasePrice="BDT0" TotalPrice="CNY0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO18LB/8KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                            <CarryOnDetails ApplicableCarryOnBags="2" BasePrice="CNY0" ApproximateBasePrice="BDT0" TotalPrice="CNY0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO18LB/8KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="KMG" Destination="DAC" Carrier="MU">
+                            <TextInfo>
+                                <Text>2P</Text>
+                            </TextInfo>
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="CNY0" ApproximateBasePrice="BDT0" TotalPrice="CNY0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO18LB/8KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                            <CarryOnDetails ApplicableCarryOnBags="2" BasePrice="CNY0" ApproximateBasePrice="BDT0" TotalPrice="CNY0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO18LB/8KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                        </CarryOnAllowanceInfo>
+                    </BaggageAllowances>
+                </AirPricingInfo>
+                <AirPricingInfo Key="YSmfJSVqWDKAzzX1JAAAAA==" TotalPrice="BDT80550" BasePrice="BDT52717" ApproximateTotalPrice="BDT80550" ApproximateBasePrice="BDT52717" ApproximateTaxes="BDT27833" Taxes="BDT27833" LatestTicketingTime="2025-02-06T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                    <FareInfo Key="YSmfJSVqWDKA7zX1JAAAAA==" FareBasis="ILE00CJS" PassengerTypeCode="CNN" Origin="DAC" Destination="CAN" EffectiveDate="2025-01-28T15:55:00.000+06:00" DepartureDate="2025-02-06" Amount="BDT26359" NegotiatedFare="false" NotValidBefore="2025-02-06" NotValidAfter="2025-02-06" TaxAmount="BDT17867.00">
+                        <FareTicketDesignator Value="CH25"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="Q/NON-END/PENALTY APPLY"/>
+                        <FareRuleKey FareInfoRef="YSmfJSVqWDKA7zX1JAAAAA==" ProviderCode="1G">6UUVoSldxwin74b6tchZyMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA42FdhK/NgshxWa1uaqI55k3aSkvhp2ybVirtyypxOXJRGiL3T+HdlPAyGqh8JIaqF+AiQHmYDIr82YvxMP9SRVrJVhtHWvm+Or/bRGkSYBeVvL0gTWvGVIHyACgdSlRrGmEdVMJXICd8+fnMZiKCcsAbCG2jBkvwYB1xjSbRrjKTicpvYbmY4Wr6XufjmxNIWQopZTtqvEJir5wkVQHOuKXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dc3mNX1GvOry3EdbqPPDZRsBAkLPMThzJT/PqjPhke4CMKELlI1RNQQc5eqoCMS/QP43SMsNYCBI=</FareRuleKey>
+                        <Brand Key="YSmfJSVqWDKA7zX1JAAAAA==" BrandID="1577642" UpSellBrandID="1577641" Name="BUSINESS STANDARD" Carrier="MU" BrandTier="0005">
+                        </Brand>
+                    </FareInfo>
+                    <FareInfo Key="YSmfJSVqWDKAd0X1JAAAAA==" FareBasis="ILE00CJS" PassengerTypeCode="CNN" Origin="CAN" Destination="DAC" EffectiveDate="2025-01-28T15:55:00.000+06:00" DepartureDate="2025-02-10" Amount="BDT26358" NegotiatedFare="false" NotValidBefore="2025-02-10" NotValidAfter="2025-02-10" TaxAmount="BDT9966.00">
+                        <FareTicketDesignator Value="CH25"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="Q/NON-END/PENALTY APPLY"/>
+                        <FareRuleKey FareInfoRef="YSmfJSVqWDKAd0X1JAAAAA==" ProviderCode="1G">6UUVoSldxwin74b6tchZyMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA42FdhK/NgshxWa1uaqI55k3aSkvhp2ybSbwz6fyDLOYeyqSRe4Nyx3AyGqh8JIaqF+AiQHmYDIr82YvxMP9SRXgA/bvpHodTOr/bRGkSYBeVvL0gTWvGVIHyACgdSlRrGmEdVMJXICd8+fnMZiKCcsAbCG2jBkvwTyy/Q52QOiITicpvYbmY4U8FuOnVfraFmQopZTtqvEJir5wkVQHOuKXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dc3mNX1GvOry3EdbqPPDZRsBAkLPMThzJT/PqjPhke4CMKELlI1RNQQc5eqoCMS/QP43SMsNYCBI=</FareRuleKey>
+                        <Brand Key="YSmfJSVqWDKAd0X1JAAAAA==" BrandID="1577642" UpSellBrandID="1577641" Name="BUSINESS STANDARD" Carrier="MU" BrandTier="0005">
+                        </Brand>
+                    </FareInfo>
+                    <BookingInfo BookingCode="I" CabinClass="Business" FareInfoRef="YSmfJSVqWDKA7zX1JAAAAA==" SegmentRef="YSmfJSVqWDKATyX1JAAAAA==" HostTokenRef="YSmfJSVqWDKAeyX1JAAAAA=="/>
+                    <BookingInfo BookingCode="J" CabinClass="Business" FareInfoRef="YSmfJSVqWDKA7zX1JAAAAA==" SegmentRef="YSmfJSVqWDKAVyX1JAAAAA==" HostTokenRef="YSmfJSVqWDKAeyX1JAAAAA=="/>
+                    <BookingInfo BookingCode="J" CabinClass="Business" FareInfoRef="YSmfJSVqWDKAd0X1JAAAAA==" SegmentRef="YSmfJSVqWDKAXyX1JAAAAA==" HostTokenRef="YSmfJSVqWDKAfyX1JAAAAA=="/>
+                    <BookingInfo BookingCode="I" CabinClass="Business" FareInfoRef="YSmfJSVqWDKAd0X1JAAAAA==" SegmentRef="YSmfJSVqWDKAZyX1JAAAAA==" HostTokenRef="YSmfJSVqWDKAfyX1JAAAAA=="/>
+                    <TaxInfo Category="BD" Amount="BDT500" Key="YSmfJSVqWDKA0zX1JAAAAA=="/>
+                    <TaxInfo Category="OW" Amount="BDT2000" Key="YSmfJSVqWDKA1zX1JAAAAA=="/>
+                    <TaxInfo Category="P7" Amount="BDT1200" Key="YSmfJSVqWDKA2zX1JAAAAA=="/>
+                    <TaxInfo Category="P8" Amount="BDT1200" Key="YSmfJSVqWDKA3zX1JAAAAA=="/>
+                    <TaxInfo Category="UT" Amount="BDT3000" Key="YSmfJSVqWDKA4zX1JAAAAA=="/>
+                    <TaxInfo Category="E5" Amount="BDT435" Key="YSmfJSVqWDKA5zX1JAAAAA=="/>
+                    <TaxInfo Category="YQ" Amount="BDT19498" Key="YSmfJSVqWDKA6zX1JAAAAA=="/>
+                    <FareCalc>DAC MU X/KMG MU CAN 219.69ILE00CJS/CH25 MU X/KMG MU DAC 219.69ILE00CJS/CH25 NUC439.38END ROE119.98</FareCalc>
+                    <PassengerType Code="CNN" Age="8" BookingTravelerRef="gr8AVWGCR064r57Jt0+8bA==1"/>
+                    <ChangePenalty PenaltyApplies="Anytime">
+                        <Amount>BDT5399.0</Amount>
+                    </ChangePenalty>
+                    <CancelPenalty PenaltyApplies="Anytime">
+                        <Amount>BDT8998.0</Amount>
+                    </CancelPenalty>
+                    <BaggageAllowances>
+                        <BaggageAllowanceInfo TravelerType="CNN" Origin="DAC" Destination="CAN" Carrier="MU">
+                            <URLInfo>
+                                <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/MU</URL>
+                            </URLInfo>
+                            <TextInfo>
+                                <Text>2P</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                            </TextInfo>
+                            <BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO70LB/32KG AND UPTO62LI/158LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                            <BagDetails ApplicableBags="2ndChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO70LB/32KG AND UPTO62LI/158LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                        </BaggageAllowanceInfo>
+                        <BaggageAllowanceInfo TravelerType="CNN" Origin="CAN" Destination="DAC" Carrier="MU">
+                            <URLInfo>
+                                <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/MU</URL>
+                            </URLInfo>
+                            <TextInfo>
+                                <Text>2P</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                            </TextInfo>
+                            <BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO70LB/32KG AND UPTO62LI/158LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                            <BagDetails ApplicableBags="2ndChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO70LB/32KG AND UPTO62LI/158LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                        </BaggageAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="DAC" Destination="KMG" Carrier="MU">
+                            <TextInfo>
+                                <Text>2P</Text>
+                            </TextInfo>
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO18LB/8KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                            <CarryOnDetails ApplicableCarryOnBags="2" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO18LB/8KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="KMG" Destination="CAN" Carrier="MU">
+                            <TextInfo>
+                                <Text>2P</Text>
+                            </TextInfo>
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="CNY0" ApproximateBasePrice="BDT0" TotalPrice="CNY0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO18LB/8KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                            <CarryOnDetails ApplicableCarryOnBags="2" BasePrice="CNY0" ApproximateBasePrice="BDT0" TotalPrice="CNY0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO18LB/8KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="CAN" Destination="KMG" Carrier="MU">
+                            <TextInfo>
+                                <Text>2P</Text>
+                            </TextInfo>
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="CNY0" ApproximateBasePrice="BDT0" TotalPrice="CNY0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO18LB/8KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                            <CarryOnDetails ApplicableCarryOnBags="2" BasePrice="CNY0" ApproximateBasePrice="BDT0" TotalPrice="CNY0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO18LB/8KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="KMG" Destination="DAC" Carrier="MU">
+                            <TextInfo>
+                                <Text>2P</Text>
+                            </TextInfo>
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="CNY0" ApproximateBasePrice="BDT0" TotalPrice="CNY0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO18LB/8KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                            <CarryOnDetails ApplicableCarryOnBags="2" BasePrice="CNY0" ApproximateBasePrice="BDT0" TotalPrice="CNY0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO18LB/8KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                        </CarryOnAllowanceInfo>
+                    </BaggageAllowances>
+                </AirPricingInfo>
+                <AirPricingInfo Key="YSmfJSVqWDKAD1X1JAAAAA==" TotalPrice="BDT9789" BasePrice="BDT7029" ApproximateTotalPrice="BDT9789" ApproximateBasePrice="BDT7029" ApproximateTaxes="BDT2760" Taxes="BDT2760" LatestTicketingTime="2025-02-06T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                    <FareInfo Key="YSmfJSVqWDKAH1X1JAAAAA==" FareBasis="ILE00CJS" PassengerTypeCode="INF" Origin="DAC" Destination="CAN" EffectiveDate="2025-01-28T15:55:00.000+06:00" DepartureDate="2025-02-06" Amount="BDT3515" NegotiatedFare="false" NotValidBefore="2025-02-06" NotValidAfter="2025-02-06" TaxAmount="BDT2580.00">
+                        <FareTicketDesignator Value="IN90"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="Q/NON-END/PENALTY APPLY"/>
+                        <FareRuleKey FareInfoRef="YSmfJSVqWDKAH1X1JAAAAA==" ProviderCode="1G">6UUVoSldxwin74b6tchZyMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA42FdhK/NgshxWa1uaqI55k3aSkvhp2ybVirtyypxOXJUjoKw0Xm3rpN3J3NyYpz6UyRpyoHdCm02rqiX+mG1ovWgsvc7yorbGLgFn3B9sPdSU8gecfbWEljEmMG+NRoPsTs7ySF1hoYcAe3xS0gHfc3yFE4nSc2LUPFc7ZmQhP+mpBH9wehGMHKU92ACEHlpL6F8jRjiIJQ/AFKEXb03hK/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHxDGJun84l6GmjYuszn207WOnxkQ2WPPHvaVUAnec78/nntuSw+R8vEYyn9S8jBAudwXtO9a1rEPtVos1Uf/KwE=</FareRuleKey>
+                        <Brand Key="YSmfJSVqWDKAH1X1JAAAAA==" BrandID="1577642" UpSellBrandID="1577641" Name="BUSINESS STANDARD" Carrier="MU" BrandTier="0005">
+                        </Brand>
+                    </FareInfo>
+                    <FareInfo Key="YSmfJSVqWDKAp1X1JAAAAA==" FareBasis="ILE00CJS" PassengerTypeCode="INF" Origin="CAN" Destination="DAC" EffectiveDate="2025-01-28T15:55:00.000+06:00" DepartureDate="2025-02-10" Amount="BDT3514" NegotiatedFare="false" NotValidBefore="2025-02-10" NotValidAfter="2025-02-10" TaxAmount="BDT180.00">
+                        <FareTicketDesignator Value="IN90"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="Q/NON-END/PENALTY APPLY"/>
+                        <FareRuleKey FareInfoRef="YSmfJSVqWDKAp1X1JAAAAA==" ProviderCode="1G">6UUVoSldxwin74b6tchZyMbKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA42FdhK/NgshxWa1uaqI55k3aSkvhp2ybSbwz6fyDLOY9PsAG8z0jixN3J3NyYpz6UyRpyoHdCm02rqiX+mG1ou2K31+HaDzj2LgFn3B9sPdSU8gecfbWEljEmMG+NRoPsTs7ySF1hoYcAe3xS0gHfc3yFE4nSc2LU4nKb2G5mOFmpBH9wehGMGxHhRchjDwpr6F8jRjiIJQ/AFKEXb03hK/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHxDGJun84l6GmjYuszn207WOnxkQ2WPPHvaVUAnec78/nntuSw+R8vEYyn9S8jBAudwXtO9a1rEPtVos1Uf/KwE=</FareRuleKey>
+                        <Brand Key="YSmfJSVqWDKAp1X1JAAAAA==" BrandID="1577642" UpSellBrandID="1577641" Name="BUSINESS STANDARD" Carrier="MU" BrandTier="0005">
+                        </Brand>
+                    </FareInfo>
+                    <BookingInfo BookingCode="I" CabinClass="Business" FareInfoRef="YSmfJSVqWDKAH1X1JAAAAA==" SegmentRef="YSmfJSVqWDKATyX1JAAAAA==" HostTokenRef="YSmfJSVqWDKAgyX1JAAAAA=="/>
+                    <BookingInfo BookingCode="J" CabinClass="Business" FareInfoRef="YSmfJSVqWDKAH1X1JAAAAA==" SegmentRef="YSmfJSVqWDKAVyX1JAAAAA==" HostTokenRef="YSmfJSVqWDKAgyX1JAAAAA=="/>
+                    <BookingInfo BookingCode="J" CabinClass="Business" FareInfoRef="YSmfJSVqWDKAp1X1JAAAAA==" SegmentRef="YSmfJSVqWDKAXyX1JAAAAA==" HostTokenRef="YSmfJSVqWDKAhyX1JAAAAA=="/>
+                    <BookingInfo BookingCode="I" CabinClass="Business" FareInfoRef="YSmfJSVqWDKAp1X1JAAAAA==" SegmentRef="YSmfJSVqWDKAZyX1JAAAAA==" HostTokenRef="YSmfJSVqWDKAhyX1JAAAAA=="/>
+                    <TaxInfo Category="P7" Amount="BDT1200" Key="YSmfJSVqWDKAE1X1JAAAAA=="/>
+                    <TaxInfo Category="P8" Amount="BDT1200" Key="YSmfJSVqWDKAF1X1JAAAAA=="/>
+                    <TaxInfo Category="E5" Amount="BDT360" Key="YSmfJSVqWDKAG1X1JAAAAA=="/>
+                    <FareCalc>DAC MU X/KMG MU CAN 29.29ILE00CJS/IN90 MU X/KMG MU DAC 29.29ILE00CJS/IN90 NUC58.58END ROE119.98</FareCalc>
+                    <PassengerType Code="INF" Age="1" BookingTravelerRef="gr8AVWGCR064r57Jt0+8bA==2"/>
+                    <ChangePenalty PenaltyApplies="Anytime">
+                        <Amount>BDT5399.0</Amount>
+                    </ChangePenalty>
+                    <CancelPenalty PenaltyApplies="Anytime">
+                        <Amount>BDT8998.0</Amount>
+                    </CancelPenalty>
+                    <BaggageAllowances>
+                        <BaggageAllowanceInfo TravelerType="INF" Origin="DAC" Destination="CAN" Carrier="MU">
+                            <URLInfo>
+                                <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/MU</URL>
+                            </URLInfo>
+                            <TextInfo>
+                                <Text>1P</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                            </TextInfo>
+                            <BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO22LB/10KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                            <BagDetails ApplicableBags="2ndChecked" BasePrice="BDT13481" ApproximateBasePrice="BDT13481" TotalPrice="BDT13481" ApproximateTotalPrice="BDT13481">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO70LB/32KG AND UPTO62LI/158LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                        </BaggageAllowanceInfo>
+                        <BaggageAllowanceInfo TravelerType="INF" Origin="CAN" Destination="DAC" Carrier="MU">
+                            <URLInfo>
+                                <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/MU</URL>
+                            </URLInfo>
+                            <TextInfo>
+                                <Text>1P</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                            </TextInfo>
+                            <BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO22LB/10KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                            <BagDetails ApplicableBags="2ndChecked" BasePrice="CNY800" ApproximateBasePrice="BDT13481" TotalPrice="CNY800" ApproximateTotalPrice="BDT13481">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO70LB/32KG AND UPTO62LI/158LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                        </BaggageAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="DAC" Destination="KMG" Carrier="MU">
+                            <TextInfo>
+                                <Text>0P</Text>
+                            </TextInfo>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="KMG" Destination="CAN" Carrier="MU">
+                            <TextInfo>
+                                <Text>0P</Text>
+                            </TextInfo>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="CAN" Destination="KMG" Carrier="MU">
+                            <TextInfo>
+                                <Text>0P</Text>
+                            </TextInfo>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="KMG" Destination="DAC" Carrier="MU">
+                            <TextInfo>
+                                <Text>0P</Text>
+                            </TextInfo>
+                        </CarryOnAllowanceInfo>
+                    </BaggageAllowances>
+                </AirPricingInfo>
+
+
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="YSmfJSVqWDKAc2X1JAAAAA==">GFB10101ADT00  01ILE00CKS                              0200010002#GFB200010101NADTV3008SCS100100001990303#GFMCBCF008NSCS1 MU ADTILE00CKS</HostToken>
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="YSmfJSVqWDKAd2X1JAAAAA==">GFB10101ADT00  02ILE00CKS                              0200030004#GFB200010102NADTV3008SCS100100001990303#GFMCBCF008NSCS1 MU ADTILE00CKS</HostToken>
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="YSmfJSVqWDKAe2X1JAAAAA==">GFB10202CNN00  01ILE00CKS       CH25                   0200010002#GFB200020201NCNNV3008SCS100100001991000509240303#GFMCBCF008NSCS1DMU CNNILE00CKS</HostToken>
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="YSmfJSVqWDKAf2X1JAAAAA==">GFB10202CNN00  02ILE00CKS       CH25                   0200030004#GFB200020202NCNNV3008SCS100100001991000509240303#GFMCBCF008NSCS1DMU CNNILE00CKS</HostToken>
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="YSmfJSVqWDKAg2X1JAAAAA==">GFB10303INF00  01ILE00CKS       IN90                   0200010002#GFB200030301NINFV3008SCS100100001991000266330303#GFMCBCF008NSCS1DMU INFILE00CKS</HostToken>
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="YSmfJSVqWDKAh2X1JAAAAA==">GFB10303INF00  02ILE00CKS       IN90                   0200030004#GFB200030302NINFV3008SCS100100001991000266330303#GFMCBCF008NSCS1DMU INFILE00CKS</HostToken>
+            
+            </AirPricingSolution>
+            <ActionStatus xmlns="http://www.travelport.com/schema/common_v52_0" Type="TAU"
+                TicketDate="2025-01-28T20:55:00.000+01:00" ProviderCode="1G" />
+
+        </AirCreateReservationReq>
+    </s:Body>
+</s:Envelope>

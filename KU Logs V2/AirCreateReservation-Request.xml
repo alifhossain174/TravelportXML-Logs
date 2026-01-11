@@ -1,0 +1,472 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <AirCreateReservationReq xmlns="http://www.travelport.com/schema/universal_v52_0"
+            TraceId="c8f38268010611bc23e5-01969005035" AuthorizedBy="AgentCode1000"
+            TargetBranch="P7212436" RetainReservation="Both" RestrictWaitlist="true">
+            <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v52_0"
+                OriginApplication="UAPI" />
+
+            <!-- passanger informations -->
+            <BookingTraveler xmlns="http://www.travelport.com/schema/common_v52_0"
+                Key="gr8AVWGCR064r57Jt0+8bA==0" TravelerType="ADT" DOB="1998-12-10" Gender="M"
+                Nationality="BD">
+                <BookingTravelerName Prefix="MR" First="Fahim" Last="Hossain" />
+                <PhoneNumber Number="01969005035" />
+                <Email Type="Home" EmailID="alifhossain@gmail.com" />
+                <SSR SegmentRef="q8RcJSUqWDKADvbyKAAAAA==" Type="DOCS"
+                    FreeText="P/BD/BK0277878/BD/10Dec98/M/01Jan28/Fahim/Hossain" Carrier="KU" />
+                <SSR Type="CTCM" Status="HK" FreeText="01969005035" Carrier="KU" />
+                <SSR Type="CTCE" Status="HK" FreeText="alifhossain//gmail.com" Carrier="KU" />
+            </BookingTraveler>
+
+            <BookingTraveler xmlns="http://www.travelport.com/schema/common_v52_0"
+                Key="gr8AVWGCR064r57Jt0+8bA==1" TravelerType="CNN" Age="11" DOB="2015-06-12"
+                Gender="M" Nationality="BD">
+                <BookingTravelerName Prefix="MSTR" First="AHMAD" Last="WAFEE" />
+                <SSR SegmentRef="q8RcJSUqWDKADvbyKAAAAA==" Type="DOCS"
+                    FreeText="P/BD/AA8569325/BD/12Jun15/M/01Jan26/WAFEE/AHMAD" Carrier="KU" />
+                <NameRemark>
+                    <RemarkData>P-C11 DOB12Jun15</RemarkData>
+                </NameRemark>
+            </BookingTraveler>
+
+            <BookingTraveler xmlns="http://www.travelport.com/schema/common_v52_0"
+                Key="gr8AVWGCR064r57Jt0+8bA==2" TravelerType="INF" Age="1" DOB="2023-11-13"
+                Gender="M" Nationality="BD">
+                <BookingTravelerName Prefix="MSTR" First="AHMAD" Last="NAFEE" />
+                <SSR SegmentRef="q8RcJSUqWDKADvbyKAAAAA==" Type="DOCS"
+                    FreeText="P/BD/AA5236987/BD/13Nov23/MI/02Mar26/NAFEE/AHMAD" Carrier="KU" />
+                <NameRemark>
+                    <RemarkData>13Nov23</RemarkData>
+                </NameRemark>
+            </BookingTraveler>
+
+            <ContinuityCheckOverride xmlns="http://www.travelport.com/schema/common_v52_0">Yes</ContinuityCheckOverride>
+            <FormOfPayment xmlns="http://www.travelport.com/schema/common_v52_0" Type="Cash"
+                IsAgentType="true" />
+
+
+            <AirPricingSolution xmlns="http://www.travelport.com/schema/air_v52_0" Key="q8RcJSUqWDKALvbyKAAAAA==" TotalPrice="BDT218885" BasePrice="USD1482.00" ApproximateTotalPrice="BDT218885" ApproximateBasePrice="BDT177811" EquivalentBasePrice="BDT177811" Taxes="BDT41074" Fees="BDT0" ApproximateTaxes="BDT41074" QuoteDate="2025-01-29">
+
+                <AirSegment Key="q8RcJSUqWDKADvbyKAAAAA==" Group="0" Carrier="KU" FlightNumber="284" ProviderCode="1G" Origin="DAC" Destination="KWI" DepartureTime="2025-02-12T02:45:00.000+06:00" ArrivalTime="2025-02-12T06:15:00.000+03:00" FlightTime="390" TravelTime="390" Distance="2635" ClassOfService="L" Equipment="77W" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <CodeshareInfo OperatingCarrier="KU">KUWAIT AIRWAYS</CodeshareInfo>
+                    <AirAvailInfo ProviderCode="1G"/>
+                    <FlightDetails Key="q8RcJSUqWDKAEvbyKAAAAA==" Origin="DAC" Destination="KWI" DepartureTime="2025-02-12T02:45:00.000+06:00" ArrivalTime="2025-02-12T06:15:00.000+03:00" FlightTime="390" TravelTime="390" Equipment="77W" OriginTerminal="2" DestinationTerminal="4" AutomatedCheckin="false">
+                    </FlightDetails>
+                    <Connection/>
+                </AirSegment>
+                <AirSegment Key="q8RcJSUqWDKAFvbyKAAAAA==" Group="0" Carrier="KU" FlightNumber="671" ProviderCode="1G" Origin="KWI" Destination="DXB" DepartureTime="2025-02-12T09:25:00.000+03:00" ArrivalTime="2025-02-12T12:20:00.000+04:00" FlightTime="115" TravelTime="115" Distance="531" ClassOfService="L" Equipment="32N" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <CodeshareInfo OperatingCarrier="KU">KUWAIT AIRWAYS</CodeshareInfo>
+                    <AirAvailInfo ProviderCode="1G"/>
+                    <FlightDetails Key="q8RcJSUqWDKAGvbyKAAAAA==" Origin="KWI" Destination="DXB" DepartureTime="2025-02-12T09:25:00.000+03:00" ArrivalTime="2025-02-12T12:20:00.000+04:00" FlightTime="115" TravelTime="115" Equipment="32N" OriginTerminal="4" DestinationTerminal="1" AutomatedCheckin="false">
+                    </FlightDetails>
+                </AirSegment>
+                <AirSegment Key="q8RcJSUqWDKAHvbyKAAAAA==" Group="1" Carrier="KU" FlightNumber="676" ProviderCode="1G" Origin="DXB" Destination="KWI" DepartureTime="2025-02-16T22:55:00.000+04:00" ArrivalTime="2025-02-16T23:40:00.000+03:00" FlightTime="105" TravelTime="105" Distance="531" ClassOfService="V" Equipment="32N" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <CodeshareInfo OperatingCarrier="KU">KUWAIT AIRWAYS</CodeshareInfo>
+                    <AirAvailInfo ProviderCode="1G"/>
+                    <FlightDetails Key="q8RcJSUqWDKAIvbyKAAAAA==" Origin="DXB" Destination="KWI" DepartureTime="2025-02-16T22:55:00.000+04:00" ArrivalTime="2025-02-16T23:40:00.000+03:00" FlightTime="105" TravelTime="105" Equipment="32N" OriginTerminal="1" DestinationTerminal="4" AutomatedCheckin="false">
+                    </FlightDetails>
+                    <Connection/>
+                </AirSegment>
+                <AirSegment Key="q8RcJSUqWDKAJvbyKAAAAA==" Group="1" Carrier="KU" FlightNumber="283" ProviderCode="1G" Origin="KWI" Destination="DAC" DepartureTime="2025-02-17T17:00:00.000+03:00" ArrivalTime="2025-02-18T01:00:00.000+06:00" FlightTime="300" TravelTime="300" Distance="2635" ClassOfService="V" Equipment="77W" ChangeOfPlane="false" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="O and D cache or polled status used with different local status" AvailabilityDisplayType="Fare Specific Fare Quote Unbooked">
+                    <CodeshareInfo OperatingCarrier="KU">KUWAIT AIRWAYS</CodeshareInfo>
+                    <AirAvailInfo ProviderCode="1G"/>
+                    <FlightDetails Key="q8RcJSUqWDKAKvbyKAAAAA==" Origin="KWI" Destination="DAC" DepartureTime="2025-02-17T17:00:00.000+03:00" ArrivalTime="2025-02-18T01:00:00.000+06:00" FlightTime="300" TravelTime="300" Equipment="77W" OriginTerminal="4" DestinationTerminal="2" AutomatedCheckin="false">
+                    </FlightDetails>
+                </AirSegment>
+
+
+                <AirPricingInfo Key="q8RcJSUqWDKASvbyKAAAAA==" TotalPrice="BDT109980" BasePrice="USD756.00" ApproximateTotalPrice="BDT109980" ApproximateBasePrice="BDT90705" EquivalentBasePrice="BDT90705" ApproximateTaxes="BDT19275" Taxes="BDT19275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                    <FareInfo Key="q8RcJSUqWDKAhvbyKAAAAA==" FareBasis="LRTBD1" PassengerTypeCode="ADT" Origin="DAC" Destination="DXB" EffectiveDate="2025-01-30T03:38:00.000+06:00" DepartureDate="2025-02-12" Amount="BDT37854" NegotiatedFare="false" NotValidBefore="2025-02-12" NotValidAfter="2025-02-12" TaxAmount="BDT12091.00">
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON KU ONLY/"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="NON END"/>
+                        <FareRuleKey FareInfoRef="q8RcJSUqWDKAhvbyKAAAAA==" ProviderCode="1G">6UUVoSldxwiunPnLG1dC78bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA/1o7RJJQL0ZxWa1uaqI55k3aSkvhp2ybYl8LqeP9EQrJ6DR4hZRGXPAyGqh8JIaqIHk/yB8scm4WASdz5F+ImF1CcxeWstSiYX+hNfHEXoxUV3b2b+cmv9gFHVWNccKgROr5JaKLxm5BY5hoVUuDw6dw/Am9T/DRIMN1QPqv5KjwDJZXjGKbuKPfZkX03mJLbqHkzVOnpcUy5YV9dV3U4CXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzzD4Wdjal2fHna1H5QsLdGaNi6zOfbTtY770mJHGJ8MXLrIvrO4Jg9yyaqwie75Wey1v21tBX94dvtw1s7GDgc=</FareRuleKey>
+                        <Brand Key="q8RcJSUqWDKAhvbyKAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                    </FareInfo>
+                    <FareInfo Key="q8RcJSUqWDKA4vbyKAAAAA==" FareBasis="VRTBD1" PassengerTypeCode="ADT" Origin="DXB" Destination="DAC" EffectiveDate="2025-01-30T03:38:00.000+06:00" DepartureDate="2025-02-16" Amount="BDT52851" NegotiatedFare="false" NotValidBefore="2025-02-16" NotValidAfter="2025-02-16" TaxAmount="BDT7184.00">
+                        <FareSurcharge Key="q8RcJSUqWDKA5vbyKAAAAA==" Type="Stopover Charge" Amount="NUC160.00"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON KU ONLY/"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="NON END"/>
+                        <FareRuleKey FareInfoRef="q8RcJSUqWDKA4vbyKAAAAA==" ProviderCode="1G">6UUVoSldxwiunPnLG1dC78bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA/1o7RJJQL0ZxWa1uaqI55k3aSkvhp2ybSbwz6fyDLOYu9L5YaqdAWDAyGqh8JIaqGtii9PkCG5hWASdz5F+ImEB9wIUFskfmYX+hNfHEXoxUV3b2b+cmv9gFHVWNccKgROr5JaKLxm5BY5hoVUuDw6dw/Am9T/DRJqQR/cHoRjBwDJZXjGKbuKHORNET2nqwvU/c41MWFnQy5YV9dV3U4CXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzzD4Wdjal2fHna1H5QsLdGaNi6zOfbTtY770mJHGJ8MXLrIvrO4Jg9yyaqwie75Wey1v21tBX94dvtw1s7GDgc=</FareRuleKey>
+                        <Brand Key="q8RcJSUqWDKA4vbyKAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                    </FareInfo>
+                    <BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="q8RcJSUqWDKAhvbyKAAAAA==" SegmentRef="q8RcJSUqWDKADvbyKAAAAA==" HostTokenRef="q8RcJSUqWDKAMvbyKAAAAA=="/>
+                    <BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="q8RcJSUqWDKAhvbyKAAAAA==" SegmentRef="q8RcJSUqWDKAFvbyKAAAAA==" HostTokenRef="q8RcJSUqWDKAMvbyKAAAAA=="/>
+                    <BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="q8RcJSUqWDKA4vbyKAAAAA==" SegmentRef="q8RcJSUqWDKAHvbyKAAAAA==" HostTokenRef="q8RcJSUqWDKANvbyKAAAAA=="/>
+                    <BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="q8RcJSUqWDKA4vbyKAAAAA==" SegmentRef="q8RcJSUqWDKAJvbyKAAAAA==" HostTokenRef="q8RcJSUqWDKANvbyKAAAAA=="/>
+                    <TaxInfo Category="BD" Amount="BDT500" Key="q8RcJSUqWDKATvbyKAAAAA=="/>
+                    <TaxInfo Category="OW" Amount="BDT2000" Key="q8RcJSUqWDKAUvbyKAAAAA=="/>
+                    <TaxInfo Category="P7" Amount="BDT1200" Key="q8RcJSUqWDKAVvbyKAAAAA=="/>
+                    <TaxInfo Category="P8" Amount="BDT1200" Key="q8RcJSUqWDKAWvbyKAAAAA=="/>
+                    <TaxInfo Category="UT" Amount="BDT4000" Key="q8RcJSUqWDKAXvbyKAAAAA=="/>
+                    <TaxInfo Category="GZ" Amount="BDT786" Key="q8RcJSUqWDKAYvbyKAAAAA=="/>
+                    <TaxInfo Category="L2" Amount="BDT786" Key="q8RcJSUqWDKAZvbyKAAAAA=="/>
+                    <TaxInfo Category="N4" Amount="BDT3926" Key="q8RcJSUqWDKAavbyKAAAAA=="/>
+                    <TaxInfo Category="YX" Amount="BDT192" Key="q8RcJSUqWDKAbvbyKAAAAA=="/>
+                    <TaxInfo Category="AE" Amount="BDT2451" Key="q8RcJSUqWDKAcvbyKAAAAA=="/>
+                    <TaxInfo Category="F6" Amount="BDT1307" Key="q8RcJSUqWDKAdvbyKAAAAA=="/>
+                    <TaxInfo Category="TP" Amount="BDT164" Key="q8RcJSUqWDKAevbyKAAAAA=="/>
+                    <TaxInfo Category="ZR" Amount="BDT328" Key="q8RcJSUqWDKAfvbyKAAAAA=="/>
+                    <TaxInfo Category="E5" Amount="BDT435" Key="q8RcJSUqWDKAgvbyKAAAAA=="/>
+                    <FareCalc>DAC KU X/KWI KU DXB 315.50LRTBD1 KU KWI S160.00 KU DAC 280.50VRTBD1 NUC756.00END ROE1.0</FareCalc>
+                    <PassengerType Code="ADT" BookingTravelerRef="gr8AVWGCR064r57Jt0+8bA==0"/>
+                    <ChangePenalty PenaltyApplies="Anytime">
+                        <Amount>BDT5999.0</Amount>
+                    </ChangePenalty>
+                    <CancelPenalty PenaltyApplies="Anytime">
+                        <Amount>BDT8998.0</Amount>
+                    </CancelPenalty>
+                    <BaggageAllowances>
+                        <BaggageAllowanceInfo TravelerType="ADT" Origin="DAC" Destination="DXB" Carrier="KU">
+                            <URLInfo>
+                                <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/KU</URL>
+                            </URLInfo>
+                            <TextInfo>
+                                <Text>2P</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                            </TextInfo>
+                            <BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO50LB/23KG AND UPTO62LI/158LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                            <BagDetails ApplicableBags="2ndChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO50LB/23KG AND UPTO62LI/158LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                        </BaggageAllowanceInfo>
+                        <BaggageAllowanceInfo TravelerType="ADT" Origin="DXB" Destination="DAC" Carrier="KU">
+                            <URLInfo>
+                                <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/KU</URL>
+                            </URLInfo>
+                            <TextInfo>
+                                <Text>1P</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                            </TextInfo>
+                            <BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO70LB/32KG AND UPTO62LI/158LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                            <BagDetails ApplicableBags="2ndChecked">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>BAGGAGE CHARGES DATA NOT AVAILABLE</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                        </BaggageAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="DAC" Destination="KWI" Carrier="KU">
+                            <TextInfo>
+                                <Text>1P</Text>
+                            </TextInfo>
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO15LB/7KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="KWI" Destination="DXB" Carrier="KU">
+                            <TextInfo>
+                                <Text>1P</Text>
+                            </TextInfo>
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="KWD0.000" TotalPrice="KWD0.000">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO15LB/7KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="DXB" Destination="KWI" Carrier="KU">
+                            <TextInfo>
+                                <Text>1P</Text>
+                            </TextInfo>
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="AED0" TotalPrice="AED0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO15LB/7KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="KWI" Destination="DAC" Carrier="KU">
+                            <TextInfo>
+                                <Text>1P</Text>
+                            </TextInfo>
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="KWD0.000" TotalPrice="KWD0.000">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO15LB/7KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                        </CarryOnAllowanceInfo>
+                    </BaggageAllowances>
+                </AirPricingInfo>
+                <AirPricingInfo Key="q8RcJSUqWDKAUwbyKAAAAA==" TotalPrice="BDT90103" BasePrice="USD607.00" ApproximateTotalPrice="BDT90103" ApproximateBasePrice="BDT72828" EquivalentBasePrice="BDT72828" ApproximateTaxes="BDT17275" Taxes="BDT17275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                    <FareInfo Key="q8RcJSUqWDKAjwbyKAAAAA==" FareBasis="LRTBD1" PassengerTypeCode="CNN" Origin="DAC" Destination="DXB" EffectiveDate="2025-01-30T03:38:00.000+06:00" DepartureDate="2025-02-12" Amount="BDT28391" NegotiatedFare="false" NotValidBefore="2025-02-12" NotValidAfter="2025-02-12" TaxAmount="BDT10079.00">
+                        <FareTicketDesignator Value="CH25"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON KU ONLY/"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="NON END"/>
+                        <FareRuleKey FareInfoRef="q8RcJSUqWDKAjwbyKAAAAA==" ProviderCode="1G">6UUVoSldxwiunPnLG1dC78bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA/1o7RJJQL0ZxWa1uaqI55k3aSkvhp2yba5c4X5DF78myFJ+q8ahATvAyGqh8JIaqIHk/yB8scm4WASdz5F+ImF1CcxeWstSiYX+hNfHEXoxUV3b2b+cmv9Q2mtH+H2NzxOr5JaKLxm5BY5hoVUuDw6dw/Am9T/DRIMN1QPqv5KjwDJZXjGKbuIMX/CT72TRqYbYliNHFFc/y5YV9dV3U4CXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzzD4Wdjal2fHna1H5QsLdGaNi6zOfbTtY770mJHGJ8MsnJlcQStVMdyyaqwie75Wey1v21tBX94dvtw1s7GDgc=</FareRuleKey>
+                        <Brand Key="q8RcJSUqWDKAjwbyKAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                    </FareInfo>
+                    <FareInfo Key="q8RcJSUqWDKA6wbyKAAAAA==" FareBasis="VRTBD1" PassengerTypeCode="CNN" Origin="DXB" Destination="DAC" EffectiveDate="2025-01-30T03:38:00.000+06:00" DepartureDate="2025-02-16" Amount="BDT44437" NegotiatedFare="false" NotValidBefore="2025-02-16" NotValidAfter="2025-02-16" TaxAmount="BDT7196.00">
+                        <FareTicketDesignator Value="CH25"/>
+                        <FareSurcharge Key="q8RcJSUqWDKA7wbyKAAAAA==" Type="Stopover Charge" Amount="NUC160.00"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON KU ONLY/"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="NON END"/>
+                        <FareRuleKey FareInfoRef="q8RcJSUqWDKA6wbyKAAAAA==" ProviderCode="1G">6UUVoSldxwiunPnLG1dC78bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA/1o7RJJQL0ZxWa1uaqI55k3aSkvhp2ybSbwz6fyDLOYpS9M/e2q6r/AyGqh8JIaqGtii9PkCG5hWASdz5F+ImEB9wIUFskfmYX+hNfHEXoxUV3b2b+cmv9Q2mtH+H2NzxOr5JaKLxm5BY5hoVUuDw6dw/Am9T/DRJqQR/cHoRjBwDJZXjGKbuLmHkKRDCixKE/MTG9mlEGFy5YV9dV3U4CXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovAzzD4Wdjal2fHna1H5QsLdGaNi6zOfbTtY770mJHGJ8MsnJlcQStVMdyyaqwie75Wey1v21tBX94dvtw1s7GDgc=</FareRuleKey>
+                        <Brand Key="q8RcJSUqWDKA6wbyKAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                    </FareInfo>
+                    <BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="q8RcJSUqWDKAjwbyKAAAAA==" SegmentRef="q8RcJSUqWDKADvbyKAAAAA==" HostTokenRef="q8RcJSUqWDKAOvbyKAAAAA=="/>
+                    <BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="q8RcJSUqWDKAjwbyKAAAAA==" SegmentRef="q8RcJSUqWDKAFvbyKAAAAA==" HostTokenRef="q8RcJSUqWDKAOvbyKAAAAA=="/>
+                    <BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="q8RcJSUqWDKA6wbyKAAAAA==" SegmentRef="q8RcJSUqWDKAHvbyKAAAAA==" HostTokenRef="q8RcJSUqWDKAPvbyKAAAAA=="/>
+                    <BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="q8RcJSUqWDKA6wbyKAAAAA==" SegmentRef="q8RcJSUqWDKAJvbyKAAAAA==" HostTokenRef="q8RcJSUqWDKAPvbyKAAAAA=="/>
+                    <TaxInfo Category="BD" Amount="BDT500" Key="q8RcJSUqWDKAVwbyKAAAAA=="/>
+                    <TaxInfo Category="OW" Amount="BDT2000" Key="q8RcJSUqWDKAWwbyKAAAAA=="/>
+                    <TaxInfo Category="P7" Amount="BDT1200" Key="q8RcJSUqWDKAXwbyKAAAAA=="/>
+                    <TaxInfo Category="P8" Amount="BDT1200" Key="q8RcJSUqWDKAYwbyKAAAAA=="/>
+                    <TaxInfo Category="UT" Amount="BDT2000" Key="q8RcJSUqWDKAZwbyKAAAAA=="/>
+                    <TaxInfo Category="GZ" Amount="BDT786" Key="q8RcJSUqWDKAawbyKAAAAA=="/>
+                    <TaxInfo Category="L2" Amount="BDT786" Key="q8RcJSUqWDKAbwbyKAAAAA=="/>
+                    <TaxInfo Category="N4" Amount="BDT3926" Key="q8RcJSUqWDKAcwbyKAAAAA=="/>
+                    <TaxInfo Category="YX" Amount="BDT192" Key="q8RcJSUqWDKAdwbyKAAAAA=="/>
+                    <TaxInfo Category="AE" Amount="BDT2451" Key="q8RcJSUqWDKAewbyKAAAAA=="/>
+                    <TaxInfo Category="F6" Amount="BDT1307" Key="q8RcJSUqWDKAfwbyKAAAAA=="/>
+                    <TaxInfo Category="TP" Amount="BDT164" Key="q8RcJSUqWDKAgwbyKAAAAA=="/>
+                    <TaxInfo Category="ZR" Amount="BDT328" Key="q8RcJSUqWDKAhwbyKAAAAA=="/>
+                    <TaxInfo Category="E5" Amount="BDT435" Key="q8RcJSUqWDKAiwbyKAAAAA=="/>
+                    <FareCalc>DAC KU X/KWI KU DXB 236.62LRTBD1/CH25 KU KWI S160.00 KU DAC 210.38VRTBD1/CH25 NUC607.00END ROE1.0</FareCalc>
+                    <PassengerType Code="CNN" Age="8" BookingTravelerRef="gr8AVWGCR064r57Jt0+8bA==1"/>
+                    <ChangePenalty PenaltyApplies="Anytime">
+                        <Amount>BDT5999.0</Amount>
+                    </ChangePenalty>
+                    <CancelPenalty PenaltyApplies="Anytime">
+                        <Amount>BDT8998.0</Amount>
+                    </CancelPenalty>
+                    <BaggageAllowances>
+                        <BaggageAllowanceInfo TravelerType="CNN" Origin="DAC" Destination="DXB" Carrier="KU">
+                            <URLInfo>
+                                <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/KU</URL>
+                            </URLInfo>
+                            <TextInfo>
+                                <Text>2P</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                            </TextInfo>
+                            <BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO50LB/23KG AND UPTO62LI/158LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                            <BagDetails ApplicableBags="2ndChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO50LB/23KG AND UPTO62LI/158LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                        </BaggageAllowanceInfo>
+                        <BaggageAllowanceInfo TravelerType="CNN" Origin="DXB" Destination="DAC" Carrier="KU">
+                            <URLInfo>
+                                <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/KU</URL>
+                            </URLInfo>
+                            <TextInfo>
+                                <Text>1P</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                            </TextInfo>
+                            <BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO70LB/32KG AND UPTO62LI/158LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                            <BagDetails ApplicableBags="2ndChecked">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>BAGGAGE CHARGES DATA NOT AVAILABLE</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                        </BaggageAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="DAC" Destination="KWI" Carrier="KU">
+                            <TextInfo>
+                                <Text>1P</Text>
+                            </TextInfo>
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO15LB/7KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="KWI" Destination="DXB" Carrier="KU">
+                            <TextInfo>
+                                <Text>1P</Text>
+                            </TextInfo>
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="KWD0.000" TotalPrice="KWD0.000">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO15LB/7KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="DXB" Destination="KWI" Carrier="KU">
+                            <TextInfo>
+                                <Text>1P</Text>
+                            </TextInfo>
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="AED0" TotalPrice="AED0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO15LB/7KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="KWI" Destination="DAC" Carrier="KU">
+                            <TextInfo>
+                                <Text>1P</Text>
+                            </TextInfo>
+                            <CarryOnDetails ApplicableCarryOnBags="1" BasePrice="KWD0.000" TotalPrice="KWD0.000">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO15LB/7KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </CarryOnDetails>
+                        </CarryOnAllowanceInfo>
+                    </BaggageAllowances>
+                </AirPricingInfo>
+                <AirPricingInfo Key="q8RcJSUqWDKAWxbyKAAAAA==" TotalPrice="BDT18802" BasePrice="USD119.00" ApproximateTotalPrice="BDT18802" ApproximateBasePrice="BDT14278" EquivalentBasePrice="BDT14278" ApproximateTaxes="BDT4524" Taxes="BDT4524" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G">
+                    <FareInfo Key="q8RcJSUqWDKAdxbyKAAAAA==" FareBasis="LRTBD1" PassengerTypeCode="INF" Origin="DAC" Destination="DXB" EffectiveDate="2025-01-30T03:38:00.000+06:00" DepartureDate="2025-02-12" Amount="BDT7571" NegotiatedFare="false" NotValidBefore="2025-02-12" NotValidAfter="2025-02-12" TaxAmount="BDT3473.00">
+                        <FareTicketDesignator Value="IN80"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON KU ONLY/"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="NON END"/>
+                        <FareRuleKey FareInfoRef="q8RcJSUqWDKAdxbyKAAAAA==" ProviderCode="1G">6UUVoSldxwiunPnLG1dC78bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA/1o7RJJQL0ZxWa1uaqI55k3aSkvhp2ybSKSTG4W59Eck+yVgx9fuZhN3J3NyYpz6QdWe/O+H8MU3Q9NhPcdpo8AcASVj4DRGjvQIlbeGa6Ahf6E18cRejE2Ayhb4FCHbQRtxztxyH0gT6ojaYrqaFZW8vSBNa8ZUmwC02UUzMsnk2xPpIYnasJNF/3YLcM3G6kVeRb1AgPbv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHzQapDbCAMr/TUGWlPDKj6v0aMBFljDuP9NE5OQYAbQxj9quNarLrxi63nzePk5C0twXtO9a1rEPSELG6l/ruz8=</FareRuleKey>
+                        <Brand Key="q8RcJSUqWDKAdxbyKAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                    </FareInfo>
+                    <FareInfo Key="q8RcJSUqWDKA0xbyKAAAAA==" FareBasis="VRTBD1" PassengerTypeCode="INF" Origin="DXB" Destination="DAC" EffectiveDate="2025-01-30T03:38:00.000+06:00" DepartureDate="2025-02-16" Amount="BDT6707" NegotiatedFare="false" NotValidBefore="2025-02-16" NotValidAfter="2025-02-16" TaxAmount="BDT1051.00">
+                        <FareTicketDesignator Value="IN80"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="VALID ON KU ONLY/"/>
+                        <Endorsement xmlns="http://www.travelport.com/schema/common_v52_0" Value="NON END"/>
+                        <FareRuleKey FareInfoRef="q8RcJSUqWDKA0xbyKAAAAA==" ProviderCode="1G">6UUVoSldxwiunPnLG1dC78bKj3F8T9EyxsqPcXxP0TLGyo9xfE/RMsuWFfXVd1OAly5qxZ3qLwOXLmrFneovA5cuasWd6i8Dly5qxZ3qLwOXLmrFneovA/1o7RJJQL0ZxWa1uaqI55k3aSkvhp2ybeDmr1vJ+tPr9kPZzddrVp1N3J3NyYpz6QM3p/wbHT4b3Q9NhPcdpo9d3DtPfmPBTTvQIlbeGa6Ahf6E18cRejE2Ayhb4FCHbQRtxztxyH0gT6ojaYrqaFZW8vSBNa8ZUmnWyFpl55B9OR4JaMBuP+twv7mdd4HAAKkVeRb1AgPbv4Xvb2u1Qx+/he9va7VDH7+F729rtUMfv4Xvb2u1Qx+/he9va7VDHzQapDbCAMr/TUGWlPDKj6v0aMBFljDuP9NE5OQYAbQxj9quNarLrxi63nzePk5C0twXtO9a1rEPSELG6l/ruz8=</FareRuleKey>
+                        <Brand Key="q8RcJSUqWDKA0xbyKAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                    </FareInfo>
+                    <BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="q8RcJSUqWDKAdxbyKAAAAA==" SegmentRef="q8RcJSUqWDKADvbyKAAAAA==" HostTokenRef="q8RcJSUqWDKAQvbyKAAAAA=="/>
+                    <BookingInfo BookingCode="L" CabinClass="Economy" FareInfoRef="q8RcJSUqWDKAdxbyKAAAAA==" SegmentRef="q8RcJSUqWDKAFvbyKAAAAA==" HostTokenRef="q8RcJSUqWDKAQvbyKAAAAA=="/>
+                    <BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="q8RcJSUqWDKA0xbyKAAAAA==" SegmentRef="q8RcJSUqWDKAHvbyKAAAAA==" HostTokenRef="q8RcJSUqWDKARvbyKAAAAA=="/>
+                    <BookingInfo BookingCode="V" CabinClass="Economy" FareInfoRef="q8RcJSUqWDKA0xbyKAAAAA==" SegmentRef="q8RcJSUqWDKAJvbyKAAAAA==" HostTokenRef="q8RcJSUqWDKARvbyKAAAAA=="/>
+                    <TaxInfo Category="P7" Amount="BDT1200" Key="q8RcJSUqWDKAXxbyKAAAAA=="/>
+                    <TaxInfo Category="P8" Amount="BDT1200" Key="q8RcJSUqWDKAYxbyKAAAAA=="/>
+                    <TaxInfo Category="GZ" Amount="BDT786" Key="q8RcJSUqWDKAZxbyKAAAAA=="/>
+                    <TaxInfo Category="L2" Amount="BDT786" Key="q8RcJSUqWDKAaxbyKAAAAA=="/>
+                    <TaxInfo Category="YX" Amount="BDT192" Key="q8RcJSUqWDKAbxbyKAAAAA=="/>
+                    <TaxInfo Category="E5" Amount="BDT360" Key="q8RcJSUqWDKAcxbyKAAAAA=="/>
+                    <FareCalc>DAC KU X/KWI KU DXB 63.10LRTBD1/IN80 KU X/KWI KU DAC 56.10VRTBD1/IN80 NUC119.20END ROE1.0</FareCalc>
+                    <PassengerType Code="INF" Age="1" BookingTravelerRef="gr8AVWGCR064r57Jt0+8bA==2"/>
+                    <ChangePenalty PenaltyApplies="Anytime">
+                        <Amount>BDT5999.0</Amount>
+                    </ChangePenalty>
+                    <CancelPenalty PenaltyApplies="Anytime">
+                        <Amount>BDT8998.0</Amount>
+                    </CancelPenalty>
+                    <BaggageAllowances>
+                        <BaggageAllowanceInfo TravelerType="INF" Origin="DAC" Destination="DXB" Carrier="KU">
+                            <URLInfo>
+                                <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/KU</URL>
+                            </URLInfo>
+                            <TextInfo>
+                                <Text>1P</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                            </TextInfo>
+                            <BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO22LB/10KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                            <BagDetails ApplicableBags="2ndChecked">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>BAGGAGE CHARGES DATA NOT AVAILABLE</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                        </BaggageAllowanceInfo>
+                        <BaggageAllowanceInfo TravelerType="INF" Origin="DXB" Destination="DAC" Carrier="KU">
+                            <URLInfo>
+                                <URL>VIEWTRIP.TRAVELPORT.COM/BAGGAGEPOLICY/KU</URL>
+                            </URLInfo>
+                            <TextInfo>
+                                <Text>1P</Text>
+                                <Text>BAGGAGE DISCOUNTS MAY APPLY BASED ON FREQUENT FLYER STATUS/ ONLINE CHECKIN/FORM OF PAYMENT/MILITARY/ETC.</Text>
+                            </TextInfo>
+                            <BagDetails ApplicableBags="1stChecked" BasePrice="BDT0" ApproximateBasePrice="BDT0" TotalPrice="BDT0" ApproximateTotalPrice="BDT0">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>UPTO22LB/10KG AND UPTO45LI/115LCM</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                            <BagDetails ApplicableBags="2ndChecked">
+                                <BaggageRestriction>
+                                    <TextInfo>
+                                        <Text>BAGGAGE CHARGES DATA NOT AVAILABLE</Text>
+                                    </TextInfo>
+                                </BaggageRestriction>
+                            </BagDetails>
+                        </BaggageAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="DAC" Destination="KWI" Carrier="KU">
+                            <TextInfo>
+                                <Text>0P</Text>
+                            </TextInfo>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="KWI" Destination="DXB" Carrier="KU">
+                            <TextInfo>
+                                <Text>0P</Text>
+                            </TextInfo>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="DXB" Destination="KWI" Carrier="KU">
+                            <TextInfo>
+                                <Text>0P</Text>
+                            </TextInfo>
+                        </CarryOnAllowanceInfo>
+                        <CarryOnAllowanceInfo Origin="KWI" Destination="DAC" Carrier="KU">
+                            <TextInfo>
+                                <Text>0P</Text>
+                            </TextInfo>
+                        </CarryOnAllowanceInfo>
+                    </BaggageAllowances>
+                </AirPricingInfo>
+
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="q8RcJSUqWDKAMvbyKAAAAA==">GFB10101ADT00  01LRTBD1                                0200010002#GFB200010101NADTV3033BD01006000039989#GFMCER 033NBD01 KU ADTLRTBD1</HostToken>
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="q8RcJSUqWDKANvbyKAAAAA==">GFB10101ADT00  02VRTBD1                                0200030004#GFB200010102NADTV3033BD01006000039989#GFMCER 033NBD01 KU ADTVRTBD1</HostToken>
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="q8RcJSUqWDKAOvbyKAAAAA==">GFB10202CNN00  01LRTBD1         CH25                   0200010002#GFB200020201NCNNV3033BD01006000039910002120089#GFMCER 033NBD01DKU CNNLRTBD1</HostToken>
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="q8RcJSUqWDKAPvbyKAAAAA==">GFB10202CNN00  02VRTBD1         CH25                   0200030004#GFB200020202NCNNV3033BD01006000039910002120089#GFMCER 033NBD01DKU CNNVRTBD1</HostToken>
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="q8RcJSUqWDKAQvbyKAAAAA==">GFB10303INF00  01LRTBD1         IN80                   0200010002#GFB200030301NINFV3033BD01006000039910047211689#GFMCER 033NBD01DKU INFLRTBD1</HostToken>
+                <HostToken xmlns="http://www.travelport.com/schema/common_v52_0" Key="q8RcJSUqWDKARvbyKAAAAA==">GFB10303INF00  02VRTBD1         IN80                   0200030004#GFB200030302NINFV3033BD01006000039910047211689#GFMCER 033NBD01DKU INFVRTBD1</HostToken>
+                
+            </AirPricingSolution>
+            <ActionStatus xmlns="http://www.travelport.com/schema/common_v52_0" Type="TAU"
+                TicketDate="2025-01-29T10:55:00.000+01:00" ProviderCode="1G" />
+
+        </AirCreateReservationReq>
+    </s:Body>
+</s:Envelope>

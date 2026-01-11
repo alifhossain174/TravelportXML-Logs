@@ -1,0 +1,31 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <AirPriceReq xmlns="http://www.travelport.com/schema/air_v52_0" TraceId="c8f38268010611bc23e5-01969005035" TargetBranch="P7212436"
+            CheckOBFees="TicketingOnly" FareRuleType="long" CheckFlightDetails="true">
+            <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v52_0" OriginApplication="UAPI" />
+            <AirItinerary>
+
+                <AirSegment Key="YSmfJSVqWDKAutI1JAAAAA==" Group="0" Carrier="MU" FlightNumber="2036" Origin="DAC" Destination="KMG" DepartureTime="2025-02-06T15:00:00.000+06:00" ArrivalTime="2025-02-06T19:20:00.000+08:00" FlightTime="140" Distance="794" ETicketability="Yes" Equipment="73L" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G">
+                    <AirAvailInfo ProviderCode="1G"/>
+                    <Connection />
+                </AirSegment>
+                <AirSegment Key="YSmfJSVqWDKAwtI1JAAAAA==" Group="0" Carrier="MU" FlightNumber="5739" Origin="KMG" Destination="CAN" DepartureTime="2025-02-06T22:10:00.000+08:00" ArrivalTime="2025-02-07T00:10:00.000+08:00" FlightTime="120" Distance="664" ETicketability="Yes" Equipment="737" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G">
+                    <AirAvailInfo ProviderCode="1G"/>
+                </AirSegment>
+                <AirSegment Key="YSmfJSVqWDKAytI1JAAAAA==" Group="1" Carrier="MU" FlightNumber="5740" Origin="CAN" Destination="KMG" DepartureTime="2025-02-10T22:20:00.000+08:00" ArrivalTime="2025-02-11T01:15:00.000+08:00" FlightTime="175" Distance="664" ETicketability="Yes" Equipment="737" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G">
+                    <AirAvailInfo ProviderCode="1G"/>
+                    <Connection />
+                </AirSegment>
+                <AirSegment Key="YSmfJSVqWDKA0tI1JAAAAA==" Group="1" Carrier="MU" FlightNumber="2035" Origin="KMG" Destination="DAC" DepartureTime="2025-02-11T13:10:00.000+08:00" ArrivalTime="2025-02-11T13:50:00.000+06:00" FlightTime="160" Distance="794" ETicketability="Yes" Equipment="73L" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G">
+                    <AirAvailInfo ProviderCode="1G"/>
+                </AirSegment>
+
+            </AirItinerary>
+            <AirPricingModifiers ETicketability="Required" PlatingCarrier="MU" FaresIndicator="PublicAndPrivateFares" />
+            <SearchPassenger xmlns="http://www.travelport.com/schema/common_v52_0" Code="ADT" BookingTravelerRef="ADT_0" />
+            <SearchPassenger xmlns="http://www.travelport.com/schema/common_v52_0" Code="CNN" Age="8" BookingTravelerRef="CNN_0" />
+            <SearchPassenger xmlns="http://www.travelport.com/schema/common_v52_0" Code="INF" Age="1" BookingTravelerRef="INF_0" />
+            <AirPricingCommand />
+        </AirPriceReq>
+    </s:Body>
+</s:Envelope>

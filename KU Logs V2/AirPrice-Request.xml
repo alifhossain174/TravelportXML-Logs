@@ -1,0 +1,31 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <AirPriceReq xmlns="http://www.travelport.com/schema/air_v52_0" TraceId="c8f38268010611bc23e5-01969005035" TargetBranch="P7212436"
+            CheckOBFees="TicketingOnly" FareRuleType="long" CheckFlightDetails="true">
+            <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v52_0" OriginApplication="UAPI" />
+            <AirItinerary>
+
+                <AirSegment Key="YLXcJSTqWDKAX+ZzKAAAAA==" Group="0" Carrier="KU" FlightNumber="284" Origin="DAC" Destination="KWI" DepartureTime="2025-02-12T02:45:00.000+06:00" ArrivalTime="2025-02-12T06:15:00.000+03:00" FlightTime="390" Distance="2635" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G">
+                    <AirAvailInfo ProviderCode="1G"/>
+                    <Connection />
+                </AirSegment>
+                <AirSegment Key="YLXcJSTqWDKAZ+ZzKAAAAA==" Group="0" Carrier="KU" FlightNumber="671" Origin="KWI" Destination="DXB" DepartureTime="2025-02-12T09:25:00.000+03:00" ArrivalTime="2025-02-12T12:20:00.000+04:00" FlightTime="115" Distance="531" ETicketability="Yes" Equipment="32N" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G">
+                    <AirAvailInfo ProviderCode="1G"/>
+                </AirSegment>
+                <AirSegment Key="YLXcJSTqWDKAb+ZzKAAAAA==" Group="1" Carrier="KU" FlightNumber="676" Origin="DXB" Destination="KWI" DepartureTime="2025-02-16T22:55:00.000+04:00" ArrivalTime="2025-02-16T23:40:00.000+03:00" FlightTime="105" Distance="531" ETicketability="Yes" Equipment="32N" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G">
+                    <AirAvailInfo ProviderCode="1G"/>
+                    <Connection />
+                </AirSegment>
+                <AirSegment Key="YLXcJSTqWDKAd+ZzKAAAAA==" Group="1" Carrier="KU" FlightNumber="283" Origin="KWI" Destination="DAC" DepartureTime="2025-02-17T17:00:00.000+03:00" ArrivalTime="2025-02-18T01:00:00.000+06:00" FlightTime="300" Distance="2635" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop" ProviderCode="1G">
+                    <AirAvailInfo ProviderCode="1G"/>
+                </AirSegment>
+
+            </AirItinerary>
+            <AirPricingModifiers ETicketability="Required" PlatingCarrier="KU" FaresIndicator="PublicAndPrivateFares" />
+            <SearchPassenger xmlns="http://www.travelport.com/schema/common_v52_0" Code="ADT" BookingTravelerRef="ADT_0" />
+            <SearchPassenger xmlns="http://www.travelport.com/schema/common_v52_0" Code="CNN" Age="8" BookingTravelerRef="CNN_0" />
+            <SearchPassenger xmlns="http://www.travelport.com/schema/common_v52_0" Code="INF" Age="1" BookingTravelerRef="INF_0" />
+            <AirPricingCommand />
+        </AirPriceReq>
+    </s:Body>
+</s:Envelope>

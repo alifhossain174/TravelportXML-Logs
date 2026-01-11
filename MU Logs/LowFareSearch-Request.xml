@@ -1,0 +1,44 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <LowFareSearchReq xmlns="http://www.travelport.com/schema/air_v52_0"
+            TraceId="c8f38268010611bc23e5-01969005035" TargetBranch="P7212436" SolutionResult="true" ReturnUpsellFare="true">
+            <BillingPointOfSaleInfo xmlns="http://www.travelport.com/schema/common_v52_0" OriginApplication="UAPI" />
+            <SearchAirLeg>
+                <SearchOrigin>
+                    <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="DAC" PreferCity="true" />
+                </SearchOrigin>
+                <SearchDestination>
+                    <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="CAN" PreferCity="true" />
+                </SearchDestination>
+                <SearchDepTime PreferredTime="2025-02-06" />
+            </SearchAirLeg>
+            <SearchAirLeg>
+                <SearchOrigin>
+                    <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="CAN" PreferCity="true" />
+                </SearchOrigin>
+                <SearchDestination>
+                    <CityOrAirport xmlns="http://www.travelport.com/schema/common_v52_0" Code="DAC" PreferCity="true" />
+                </SearchDestination>
+                <SearchDepTime PreferredTime="2025-02-10" />
+            </SearchAirLeg>
+            <AirSearchModifiers>
+                <PreferredProviders>
+                    <Provider xmlns="http://www.travelport.com/schema/common_v52_0" Code="1G" />
+                </PreferredProviders>
+                <!-- later on added by me -->
+                <PermittedCarriers>
+                    <Carrier xmlns="http://www.travelport.com/schema/common_v52_0" Code="MU" /> <!-- China Eastern Airlines -->
+                </PermittedCarriers>
+                <!-- later on added by me -->
+                <PreferredCabins>
+                    <CabinClass xmlns="http://www.travelport.com/schema/common_v52_0" Type="Economy" />
+                </PreferredCabins>
+            </AirSearchModifiers>
+            <SearchPassenger xmlns="http://www.travelport.com/schema/common_v52_0" Code="ADT" BookingTravelerRef="ADT_0" />
+            <SearchPassenger xmlns="http://www.travelport.com/schema/common_v52_0" Code="CNN" Age="8" BookingTravelerRef="CNN_0" />
+            <SearchPassenger xmlns="http://www.travelport.com/schema/common_v52_0" Code="INF" Age="1" BookingTravelerRef="INF_0" />
+            <AirPricingModifiers FaresIndicator="PublicAndPrivateFares" />
+        </LowFareSearchReq>
+    </s:Body>
+</s:Envelope>

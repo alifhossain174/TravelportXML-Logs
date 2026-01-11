@@ -1,0 +1,909 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <air:LowFareSearchRsp xmlns:air="http://www.travelport.com/schema/air_v52_0"   TraceId="c8f38268010611bc23e5-01969005035" TransactionId="AECAF6840A0D6A9337089F0B6C14C7ED" ResponseTime="357" DistanceUnits="MI" CurrencyType="BDT">
+            <air:FlightDetailsList>
+                <air:FlightDetails Key="YLXcJSTqWDKAY+ZzKAAAAA==" Origin="DAC" Destination="KWI" DepartureTime="2025-02-12T02:45:00.000+06:00" ArrivalTime="2025-02-12T06:15:00.000+03:00" FlightTime="390" TravelTime="695" Equipment="77W" OriginTerminal="2" DestinationTerminal="4"/>
+                <air:FlightDetails Key="YLXcJSTqWDKAa+ZzKAAAAA==" Origin="KWI" Destination="DXB" DepartureTime="2025-02-12T09:25:00.000+03:00" ArrivalTime="2025-02-12T12:20:00.000+04:00" FlightTime="115" TravelTime="695" Equipment="32N" OriginTerminal="4" DestinationTerminal="1"/>
+                <air:FlightDetails Key="YLXcJSTqWDKAc+ZzKAAAAA==" Origin="DXB" Destination="KWI" DepartureTime="2025-02-16T22:55:00.000+04:00" ArrivalTime="2025-02-16T23:40:00.000+03:00" FlightTime="105" TravelTime="1445" Equipment="32N" OriginTerminal="1" DestinationTerminal="4"/>
+                <air:FlightDetails Key="YLXcJSTqWDKAe+ZzKAAAAA==" Origin="KWI" Destination="DAC" DepartureTime="2025-02-17T17:00:00.000+03:00" ArrivalTime="2025-02-18T01:00:00.000+06:00" FlightTime="300" TravelTime="1445" Equipment="77W" OriginTerminal="4" DestinationTerminal="2"/>
+                <air:FlightDetails Key="YLXcJSTqWDKAY/ZzKAAAAA==" Origin="DXB" Destination="KWI" DepartureTime="2025-02-16T18:55:00.000+04:00" ArrivalTime="2025-02-16T19:40:00.000+03:00" FlightTime="105" TravelTime="1685" Equipment="77W" OriginTerminal="1" DestinationTerminal="4"/>
+                <air:FlightDetails Key="YLXcJSTqWDKAyAazKAAAAA==" Origin="KWI" Destination="DXB" DepartureTime="2025-02-12T14:55:00.000+03:00" ArrivalTime="2025-02-12T17:55:00.000+04:00" FlightTime="120" TravelTime="1030" Equipment="77W" OriginTerminal="4" DestinationTerminal="1"/>
+                <air:FlightDetails Key="YLXcJSTqWDKA9BazKAAAAA==" Origin="KWI" Destination="DXB" DepartureTime="2025-02-12T19:00:00.000+03:00" ArrivalTime="2025-02-12T21:55:00.000+04:00" FlightTime="115" TravelTime="1270" Equipment="77W" OriginTerminal="4" DestinationTerminal="1"/>
+                <air:FlightDetails Key="YLXcJSTqWDKAV/ZzKAAAAA==" Origin="KWI" Destination="DXB" DepartureTime="2025-02-13T01:40:00.000+03:00" ArrivalTime="2025-02-13T04:35:00.000+04:00" FlightTime="115" TravelTime="1670" Equipment="338" OriginTerminal="4" DestinationTerminal="1"/>
+            </air:FlightDetailsList>
+            <air:AirSegmentList>
+                <air:AirSegment Key="YLXcJSTqWDKAX+ZzKAAAAA==" Group="0" Carrier="KU" FlightNumber="284" Origin="DAC" Destination="KWI" DepartureTime="2025-02-12T02:45:00.000+06:00" ArrivalTime="2025-02-12T06:15:00.000+03:00" FlightTime="390" Distance="2635" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="YLXcJSTqWDKAY+ZzKAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="YLXcJSTqWDKAZ+ZzKAAAAA==" Group="0" Carrier="KU" FlightNumber="671" Origin="KWI" Destination="DXB" DepartureTime="2025-02-12T09:25:00.000+03:00" ArrivalTime="2025-02-12T12:20:00.000+04:00" FlightTime="115" Distance="531" ETicketability="Yes" Equipment="32N" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="YLXcJSTqWDKAa+ZzKAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="YLXcJSTqWDKAb+ZzKAAAAA==" Group="1" Carrier="KU" FlightNumber="676" Origin="DXB" Destination="KWI" DepartureTime="2025-02-16T22:55:00.000+04:00" ArrivalTime="2025-02-16T23:40:00.000+03:00" FlightTime="105" Distance="531" ETicketability="Yes" Equipment="32N" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="YLXcJSTqWDKAc+ZzKAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="YLXcJSTqWDKAd+ZzKAAAAA==" Group="1" Carrier="KU" FlightNumber="283" Origin="KWI" Destination="DAC" DepartureTime="2025-02-17T17:00:00.000+03:00" ArrivalTime="2025-02-18T01:00:00.000+06:00" FlightTime="300" Distance="2635" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="YLXcJSTqWDKAe+ZzKAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="YLXcJSTqWDKAX/ZzKAAAAA==" Group="1" Carrier="KU" FlightNumber="674" Origin="DXB" Destination="KWI" DepartureTime="2025-02-16T18:55:00.000+04:00" ArrivalTime="2025-02-16T19:40:00.000+03:00" FlightTime="105" Distance="531" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="YLXcJSTqWDKAY/ZzKAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="YLXcJSTqWDKAxAazKAAAAA==" Group="0" Carrier="KU" FlightNumber="673" Origin="KWI" Destination="DXB" DepartureTime="2025-02-12T14:55:00.000+03:00" ArrivalTime="2025-02-12T17:55:00.000+04:00" FlightTime="120" Distance="531" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="YLXcJSTqWDKAyAazKAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="YLXcJSTqWDKA8BazKAAAAA==" Group="0" Carrier="KU" FlightNumber="675" Origin="KWI" Destination="DXB" DepartureTime="2025-02-12T19:00:00.000+03:00" ArrivalTime="2025-02-12T21:55:00.000+04:00" FlightTime="115" Distance="531" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="YLXcJSTqWDKA9BazKAAAAA=="/>
+                </air:AirSegment>
+                <air:AirSegment Key="YLXcJSTqWDKAU/ZzKAAAAA==" Group="0" Carrier="KU" FlightNumber="677" Origin="KWI" Destination="DXB" DepartureTime="2025-02-13T01:40:00.000+03:00" ArrivalTime="2025-02-13T04:35:00.000+04:00" FlightTime="115" Distance="531" ETicketability="Yes" Equipment="338" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+                    <air:AirAvailInfo ProviderCode="1G"/>
+                    <air:FlightDetailsRef Key="YLXcJSTqWDKAV/ZzKAAAAA=="/>
+                </air:AirSegment>
+            </air:AirSegmentList>
+            <air:FareInfoList>
+                <air:FareInfo Key="YLXcJSTqWDKAw+ZzKAAAAA==" FareBasis="LRTBD1" PassengerTypeCode="ADT" Origin="DAC" Destination="DXB" EffectiveDate="2025-01-30T03:34:00.000+06:00" DepartureDate="2025-02-12" Amount="BDT37854" NegotiatedFare="false" NotValidBefore="2025-02-12" NotValidAfter="2025-02-12">
+                    <air:BaggageAllowance>
+                        <air:NumberOfPieces>2</air:NumberOfPieces>
+                        <air:MaxWeight/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="YLXcJSTqWDKAw+ZzKAAAAA==" ProviderCode="1G">gws-eJxNTtEKgzAM/Bi590tqmb5VW2Ww0YehoC/7/89Y2k4wkOTCJXcJISjVU3QM9+jw7V478h6BDLVMxwwn3hNi0wlSBe/PNidBlVApa7mSrUtdixp7a1i5SqNK4Kw1TdG4pktSUIxRoF3gAsvTYJ6SmVHoHNkPw/gn+YB9+gNx5Ssv</air:FareRuleKey>
+                    <air:Brand Key="YLXcJSTqWDKAIFazKAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                </air:FareInfo>
+                <air:FareInfo Key="YLXcJSTqWDKAA/ZzKAAAAA==" FareBasis="VRTBD1" PassengerTypeCode="ADT" Origin="DXB" Destination="DAC" EffectiveDate="2025-01-30T03:34:00.000+06:00" DepartureDate="2025-02-16" Amount="BDT52851" NegotiatedFare="false" NotValidBefore="2025-02-17" NotValidAfter="2025-02-17">
+                    <air:FareSurcharge Key="YLXcJSTqWDKAa/ZzKAAAAA==" Type="Stopover Charge" Amount="NUC160.00"/>
+                    <air:BaggageAllowance>
+                        <air:NumberOfPieces>1</air:NumberOfPieces>
+                        <air:MaxWeight/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" ProviderCode="1G">gws-eJxNjksKwzAMRA8TZj9SnNbZObEbAgEtSlOaTe9/jMpuChVIGvH0SykpdaDomP6tw7vbdtieAYO6lylDIwe26gCpguf9MRdBW6FycWANfrO0tqw5eMLCRRo6zO2M5TU7C6HuJSmoh1GlT+AnbqtLm4ofo7DvfSLG8YS8wj/9AHZzK0k=</air:FareRuleKey>
+                    <air:Brand Key="YLXcJSTqWDKAKFazKAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                </air:FareInfo>
+                <air:FareInfo Key="YLXcJSTqWDKAy/ZzKAAAAA==" FareBasis="LRTBD1" PassengerTypeCode="CNN" Origin="DAC" Destination="DXB" EffectiveDate="2025-01-30T03:34:00.000+06:00" DepartureDate="2025-02-12" Amount="BDT28391" NegotiatedFare="false" NotValidBefore="2025-02-12" NotValidAfter="2025-02-12">
+                    <air:FareTicketDesignator Value="CH25"/>
+                    <air:BaggageAllowance>
+                        <air:NumberOfPieces>2</air:NumberOfPieces>
+                        <air:MaxWeight/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="YLXcJSTqWDKAy/ZzKAAAAA==" ProviderCode="1G">gws-eJxNTkEKwzAMe0zRXXa6rr1lSVoGGz6MFdbL/v+MOWkHNdiWkSw7xqjUC0WneI4O3+6xwtYMGNSzfBI0DINCfNpAquD5eqciaBYqVWaN3Ls2Wdbce8PCRXaqBrZWyy1Xp+ZLB6iHUaFv4A/mu0PLZqlQGALZj+N0kLzCP/0Bd3MrQQ==</air:FareRuleKey>
+                    <air:Brand Key="YLXcJSTqWDKAMFazKAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                </air:FareInfo>
+                <air:FareInfo Key="YLXcJSTqWDKACAazKAAAAA==" FareBasis="VRTBD1" PassengerTypeCode="CNN" Origin="DXB" Destination="DAC" EffectiveDate="2025-01-30T03:34:00.000+06:00" DepartureDate="2025-02-16" Amount="BDT44437" NegotiatedFare="false" NotValidBefore="2025-02-17" NotValidAfter="2025-02-17">
+                    <air:FareTicketDesignator Value="CH25"/>
+                    <air:FareSurcharge Key="YLXcJSTqWDKADAazKAAAAA==" Type="Stopover Charge" Amount="NUC160.00"/>
+                    <air:BaggageAllowance>
+                        <air:NumberOfPieces>1</air:NumberOfPieces>
+                        <air:MaxWeight/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="YLXcJSTqWDKACAazKAAAAA==" ProviderCode="1G">gws-eJxNjsEOwjAMQz9m8t1JB91upS0TElIOiCF24f8/g7QbEpFau3qJm5SSUk8UndN/DfgM9xW2FsCgfuqlQIUh9tcGUgWvxzNXQY9QOTuwDnfV3la0jC5YuEhHm3kdd31nZyG2XHok2sdo1ifwM9ebWytmudJXCOQ4TfMBGeGbfgF4QCtW</air:FareRuleKey>
+                    <air:Brand Key="YLXcJSTqWDKAOFazKAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                </air:FareInfo>
+                <air:FareInfo Key="YLXcJSTqWDKATAazKAAAAA==" FareBasis="LRTBD1" PassengerTypeCode="INF" Origin="DAC" Destination="DXB" EffectiveDate="2025-01-30T03:34:00.000+06:00" DepartureDate="2025-02-12" Amount="BDT7571" NegotiatedFare="false" NotValidBefore="2025-02-12" NotValidAfter="2025-02-12">
+                    <air:FareTicketDesignator Value="IN80"/>
+                    <air:BaggageAllowance>
+                        <air:NumberOfPieces>1</air:NumberOfPieces>
+                        <air:MaxWeight/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" ProviderCode="1G">gws-eJxNTssOwjAM+5jJdyfdYLuVtlQgUA6ISezC/38GaQcSkRI7svOIMSp1ougS/2PAe7itsDUDBvUsr4RDEEK82UCq4P54piLoG1Say7q4Y+i2rHl0QGWVXWqBrddyyq6x73UMaHfRqE/gR84Xp3a1mgqFIZDjPC9fkUf4ox9IsSr/</air:FareRuleKey>
+                    <air:Brand Key="YLXcJSTqWDKAQFazKAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                </air:FareInfo>
+                <air:FareInfo Key="YLXcJSTqWDKAbAazKAAAAA==" FareBasis="VRTBD1" PassengerTypeCode="INF" Origin="DXB" Destination="DAC" EffectiveDate="2025-01-30T03:34:00.000+06:00" DepartureDate="2025-02-16" Amount="BDT6707" NegotiatedFare="false" NotValidBefore="2025-02-17" NotValidAfter="2025-02-17">
+                    <air:FareTicketDesignator Value="IN80"/>
+                    <air:BaggageAllowance>
+                        <air:NumberOfPieces>1</air:NumberOfPieces>
+                        <air:MaxWeight/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" ProviderCode="1G">gws-eJxNjsEOwjAMQz9m8t1Jt7HdSlsqEFIOiCF24f8/g6wbEpEaO3qp2xijUgeKzvG/Ony6+wJbMmBQP+WcMYzCNqwgVfB6PFMRtASV0YE1uGtoa1lz74LKKg2t5nX08k7O2HJdA7Z3sVm/gZ+5XN3azWoqFIZA9tM0H5An+Ee/TqUrHQ==</air:FareRuleKey>
+                    <air:Brand Key="YLXcJSTqWDKASFazKAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                </air:FareInfo>
+                <air:FareInfo Key="YLXcJSTqWDKAQ/ZzKAAAAA==" FareBasis="LRTBD1" PassengerTypeCode="ADT" Origin="DAC" Destination="DXB" EffectiveDate="2025-01-30T03:34:00.000+06:00" DepartureDate="2025-02-12" Amount="BDT57051" NegotiatedFare="false" NotValidBefore="2025-02-12" NotValidAfter="2025-02-12">
+                    <air:FareSurcharge Key="YLXcJSTqWDKAR/ZzKAAAAA==" Type="Stopover Charge" Amount="NUC160.00"/>
+                    <air:BaggageAllowance>
+                        <air:NumberOfPieces>2</air:NumberOfPieces>
+                        <air:MaxWeight/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="YLXcJSTqWDKAQ/ZzKAAAAA==" ProviderCode="1G">gws-eJxNTkEKwzAMe0zRXXYa2t7SJiuDlhzGCutl/3/G7HSDGWzJyJadUlJqpOiU/qPDu9sO1CMDFWpZXguCxEiIdSdIFeyP51IEzULFx2oTL5Q2ljX3Bli5yiV54Gy1zNm0fnBfkgI/DKe2gR+53Y3WudgxCkOwjXGcviIH2Kcfc7QrNg==</air:FareRuleKey>
+                    <air:Brand Key="YLXcJSTqWDKAUFazKAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                </air:FareInfo>
+                <air:FareInfo Key="YLXcJSTqWDKAVBazKAAAAA==" FareBasis="LRTBD1" PassengerTypeCode="CNN" Origin="DAC" Destination="DXB" EffectiveDate="2025-01-30T03:34:00.000+06:00" DepartureDate="2025-02-12" Amount="BDT47587" NegotiatedFare="false" NotValidBefore="2025-02-12" NotValidAfter="2025-02-12">
+                    <air:FareTicketDesignator Value="CH25"/>
+                    <air:FareSurcharge Key="YLXcJSTqWDKArBazKAAAAA==" Type="Stopover Charge" Amount="NUC160.00"/>
+                    <air:BaggageAllowance>
+                        <air:NumberOfPieces>2</air:NumberOfPieces>
+                        <air:MaxWeight/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="YLXcJSTqWDKAVBazKAAAAA==" ProviderCode="1G">gws-eJxNTkEOwjAMe8zku5OOsd5KWyYkUA6ISezC/59B2g2JSEkc2XGSUlLqiaIx/ceAz3BfYWsBDOpZ3xkapkkhPm0gVfB4vnIVdAuVJrNO7l27rGgZvWHhIjvVAluv9VKcC7H50i3RDqNB38APXG8OrZjlSmEI5DjP8SB5hn/6BXlCK0g=</air:FareRuleKey>
+                    <air:Brand Key="YLXcJSTqWDKAWFazKAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                </air:FareInfo>
+                <air:FareInfo Key="YLXcJSTqWDKAlBazKAAAAA==" FareBasis="VRTBD1" PassengerTypeCode="CNN" Origin="DXB" Destination="DAC" EffectiveDate="2025-01-30T03:34:00.000+06:00" DepartureDate="2025-02-16" Amount="BDT44438" NegotiatedFare="false" NotValidBefore="2025-02-17" NotValidAfter="2025-02-17">
+                    <air:FareTicketDesignator Value="CH25"/>
+                    <air:FareSurcharge Key="YLXcJSTqWDKAmBazKAAAAA==" Type="Stopover Charge" Amount="NUC160.00"/>
+                    <air:BaggageAllowance>
+                        <air:NumberOfPieces>1</air:NumberOfPieces>
+                        <air:MaxWeight/>
+                    </air:BaggageAllowance>
+                    <air:FareRuleKey FareInfoRef="YLXcJSTqWDKAlBazKAAAAA==" ProviderCode="1G">gws-eJxNjsEOwjAMQz9m8t1JB91upS0TElIOiCF24f8/g7QbEpFau3qJm5SSUk8UndN/DfgM9xW2FsCgfuqlQIUh9tcGUgWvxzNXQY9QOTuwDnfV3la0jC5YuEhHm3kdd31nZyG2XHok2sdo1ifwM9ebWytmudJXCOQ4TfMBGeGbfgF4QCtW</air:FareRuleKey>
+                    <air:Brand Key="YLXcJSTqWDKAYFazKAAAAA==" BrandFound="false" UpSellBrandFound="false"/>
+                </air:FareInfo>
+            </air:FareInfoList>
+            <air:RouteList>
+                <air:Route Key="YLXcJSTqWDKAGFazKAAAAA==">
+                    <air:Leg Key="YLXcJSTqWDKAf+ZzKAAAAA==" Group="0" Origin="DAC" Destination="DXB"/>
+                    <air:Leg Key="YLXcJSTqWDKAg+ZzKAAAAA==" Group="1" Origin="DXB" Destination="DAC"/>
+                </air:Route>
+            </air:RouteList>
+            <air:AirPricingSolution Key="YLXcJSTqWDKAW+ZzKAAAAA==" TotalPrice="BDT218885" BasePrice="USD1482.00" ApproximateTotalPrice="BDT218885" ApproximateBasePrice="BDT177811" EquivalentBasePrice="BDT177811" Taxes="BDT41074" ApproximateTaxes="BDT41074">
+                <air:Journey TravelTime="P0DT11H35M0S">
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAZ+ZzKAAAAA=="/>
+                </air:Journey>
+                <air:Journey TravelTime="P1DT0H5M0S">
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAb+ZzKAAAAA=="/>
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                </air:Journey>
+                <air:LegRef Key="YLXcJSTqWDKAf+ZzKAAAAA=="/>
+                <air:LegRef Key="YLXcJSTqWDKAg+ZzKAAAAA=="/>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAh+ZzKAAAAA==" TotalPrice="BDT109980" BasePrice="USD756.00" ApproximateTotalPrice="BDT109980" ApproximateBasePrice="BDT90705" EquivalentBasePrice="BDT90705" Taxes="BDT19275" ApproximateTaxes="BDT19275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKAw+ZzKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAA/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAw+ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAw+ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAZ+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAb+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="BD" Amount="BDT500" Key="YLXcJSTqWDKAi+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="OW" Amount="BDT2000" Key="YLXcJSTqWDKAj+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAk+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKAl+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="UT" Amount="BDT4000" Key="YLXcJSTqWDKAm+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAn+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKAo+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="N4" Amount="BDT3926" Key="YLXcJSTqWDKAp+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKAq+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="AE" Amount="BDT2451" Key="YLXcJSTqWDKAr+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="F6" Amount="BDT1307" Key="YLXcJSTqWDKAs+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="TP" Amount="BDT164" Key="YLXcJSTqWDKAt+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="ZR" Amount="BDT328" Key="YLXcJSTqWDKAu+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT435" Key="YLXcJSTqWDKAv+ZzKAAAAA=="/>
+                    <air:FareCalc>DAC KU X/KWI KU DXB 315.50LRTBD1 KU KWI S160.00 KU DAC 280.50VRTBD1 NUC756.00END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAj/ZzKAAAAA==" TotalPrice="BDT90103" BasePrice="USD607.00" ApproximateTotalPrice="BDT90103" ApproximateBasePrice="BDT72828" EquivalentBasePrice="BDT72828" Taxes="BDT17275" ApproximateTaxes="BDT17275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKAy/ZzKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKACAazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAy/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAy/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAZ+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKACAazKAAAAA==" SegmentRef="YLXcJSTqWDKAb+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKACAazKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="BD" Amount="BDT500" Key="YLXcJSTqWDKAk/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="OW" Amount="BDT2000" Key="YLXcJSTqWDKAl/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAm/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKAn/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="UT" Amount="BDT2000" Key="YLXcJSTqWDKAo/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAp/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKAq/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="N4" Amount="BDT3926" Key="YLXcJSTqWDKAr/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKAs/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="AE" Amount="BDT2451" Key="YLXcJSTqWDKAt/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="F6" Amount="BDT1307" Key="YLXcJSTqWDKAu/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="TP" Amount="BDT164" Key="YLXcJSTqWDKAv/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="ZR" Amount="BDT328" Key="YLXcJSTqWDKAw/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT435" Key="YLXcJSTqWDKAx/ZzKAAAAA=="/>
+                    <air:FareCalc>DAC KU X/KWI KU DXB 236.62LRTBD1/CH25 KU KWI S160.00 KU DAC 210.38VRTBD1/CH25 NUC607.00END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="CNN" Age="8"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAMAazKAAAAA==" TotalPrice="BDT18802" BasePrice="USD119.00" ApproximateTotalPrice="BDT18802" ApproximateBasePrice="BDT14278" EquivalentBasePrice="BDT14278" Taxes="BDT4524" ApproximateTaxes="BDT4524" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKATAazKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAbAazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" SegmentRef="YLXcJSTqWDKAZ+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" SegmentRef="YLXcJSTqWDKAb+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKANAazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKAOAazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAPAazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKAQAazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKARAazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT360" Key="YLXcJSTqWDKASAazKAAAAA=="/>
+                    <air:FareCalc>DAC KU X/KWI KU DXB 63.10LRTBD1/IN80 KU X/KWI KU DAC 56.10VRTBD1/IN80 NUC119.20END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="INF" Age="1"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:Connection SegmentIndex="0"/>
+                <air:Connection SegmentIndex="2"/>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="YLXcJSTqWDKAkAazKAAAAA==" TotalPrice="BDT218885" BasePrice="USD1482.00" ApproximateTotalPrice="BDT218885" ApproximateBasePrice="BDT177811" EquivalentBasePrice="BDT177811" Taxes="BDT41074" ApproximateTaxes="BDT41074">
+                <air:Journey TravelTime="P0DT11H35M0S">
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAZ+ZzKAAAAA=="/>
+                </air:Journey>
+                <air:Journey TravelTime="P1DT4H5M0S">
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAX/ZzKAAAAA=="/>
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                </air:Journey>
+                <air:LegRef Key="YLXcJSTqWDKAf+ZzKAAAAA=="/>
+                <air:LegRef Key="YLXcJSTqWDKAg+ZzKAAAAA=="/>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAx+ZzKAAAAA==" TotalPrice="BDT109980" BasePrice="USD756.00" ApproximateTotalPrice="BDT109980" ApproximateBasePrice="BDT90705" EquivalentBasePrice="BDT90705" Taxes="BDT19275" ApproximateTaxes="BDT19275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKAw+ZzKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAA/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAw+ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAw+ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAZ+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAX/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="BD" Amount="BDT500" Key="YLXcJSTqWDKAy+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="OW" Amount="BDT2000" Key="YLXcJSTqWDKAz+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKA0+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKA1+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="UT" Amount="BDT4000" Key="YLXcJSTqWDKA2+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKA3+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKA4+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="N4" Amount="BDT3926" Key="YLXcJSTqWDKA5+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKA6+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="AE" Amount="BDT2451" Key="YLXcJSTqWDKA7+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="F6" Amount="BDT1307" Key="YLXcJSTqWDKA8+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="TP" Amount="BDT164" Key="YLXcJSTqWDKA9+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="ZR" Amount="BDT328" Key="YLXcJSTqWDKA++ZzKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT435" Key="YLXcJSTqWDKA/+ZzKAAAAA=="/>
+                    <air:FareCalc>DAC KU X/KWI KU DXB 315.50LRTBD1 KU KWI S160.00 KU DAC 280.50VRTBD1 NUC756.00END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAz/ZzKAAAAA==" TotalPrice="BDT90103" BasePrice="USD607.00" ApproximateTotalPrice="BDT90103" ApproximateBasePrice="BDT72828" EquivalentBasePrice="BDT72828" Taxes="BDT17275" ApproximateTaxes="BDT17275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKAy/ZzKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKACAazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAy/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAy/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAZ+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKACAazKAAAAA==" SegmentRef="YLXcJSTqWDKAX/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKACAazKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="BD" Amount="BDT500" Key="YLXcJSTqWDKA0/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="OW" Amount="BDT2000" Key="YLXcJSTqWDKA1/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKA2/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKA3/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="UT" Amount="BDT2000" Key="YLXcJSTqWDKA4/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKA5/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKA6/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="N4" Amount="BDT3926" Key="YLXcJSTqWDKA7/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKA8/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="AE" Amount="BDT2451" Key="YLXcJSTqWDKA9/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="F6" Amount="BDT1307" Key="YLXcJSTqWDKA+/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="TP" Amount="BDT164" Key="YLXcJSTqWDKA//ZzKAAAAA=="/>
+                    <air:TaxInfo Category="ZR" Amount="BDT328" Key="YLXcJSTqWDKAAAazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT435" Key="YLXcJSTqWDKABAazKAAAAA=="/>
+                    <air:FareCalc>DAC KU X/KWI KU DXB 236.62LRTBD1/CH25 KU KWI S160.00 KU DAC 210.38VRTBD1/CH25 NUC607.00END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="CNN" Age="8"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAlAazKAAAAA==" TotalPrice="BDT18802" BasePrice="USD119.00" ApproximateTotalPrice="BDT18802" ApproximateBasePrice="BDT14278" EquivalentBasePrice="BDT14278" Taxes="BDT4524" ApproximateTaxes="BDT4524" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKATAazKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAbAazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" SegmentRef="YLXcJSTqWDKAZ+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" SegmentRef="YLXcJSTqWDKAX/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAmAazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKAnAazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAoAazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKApAazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKAqAazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT360" Key="YLXcJSTqWDKArAazKAAAAA=="/>
+                    <air:FareCalc>DAC KU X/KWI KU DXB 63.10LRTBD1/IN80 KU X/KWI KU DAC 56.10VRTBD1/IN80 NUC119.20END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="INF" Age="1"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:Connection SegmentIndex="0"/>
+                <air:Connection SegmentIndex="2"/>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="YLXcJSTqWDKAwAazKAAAAA==" TotalPrice="BDT257279" BasePrice="USD1802.00" ApproximateTotalPrice="BDT257279" ApproximateBasePrice="BDT216205" EquivalentBasePrice="BDT216205" Taxes="BDT41074" ApproximateTaxes="BDT41074">
+                <air:Journey TravelTime="P0DT17H10M0S">
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAxAazKAAAAA=="/>
+                </air:Journey>
+                <air:Journey TravelTime="P1DT0H5M0S">
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAb+ZzKAAAAA=="/>
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                </air:Journey>
+                <air:LegRef Key="YLXcJSTqWDKAf+ZzKAAAAA=="/>
+                <air:LegRef Key="YLXcJSTqWDKAg+ZzKAAAAA=="/>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAzAazKAAAAA==" TotalPrice="BDT129177" BasePrice="USD916.00" ApproximateTotalPrice="BDT129177" ApproximateBasePrice="BDT109902" EquivalentBasePrice="BDT109902" Taxes="BDT19275" ApproximateTaxes="BDT19275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKAQ/ZzKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAA/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAQ/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAQ/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAxAazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAb+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="BD" Amount="BDT500" Key="YLXcJSTqWDKA0AazKAAAAA=="/>
+                    <air:TaxInfo Category="OW" Amount="BDT2000" Key="YLXcJSTqWDKA1AazKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKA2AazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKA3AazKAAAAA=="/>
+                    <air:TaxInfo Category="UT" Amount="BDT4000" Key="YLXcJSTqWDKA4AazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKA5AazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKA6AazKAAAAA=="/>
+                    <air:TaxInfo Category="N4" Amount="BDT3926" Key="YLXcJSTqWDKA7AazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKA8AazKAAAAA=="/>
+                    <air:TaxInfo Category="AE" Amount="BDT2451" Key="YLXcJSTqWDKA9AazKAAAAA=="/>
+                    <air:TaxInfo Category="F6" Amount="BDT1307" Key="YLXcJSTqWDKA+AazKAAAAA=="/>
+                    <air:TaxInfo Category="TP" Amount="BDT164" Key="YLXcJSTqWDKA/AazKAAAAA=="/>
+                    <air:TaxInfo Category="ZR" Amount="BDT328" Key="YLXcJSTqWDKAABazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT435" Key="YLXcJSTqWDKABBazKAAAAA=="/>
+                    <air:FareCalc>DAC KU KWI S160.00 KU DXB 315.50LRTBD1 KU KWI S160.00 KU DAC 280.50VRTBD1 NUC916.00END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAGBazKAAAAA==" TotalPrice="BDT109300" BasePrice="USD767.00" ApproximateTotalPrice="BDT109300" ApproximateBasePrice="BDT92025" EquivalentBasePrice="BDT92025" Taxes="BDT17275" ApproximateTaxes="BDT17275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKAVBazKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAlBazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAVBazKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAVBazKAAAAA==" SegmentRef="YLXcJSTqWDKAxAazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAlBazKAAAAA==" SegmentRef="YLXcJSTqWDKAb+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAlBazKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="BD" Amount="BDT500" Key="YLXcJSTqWDKAHBazKAAAAA=="/>
+                    <air:TaxInfo Category="OW" Amount="BDT2000" Key="YLXcJSTqWDKAIBazKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAJBazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKAKBazKAAAAA=="/>
+                    <air:TaxInfo Category="UT" Amount="BDT2000" Key="YLXcJSTqWDKALBazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAMBazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKANBazKAAAAA=="/>
+                    <air:TaxInfo Category="N4" Amount="BDT3926" Key="YLXcJSTqWDKAOBazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKAPBazKAAAAA=="/>
+                    <air:TaxInfo Category="AE" Amount="BDT2451" Key="YLXcJSTqWDKAQBazKAAAAA=="/>
+                    <air:TaxInfo Category="F6" Amount="BDT1307" Key="YLXcJSTqWDKARBazKAAAAA=="/>
+                    <air:TaxInfo Category="TP" Amount="BDT164" Key="YLXcJSTqWDKASBazKAAAAA=="/>
+                    <air:TaxInfo Category="ZR" Amount="BDT328" Key="YLXcJSTqWDKATBazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT435" Key="YLXcJSTqWDKAUBazKAAAAA=="/>
+                    <air:FareCalc>DAC KU KWI S160.00 KU DXB 236.62LRTBD1/CH25 KU KWI S160.00 KU DAC 210.38VRTBD1/CH25 NUC767.00END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="CNN" Age="8"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAwBazKAAAAA==" TotalPrice="BDT18802" BasePrice="USD119.00" ApproximateTotalPrice="BDT18802" ApproximateBasePrice="BDT14278" EquivalentBasePrice="BDT14278" Taxes="BDT4524" ApproximateTaxes="BDT4524" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKATAazKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAbAazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" SegmentRef="YLXcJSTqWDKAxAazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" SegmentRef="YLXcJSTqWDKAb+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAxBazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKAyBazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAzBazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKA0BazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKA1BazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT360" Key="YLXcJSTqWDKA2BazKAAAAA=="/>
+                    <air:FareCalc>DAC KU X/KWI KU DXB 63.10LRTBD1/IN80 KU X/KWI KU DAC 56.10VRTBD1/IN80 NUC119.20END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="INF" Age="1"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:Connection SegmentIndex="0"/>
+                <air:Connection SegmentIndex="2"/>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="YLXcJSTqWDKA7BazKAAAAA==" TotalPrice="BDT257279" BasePrice="USD1802.00" ApproximateTotalPrice="BDT257279" ApproximateBasePrice="BDT216205" EquivalentBasePrice="BDT216205" Taxes="BDT41074" ApproximateTaxes="BDT41074">
+                <air:Journey TravelTime="P0DT21H10M0S">
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:AirSegmentRef Key="YLXcJSTqWDKA8BazKAAAAA=="/>
+                </air:Journey>
+                <air:Journey TravelTime="P1DT0H5M0S">
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAb+ZzKAAAAA=="/>
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                </air:Journey>
+                <air:LegRef Key="YLXcJSTqWDKAf+ZzKAAAAA=="/>
+                <air:LegRef Key="YLXcJSTqWDKAg+ZzKAAAAA=="/>
+                <air:AirPricingInfo Key="YLXcJSTqWDKA+BazKAAAAA==" TotalPrice="BDT129177" BasePrice="USD916.00" ApproximateTotalPrice="BDT129177" ApproximateBasePrice="BDT109902" EquivalentBasePrice="BDT109902" Taxes="BDT19275" ApproximateTaxes="BDT19275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKAQ/ZzKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAA/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAQ/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAQ/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKA8BazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAb+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="BD" Amount="BDT500" Key="YLXcJSTqWDKA/BazKAAAAA=="/>
+                    <air:TaxInfo Category="OW" Amount="BDT2000" Key="YLXcJSTqWDKAACazKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKABCazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKACCazKAAAAA=="/>
+                    <air:TaxInfo Category="UT" Amount="BDT4000" Key="YLXcJSTqWDKADCazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAECazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKAFCazKAAAAA=="/>
+                    <air:TaxInfo Category="N4" Amount="BDT3926" Key="YLXcJSTqWDKAGCazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKAHCazKAAAAA=="/>
+                    <air:TaxInfo Category="AE" Amount="BDT2451" Key="YLXcJSTqWDKAICazKAAAAA=="/>
+                    <air:TaxInfo Category="F6" Amount="BDT1307" Key="YLXcJSTqWDKAJCazKAAAAA=="/>
+                    <air:TaxInfo Category="TP" Amount="BDT164" Key="YLXcJSTqWDKAKCazKAAAAA=="/>
+                    <air:TaxInfo Category="ZR" Amount="BDT328" Key="YLXcJSTqWDKALCazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT435" Key="YLXcJSTqWDKAMCazKAAAAA=="/>
+                    <air:FareCalc>DAC KU KWI S160.00 KU DXB 315.50LRTBD1 KU KWI S160.00 KU DAC 280.50VRTBD1 NUC916.00END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:AirPricingInfo Key="YLXcJSTqWDKARCazKAAAAA==" TotalPrice="BDT109300" BasePrice="USD767.00" ApproximateTotalPrice="BDT109300" ApproximateBasePrice="BDT92025" EquivalentBasePrice="BDT92025" Taxes="BDT17275" ApproximateTaxes="BDT17275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKAVBazKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAlBazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAVBazKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAVBazKAAAAA==" SegmentRef="YLXcJSTqWDKA8BazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAlBazKAAAAA==" SegmentRef="YLXcJSTqWDKAb+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAlBazKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="BD" Amount="BDT500" Key="YLXcJSTqWDKASCazKAAAAA=="/>
+                    <air:TaxInfo Category="OW" Amount="BDT2000" Key="YLXcJSTqWDKATCazKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAUCazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKAVCazKAAAAA=="/>
+                    <air:TaxInfo Category="UT" Amount="BDT2000" Key="YLXcJSTqWDKAWCazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAXCazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKAYCazKAAAAA=="/>
+                    <air:TaxInfo Category="N4" Amount="BDT3926" Key="YLXcJSTqWDKAZCazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKAaCazKAAAAA=="/>
+                    <air:TaxInfo Category="AE" Amount="BDT2451" Key="YLXcJSTqWDKAbCazKAAAAA=="/>
+                    <air:TaxInfo Category="F6" Amount="BDT1307" Key="YLXcJSTqWDKAcCazKAAAAA=="/>
+                    <air:TaxInfo Category="TP" Amount="BDT164" Key="YLXcJSTqWDKAdCazKAAAAA=="/>
+                    <air:TaxInfo Category="ZR" Amount="BDT328" Key="YLXcJSTqWDKAeCazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT435" Key="YLXcJSTqWDKAfCazKAAAAA=="/>
+                    <air:FareCalc>DAC KU KWI S160.00 KU DXB 236.62LRTBD1/CH25 KU KWI S160.00 KU DAC 210.38VRTBD1/CH25 NUC767.00END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="CNN" Age="8"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAkCazKAAAAA==" TotalPrice="BDT18802" BasePrice="USD119.00" ApproximateTotalPrice="BDT18802" ApproximateBasePrice="BDT14278" EquivalentBasePrice="BDT14278" Taxes="BDT4524" ApproximateTaxes="BDT4524" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKATAazKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAbAazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" SegmentRef="YLXcJSTqWDKA8BazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" SegmentRef="YLXcJSTqWDKAb+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAlCazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKAmCazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAnCazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKAoCazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKApCazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT360" Key="YLXcJSTqWDKAqCazKAAAAA=="/>
+                    <air:FareCalc>DAC KU X/KWI KU DXB 63.10LRTBD1/IN80 KU X/KWI KU DAC 56.10VRTBD1/IN80 NUC119.20END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="INF" Age="1"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:Connection SegmentIndex="0"/>
+                <air:Connection SegmentIndex="2"/>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="YLXcJSTqWDKAvCazKAAAAA==" TotalPrice="BDT257279" BasePrice="USD1802.00" ApproximateTotalPrice="BDT257279" ApproximateBasePrice="BDT216205" EquivalentBasePrice="BDT216205" Taxes="BDT41074" ApproximateTaxes="BDT41074">
+                <air:Journey TravelTime="P1DT3H50M0S">
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAU/ZzKAAAAA=="/>
+                </air:Journey>
+                <air:Journey TravelTime="P1DT0H5M0S">
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAb+ZzKAAAAA=="/>
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                </air:Journey>
+                <air:LegRef Key="YLXcJSTqWDKAf+ZzKAAAAA=="/>
+                <air:LegRef Key="YLXcJSTqWDKAg+ZzKAAAAA=="/>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAwCazKAAAAA==" TotalPrice="BDT129177" BasePrice="USD916.00" ApproximateTotalPrice="BDT129177" ApproximateBasePrice="BDT109902" EquivalentBasePrice="BDT109902" Taxes="BDT19275" ApproximateTaxes="BDT19275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKAQ/ZzKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAA/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAQ/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAQ/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAU/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAb+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="BD" Amount="BDT500" Key="YLXcJSTqWDKAxCazKAAAAA=="/>
+                    <air:TaxInfo Category="OW" Amount="BDT2000" Key="YLXcJSTqWDKAyCazKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAzCazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKA0CazKAAAAA=="/>
+                    <air:TaxInfo Category="UT" Amount="BDT4000" Key="YLXcJSTqWDKA1CazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKA2CazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKA3CazKAAAAA=="/>
+                    <air:TaxInfo Category="N4" Amount="BDT3926" Key="YLXcJSTqWDKA4CazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKA5CazKAAAAA=="/>
+                    <air:TaxInfo Category="AE" Amount="BDT2451" Key="YLXcJSTqWDKA6CazKAAAAA=="/>
+                    <air:TaxInfo Category="F6" Amount="BDT1307" Key="YLXcJSTqWDKA7CazKAAAAA=="/>
+                    <air:TaxInfo Category="TP" Amount="BDT164" Key="YLXcJSTqWDKA8CazKAAAAA=="/>
+                    <air:TaxInfo Category="ZR" Amount="BDT328" Key="YLXcJSTqWDKA9CazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT435" Key="YLXcJSTqWDKA+CazKAAAAA=="/>
+                    <air:FareCalc>DAC KU KWI S160.00 KU DXB 315.50LRTBD1 KU KWI S160.00 KU DAC 280.50VRTBD1 NUC916.00END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:AirPricingInfo Key="YLXcJSTqWDKADDazKAAAAA==" TotalPrice="BDT109300" BasePrice="USD767.00" ApproximateTotalPrice="BDT109300" ApproximateBasePrice="BDT92025" EquivalentBasePrice="BDT92025" Taxes="BDT17275" ApproximateTaxes="BDT17275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKAVBazKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAlBazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAVBazKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAVBazKAAAAA==" SegmentRef="YLXcJSTqWDKAU/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAlBazKAAAAA==" SegmentRef="YLXcJSTqWDKAb+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAlBazKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="BD" Amount="BDT500" Key="YLXcJSTqWDKAEDazKAAAAA=="/>
+                    <air:TaxInfo Category="OW" Amount="BDT2000" Key="YLXcJSTqWDKAFDazKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAGDazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKAHDazKAAAAA=="/>
+                    <air:TaxInfo Category="UT" Amount="BDT2000" Key="YLXcJSTqWDKAIDazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAJDazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKAKDazKAAAAA=="/>
+                    <air:TaxInfo Category="N4" Amount="BDT3926" Key="YLXcJSTqWDKALDazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKAMDazKAAAAA=="/>
+                    <air:TaxInfo Category="AE" Amount="BDT2451" Key="YLXcJSTqWDKANDazKAAAAA=="/>
+                    <air:TaxInfo Category="F6" Amount="BDT1307" Key="YLXcJSTqWDKAODazKAAAAA=="/>
+                    <air:TaxInfo Category="TP" Amount="BDT164" Key="YLXcJSTqWDKAPDazKAAAAA=="/>
+                    <air:TaxInfo Category="ZR" Amount="BDT328" Key="YLXcJSTqWDKAQDazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT435" Key="YLXcJSTqWDKARDazKAAAAA=="/>
+                    <air:FareCalc>DAC KU KWI S160.00 KU DXB 236.62LRTBD1/CH25 KU KWI S160.00 KU DAC 210.38VRTBD1/CH25 NUC767.00END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="CNN" Age="8"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAWDazKAAAAA==" TotalPrice="BDT18802" BasePrice="USD119.00" ApproximateTotalPrice="BDT18802" ApproximateBasePrice="BDT14278" EquivalentBasePrice="BDT14278" Taxes="BDT4524" ApproximateTaxes="BDT4524" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKATAazKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAbAazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" SegmentRef="YLXcJSTqWDKAU/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" SegmentRef="YLXcJSTqWDKAb+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAXDazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKAYDazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAZDazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKAaDazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKAbDazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT360" Key="YLXcJSTqWDKAcDazKAAAAA=="/>
+                    <air:FareCalc>DAC KU X/KWI KU DXB 63.10LRTBD1/IN80 KU X/KWI KU DAC 56.10VRTBD1/IN80 NUC119.20END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="INF" Age="1"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:Connection SegmentIndex="0"/>
+                <air:Connection SegmentIndex="2"/>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="YLXcJSTqWDKAhDazKAAAAA==" TotalPrice="BDT257279" BasePrice="USD1802.00" ApproximateTotalPrice="BDT257279" ApproximateBasePrice="BDT216205" EquivalentBasePrice="BDT216205" Taxes="BDT41074" ApproximateTaxes="BDT41074">
+                <air:Journey TravelTime="P0DT17H10M0S">
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAxAazKAAAAA=="/>
+                </air:Journey>
+                <air:Journey TravelTime="P1DT4H5M0S">
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAX/ZzKAAAAA=="/>
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                </air:Journey>
+                <air:LegRef Key="YLXcJSTqWDKAf+ZzKAAAAA=="/>
+                <air:LegRef Key="YLXcJSTqWDKAg+ZzKAAAAA=="/>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAiDazKAAAAA==" TotalPrice="BDT129177" BasePrice="USD916.00" ApproximateTotalPrice="BDT129177" ApproximateBasePrice="BDT109902" EquivalentBasePrice="BDT109902" Taxes="BDT19275" ApproximateTaxes="BDT19275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKAQ/ZzKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAA/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAQ/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAQ/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAxAazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAX/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="BD" Amount="BDT500" Key="YLXcJSTqWDKAjDazKAAAAA=="/>
+                    <air:TaxInfo Category="OW" Amount="BDT2000" Key="YLXcJSTqWDKAkDazKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAlDazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKAmDazKAAAAA=="/>
+                    <air:TaxInfo Category="UT" Amount="BDT4000" Key="YLXcJSTqWDKAnDazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAoDazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKApDazKAAAAA=="/>
+                    <air:TaxInfo Category="N4" Amount="BDT3926" Key="YLXcJSTqWDKAqDazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKArDazKAAAAA=="/>
+                    <air:TaxInfo Category="AE" Amount="BDT2451" Key="YLXcJSTqWDKAsDazKAAAAA=="/>
+                    <air:TaxInfo Category="F6" Amount="BDT1307" Key="YLXcJSTqWDKAtDazKAAAAA=="/>
+                    <air:TaxInfo Category="TP" Amount="BDT164" Key="YLXcJSTqWDKAuDazKAAAAA=="/>
+                    <air:TaxInfo Category="ZR" Amount="BDT328" Key="YLXcJSTqWDKAvDazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT435" Key="YLXcJSTqWDKAwDazKAAAAA=="/>
+                    <air:FareCalc>DAC KU KWI S160.00 KU DXB 315.50LRTBD1 KU KWI S160.00 KU DAC 280.50VRTBD1 NUC916.00END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:AirPricingInfo Key="YLXcJSTqWDKA1DazKAAAAA==" TotalPrice="BDT109300" BasePrice="USD767.00" ApproximateTotalPrice="BDT109300" ApproximateBasePrice="BDT92025" EquivalentBasePrice="BDT92025" Taxes="BDT17275" ApproximateTaxes="BDT17275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKAVBazKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAlBazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAVBazKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAVBazKAAAAA==" SegmentRef="YLXcJSTqWDKAxAazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAlBazKAAAAA==" SegmentRef="YLXcJSTqWDKAX/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAlBazKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="BD" Amount="BDT500" Key="YLXcJSTqWDKA2DazKAAAAA=="/>
+                    <air:TaxInfo Category="OW" Amount="BDT2000" Key="YLXcJSTqWDKA3DazKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKA4DazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKA5DazKAAAAA=="/>
+                    <air:TaxInfo Category="UT" Amount="BDT2000" Key="YLXcJSTqWDKA6DazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKA7DazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKA8DazKAAAAA=="/>
+                    <air:TaxInfo Category="N4" Amount="BDT3926" Key="YLXcJSTqWDKA9DazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKA+DazKAAAAA=="/>
+                    <air:TaxInfo Category="AE" Amount="BDT2451" Key="YLXcJSTqWDKA/DazKAAAAA=="/>
+                    <air:TaxInfo Category="F6" Amount="BDT1307" Key="YLXcJSTqWDKAAEazKAAAAA=="/>
+                    <air:TaxInfo Category="TP" Amount="BDT164" Key="YLXcJSTqWDKABEazKAAAAA=="/>
+                    <air:TaxInfo Category="ZR" Amount="BDT328" Key="YLXcJSTqWDKACEazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT435" Key="YLXcJSTqWDKADEazKAAAAA=="/>
+                    <air:FareCalc>DAC KU KWI S160.00 KU DXB 236.62LRTBD1/CH25 KU KWI S160.00 KU DAC 210.38VRTBD1/CH25 NUC767.00END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="CNN" Age="8"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAIEazKAAAAA==" TotalPrice="BDT18802" BasePrice="USD119.00" ApproximateTotalPrice="BDT18802" ApproximateBasePrice="BDT14278" EquivalentBasePrice="BDT14278" Taxes="BDT4524" ApproximateTaxes="BDT4524" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKATAazKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAbAazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" SegmentRef="YLXcJSTqWDKAxAazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" SegmentRef="YLXcJSTqWDKAX/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAJEazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKAKEazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKALEazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKAMEazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKANEazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT360" Key="YLXcJSTqWDKAOEazKAAAAA=="/>
+                    <air:FareCalc>DAC KU X/KWI KU DXB 63.10LRTBD1/IN80 KU X/KWI KU DAC 56.10VRTBD1/IN80 NUC119.20END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="INF" Age="1"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:Connection SegmentIndex="0"/>
+                <air:Connection SegmentIndex="2"/>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="YLXcJSTqWDKATEazKAAAAA==" TotalPrice="BDT257279" BasePrice="USD1802.00" ApproximateTotalPrice="BDT257279" ApproximateBasePrice="BDT216205" EquivalentBasePrice="BDT216205" Taxes="BDT41074" ApproximateTaxes="BDT41074">
+                <air:Journey TravelTime="P0DT21H10M0S">
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:AirSegmentRef Key="YLXcJSTqWDKA8BazKAAAAA=="/>
+                </air:Journey>
+                <air:Journey TravelTime="P1DT4H5M0S">
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAX/ZzKAAAAA=="/>
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                </air:Journey>
+                <air:LegRef Key="YLXcJSTqWDKAf+ZzKAAAAA=="/>
+                <air:LegRef Key="YLXcJSTqWDKAg+ZzKAAAAA=="/>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAUEazKAAAAA==" TotalPrice="BDT129177" BasePrice="USD916.00" ApproximateTotalPrice="BDT129177" ApproximateBasePrice="BDT109902" EquivalentBasePrice="BDT109902" Taxes="BDT19275" ApproximateTaxes="BDT19275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKAQ/ZzKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAA/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAQ/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAQ/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKA8BazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAX/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="BD" Amount="BDT500" Key="YLXcJSTqWDKAVEazKAAAAA=="/>
+                    <air:TaxInfo Category="OW" Amount="BDT2000" Key="YLXcJSTqWDKAWEazKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAXEazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKAYEazKAAAAA=="/>
+                    <air:TaxInfo Category="UT" Amount="BDT4000" Key="YLXcJSTqWDKAZEazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAaEazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKAbEazKAAAAA=="/>
+                    <air:TaxInfo Category="N4" Amount="BDT3926" Key="YLXcJSTqWDKAcEazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKAdEazKAAAAA=="/>
+                    <air:TaxInfo Category="AE" Amount="BDT2451" Key="YLXcJSTqWDKAeEazKAAAAA=="/>
+                    <air:TaxInfo Category="F6" Amount="BDT1307" Key="YLXcJSTqWDKAfEazKAAAAA=="/>
+                    <air:TaxInfo Category="TP" Amount="BDT164" Key="YLXcJSTqWDKAgEazKAAAAA=="/>
+                    <air:TaxInfo Category="ZR" Amount="BDT328" Key="YLXcJSTqWDKAhEazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT435" Key="YLXcJSTqWDKAiEazKAAAAA=="/>
+                    <air:FareCalc>DAC KU KWI S160.00 KU DXB 315.50LRTBD1 KU KWI S160.00 KU DAC 280.50VRTBD1 NUC916.00END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAnEazKAAAAA==" TotalPrice="BDT109300" BasePrice="USD767.00" ApproximateTotalPrice="BDT109300" ApproximateBasePrice="BDT92025" EquivalentBasePrice="BDT92025" Taxes="BDT17275" ApproximateTaxes="BDT17275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKAVBazKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAlBazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAVBazKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAVBazKAAAAA==" SegmentRef="YLXcJSTqWDKA8BazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAlBazKAAAAA==" SegmentRef="YLXcJSTqWDKAX/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAlBazKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="BD" Amount="BDT500" Key="YLXcJSTqWDKAoEazKAAAAA=="/>
+                    <air:TaxInfo Category="OW" Amount="BDT2000" Key="YLXcJSTqWDKApEazKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAqEazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKArEazKAAAAA=="/>
+                    <air:TaxInfo Category="UT" Amount="BDT2000" Key="YLXcJSTqWDKAsEazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAtEazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKAuEazKAAAAA=="/>
+                    <air:TaxInfo Category="N4" Amount="BDT3926" Key="YLXcJSTqWDKAvEazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKAwEazKAAAAA=="/>
+                    <air:TaxInfo Category="AE" Amount="BDT2451" Key="YLXcJSTqWDKAxEazKAAAAA=="/>
+                    <air:TaxInfo Category="F6" Amount="BDT1307" Key="YLXcJSTqWDKAyEazKAAAAA=="/>
+                    <air:TaxInfo Category="TP" Amount="BDT164" Key="YLXcJSTqWDKAzEazKAAAAA=="/>
+                    <air:TaxInfo Category="ZR" Amount="BDT328" Key="YLXcJSTqWDKA0EazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT435" Key="YLXcJSTqWDKA1EazKAAAAA=="/>
+                    <air:FareCalc>DAC KU KWI S160.00 KU DXB 236.62LRTBD1/CH25 KU KWI S160.00 KU DAC 210.38VRTBD1/CH25 NUC767.00END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="CNN" Age="8"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:AirPricingInfo Key="YLXcJSTqWDKA6EazKAAAAA==" TotalPrice="BDT18802" BasePrice="USD119.00" ApproximateTotalPrice="BDT18802" ApproximateBasePrice="BDT14278" EquivalentBasePrice="BDT14278" Taxes="BDT4524" ApproximateTaxes="BDT4524" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKATAazKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAbAazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" SegmentRef="YLXcJSTqWDKA8BazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" SegmentRef="YLXcJSTqWDKAX/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKA7EazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKA8EazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKA9EazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKA+EazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKA/EazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT360" Key="YLXcJSTqWDKAAFazKAAAAA=="/>
+                    <air:FareCalc>DAC KU X/KWI KU DXB 63.10LRTBD1/IN80 KU X/KWI KU DAC 56.10VRTBD1/IN80 NUC119.20END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="INF" Age="1"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:Connection SegmentIndex="0"/>
+                <air:Connection SegmentIndex="2"/>
+            </air:AirPricingSolution>
+            <air:AirPricingSolution Key="YLXcJSTqWDKAFFazKAAAAA==" TotalPrice="BDT257279" BasePrice="USD1802.00" ApproximateTotalPrice="BDT257279" ApproximateBasePrice="BDT216205" EquivalentBasePrice="BDT216205" Taxes="BDT41074" ApproximateTaxes="BDT41074">
+                <air:Journey TravelTime="P1DT3H50M0S">
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAU/ZzKAAAAA=="/>
+                </air:Journey>
+                <air:Journey TravelTime="P1DT4H5M0S">
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAX/ZzKAAAAA=="/>
+                    <air:AirSegmentRef Key="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                </air:Journey>
+                <air:LegRef Key="YLXcJSTqWDKAf+ZzKAAAAA=="/>
+                <air:LegRef Key="YLXcJSTqWDKAg+ZzKAAAAA=="/>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAB/ZzKAAAAA==" TotalPrice="BDT129177" BasePrice="USD916.00" ApproximateTotalPrice="BDT129177" ApproximateBasePrice="BDT109902" EquivalentBasePrice="BDT109902" Taxes="BDT19275" ApproximateTaxes="BDT19275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKAQ/ZzKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAA/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAQ/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAQ/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAU/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAX/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAA/ZzKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="BD" Amount="BDT500" Key="YLXcJSTqWDKAC/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="OW" Amount="BDT2000" Key="YLXcJSTqWDKAD/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAE/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKAF/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="UT" Amount="BDT4000" Key="YLXcJSTqWDKAG/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAH/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKAI/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="N4" Amount="BDT3926" Key="YLXcJSTqWDKAJ/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKAK/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="AE" Amount="BDT2451" Key="YLXcJSTqWDKAL/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="F6" Amount="BDT1307" Key="YLXcJSTqWDKAM/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="TP" Amount="BDT164" Key="YLXcJSTqWDKAN/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="ZR" Amount="BDT328" Key="YLXcJSTqWDKAO/ZzKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT435" Key="YLXcJSTqWDKAP/ZzKAAAAA=="/>
+                    <air:FareCalc>DAC KU KWI S160.00 KU DXB 315.50LRTBD1 KU KWI S160.00 KU DAC 280.50VRTBD1 NUC916.00END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="ADT"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAWBazKAAAAA==" TotalPrice="BDT109300" BasePrice="USD767.00" ApproximateTotalPrice="BDT109300" ApproximateBasePrice="BDT92025" EquivalentBasePrice="BDT92025" Taxes="BDT17275" ApproximateTaxes="BDT17275" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKAVBazKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAlBazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAVBazKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAVBazKAAAAA==" SegmentRef="YLXcJSTqWDKAU/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAlBazKAAAAA==" SegmentRef="YLXcJSTqWDKAX/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAlBazKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="BD" Amount="BDT500" Key="YLXcJSTqWDKAXBazKAAAAA=="/>
+                    <air:TaxInfo Category="OW" Amount="BDT2000" Key="YLXcJSTqWDKAYBazKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAZBazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKAaBazKAAAAA=="/>
+                    <air:TaxInfo Category="UT" Amount="BDT2000" Key="YLXcJSTqWDKAbBazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAcBazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKAdBazKAAAAA=="/>
+                    <air:TaxInfo Category="N4" Amount="BDT3926" Key="YLXcJSTqWDKAeBazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKAfBazKAAAAA=="/>
+                    <air:TaxInfo Category="AE" Amount="BDT2451" Key="YLXcJSTqWDKAgBazKAAAAA=="/>
+                    <air:TaxInfo Category="F6" Amount="BDT1307" Key="YLXcJSTqWDKAhBazKAAAAA=="/>
+                    <air:TaxInfo Category="TP" Amount="BDT164" Key="YLXcJSTqWDKAiBazKAAAAA=="/>
+                    <air:TaxInfo Category="ZR" Amount="BDT328" Key="YLXcJSTqWDKAjBazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT435" Key="YLXcJSTqWDKAkBazKAAAAA=="/>
+                    <air:FareCalc>DAC KU KWI S160.00 KU DXB 236.62LRTBD1/CH25 KU KWI S160.00 KU DAC 210.38VRTBD1/CH25 NUC767.00END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="CNN" Age="8"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:AirPricingInfo Key="YLXcJSTqWDKAUAazKAAAAA==" TotalPrice="BDT18802" BasePrice="USD119.00" ApproximateTotalPrice="BDT18802" ApproximateBasePrice="BDT14278" EquivalentBasePrice="BDT14278" Taxes="BDT4524" ApproximateTaxes="BDT4524" LatestTicketingTime="2025-02-12T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="KU" ProviderCode="1G" Cat35Indicator="false">
+                    <air:FareInfoRef Key="YLXcJSTqWDKATAazKAAAAA=="/>
+                    <air:FareInfoRef Key="YLXcJSTqWDKAbAazKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" SegmentRef="YLXcJSTqWDKAX+ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKATAazKAAAAA==" SegmentRef="YLXcJSTqWDKAU/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" SegmentRef="YLXcJSTqWDKAX/ZzKAAAAA=="/>
+                    <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="YLXcJSTqWDKAbAazKAAAAA==" SegmentRef="YLXcJSTqWDKAd+ZzKAAAAA=="/>
+                    <air:TaxInfo Category="P7" Amount="BDT1200" Key="YLXcJSTqWDKAVAazKAAAAA=="/>
+                    <air:TaxInfo Category="P8" Amount="BDT1200" Key="YLXcJSTqWDKAWAazKAAAAA=="/>
+                    <air:TaxInfo Category="GZ" Amount="BDT786" Key="YLXcJSTqWDKAXAazKAAAAA=="/>
+                    <air:TaxInfo Category="L2" Amount="BDT786" Key="YLXcJSTqWDKAYAazKAAAAA=="/>
+                    <air:TaxInfo Category="YX" Amount="BDT192" Key="YLXcJSTqWDKAZAazKAAAAA=="/>
+                    <air:TaxInfo Category="E5" Amount="BDT360" Key="YLXcJSTqWDKAaAazKAAAAA=="/>
+                    <air:FareCalc>DAC KU X/KWI KU DXB 63.10LRTBD1/IN80 KU X/KWI KU DAC 56.10VRTBD1/IN80 NUC119.20END ROE1.0</air:FareCalc>
+                    <air:PassengerType Code="INF" Age="1"/>
+                    <air:ChangePenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT5999.0</air:Amount>
+                    </air:ChangePenalty>
+                    <air:CancelPenalty PenaltyApplies="Anytime">
+                        <air:Amount>BDT8998.0</air:Amount>
+                    </air:CancelPenalty>
+                </air:AirPricingInfo>
+                <air:Connection SegmentIndex="0"/>
+                <air:Connection SegmentIndex="2"/>
+            </air:AirPricingSolution>
+        </air:LowFareSearchRsp>
+    </SOAP:Body>
+</SOAP:Envelope>

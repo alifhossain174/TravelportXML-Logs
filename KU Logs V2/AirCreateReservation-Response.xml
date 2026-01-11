@@ -1,0 +1,92 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <universal:AirCreateReservationRsp xmlns:universal="http://www.travelport.com/schema/universal_v52_0" xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0"     xmlns:air="http://www.travelport.com/schema/air_v52_0"  TraceId="c8f38268010611bc23e5-01969005035" TransactionId="AED5748A0A0D6A9337089F0BCD1EF4CD" ResponseTime="3691">
+            <common_v52_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1G">
+                <![CDATA[NO FARES]]>
+            </common_v52_0:ResponseMessage>
+            <common_v52_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1G">
+                <![CDATA[Some of the requested AirPricingInfos could not be saved for the requested provider.]]>
+            </common_v52_0:ResponseMessage>
+            <common_v52_0:ResponseMessage Code="7433" Type="Info" ProviderCode="1G">
+                <![CDATA[Both, Date Of Birth of Infant/Child and NameRemark was provided. NameRemark data has been ignored.]]>
+            </common_v52_0:ResponseMessage>
+            <common_v52_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1G">
+                <![CDATA[NO VALID FARE FOR INPUT CRITERIA]]>
+            </common_v52_0:ResponseMessage>
+            <universal:UniversalRecord LocatorCode="2O8E6S" Version="0" Status="Active">
+                <common_v52_0:BookingTraveler Key="YLXcJSTqWDKA48vzKAAAAA==" TravelerType="ADT" DOB="1998-12-10" Gender="M" ElStat="A">
+                    <common_v52_0:BookingTravelerName Prefix="MR" First="Fahim" Last="Hossain"/>
+                    <common_v52_0:PhoneNumber Key="YLXcJSTqWDKA78vzKAAAAA==" Type="None" Location="BZL" Number="01969005035" ElStat="A">
+                        <common_v52_0:ProviderReservationInfoRef Key="YLXcJSTqWDKAZ9vzKAAAAA=="/>
+                    </common_v52_0:PhoneNumber>
+                    <common_v52_0:Email Key="YLXcJSTqWDKA+8vzKAAAAA==" Type="Home" EmailID="alifhossain@gmail.com" ElStat="A">
+                        <common_v52_0:ProviderReservationInfoRef Key="YLXcJSTqWDKAZ9vzKAAAAA=="/>
+                    </common_v52_0:Email>
+                    <common_v52_0:SSR Key="YLXcJSTqWDKAN9vzKAAAAA==" SegmentRef="q8RcJSUqWDKADvbyKAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="KU" ProviderReservationInfoRef="YLXcJSTqWDKAZ9vzKAAAAA==" ElStat="C"/>
+                    <common_v52_0:SSR Key="YLXcJSTqWDKAO9vzKAAAAA==" SegmentRef="q8RcJSUqWDKAFvbyKAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="KU" ProviderReservationInfoRef="YLXcJSTqWDKAZ9vzKAAAAA==" ElStat="C"/>
+                    <common_v52_0:SSR Key="YLXcJSTqWDKAP9vzKAAAAA==" SegmentRef="q8RcJSUqWDKAHvbyKAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="KU" ProviderReservationInfoRef="YLXcJSTqWDKAZ9vzKAAAAA==" ElStat="C"/>
+                    <common_v52_0:SSR Key="YLXcJSTqWDKAQ9vzKAAAAA==" SegmentRef="q8RcJSUqWDKAJvbyKAAAAA==" Status="PN" Type="INFT" FreeText="NAFEE/AHMADMSTR 13NOV23" Carrier="KU" ProviderReservationInfoRef="YLXcJSTqWDKAZ9vzKAAAAA==" ElStat="C"/>
+                    <common_v52_0:SSR Key="YLXcJSTqWDKAR9vzKAAAAA==" Status="HK" Type="DOCS" FreeText="P/BD/000007878/BD/0000000/M/01JAN28/FAHIM/HOSSAIN -1HOSSAIN/FAHIMMR" Carrier="KU" ProviderReservationInfoRef="YLXcJSTqWDKAZ9vzKAAAAA==" ElStat="C"/>
+                </common_v52_0:BookingTraveler>
+                <common_v52_0:BookingTraveler Key="YLXcJSTqWDKAw8vzKAAAAA==" TravelerType="CNN" Age="11" DOB="2015-06-12" Gender="M" ElStat="A">
+                    <common_v52_0:BookingTravelerName Prefix="MSTR" First="AHMAD" Last="WAFEE"/>
+                    <common_v52_0:SSR Key="YLXcJSTqWDKAS9vzKAAAAA==" Status="HK" Type="DOCS" FreeText="P/BD/000009325/BD/0000000/M/01JAN26/WAFEE/AHMAD -1WAFEE/AHMADMSTR" Carrier="KU" ProviderReservationInfoRef="YLXcJSTqWDKAZ9vzKAAAAA==" ElStat="C"/>
+                    <common_v52_0:NameRemark Key="YLXcJSTqWDKAy8vzKAAAAA==" ElStat="A">
+                        <common_v52_0:RemarkData>P-C11 DOB12JUN15</common_v52_0:RemarkData>
+                        <common_v52_0:ProviderReservationInfoRef Key="YLXcJSTqWDKAZ9vzKAAAAA=="/>
+                    </common_v52_0:NameRemark>
+                </common_v52_0:BookingTraveler>
+                <common_v52_0:BookingTraveler Key="YLXcJSTqWDKAq8vzKAAAAA==" TravelerType="INF" Age="1" DOB="2023-11-13" Gender="M" ElStat="A">
+                    <common_v52_0:BookingTravelerName Prefix="MSTR" First="AHMAD" Last="NAFEE"/>
+                    <common_v52_0:SSR Key="YLXcJSTqWDKAT9vzKAAAAA==" Status="HK" Type="DOCS" FreeText="P/BD/000006987/BD/0000000/MI/02MAR26/NAFEE/AHMAD -1NAFEE/AHMADMSTR" Carrier="KU" ProviderReservationInfoRef="YLXcJSTqWDKAZ9vzKAAAAA==" ElStat="C"/>
+                    <common_v52_0:NameRemark Key="YLXcJSTqWDKAs8vzKAAAAA==" ElStat="A">
+                        <common_v52_0:RemarkData>13NOV23</common_v52_0:RemarkData>
+                        <common_v52_0:ProviderReservationInfoRef Key="YLXcJSTqWDKAZ9vzKAAAAA=="/>
+                    </common_v52_0:NameRemark>
+                </common_v52_0:BookingTraveler>
+                <common_v52_0:ActionStatus Key="YLXcJSTqWDKAF9vzKAAAAA==" Type="TAU" TicketDate="2025-01-29T23:59:00.000+06:00" ProviderReservationInfoRef="YLXcJSTqWDKAZ9vzKAAAAA==" ProviderCode="1G" ElStat="A"/>
+                <universal:ProviderReservationInfo Key="YLXcJSTqWDKAZ9vzKAAAAA==" ProviderCode="1G" LocatorCode="9FFS3K" CreateDate="2025-01-28T21:33:35.805+00:00" ModifiedDate="2025-01-28T21:33:35.805+00:00" HostCreateDate="2025-01-28" OwningPCC="LT7"/>
+                <air:AirReservation xmlns:air="http://www.travelport.com/schema/air_v52_0" xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0"  LocatorCode="2O8E6T" CreateDate="2025-01-28T21:33:34.990+00:00" ModifiedDate="2025-01-28T21:33:35.805+00:00">
+                    <common_v52_0:BookingTravelerRef Key="YLXcJSTqWDKA48vzKAAAAA=="/>
+                    <common_v52_0:BookingTravelerRef Key="YLXcJSTqWDKAw8vzKAAAAA=="/>
+                    <common_v52_0:BookingTravelerRef Key="YLXcJSTqWDKAq8vzKAAAAA=="/>
+                    <common_v52_0:ProviderReservationInfoRef Key="YLXcJSTqWDKAZ9vzKAAAAA=="/>
+                    <air:AirSegment Key="q8RcJSUqWDKADvbyKAAAAA==" Group="0" Carrier="KU" CabinClass="Economy" FlightNumber="284" ProviderCode="1G" Origin="DAC" Destination="KWI" DepartureTime="2025-02-12T02:45:00.000+06:00" ArrivalTime="2025-02-12T06:15:00.000+03:00" TravelTime="390" ClassOfService="L" ETicketability="No" Equipment="77W" Status="PN" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="YLXcJSTqWDKAZ9vzKAAAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" ElStat="A">
+                        <air:FlightDetails Key="YLXcJSTqWDKAJ9vzKAAAAA==" Origin="DAC" Destination="KWI" DepartureTime="2025-02-12T02:45:00.000+06:00" ArrivalTime="2025-02-12T06:15:00.000+03:00" FlightTime="390" TravelTime="390" Equipment="77W" OriginTerminal="2" DestinationTerminal="4" AutomatedCheckin="false" ElStat="C"/>
+                        <air:Connection Duration="190"/>
+                        <common_v52_0:SellMessage>*SECURED SELL NOT AVAILABLE*</common_v52_0:SellMessage>
+                        <common_v52_0:SellMessage>DEPARTS DAC TERMINAL 2  - ARRIVES KWI TERMINAL 4</common_v52_0:SellMessage>
+                    </air:AirSegment>
+                    <air:AirSegment Key="q8RcJSUqWDKAFvbyKAAAAA==" Group="0" Carrier="KU" CabinClass="Economy" FlightNumber="671" ProviderCode="1G" Origin="KWI" Destination="DXB" DepartureTime="2025-02-12T09:25:00.000+03:00" ArrivalTime="2025-02-12T12:20:00.000+04:00" TravelTime="115" ClassOfService="L" ETicketability="No" Equipment="32N" Status="PN" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="YLXcJSTqWDKAZ9vzKAAAAA==" TravelOrder="2" ProviderSegmentOrder="2" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" ElStat="A">
+                        <air:FlightDetails Key="YLXcJSTqWDKAK9vzKAAAAA==" Origin="KWI" Destination="DXB" DepartureTime="2025-02-12T09:25:00.000+03:00" ArrivalTime="2025-02-12T12:20:00.000+04:00" FlightTime="115" TravelTime="115" Equipment="32N" OriginTerminal="4" DestinationTerminal="1" AutomatedCheckin="false" ElStat="C"/>
+                        <common_v52_0:SellMessage>*SECURED SELL NOT AVAILABLE*</common_v52_0:SellMessage>
+                        <common_v52_0:SellMessage>DEPARTS KWI TERMINAL 4  - ARRIVES DXB TERMINAL 1</common_v52_0:SellMessage>
+                    </air:AirSegment>
+                    <air:AirSegment Key="q8RcJSUqWDKAHvbyKAAAAA==" Group="1" Carrier="KU" CabinClass="Economy" FlightNumber="676" ProviderCode="1G" Origin="DXB" Destination="KWI" DepartureTime="2025-02-16T22:55:00.000+04:00" ArrivalTime="2025-02-16T23:40:00.000+03:00" TravelTime="105" ClassOfService="V" ETicketability="No" Equipment="32N" Status="PN" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="YLXcJSTqWDKAZ9vzKAAAAA==" TravelOrder="3" ProviderSegmentOrder="3" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" ElStat="A">
+                        <air:FlightDetails Key="YLXcJSTqWDKAL9vzKAAAAA==" Origin="DXB" Destination="KWI" DepartureTime="2025-02-16T22:55:00.000+04:00" ArrivalTime="2025-02-16T23:40:00.000+03:00" FlightTime="105" TravelTime="105" Equipment="32N" OriginTerminal="1" DestinationTerminal="4" AutomatedCheckin="false" ElStat="C"/>
+                        <common_v52_0:SellMessage>*SECURED SELL NOT AVAILABLE*</common_v52_0:SellMessage>
+                        <common_v52_0:SellMessage>DEPARTS DXB TERMINAL 1  - ARRIVES KWI TERMINAL 4</common_v52_0:SellMessage>
+                    </air:AirSegment>
+                    <air:AirSegment Key="q8RcJSUqWDKAJvbyKAAAAA==" Group="2" Carrier="KU" CabinClass="Economy" FlightNumber="283" ProviderCode="1G" Origin="KWI" Destination="DAC" DepartureTime="2025-02-17T17:00:00.000+03:00" ArrivalTime="2025-02-18T01:00:00.000+06:00" TravelTime="300" ClassOfService="V" ETicketability="No" Equipment="77W" Status="PN" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="YLXcJSTqWDKAZ9vzKAAAAA==" TravelOrder="4" ProviderSegmentOrder="4" OptionalServicesIndicator="false" AvailabilitySource="S" ParticipantLevel="Secure Sell" LinkAvailability="true" ElStat="A">
+                        <air:FlightDetails Key="YLXcJSTqWDKAM9vzKAAAAA==" Origin="KWI" Destination="DAC" DepartureTime="2025-02-17T17:00:00.000+03:00" ArrivalTime="2025-02-18T01:00:00.000+06:00" FlightTime="300" TravelTime="300" Equipment="77W" OriginTerminal="4" DestinationTerminal="2" AutomatedCheckin="false" ElStat="C"/>
+                        <common_v52_0:SellMessage>*SECURED SELL NOT AVAILABLE*</common_v52_0:SellMessage>
+                        <common_v52_0:SellMessage>DEPARTS KWI TERMINAL 4  - ARRIVES DAC TERMINAL 2</common_v52_0:SellMessage>
+                        <common_v52_0:SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</common_v52_0:SellMessage>
+                        <common_v52_0:SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</common_v52_0:SellMessage>
+                        <common_v52_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</common_v52_0:SellMessage>
+                        <common_v52_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v52_0:SellMessage>
+                    </air:AirSegment>
+                </air:AirReservation>
+                <common_v52_0:AgencyInfo>
+                    <common_v52_0:AgentAction ActionType="Created" AgentCode="uAPI1464296256-58a33bd9" BranchCode="P7212436" AgencyCode="S7212429" EventTime="2025-01-28T21:33:32.212+00:00"/>
+                </common_v52_0:AgencyInfo>
+                <common_v52_0:SSR Key="YLXcJSTqWDKAU9vzKAAAAA==" Status="HK" Type="CTCM" FreeText="/01969005035-1HOSSAIN/FAHIMMR" Carrier="KU" ProviderReservationInfoRef="YLXcJSTqWDKAZ9vzKAAAAA==" ElStat="C"/>
+                <common_v52_0:SSR Key="YLXcJSTqWDKAV9vzKAAAAA==" Status="HK" Type="CTCE" FreeText="/ALIFHOSSAIN//GMAIL.COM-1HOSSAIN/FAHIMMR" Carrier="KU" ProviderReservationInfoRef="YLXcJSTqWDKAZ9vzKAAAAA==" ElStat="C"/>
+                <common_v52_0:SSR Key="YLXcJSTqWDKAW9vzKAAAAA==" Status="HK" Type="CHLD" FreeText="/-1WAFEE/AHMADMSTR" Carrier="KU" ProviderReservationInfoRef="YLXcJSTqWDKAZ9vzKAAAAA==" ElStat="C"/>
+                <common_v52_0:FormOfPayment Key="YLXcJSTqWDKAE9vzKAAAAA==" Type="Cash" Reusable="false" ProfileKey="1teTJtbYSNmj9UEAgerLmQ==" ElStat="A">
+                    <common_v52_0:ProviderReservationInfoRef Key="YLXcJSTqWDKAZ9vzKAAAAA=="/>
+                </common_v52_0:FormOfPayment>
+            </universal:UniversalRecord>
+        </universal:AirCreateReservationRsp>
+    </SOAP:Body>
+</SOAP:Envelope>

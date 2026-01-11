@@ -1,7 +1,7 @@
 <SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
     <SOAP:Body>
-        <air:AirFareRulesRsp xmlns:air="http://www.travelport.com/schema/air_v52_0"   TraceId="c8f38268010611bc23e5-01969005035" TransactionId="6E5AE1610A0D6A95667ADA5BA84F2710" ResponseTime="125">
-            <air:FareRule FareInfoRef="+xHzgRUqWDKAXYUxKAAAAA==" RuleNumber="BD01" Source="ATPCO" TariffNumber="033" ProviderCode="1G">
+        <air:AirFareRulesRsp xmlns:air="http://www.travelport.com/schema/air_v52_0"   TraceId="c8f38268010611bc23e5-01969005035" TransactionId="AECE66A40A0D6A9406C2A092BCFD1C6A" ResponseTime="194">
+            <air:FareRule FareInfoRef="q8RcJSUqWDKAhvbyKAAAAA==" RuleNumber="BD01" Source="ATPCO" TariffNumber="033" ProviderCode="1G">
                 <air:FareRuleLong Category="0" Type="RULE">
                     <![CDATA[APPLICATION AND OTHER CONDITIONS
 RULE - 033/BD01
@@ -146,7 +146,7 @@ UNLESS OTHERWISE SPECIFIED
                 </air:FareRuleLong>
                 <air:FareRuleLong Category="10" Type="RULE">
                     <![CDATA[PERMITTED COMBINATIONS
-UNLESS OTHERWISE SPECIFIED
+FOR L- TYPE FARES
    END-ON-END NOT PERMITTED. SIDE TRIPS PERMITTED.
    APPLICABLE ADD-ON CONSTRUCTION IS ADDRESSED IN
    MISCELLANEOUS PROVISIONS - CATEGORY 23.
@@ -163,8 +163,8 @@ UNLESS OTHERWISE SPECIFIED
      A MAXIMUM OF TWO INTERNATIONAL FARE COMPONENTS
      PERMITTED.
    PROVIDED -
-     COMBINATIONS ARE WITH ANY FARE FOR CARRIER KU IN ANY
-      RULE IN THIS TARIFF.]]>
+     COMBINATIONS ARE WITH ANY V-/T-/L-/H-/B-/M- TYPE FARES
+     FOR CARRIER KU IN ANY RULE IN THIS TARIFF.]]>
                 </air:FareRuleLong>
                 <air:FareRuleLong Category="12" Type="RULE">
                     <![CDATA[SURCHARGES
@@ -317,7 +317,7 @@ BETWEEN BANGLADESH AND AREA 2
                 </air:FareRuleLong>
                 <air:FareRuleLong Category="16" Type="RULE">
                     <![CDATA[PENALTIES
-FOR B- TYPE FARES
+FOR L- TYPE FARES
   CHANGES
     ANY TIME
       CHARGE USD 35.00.
@@ -430,7 +430,7 @@ ALSO REFERENCE 16 PENALTIES - FOR ADDITIONAL CHANGE INFORMATION]]>
                 </air:FareRuleLong>
                 <air:FareRuleLong Category="33" Type="RULE">
                     <![CDATA[VOLUNTARY REFUNDS
-FOR B- TYPE FARES
+FOR L- TYPE FARES
   REFUND MUST BE REQUESTED BEFORE DEPARTURE OF JOURNEY.
    REFUND REQUEST REQUIRED BEFORE ORIGINALLY SCHEDULED
    FLIGHT OF FIRST UNUSED TICKET COUPON.

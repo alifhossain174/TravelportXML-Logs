@@ -1,0 +1,18 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <SOAP:Fault>
+            <faultcode>Server.Data</faultcode>
+            <faultstring>Some of the AirPricingInfos are not associated with requested AirReservation.</faultstring>
+            <detail>
+                <common_v52_0:ErrorInfo xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0">
+                    <common_v52_0:Code>3790</common_v52_0:Code>
+                    <common_v52_0:Service>AIRSVC</common_v52_0:Service>
+                    <common_v52_0:Type>Data</common_v52_0:Type>
+                    <common_v52_0:Description>Some of the AirPricingInfos are not associated with requested AirReservation.</common_v52_0:Description>
+                    <common_v52_0:TransactionId>AC6249CE0A0D6A92325B47BF3F976452</common_v52_0:TransactionId>
+                    <common_v52_0:TraceId>c8f38268010611bc23e5-01969005035</common_v52_0:TraceId>
+                </common_v52_0:ErrorInfo>
+            </detail>
+        </SOAP:Fault>
+    </SOAP:Body>
+</SOAP:Envelope>
